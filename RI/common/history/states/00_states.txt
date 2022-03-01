@@ -1096,7 +1096,7 @@
 	}
 	s:STATE_ASTURIAS = {
 		create_state = {
-			country = c:SPA
+			country = c:SUE
 			owned_provinces = { xB85939 xD0E040 x33F984 x0EA604 xD03554 x50E040 x167F12 x583E92 x525202 x0F84B8 x5060C0 x3E77F9 xBF2564 xF0A000 xA1037C }
 		}
 		
