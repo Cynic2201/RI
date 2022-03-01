@@ -3625,3 +3625,16 @@ UOM = {
 	capital = STATE_MICHIGAN
 	is_named_from_capital = yes
 }
+
+# Suebi
+SUE = {
+	color = { 160 170 190 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { suebi }
+	capital = STATE_GALLAECIA
+
+}
