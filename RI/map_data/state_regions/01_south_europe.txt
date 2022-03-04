@@ -493,16 +493,16 @@ STATE_BEIRA = {
     id = 104
     subsistence_building = "building_subsistence_farms"
     provinces = { "xA0F6EC" "x50A000" "x3020A3" "xE24C15" "x9238AD" "xF92B7F" "xE415AF" "xD0A000" "xD0E0C0" "x0EF845" "x641376" "xA64B2E" "x37ADD8" }
-    city = "xD0A000"
+    city = "x0EF845"
     port = "xD0A000"
     farm = "xF92B7F"
-    mine = "x9238AD"
+    mine = "x50A000"
     wood = "xE24C15"
     arable_land = 47
     arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations bg_banana_plantations }
     capped_resources = {
         bg_logging = 4
-        bg_fishing = 5
+        bg_fishing = 7
     }
     naval_exit_id = 3029
 }
@@ -510,7 +510,7 @@ STATE_ESTREMADURA = {
     id = 105
     subsistence_building = "building_subsistence_farms"
     provinces = { "x545164" "xD0A080" "xD02000" }
-    city = "x545164"
+    city = "xD0A080"
     port = "xD0A080"
     farm = "x545164"
     mine = "xD0A080"
@@ -519,7 +519,7 @@ STATE_ESTREMADURA = {
     arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations bg_banana_plantations }
     capped_resources = {
         bg_logging = 3
-        bg_fishing = 8
+        bg_fishing = 6
     }
     naval_exit_id = 3029
 }

@@ -1097,7 +1097,7 @@
 	s:STATE_ASTURIAS = {
 		create_state = {
 			country = c:SUE
-			owned_provinces = { xB85939 xD0E040 x33F984 x0EA604 xD03554 x50E040 x167F12 x583E92 x525202 x0F84B8 x5060C0 x3E77F9 xBF2564 xF0A000 xA1037C }
+			owned_provinces = { xD30171 x38C557 xB1C098 xB85939 xD0E040 x33F984 x0EA604 xD03554 x50E040 x167F12 x583E92 x525202 x0F84B8 x5060C0 x3E77F9 xBF2564 xF0A000 xA1037C }
 		}
 		
 		add_homeland = spanish
@@ -1106,7 +1106,7 @@
 	s:STATE_CASTILE = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = { xD060C0 xD30171 x38C557 x70F50D x906201 xB1C098 x70A000 x5DB702 x24A9D6 x4D18FC x50E0C0 x10C4E5 x0543B8 xF02000 xDC8B19 xD7A4DE xF44AAA xCA2220 xB3BC6E xB02000 x0D5242 x2C00C8 x3A3528 x590C75 x702000 x22193A xC3ED38 }
+			owned_provinces = { xD060C0 x70F50D x906201 x70A000 x5DB702 x24A9D6 x4D18FC x50E0C0 x10C4E5 x0543B8 xF02000 xDC8B19 xD7A4DE xF44AAA xCA2220 xB3BC6E xB02000 x0D5242 x2C00C8 x3A3528 x590C75 x702000 x22193A xC3ED38 }
 		}
 		
 		add_homeland = spanish
@@ -2806,8 +2806,8 @@
 	}
 	s:STATE_BEIRA = {
 		create_state = {
-			country = c:POR
-			owned_provinces = { xD0A000 xA64B2E x641376 x37ADD8 x0EF845 xD0E0C0 x9238AD xE415AF x3020A3 xF92B7F xE24C15 }
+			country = c:SUE
+			owned_provinces = { xA0F6EC x50A000 xD0A000 xA64B2E x641376 x37ADD8 x0EF845 xD0E0C0 x9238AD xE415AF x3020A3 xF92B7F xE24C15 }
 		}
 		
 		add_homeland = portuguese
@@ -2815,7 +2815,7 @@
 	s:STATE_ESTREMADURA = {
 		create_state = {
 			country = c:POR
-			owned_provinces = { xD0A080 xA0F6EC x50A000 xD02000 x545164 }
+			owned_provinces = { xD0A080 xD02000 x545164 }
 		}
 		
 		add_homeland = portuguese

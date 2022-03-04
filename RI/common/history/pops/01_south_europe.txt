@@ -327,7 +327,7 @@
 		}
 	}
 	s:STATE_BEIRA = {
-		region_state:POR = {
+		region_state:SUE = {
 			create_pop = {
 				culture = portuguese
 				size = 1620800

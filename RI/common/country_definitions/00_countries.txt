@@ -3634,7 +3634,7 @@ SUE = {
 
 	tier = kingdom
 	
-	cultures = { suebi }
+	cultures = { spanish }
 	capital = STATE_GALLAECIA
 
 }
