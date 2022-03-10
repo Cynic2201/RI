@@ -1,0 +1,454 @@
+#Roman Empire
+SPQ = {
+	color = { 201 50 51 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { latin greek }
+	capital = STATE_GALLAECIA
+
+}
+
+#Annonaria
+ANN = {
+	color = { 166 107 145 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { latin }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Visigoths
+VIS = {
+	color = { 114 142 38 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { visigothic }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Brittany
+BRI = {
+	color = { 100 100 100 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { briton }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Asturias
+ASU = {
+	color = { 118 180 232 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { hispanic }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Baetica
+BAE = {
+	color = { 25 115 26 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { hispanic }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Burgundia
+BRG = {
+	color = { 144 0 32 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { germani }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Corsica
+COR = {
+	color = { 68 242 236 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { latin }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Dalmatia
+DAL = {
+	color = { 51 147 140 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { balkan }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Gallaecia
+SUE = {
+	color = { 160 170 190 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { suebi }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Gallia
+GLL = {
+	color = { 101 198 90 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { germani }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Gaul
+GAU = {
+	color = { 77 152 69 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { gallic }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Herulia
+HER = {
+	color = { 42 119 205 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { heruli }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Hispania
+HIS = {
+	color = { 208 165 68 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { hispanic }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Illyria
+ILL = {
+	color = { 174 227 95 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { illyrian balkan }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Italia
+ITA = {
+	color = { 169 26 6 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { latin }
+	capital = STATE_GALLAECIA #placeholder
+
+}
+
+#Narbonensis
+NAR = {
+	color = { 0 0 0 } #placeholder
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { narbonnese }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Pannonia
+PNN = {
+	color = { 210 80 83 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { balkan }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Rhaetia
+RHA = {
+	color = { 0 0 0 } #placeholder
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { rhaetian }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Sardinia
+SAR = {
+	color = { 0 0 0 } #placeholder
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { sardo }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Sicilia
+SCL = {
+	color = { 0 0 0 } #placeholder
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { latin }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Syracuse
+SYA = {
+	color = { 0 0 0 } #placeholder
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Toldeo
+TOL = {
+	color = { 196 120 72 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { visigothic }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Vasconia
+VAS = {
+	color = { 50 110 10 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { basque }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Byzantium
+ERE = {
+	color = { 112 41 99 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Western Roman Empire
+WRE = {
+	color = { 201 50 51 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { latin }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Achaia
+ACA = {
+	color = { 229 191 33 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Cherson
+CHR = {
+	color = { 81 48 76 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Constantinople
+CON = {
+	color = { 112 41 99 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Creta
+CRE = {
+	color = { 165 111 159 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Epirus
+EPI = {
+	color = { 232 227 213 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Hellas
+GRE = {
+	color = { 122 180 210 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Macedonia
+MAC = {
+	color = { 123 0 0 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Moesogothia
+MOE = {
+	color = { 100 91 85 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { ostrogothic }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Ostrogothia
+OST = {
+	color = { 144 101 106 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { ostrogothic }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Olympian Revolt
+OLY = {
+	color = { 0 45 112 }
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { greek }
+	capital = STATE_GALLAECIA #placeholder
+}
+
+#Thracia
+THR = {
+	color = { 0 0 0 } #placeholder
+	
+	country_type = recognized
+
+	tier = kingdom #placeholder
+	
+	cultures = { thracian }
+	capital = STATE_GALLAECIA #placeholder
+}

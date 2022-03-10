@@ -1,0 +1,932 @@
+﻿latin={
+	color={ 194 2 8 }
+	religion = catholic
+	traits = { roman european_heritage }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		
+	}
+	
+	female_common_first_names = {
+		
+	}
+	
+	common_last_names={
+		
+	}
+	
+	male_noble_first_names = {
+
+	}
+	
+	female_noble_first_names = {
+
+	}	
+	
+	noble_last_names = {
+		Aebutia Aemilia Antonia Aquillia Aternia Atilia	
+		Cassia Claudia Cloelia Cominia Cornelia Curiatia Curtia 
+		Fabia Foslia Furia
+		Gegania Genucia 
+		Herminia Horatia Hostilia 
+		Julia Junia 
+		Lartia Lucretia 
+		Manlia Marcia Menenia Metilia Minucia Mucia	
+		Nautia Numicia 
+		Papiria Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Siccia Sulpicia 
+		Tarpeia Tarquinia Tarquitia Tullia 
+		Valeria Verginia Veturia Vitellia Volumnia
+	}
+	
+	male_regal_first_names = {
+		Aemilianus Alexander Alexios Anastasius Andronikos Anthemius Antoninus Arcadius Artabasdos Aurelian Avitus 
+		Balbinus Basil Basiliscus
+		Caesar Caligula Caracalla Carinus Carus Claudius Commodus Constans Constantine Constantius 
+		Decius Diadumenian Didius Diocletian Domitian
+		Elagabalus Eparchius Eugenius
+		Flavius Florianus
+		Galba Galerius Gallienus Geta Glycerius Gordian Gratian 
+		Hadrian Heraclius Heraclonas Herennius Honorius Hostilian 
+		Isaac Joannes John Jovian Julian Julius Justin Justinian
+		Leo Leontius Libius Licinius Lucius
+		Macrinus Magnentius Magnus Majorian Manuel Marcian Marcus Martinian Maurice Maxentius Maximian Maximinus Michael 
+		Nepotianus Nero Nerva Nikephoros Numerian 
+		Olybrius Otho
+		Pertinax Petronius Philip Philippicus Phocas Placidius Priscus Probus Procopius Pupienus 
+		Quintillus 
+		Romanos Romulus 
+		Saloninus Septimius Severus Silbannacus Staurakios 
+		Tacitus Theodore Theodosius Theophilos Tiberius Titus Trajan Trebonianus 
+		Valens Valentinian Valerian Valerius Vespasian Vetranio Vitellius Volusianus 
+		Zeno	
+	}
+	
+	female_regal_first_names = {
+		Eudokia
+		Irene
+		Theodora
+		Zoe		
+	}
+	
+	regal_last_names = {
+		Benedictus Antony Aurelius Appius Aulus Caeso Decimus Gaius Gnaeus Lucius Mamercus Manius Marcus
+		Numerius Publius Quintus Servius Sextus Spurius Titus Tiberius 
+		
+		Aebutia Aemilia Amorian Angelos Antonia Antonine Aquillia Argyros Aternia Atilia Augustus 
+		Bringas 
+		Cassia Claudia Cloelia Cominia Constantine Cornelia Curiatia Curtia 
+		Doukas 
+		Fabia Flavian Foslia Furia 
+		Gegania Genucia
+		Heraclian Herminia Horatia Hostilia
+		Isaurian 
+		Julia Junia Justinian
+		Komnenos 
+		Lartia Laskaris Leonid Lucretia
+		Macedonian Maiorianus Manlia Marcia Menenia Metilia Minucia Mucia 
+		Nautia Nikephorian Numicia
+		Palaiologos Papiria Phokas Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Severan Siccia Sulpicia
+		Tarpeia Tarquinia Tarquitia Theodosian Tullia
+		Valentinian Valeria Verginia Veturia Vitellia Volumnia
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+narbonnese={
+	color={ 217 62 62 }
+	religion = catholic
+	traits = { roman european_heritage }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand August Augustin Alcide
+		Charles Constant
+		Daniel Denis
+		Elie Eugene Edouard Ettiene
+		Fernand Francois Frederic Felicien Felix
+		Georges Guillaume Gustave Gaston
+		Henri Hippolyte Hubert Hugo
+		Jacques Jean Joseph Jules Julien Jeremie
+		Lazare Louis Lucien Leopold_2 Leon
+		Matthieu Michel Marcel
+		Napoleon Nicolas
+		Patrice Paul Philippe Pierre
+		Robert Roland Rodolphe Raymond
+		Thibaut Thierry Thomas
+	}
+	
+	female_common_first_names = {
+		Adelaide_2 Adele_2 Alexandrine Amelie_2 Angelique Anne Antoinette Athenais Augustine
+		Beatrice Blanche
+		Camille Caroline Catherine Charlotte Claire Clemence Clotilde
+		Delphine Diane
+		Eleonore_2 Ernestine Eugenie Eulalie
+		Francoise
+		Gabrielle
+		Henriette Hortense
+		Jeanne Julie Juliette Justine
+		Leopoldine Louise Louise-Victorine
+		Marcelle Marguerite Marie Marie-Anne Marie-Felix Marthe Mathilde Melanie
+		Pauline
+		Radegondle 
+		Septimanie Sibylle Sophie Stephanie Suzanne
+		Therese_2
+		Victoire Victorine Virginie
+	}
+	
+	common_last_names={
+		Anthoine Archinard Augereau Aucouturier Alavoine
+		Baraguey Bazaine Billot Bosquet Boulanger Bourbaki Boue_de_Lapeyrere Bouet-Willaumez Bugeaud Beaugendre Bronchard Baudet Bodinier Bouillet BiE_re
+		Caillard Canrobert Courbet Cousin-Mountauban de_Castellane de_Castelnau Combes ClouE_ Cornet Colas Chauvet Carrere Chartier Combelles Chaude Colin Cruchon Cauvry ChaudE_ Collet Cottrel Charron Caudrelier Courcelles
+		Davout Depre Dubail Dubois Duchene Dupetit-Thouars Desbordes DelcassE_ Dortignacq Dargassies Desgrange Daumain Decaup Dozol Duboc Darche Deloffre Dutiron Denizot Dufour Devilly Dhers Dartigue Degy
+		Exelmans
+		Foch Forey Franchet_d_Esperey Freycinet Faidherbe Fily Fleury Forestier Figuet
+		Gallieni Gouraud Guillaumat de_Gaulle Gain Georget Gabory Guillarme Garrigou Genin GE_raud Godivier Germain Gardent Goujon
+		Hamelin Harispe Hoche Humbert d_Hilliers Habierre Herbelin Harquet
+		Jamais Jaures Joffre JaurE_guiberry Jousselin
+		Lebouef Lyautey de_Langle_de_Cary Leygoute Lignon Lallement Lacroix Lafourcade Le_Bars Lachaise Leman Lorillon Lecointe Langlade Leblanc Lagagner Leroy Lapize
+		Marmontel Murat de_Montaignac Mazel Maitron ME_nager Meili Mathonat
+		Ney_d_Elchingen Nivelle Nancy Neboux Nempon
+		Oudin Ory
+		Petain Pellissier Pothier Pasquier Pautrat Payan Passerieu Paulmier Ponson PiE_trois Pardon
+		Quenon
+		Ringeval Roux Rabot Riviere Roche Riou Ricaux Roquebert Rottie
+		Saget de_Saint_Arnaud SouliE_
+		Trebutien Trousselier Tuvache
+		Vaillant Ventresque Villette Vivier Vaidis Vilette
+		Wattelier Winant
+	}
+	
+	male_noble_first_names = {
+		
+	}
+	
+	female_noble_first_names = {
+
+	}	
+	
+	noble_last_names = {
+		Aebutia Aemilia Antonia Aquillia Aternia Atilia	
+		Baraguey_d_Hilliers Bergeret Bonaparte
+		Cassia Claudia Cloelia Cominia Cornelia Curiatia Curtia 
+		d_Aumont d_Orleans de_Beauharnais de_Bourbon de_Bussiere de_Chastellux de_Chodron_de_Courcel de_Durfort de_Gramont de_Guerin de_Gueydon de_Lamartine de_MacMahon de_Pourtales de_Rochebouet
+		Decazes
+		Fabia Fesch Foslia Furia
+		Gegania Genucia Gros
+		Herminia Horatia Hostilia 
+		Julia Junia 
+		Lagrange Lartia Lucretia 
+		Manlia Marbot Marcia Menenia Metilia Minucia Mucia	
+		Nautia Numicia 
+		Papiria Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Siccia Sulpicia 
+		Tarpeia Tarquinia Tarquitia Tullia 
+		Valeria Verginia Veturia Vitellia Volumnia
+	}
+	
+	male_regal_first_names = {
+		Aemilianus Alexander Alexios Anastasius Andronikos Anthemius Antoninus Arcadius Artabasdos Aurelian Avitus 
+		Balbinus Basil Basiliscus
+		Caesar Caligula Caracalla Carinus Carus Claudius Commodus Constans Constantine Constantius 
+		Decius Diadumenian Didius Diocletian Domitian
+		Elagabalus Eparchius Eugenius
+		Flavius Florianus
+		Galba Galerius Gallienus Geta Glycerius Gordian Gratian 
+		Hadrian Heraclius Heraclonas Herennius Honorius Hostilian 
+		Isaac Joannes John Jovian Julian Julius Justin Justinian
+		Leo Leontius Libius Licinius Lucius
+		Macrinus Magnentius Magnus Majorian Manuel Marcian Marcus Martinian Maurice Maxentius Maximian Maximinus Michael 
+		Nepotianus Nero Nerva Nikephoros Numerian 
+		Olybrius Otho
+		Pertinax Petronius Philip Philippicus Phocas Placidius Priscus Probus Procopius Pupienus 
+		Quintillus 
+		Romanos Romulus 
+		Saloninus Septimius Severus Silbannacus Staurakios 
+		Tacitus Theodore Theodosius Theophilos Tiberius Titus Trajan Trebonianus 
+		Valens Valentinian Valerian Valerius Vespasian Vetranio Vitellius Volusianus 
+		Zeno	
+	}
+	
+	female_regal_first_names = {
+		Eudokia
+		Irene
+		Theodora
+		Zoe		
+	}
+	
+	regal_last_names = {
+		Benedictus Antony Aurelius Appius Aulus Caeso Decimus Gaius Gnaeus Lucius Mamercus Manius Marcus
+		Numerius Publius Quintus Servius Sextus Spurius Titus Tiberius 
+		
+		Aebutia Aemilia Amorian Angelos Antonia Antonine Aquillia Argyros Aternia Atilia Augustus 
+		Bringas 
+		Cassia Claudia Cloelia Cominia Constantine Cornelia Curiatia Curtia 
+		Doukas 
+		Fabia Flavian Foslia Furia 
+		Gegania Genucia
+		Heraclian Herminia Horatia Hostilia
+		Isaurian 
+		Julia Junia Justinian
+		Komnenos 
+		Lartia Laskaris Leonid Lucretia
+		Macedonian Maiorianus Manlia Marcia Menenia Metilia Minucia Mucia 
+		Nautia Nikephorian Numicia
+		Palaiologos Papiria Phokas Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Severan Siccia Sulpicia
+		Tarpeia Tarquinia Tarquitia Theodosian Tullia
+		Valentinian Valeria Verginia Veturia Vitellia Volumnia
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+hispanic={
+	color={ 192 72 72 }
+	religion = catholic
+	traits = { roman european_heritage }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		Agustin Alberto Alejandro Alfonso Alvaro Antonio Antonio_Maria Arsenio Augusto
+		Baldomero Baltasar Benito Bernardino Bernardo 
+		Calixto Carlos Celestino Claudio Cristobal
+		Diego Dionisio Damaso
+		Eduardo Emilio Estanislao
+		Federico Felipe Fernando Francisco Francisco_Javier Felix
+		Gabino Gabriel Gaspar Genaro Gonzalo 
+		Ignacio Isidro 
+		Jacobo Jaime Joaquin Jose Jose_Antonio Jose_Manuel Jose_Maria Juan Juan_Bautista Julio Jorge 
+		Leopoldo Lorenzo Luis
+		Manuel Marcelo Mariano Mateo Melchor Miguel
+		Nicolas_2 
+		Pablo Pascual Pedro
+		Rafael_2 Raimundo Ramon Ricardo 
+		Santiago Sebastian Segismundo
+		Valeriano Vicente
+	}
+	
+	female_common_first_names = {
+		Adelaida Alejandrina Amalia Antonia 
+		Bonifacia 
+		Carlota Concepcion
+		Dolores 
+		Emilia Enriqueta Eulalia
+		Faustina Francisca 
+		Guillermina 
+		Herminia 
+		Isabella 
+		Joaquina 
+		Manuela Maria_2 Mariana Martina 
+		Robustiana Rosa 
+		Sabina 
+		Teresa
+	}
+	
+	common_last_names={
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Alvarez Aranda Arguelles-Meres Asensio Aznar 
+		Barradas Bugallal
+		Cano Cervera
+		Diaz_2
+		Espartero Escoda
+		Fernandez Franco
+		Garcia Gonzalez
+		Heredia Hernandez Herrera Hevia
+		Linares Lopez
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez 
+		Narvaez
+		O_Donnell Ortega
+		Pavia Perez
+		Queipo_de_Llano
+		Rodriguez Rojo Ruiz
+		Sanjurjo Serrano Silvestre
+		Topete
+		Valdes Varela Villapol Villar
+		Weyler
+		Yague
+	}
+	
+	male_noble_first_names = {
+
+	}
+	
+	female_noble_first_names = {
+
+	}	
+	
+	noble_last_names = {
+		Aebutia Aemilia Alvarez_de_Toledo Antonia Aquillia Aternia Atilia	
+		Cabrera Cagigal_de_la_Vega Cassia Claudia Cloelia Colon Cominia Cornelia Curiatia Curtia 
+		de_Albornoz de_Borbon de_Carvajal de_Orleans de_la_Fuente de_Silva
+		Fabia Fernandez_de_Cordoba Fitz-James_Stuart Foslia Furia
+		Garcia_de_la_Noceda Gegania Genucia 
+		Herminia Hidalgo_de_Cisneros Horatia Hostilia 
+		Julia Junia 
+		Lartia Lucretia 
+		Manlia Marcia Menenia Metilia Minucia Mucia	
+		Nautia Numicia 
+		Papiria Pinaria Pollia Postumia Potitia Primo_de_Rivera
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Siccia Sulpicia 
+		Tarpeia Tarquinia Tarquitia Tullia 
+		Valeria Verginia Veturia Vitellia Volumnia
+	}
+	
+	male_regal_first_names = {
+		Aemilianus Alexander Alexios Anastasius Andronikos Anthemius Antoninus Arcadius Artabasdos Aurelian Avitus 
+		Balbinus Basil Basiliscus
+		Caesar Caligula Caracalla Carinus Carus Claudius Commodus Constans Constantine Constantius 
+		Decius Diadumenian Didius Diocletian Domitian
+		Elagabalus Eparchius Eugenius
+		Flavius Florianus
+		Galba Galerius Gallienus Geta Glycerius Gordian Gratian 
+		Hadrian Heraclius Heraclonas Herennius Honorius Hostilian 
+		Isaac Joannes John Jovian Julian Julius Justin Justinian
+		Leo Leontius Libius Licinius Lucius
+		Macrinus Magnentius Magnus Majorian Manuel Marcian Marcus Martinian Maurice Maxentius Maximian Maximinus Michael 
+		Nepotianus Nero Nerva Nikephoros Numerian 
+		Olybrius Otho
+		Pertinax Petronius Philip Philippicus Phocas Placidius Priscus Probus Procopius Pupienus 
+		Quintillus 
+		Romanos Romulus 
+		Saloninus Septimius Severus Silbannacus Staurakios 
+		Tacitus Theodore Theodosius Theophilos Tiberius Titus Trajan Trebonianus 
+		Valens Valentinian Valerian Valerius Vespasian Vetranio Vitellius Volusianus 
+		Zeno	
+	}
+	
+	female_regal_first_names = {
+		Eudokia
+		Irene
+		Theodora
+		Zoe		
+	}
+	
+	regal_last_names = {
+		Benedictus Antony Aurelius Appius Aulus Caeso Decimus Gaius Gnaeus Lucius Mamercus Manius Marcus
+		Numerius Publius Quintus Servius Sextus Spurius Titus Tiberius 
+		
+		Aebutia Aemilia Amorian Angelos Antonia Antonine Aquillia Argyros Aternia Atilia Augustus 
+		Bringas 
+		Cassia Claudia Cloelia Cominia Constantine Cornelia Curiatia Curtia 
+		Doukas 
+		Fabia Flavian Foslia Furia 
+		Gegania Genucia
+		Heraclian Herminia Horatia Hostilia
+		Isaurian 
+		Julia Junia Justinian
+		Komnenos 
+		Lartia Laskaris Leonid Lucretia
+		Macedonian Maiorianus Manlia Marcia Menenia Metilia Minucia Mucia 
+		Nautia Nikephorian Numicia
+		Palaiologos Papiria Phokas Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Severan Siccia Sulpicia
+		Tarpeia Tarquinia Tarquitia Theodosian Tullia
+		Valentinian Valeria Verginia Veturia Vitellia Volumnia
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+
+balkan={
+	color={ 148 34 34 }
+	religion = catholic
+	traits = { roman european_heritage }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		
+	}
+	
+	female_common_first_names = {
+		
+	}
+	
+	common_last_names={
+		
+	}
+	
+	male_noble_first_names = {
+
+	}
+	
+	female_noble_first_names = {
+
+	}	
+	
+	noble_last_names = {
+		Aebutia Aemilia Antonia Aquillia Aternia Atilia	
+		Cassia Claudia Cloelia Cominia Cornelia Curiatia Curtia 
+		Fabia Foslia Furia
+		Gegania Genucia 
+		Herminia Horatia Hostilia 
+		Julia Junia 
+		Lartia Lucretia 
+		Manlia Marcia Menenia Metilia Minucia Mucia	
+		Nautia Numicia 
+		Papiria Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Siccia Sulpicia 
+		Tarpeia Tarquinia Tarquitia Tullia 
+		Valeria Verginia Veturia Vitellia Volumnia
+	}
+	
+	male_regal_first_names = {
+		Aemilianus Alexander Alexios Anastasius Andronikos Anthemius Antoninus Arcadius Artabasdos Aurelian Avitus 
+		Balbinus Basil Basiliscus
+		Caesar Caligula Caracalla Carinus Carus Claudius Commodus Constans Constantine Constantius 
+		Decius Diadumenian Didius Diocletian Domitian
+		Elagabalus Eparchius Eugenius
+		Flavius Florianus
+		Galba Galerius Gallienus Geta Glycerius Gordian Gratian 
+		Hadrian Heraclius Heraclonas Herennius Honorius Hostilian 
+		Isaac Joannes John Jovian Julian Julius Justin Justinian
+		Leo Leontius Libius Licinius Lucius
+		Macrinus Magnentius Magnus Majorian Manuel Marcian Marcus Martinian Maurice Maxentius Maximian Maximinus Michael 
+		Nepotianus Nero Nerva Nikephoros Numerian 
+		Olybrius Otho
+		Pertinax Petronius Philip Philippicus Phocas Placidius Priscus Probus Procopius Pupienus 
+		Quintillus 
+		Romanos Romulus 
+		Saloninus Septimius Severus Silbannacus Staurakios 
+		Tacitus Theodore Theodosius Theophilos Tiberius Titus Trajan Trebonianus 
+		Valens Valentinian Valerian Valerius Vespasian Vetranio Vitellius Volusianus 
+		Zeno	
+	}
+	
+	female_regal_first_names = {
+		Eudokia
+		Irene
+		Theodora
+		Zoe		
+	}
+	
+	regal_last_names = {
+		Benedictus Antony Aurelius Appius Aulus Caeso Decimus Gaius Gnaeus Lucius Mamercus Manius Marcus
+		Numerius Publius Quintus Servius Sextus Spurius Titus Tiberius 
+		
+		Aebutia Aemilia Amorian Angelos Antonia Antonine Aquillia Argyros Aternia Atilia Augustus 
+		Bringas 
+		Cassia Claudia Cloelia Cominia Constantine Cornelia Curiatia Curtia 
+		Doukas 
+		Fabia Flavian Foslia Furia 
+		Gegania Genucia
+		Heraclian Herminia Horatia Hostilia
+		Isaurian 
+		Julia Junia Justinian
+		Komnenos 
+		Lartia Laskaris Leonid Lucretia
+		Macedonian Maiorianus Manlia Marcia Menenia Metilia Minucia Mucia 
+		Nautia Nikephorian Numicia
+		Palaiologos Papiria Phokas Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Severan Siccia Sulpicia
+		Tarpeia Tarquinia Tarquitia Theodosian Tullia
+		Valentinian Valeria Verginia Veturia Vitellia Volumnia
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+rhaetian={
+	color={ 226 93 93 }
+	religion = catholic
+	traits = { roman european_heritage }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		
+	}
+	
+	female_common_first_names = {
+		
+	}
+	
+	common_last_names={
+		
+	}
+	
+	male_noble_first_names = {
+
+	}
+	
+	female_noble_first_names = {
+
+	}	
+	
+	noble_last_names = {
+		Aebutia Aemilia Antonia Aquillia Aternia Atilia	
+		Cassia Claudia Cloelia Cominia Cornelia Curiatia Curtia 
+		Fabia Foslia Furia
+		Gegania Genucia 
+		Herminia Horatia Hostilia 
+		Julia Junia 
+		Lartia Lucretia 
+		Manlia Marcia Menenia Metilia Minucia Mucia	
+		Nautia Numicia 
+		Papiria Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Siccia Sulpicia 
+		Tarpeia Tarquinia Tarquitia Tullia 
+		Valeria Verginia Veturia Vitellia Volumnia
+	}
+	
+	male_regal_first_names = {
+		Aemilianus Alexander Alexios Anastasius Andronikos Anthemius Antoninus Arcadius Artabasdos Aurelian Avitus 
+		Balbinus Basil Basiliscus
+		Caesar Caligula Caracalla Carinus Carus Claudius Commodus Constans Constantine Constantius 
+		Decius Diadumenian Didius Diocletian Domitian
+		Elagabalus Eparchius Eugenius
+		Flavius Florianus
+		Galba Galerius Gallienus Geta Glycerius Gordian Gratian 
+		Hadrian Heraclius Heraclonas Herennius Honorius Hostilian 
+		Isaac Joannes John Jovian Julian Julius Justin Justinian
+		Leo Leontius Libius Licinius Lucius
+		Macrinus Magnentius Magnus Majorian Manuel Marcian Marcus Martinian Maurice Maxentius Maximian Maximinus Michael 
+		Nepotianus Nero Nerva Nikephoros Numerian 
+		Olybrius Otho
+		Pertinax Petronius Philip Philippicus Phocas Placidius Priscus Probus Procopius Pupienus 
+		Quintillus 
+		Romanos Romulus 
+		Saloninus Septimius Severus Silbannacus Staurakios 
+		Tacitus Theodore Theodosius Theophilos Tiberius Titus Trajan Trebonianus 
+		Valens Valentinian Valerian Valerius Vespasian Vetranio Vitellius Volusianus 
+		Zeno	
+	}
+	
+	female_regal_first_names = {
+		Eudokia
+		Irene
+		Theodora
+		Zoe		
+	}
+	
+	regal_last_names = {
+		Benedictus Antony Aurelius Appius Aulus Caeso Decimus Gaius Gnaeus Lucius Mamercus Manius Marcus
+		Numerius Publius Quintus Servius Sextus Spurius Titus Tiberius 
+		
+		Aebutia Aemilia Amorian Angelos Antonia Antonine Aquillia Argyros Aternia Atilia Augustus 
+		Bringas 
+		Cassia Claudia Cloelia Cominia Constantine Cornelia Curiatia Curtia 
+		Doukas 
+		Fabia Flavian Foslia Furia 
+		Gegania Genucia
+		Heraclian Herminia Horatia Hostilia
+		Isaurian 
+		Julia Junia Justinian
+		Komnenos 
+		Lartia Laskaris Leonid Lucretia
+		Macedonian Maiorianus Manlia Marcia Menenia Metilia Minucia Mucia 
+		Nautia Nikephorian Numicia
+		Palaiologos Papiria Phokas Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Severan Siccia Sulpicia
+		Tarpeia Tarquinia Tarquitia Theodosian Tullia
+		Valentinian Valeria Verginia Veturia Vitellia Volumnia
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+germani={
+	color={ 142 60 60 }
+	religion = protestant
+	traits = { german_speaking roman european_heritage }
+
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		Achille Adelbert Adolf Adolphe Adrien Aimable Albrecht Alcide Alexander Alfons Alfred Alois Alphonse Amedee Antoine Anton Armand Arthur August Augustin		Charles Constant
+		Bernhard
+		Christian
+		Daniel Denis Depre Dieter
+		Edmund Edouard Eduard Edwin Elie Engelbert Erich Ernst Erwin Ettiene Eugene
+		Felicien Felix Ferdinand Fernand Florian Francois Franz Frederic Friedrich Fritz
+		Gaston Gebhard Georg Georges Gerhard Gottfried Guillaume Gunther Gustav Gustave
+		Hasso Heinrich Helmuth Henri Hermann Hippolyte Horst Hubert Hugo
+		Jacques Jakob Jean Jeremie Joachim Johann Joseph Jules Julien Julius Jurgen
+		Karl Konrad Kurt
+		Lazare Lehmkuhl Leon Leonhard Leopold Leopold_2 Lorenz Lothar Louis Lucien Ludwig Lukas
+		Manfred Marcel Matthieu Maximilian Michael Michel
+		Napoleon Nicolas Nikolaus
+		Olbers Otto
+		Pascal Patrice Paul Peter Philippe Pierre
+		Raymond Reinhard Reinhold Robert Rodolphe Roland Rudolf Ruprecht
+		Stefan
+		Theodor Thibaut Thierry Thomas
+		Valentin Veit Viktor Vitus
+		Werner Wilhelm Wolfgang
+	}
+	
+	female_common_first_names = {
+		Adelaide_2 Adele_2 Adelgunde Adelheid Adolphine Agnes Albertine Alexandra Alexandrine Amalie Amelie_2 Angelique Anna Anna_Dorothea Anna_Erika Anna_Sophia Anne Antoinette Armgard Athenais Augusta Augustine Aurora 
+		Beatrice Beatrix Blanche 
+		Camille Caroline Catherine Cecilia Charlotte Christina Claire Clara Clemence Clotilde 
+		Delphine Diane Dietlinde Dorothea Dorothea_Sophia 
+		Eleonore_2 Elisabeth Erika Ernestine Eugenie Eulalie 
+		Francoise Friederike 
+		Gabrielle Gundelinde 
+		Hedwig Helmtrude Henriette Hilda Hortense 
+		Ingeborg 
+		Jeanne Johanna Julia Julie Juliette Justine 
+		Karoline 
+		Leopoldine Louise Louise-Victorine Ludovika Ludwiga Luise 
+		Magdalene Marcelle Margarethe Marguerite Maria Maria_Anna Maria_Beatrix Marie Marie-Anne Marie-Felix Marie_Elisabeth Marthe Mathilde Melanie 
+		Notburga 
+		Pauline 
+		Radegondle 
+		Septimanie Sibylle Sigrid Sophie Sophie_Albertine Stephanie Suzanne 
+		Therese Therese_2 
+		Ulrike 
+		Victoire Victorine Viktoria Virginie 
+		Wilhelmine Wiltrud
+	}
+	
+	common_last_names={
+		Abegg Alavoine Anger Anthoine Archinard Arendt Aucouturier Augereau 
+		Bachmann Baraguey Baudet Bazaine Beaugendre Beck-Rzikowsky Behncke BiE_re Billot Blos Bodinier Boermel Borsig Bosquet Boue_de_Lapeyrere Bouet-Willaumez Bouillet Boulanger Bourbaki Brill Brommy Bronchard Bugeaud 
+		Caillard Canrobert Carrere Caudrelier Cauvry Charron Chartier Chaude ChaudE_ Chauvet Clebsch ClouE_ Colas Colin Collet Combelles Combes Cordemann Cornet Cottrel Courbet Courcelles Cousin-Mountauban Cruchon Culemeyer 
+		d_Hilliers 
+		de_Castellane de_Castelnau de_Gaulle de_Langle_de_Cary de_Montaignac de_Saint_Arnaud 
+		Dahlmann Dankl Darche Dargassies Dartigue Dauer Daumain Davout Decaup Degy DelcassE_ Deloffre Denizot Depre Desbordes Desgrange Devilly Dhers Dieffenbach Diestel Dollmann Dortignacq Dozol Dreyer Droste Dubail Duboc Dubois Duchene Dufour Dupetit-Thouars Dutiron 
+		Ehlert Eichelbaum Eisner Eppelsheimer Exelmans Exter 
+		Faidherbe Feyerabend Figuet Fily Fleury Foch Foerderreuther Forestier Forey Franchet_d_Esperey Frauendorfer Freycinet Friedel Fritsch Frommknecht 
+		Gabory Gain Gallieni Garbe Gardent Garrigou GE_raud Geiss Genin Georget Gerber Gerlach Germain Gloger Godivier Goerdeler Goering Goetz Gollwitzer Goujon Gouraud Graff Groener Groeschel Groth Guillarme Guillaumat 
+		Habierre Hagen Hainisch Hamelin Harispe Harkort Harquet Harych Hassenpflug Haus Held Hellpach Helmerich Heppendorf Herbelin Hirschfeld Hoche Hoffmann Homberger Hubatsch Humbert Hummel 
+		Jamais Jastrow JaurE_guiberry Jaures Joffre Johow Jousselin 
+		Katz Kempner Kessler Kirchweger Koffka Kohler Krohn Krummnow 
+		Lachaise Lacroix Lafourcade Lagagner Lakner Lallement Langlade Lapize Lasker Le_Bars Leblanc Lebouef Lecointe Lehmkuhl Leistikow Leman Leonhardt Leroy Leygoute Lignon Lorillon Ludendorff Lyautey 
+		Maitron Marmontel Mathonat Mazel ME_nager Meili Mergenthaler Miklas Mittwoch Moll Murat 
+		Nancy Nebenius Neboux Nempon Ney_d_Elchingen Nivelle 
+		Olbers Ory Oudin 
+		Pardon Pasquier Passerieu Paulmier Pautrat Payan Peiser Pellissier Petain PiE_trois Platner Ponson Pothier Prang 
+		Quenon 
+		Rabot Rahl Rehfisch Remmele Ricaux Ringeval Riou Riviere Roche Roepke Roquebert Rosenhaupt Rottie Roux 
+		Saget Sailer Scherfke Schimmelfennig Schmidt Schmitt Schobber Schree Schurz Seitz SouliE_ Steeb Stolzer Strauss 
+		Trebutien Treibe Trient Trousselier Trunk Tuvache 
+		Umbscheiden Unglaub 
+		Vaidis Vaillant Ventresque Vilette Villette Vivier Voelcker 
+		Wagner Wattelier Weydemeyer Winant Wittfeld Wittmann Woehlert 
+		Zeller Zenger Zerrahn Zink
+	}
+	
+	male_noble_first_names = {
+		
+	}
+	
+	female_noble_first_names = {
+
+	}	
+	
+	noble_last_names = {
+		Aebutia Aemilia Antonia Aquillia Aternia Atilia 
+		Baraguey_d_Hilliers Bergeret Bonaparte 
+		Cassia Claudia Cloelia Cominia Cornelia Curiatia Curtia 
+		d_Aspre_von_Hoobreuk d_Aumont d_Orleans 
+		de_Beauharnais de_Bourbon de_Bussiere de_Chastellux de_Chodron_de_Courcel de_Durfort de_Gramont de_Guerin de_Gueydon de_Lamartine de_MacMahon de_Pourtales de_Rochebouet 
+		Decazes 
+		Fabia Fesch Foslia Furia 
+		Gegania Genucia Gros 
+		Herminia Herwarth_von_Bittenfeld Horatia Hostilia 
+		Julia Junia 
+		Lagrange Lartia Lucretia 
+		Manlia Marbot Marcia Menenia Metilia Minucia Mucia 
+		Nautia Numicia 
+		Papiria Pinaria Pollia Postumia Potitia 
+		Quinctia Quinctilia 
+		Romilia 
+		Schnorr_von_Carolsfeld Sempronia Sergia Servilia Sestia Siccia Sulpicia 
+		Tarpeia Tarquinia Tarquitia Tullia 
+		Valeria Verginia Veturia Vitellia Vogel_von_Falkenstein Volumnia 
+		von_Alten von_Anhalt von_Arentschildt von_Baader von_Baden von_Benedek von_Bismarck-Bohlen von_Bittenfeld von_Blomberg von_Blumenthal von_Bohm-Ermolli von_Borries von_Boyen von_Braunschweig von_Breitenbach von_Brudermann von_Bulow von_Clam-Gallas von_Clemm von_dem_Knesebeck von_Denis von_der_Tann von_Dietrich von_Doenhoff von_Falkenstein von_Fritsch von_Gablenz von_Gebser von_Grunne von_Habsburg von_Halkett von_Hannover von_Hartmann von_Haynau von_Helmholtz von_Hertel von_Hess von_Hessen-Darmstadt von_Hessen-Kassel von_Hindenburg von_Hohenhausen von_Hohenzollern von_Holstein-Gottorp von_Hortstein von_Hotzendorf von_Jons von_Kirbach von_Kleefeld von_Knorr von_Kobratin von_Maffei von_Manteuffel von_Mayersbach von_Mecklenburg-Schwerin von_Mecklenburg-Strelitz von_Moltke von_Niezychowski von_Oldenburg von_Pauli von_Rauch von_Ravensberg von_Reuter von_Richthofen von_Roon von_Sachsen-Altenburg von_Sachsen-Coburg-Gotha von_Sachsen-Meiningen von_Sachsen-Weimar-Eisenach von_Scherer von_Schlieffen von_Schonburg von_Schwarzburg von_Spee von_Tegetthoff von_Thurnberg von_Tirpitz von_Uchatius von_Waldeck_und_Pyrmont von_Weigert von_Wettin von_Willich von_Wittelsbach von_Wrangel von_Wrede von_Wurttemberg von_Zahringen von_Zieten 
+		zu_Hohenlohe 
+		zur_Lippe
+	}
+	
+	male_regal_first_names = {
+		Aemilianus Alexander Alexios Anastasius Andronikos Anthemius Antoninus Arcadius Artabasdos Aurelian Avitus 
+		Balbinus Basil Basiliscus
+		Caesar Caligula Caracalla Carinus Carus Claudius Commodus Constans Constantine Constantius 
+		Decius Diadumenian Didius Diocletian Domitian
+		Elagabalus Eparchius Eugenius
+		Flavius Florianus
+		Galba Galerius Gallienus Geta Glycerius Gordian Gratian 
+		Hadrian Heraclius Heraclonas Herennius Honorius Hostilian 
+		Isaac Joannes John Jovian Julian Julius Justin Justinian
+		Leo Leontius Libius Licinius Lucius
+		Macrinus Magnentius Magnus Majorian Manuel Marcian Marcus Martinian Maurice Maxentius Maximian Maximinus Michael 
+		Nepotianus Nero Nerva Nikephoros Numerian 
+		Olybrius Otho
+		Pertinax Petronius Philip Philippicus Phocas Placidius Priscus Probus Procopius Pupienus 
+		Quintillus 
+		Romanos Romulus 
+		Saloninus Septimius Severus Silbannacus Staurakios 
+		Tacitus Theodore Theodosius Theophilos Tiberius Titus Trajan Trebonianus 
+		Valens Valentinian Valerian Valerius Vespasian Vetranio Vitellius Volusianus 
+		Zeno	
+	}
+	
+	female_regal_first_names = {
+		Eudokia
+		Irene
+		Theodora
+		Zoe		
+	}
+	
+	regal_last_names = {
+		Benedictus Antony Aurelius Appius Aulus Caeso Decimus Gaius Gnaeus Lucius Mamercus Manius Marcus
+		Numerius Publius Quintus Servius Sextus Spurius Titus Tiberius 
+		
+		Aebutia Aemilia Amorian Angelos Antonia Antonine Aquillia Argyros Aternia Atilia Augustus 
+		Bringas 
+		Cassia Claudia Cloelia Cominia Constantine Cornelia Curiatia Curtia 
+		Doukas 
+		Fabia Flavian Foslia Furia 
+		Gegania Genucia
+		Heraclian Herminia Horatia Hostilia
+		Isaurian 
+		Julia Junia Justinian
+		Komnenos 
+		Lartia Laskaris Leonid Lucretia
+		Macedonian Maiorianus Manlia Marcia Menenia Metilia Minucia Mucia 
+		Nautia Nikephorian Numicia
+		Palaiologos Papiria Phokas Pinaria Pollia Postumia Potitia
+		Quinctia Quinctilia 
+		Romilia 
+		Sempronia Sergia Servilia Sestia Severan Siccia Sulpicia
+		Tarpeia Tarquinia Tarquitia Theodosian Tullia
+		Valentinian Valeria Verginia Veturia Vitellia Volumnia
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+visigothic={
+	color={ 140 80 35 }
+	religion = protestant
+	traits = { roman gothic european_heritage }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		Achila Agila Ardo Alaric Athanagild Braulio Bulgar Chindasuinth Chintila Egica Ervig Euric Gundemar Hermenegild
+		Ildefonsus Isidore Iudila Julian Leander Leovigild Liuva Reccared Reccesuinth Roderic Sisbert Sisebut Sisenand Suinthila Suniefred 
+		Theoderic Theudisclus Thorismund Tulga Wamba Witteric Wittiza 
+		
+	}
+	
+	female_common_first_names = {
+		
+	}
+	
+	common_last_names={
+		Balt hrudberga Thedela Blitekin Lieuuara Alpaida Thidela Euerloga Adallinda Heilswinda Reingaud Clotrada Erkenburoc 
+		Leuekin Radburg Thiutuuara Chunsina Rosamund Erpsuid Rinilda Meinsent Aregund Gundradis 
+		
+	}
+
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+briton={
+	color={ 141 109 207 }
+	religion = protestant
+	traits = { celtic_people british european_heritage }
+
+	male_common_first_names={
+		Alastair Alban Alpin Alwyn Angus Aulay 
+		Blane Boyd 
+		Calum Caradog Coll Cynog 
+		Derek Derwyn Donald Dougal Douglas Duff Duncan 
+		Ewan Farquar 
+		Fingal Finlay 
+		Gavin Gillian Gillis Gordon Greer 
+		Hamish 
+		Ian Ivar 
+		Kenneth Kentigern Kirk Kyle 
+		Lachlan Lorne 
+		Malcolm Mirren Mungo 
+		Neil Nevin 
+		Ranald Rory Ross 
+		Sholto Somerled 
+		Tavish Torquil 
+		Wallace	}
+	
+	female_common_first_names = {
+		
+	}
+	
+	common_last_names={
+		Ace Adams Anwyl 
+		Baugh Benbow 
+		Cadwalader Campbell Clocker Craddock 
+		Faithfull Foulkes 
+		Gethin Griffiths Gwyther 
+		Hathaway Heilyn Humphreys 
+		Ithell 
+		Llewelyn Llywarch 
+		Phillips 
+		Salusbury Smout 
+		Trewent 
+		Wigley 
+		Yorath
+	}
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+suebi={
+	color={ 138 168 195 }
+	religion = protestant
+	traits = { latin german_speaking european_heritage }
+
+	male_common_first_names={
+	}
+	
+	female_common_first_names = {
+		
+	}
+	
+	common_last_names={
+		
+	}
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+gallic={
+	color={ 101 198 90 }
+	religion = catholic
+	traits = { celtic_people european_heritage }
+
+	male_common_first_names={
+	}
+	
+	female_common_first_names = {
+		
+	}
+	
+	common_last_names={
+		
+	}
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
