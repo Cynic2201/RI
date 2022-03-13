@@ -1,9 +1,0 @@
-NULL = {
-	pattern = "pattern_solid.tga"
-	color1 = "todo_purple"
-
-	colored_emblem = {
-		texture = "NULL.dds"
-		color1 = "blue"
-	}
-}

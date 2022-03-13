@@ -1,1 +1,90 @@
-﻿
+﻿DIPLOMACY = {
+	c:ROM = {
+		create_diplomatic_pact = {
+			country = c:SUE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:VAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:VIS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BRG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BRI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:GLL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HER
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MOE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OST
+			type = puppet
+		}
+	}
+	
+	c:BAV = {
+		create_diplomatic_pact = {
+			country = c:LOM
+			type = puppet
+		}
+	}
+	
+	c:HAN = {
+		create_diplomatic_pact = {
+			country = c:FRI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BRE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:KIE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:DIT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OBO
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:WIS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ROS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:FOU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:STE
+			type = puppet
+		}
+	}
+}

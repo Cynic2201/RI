@@ -20,7 +20,7 @@ ANN = {
 	tier = kingdom #placeholder
 	
 	cultures = { latin }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_PIEDMONT #placeholder
 
 }
 
@@ -59,7 +59,7 @@ ASU = {
 	tier = kingdom #placeholder
 	
 	cultures = { hispanic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_CASTILE
 
 }
 
@@ -72,7 +72,7 @@ BAE = {
 	tier = kingdom #placeholder
 	
 	cultures = { hispanic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_ANDALUSIA
 }
 
 #Burgundia

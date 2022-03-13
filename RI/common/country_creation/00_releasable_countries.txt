@@ -1,10 +1,38 @@
-﻿VAS = {
+﻿ANN = {			
+	states = {
+		STATE_PIEDMONT
+		STATE_EMILIA
+		STATE_LOMBARDY
+		STATE_VENETIA
+		STATE_ISTRIA
+		STATE_ROMAGNA
+	}
+
+	ai_will_do = { always = no }
+}
+
+ASU = {	
+	states = {
+		STATE_CASTILE
+	}
+
+	ai_will_do = { always = no }
+}
+
+BAE = {
+	states = {
+		STATE_ANDALUSIA
+		STATE_GRANADA
+	}
+
+	ai_will_do = { always = no }
+}
+
+VAS = {
 	states = { STATE_NAVARRA }
 	
 	ai_will_do = { always = no }
 }
-
-
 
 IRE = {
 	use_culture_states = yes

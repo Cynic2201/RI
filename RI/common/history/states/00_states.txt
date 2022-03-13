@@ -184,7 +184,7 @@
 	s:STATE_VENETIA = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
+			owned_provinces = { xD0BF60 x1120FF xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
 		}
 		
 		add_homeland = latin
@@ -1519,7 +1519,7 @@
 	s:STATE_EMILIA = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x0B3B43 x700120 xF080A0 xEF0021 xF08021}
+			owned_provinces = { x0B3B43 x700120 xEF0021 xF08021}
 		}
 	
 		add_homeland = latin
@@ -1527,7 +1527,7 @@
 	s:STATE_TUSCANY = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x7080A0 xFAFCD4 x6A7662 xB04020 x32BA1A xF12431 }
+			owned_provinces = { xF080A0 x7080A0 xFAFCD4 x6A7662 xB04020 x32BA1A xF12431 }
 		}
 		
 		add_homeland = latin
@@ -6084,7 +6084,7 @@
 	s:STATE_SOUTH_TYROL = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
+			owned_provinces = { xD040E0 x039D0F }
 		}
 		
 		add_homeland = latin
