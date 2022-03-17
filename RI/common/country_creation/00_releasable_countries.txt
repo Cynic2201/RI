@@ -34,6 +34,344 @@ VAS = {
 	ai_will_do = { always = no }
 }
 
+COR = {
+	states = { 
+	STATE_CORSICA 
+	}
+	
+	ai_will_do = { always = no }
+}
+
+DAL = {
+	states = { 
+		STATE_DALMATIA 
+		STATE_BOSNIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GAU = {
+	states = { 
+	STATE_ORLEANS 
+	STATE_POITOU
+	STATE_LIMOUSIN
+	STATE_AUVERGNE
+	STATE_LOIRE
+	STATE_ILE_DE_FRANCE
+	STATE_NORMANDY
+	}
+	
+	ai_will_do = { always = no }
+}
+
+HIS = {
+	states = { 
+	STATE_ANDALUSIA 
+	STATE_GRANADA
+	STATE_ALENTEJO
+	STATE_ESTREMADURA
+	STATE_CASTILE
+	STATE_TOLEDO
+	STATE_VALENCIA
+	STATE_BADAJOZ
+	STATE_ARAGON
+	STATE_CATALONIA
+	STATE_BALEARES
+	STATE_NAVARRA
+	STATE_BEIRA
+	STATE_ASTURIAS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ILL = {
+	states = { 
+	STATE_BOSNIA
+	STATE_CROATIA
+	STATE_MONTENEGRO
+	STATE_ALBANIA
+	STATE_DALMATIA
+	STATE_SLOVENIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ITA = {
+	states = { 
+	STATE_PIEDMONT
+	STATE_EAST_SWITZERLAND
+	STATE_TYROL
+	STATE_SOUTH_TYROL
+	STATE_LOMBARDY
+	STATE_VENETIA
+	STATE_ISTRIA
+	STATE_EMILIA
+	STATE_CORSICA
+	STATE_SARDINIA
+	STATE_ROMAGNA
+	STATE_TUSCANY
+	STATE_UMBRIA
+	STATE_LAZIO
+	STATE_ABRUZZO
+	STATE_CAMPANIA
+	STATE_APULIA
+	STATE_CALABRIA
+	STATE_SICILY
+	STATE_MALTA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+NAR = {
+	states = { 
+	STATE_PROVENCE
+	STATE_LANGUEDOC
+	STATE_SAVOY
+	STATE_ARMAGNAC
+	}
+	
+	ai_will_do = { always = no }
+}
+
+RAE = {
+	states = {
+	STATE_EAST_SWITZERLAND
+	STATE_TYROL
+	STATE_SOUTH_TYROL
+	}
+	
+	ai_will_do = { always = no }
+}
+
+SAR = {
+	states = {
+	STATE_SARDINIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+SIC = {
+	states = {
+	STATE_SICILY
+	STATE_MALTA	
+	}
+	
+	ai_will_do = { always = no }
+}
+
+SYA = {
+	provinces = { x805120 xB7B8F1 x00D020 xC01020 xC050E0 xEFC992 x4050DF }
+	ai_will_do = { always = no }
+}
+
+TOL = {
+	states = {
+	STATE_TOLEDO
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BYZ = {
+	states = {
+	STATE_THRACE
+	STATE_RUMELIA
+	STATE_EAST_MACEDONIA
+	STATE_WEST_MACEDONIA
+	STATE_NORTH_MACEDONIA
+	STATE_THESSALIA
+	STATE_ATTICA
+	STATE_IONIAN_ISLANDS
+	STATE_PELOPONNESE
+	STATE_ALBANIA
+	STATE_MONTENEGRO
+	STATE_SOUTHERN_SERBIA
+	STATE_NORTHERN_SERBIA
+	STATE_CRETE
+	STATE_WEST_AEGEAN_ISLANDS
+	STATE_EAST_AEGEAN_ISLANDS
+	STATE_BULGARIA
+	STATE_WALLACHIA
+	STATE_DOBRUDJA
+	STATE_EASTERN_TRANSYLVANIA
+	STATE_AYDIN
+	STATE_HUDAVENDIGAR
+	STATE_KONYA
+	STATE_ANKARA
+	STATE_KASTAMONU
+	STATE_TRABZON
+	STATE_CRIMEA
+	STATE_CYPRUS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+WRE = {
+	states = {
+	STATE_LAZIO
+	STATE_SARDINIA
+	STATE_CORSICA
+	STATE_ABRUZZO
+	STATE_APULIA
+	STATE_CALABRIA
+	STATE_SICILY
+	STATE_MALTA
+	STATE_CAMPANIA
+	STATE_DALMATIA
+	STATE_BOSNIA
+	STATE_CROATIA
+	STATE_SLOVENIA
+	STATE_ISTRIA
+	STATE_TYROL
+	STATE_SOUTH_TYROL
+	STATE_VENETIA
+	STATE_LOMBARDY
+	STATE_EMILIA
+	STATE_TUSCANY
+	STATE_UMBRIA
+	STATE_EAST_SWITZERLAND
+	STATE_PIEDMONT
+	STATE_SAVOY
+	STATE_PROVENCE
+	STATE_RHONE
+	STATE_WEST_SWITZERLAND
+	STATE_BURGUNDY
+	STATE_AUVERGNE
+	STATE_LANGUEDOC
+	STATE_ARMAGNAC
+	STATE_LIMOUSIN
+	STATE_POITOU
+	STATE_ORLEANS
+	STATE_ILE_DE_FRANCE
+	STATE_LOIRE
+	STATE_NORMANDY
+	STATE_BRITTANY
+	STATE_AQUITAINE
+	STATE_NAVARRA
+	STATE_ARAGON
+	STATE_CATALONIA
+	STATE_BALEARES
+	STATE_VALENCIA
+	STATE_TOLEDO
+	STATE_CASTILE
+	STATE_ANDALUSIA
+	STATE_GRANADA
+	STATE_BADAJOZ
+	STATE_ASTURIAS
+	STATE_BEIRA
+	STATE_ALENTEJO
+	STATE_ESTREMADURA
+	STATE_ROMAGNA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ACA = {
+	states = {
+	STATE_PELOPONNESE
+	STATE_ATTICA
+	STATE_WEST_AEGEAN_ISLANDS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GRE = {
+	states = {
+	STATE_PELOPONNESE
+	STATE_IONIAN_ISLANDS
+	STATE_CRETE
+	STATE_THESSALIA
+	STATE_WEST_MACEDONIA
+	STATE_ATTICA
+	STATE_WEST_AEGEAN_ISLANDS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+MAC = {
+	states = {
+	STATE_NORTH_MACEDONIA
+	STATE_EAST_MACEDONIA
+	STATE_WEST_MACEDONIA
+	STATE_THESSALIA
+	STATE_ALBANIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+CHR = {
+	states = {
+	STATE_CRIMEA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+CON = {
+	provinces = { xF0A020 x30A060}
+	
+	ai_will_do = { always = no }
+}
+
+CRE = {
+	states = {
+	STATE_CRETE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+EPI = {
+	states = {
+	STATE_IONIAN_ISLANDS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+THR = {
+	states = {
+	STATE_RUMELIA
+	STATE_THRACE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ANG = {
+	states = {
+	STATE_YORKSHIRE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BRA = {
+	provinces = {
+	xA61E6E
+	}
+	
+	ai_will_do = { always = no }
+}
+
+DOR = {
+	provinces = { 
+	xA08061 
+	}
+	
+	ai_will_do = { always = no }
+}
+
 IRE = {
 	use_culture_states = yes
 	
@@ -471,7 +809,7 @@ GUA = {
 }
 
 ALT = {
-	provinces = { xD9BEFE x78C465 xBD8628  }
+	provinces = { xD9BEFE x78C465 xBD8628 }
 	
 	ai_will_do = { always = no }
 }
@@ -492,12 +830,6 @@ HON = {
 
 COS = {
 	states = { STATE_COSTA_RICA }
-	
-	ai_will_do = { always = no }
-}
-
-MAC = {
-	provinces = { xE0E000 }
 	
 	ai_will_do = { always = no }
 }
@@ -776,13 +1108,6 @@ TUV = {
 	ai_will_do = { always = no }
 }
 
-COR = {
-	states = {
-		STATE_CORSICA
-	}
-	ai_will_do = { always = no }
-}
-
 YAK = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
@@ -950,14 +1275,6 @@ ARG = {
 HAN = {
 	states = {
 		STATE_HANNOVER
-	}
-	
-	ai_will_do = { always = no }
-}
-
-SIC = {
-	states = {
-		STATE_SICILY
 	}
 	
 	ai_will_do = { always = no }

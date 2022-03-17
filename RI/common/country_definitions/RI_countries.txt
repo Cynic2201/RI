@@ -7,7 +7,7 @@ ROM = {
 	tier = empire
 	
 	cultures = { latin greek }
-	capital = STATE_GALLAECIA
+	capital = STATE_LAZIO
 
 }
 
@@ -17,10 +17,10 @@ ANN = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { latin }
-	capital = STATE_PIEDMONT #placeholder
+	capital = STATE_LOMBARDY
 
 }
 
@@ -96,7 +96,7 @@ COR = {
 	tier = kingdom #placeholder
 	
 	cultures = { latin }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_CORSICA
 }
 
 #Dalmatia
@@ -108,7 +108,7 @@ DAL = {
 	tier = kingdom #placeholder
 	
 	cultures = { balkan }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_DALMATIA
 }
 
 #Gallaecia
@@ -145,7 +145,7 @@ GAU = {
 	tier = kingdom #placeholder
 	
 	cultures = { gallic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_ORLEANS
 
 }
 
@@ -171,7 +171,7 @@ HIS = {
 	tier = kingdom #placeholder
 	
 	cultures = { hispanic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_VALENCIA
 
 }
 
@@ -184,7 +184,7 @@ ILL = {
 	tier = kingdom #placeholder
 	
 	cultures = { illyrian balkan }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_BOSNIA
 
 }
 
@@ -194,23 +194,23 @@ ITA = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { latin }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_UMBRIA
 
 }
 
 #Narbonensis
 NAR = {
-	color = { 0 0 0 } #placeholder
+	color = { 106 150 146 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { narbonnese }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_LANGUEDOC
 }
 
 #Pannonia
@@ -219,58 +219,57 @@ PNN = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { balkan }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_TRANSDANUBIA
 }
 
-#Rhaetia
-RHA = {
-	color = { 0 0 0 } #placeholder
+RAE = {
+	color = { 153 153 182 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { rhaetian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_EAST_SWITZERLAND
 }
 
 #Sardinia
 SAR = {
-	color = { 0 0 0 } #placeholder
+	color = { 117 146 168 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { sardo }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_SARDINIA
 }
 
 #Sicilia
-SCL = {
-	color = { 0 0 0 } #placeholder
+SIC = {
+	color = { 73 152 76 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { latin }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_SICILY
 }
 
 #Syracuse
 SYA = {
-	color = { 0 0 0 } #placeholder
+	color = { 83 210 248 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_SICILY
 }
 
 #Toldeo
@@ -279,10 +278,10 @@ TOL = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { visigothic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_TOLEDO
 }
 
 #Vasconia
@@ -298,27 +297,27 @@ VAS = {
 }
 
 #Byzantium
-ERE = {
+BYZ = {
 	color = { 112 41 99 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = empire
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_THRACE
 }
 
 #Western Roman Empire
 WRE = {
-	color = { 201 50 51 }
+	color = { 172 6 71 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = empire
 	
 	cultures = { latin }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_ROMAGNA
 }
 
 #Achaia
@@ -327,10 +326,10 @@ ACA = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_PELOPONNESE
 }
 
 #Cherson
@@ -339,22 +338,22 @@ CHR = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
-	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	cultures = { greek pontic }
+	capital = STATE_CRIMEA
 }
 
 #Constantinople
 CON = {
-	color = { 112 41 99 }
+	color = { 190 7 3 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = city_state
 	
-	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	cultures = { greek latin }
+	capital = STATE_THRACE
 }
 
 #Creta
@@ -363,10 +362,10 @@ CRE = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_CRETE
 }
 
 #Epirus
@@ -375,10 +374,10 @@ EPI = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_IONIAN_ISLANDS
 }
 
 #Hellas
@@ -387,22 +386,22 @@ GRE = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_ATTICA
 }
 
 #Macedonia
 MAC = {
-	color = { 123 0 0 }
+	color = { 224 100 50 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_THESSALIA
 }
 
 #Moesogothia
@@ -435,22 +434,22 @@ OLY = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = empire
 	
 	cultures = { greek }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_PELOPONNESE
 }
 
 #Thracia
 THR = {
-	color = { 0 0 0 } #placeholder
+	color = { 255 55 55 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
-	cultures = { thracian }
-	capital = STATE_GALLAECIA #placeholder
+	cultures = { thracian greek }
+	capital = STATE_RUMELIA
 }
 
 #Britannia
@@ -462,7 +461,7 @@ BRT = {
 	tier = kingdom
 	
 	cultures = { britannian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_HOME_COUNTIES
 }
 
 #Anglia
@@ -474,7 +473,7 @@ ANG = {
 	tier = kingdom
 	
 	cultures = { anglian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_YORKSHIRE
 }
 
 #Bernicia
@@ -483,10 +482,10 @@ BNI = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { anglian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_YORKSHIRE
 }
 
 #Deira
@@ -495,10 +494,10 @@ DER = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { anglian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_YORKSHIRE
 }
 
 #Brythonia
@@ -621,12 +620,12 @@ DIT = {
 	tier = principality
 	
 	cultures = { saxon }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_SCHLESWIG_HOLSTEIN
 }
 
 #Dortmund
 DOR = {
-	color = { 0 0 0 } #placeholder
+	color = { 227 162 34 }
 	
 	country_type = recognized
 
@@ -634,7 +633,7 @@ DOR = {
 	
 	cultures = { saxon }
 	religion = catholic
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_WESTPHALIA
 }
 
 #Four Cities

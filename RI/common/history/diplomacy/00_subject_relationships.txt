@@ -36,6 +36,10 @@
 			country = c:OST
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:PNN
+			type = puppet
+		}
 	}
 	
 	c:BAV = {
@@ -85,6 +89,33 @@
 		create_diplomatic_pact = {
 			country = c:STE
 			type = puppet
+		}
+	}
+	
+	c:BRT = {
+		create_diplomatic_pact = {
+			country = c:BNI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:DER
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BRY
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MAN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:VAL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:DUB
+			type = dominion
 		}
 	}
 }

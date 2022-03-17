@@ -90,7 +90,6 @@ HAN = { #Hansa
 		subject_canton = HAN
 		priority = 1
 	}
-	
 	flag_definition = {
 		coa = HAN_communist
 		subject_canton = HAN_communist
@@ -99,7 +98,6 @@ HAN = { #Hansa
 			coa_def_communist_flag_trigger = yes
 		}
 	}
-
 	flag_definition = {
 		coa = HAN_fascist
 		subject_canton = HAN_fascist
@@ -125,6 +123,24 @@ ANN = { #Annonaria
 			coa_def_monarchy_flag_trigger = yes
 		}
 	}
+	
+	flag_definition = {
+		coa = ANN_communist
+		subject_canton = ANN_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ANN_fascist
+		subject_canton = ANN_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
 }
 
 VIS = { #Visigoths
@@ -132,15 +148,6 @@ VIS = { #Visigoths
 		coa = VIS
 		subject_canton = VIS
 		priority = 1
-	}
-	
-	flag_definition = {
-		coa = VIS_monarchy
-		subject_canton = VIS_monarchy
-		priority = 10
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-		}
 	}
 	
 	flag_definition = {
@@ -155,9 +162,26 @@ VIS = { #Visigoths
 	flag_definition = {
 		coa = VIS_communist
 		subject_canton = VIS_communist
-		priority = 100
+		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = VIS_fascist
+		subject_canton = VIS_fascist
+		priority = 1500
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = VIS_subject_ROM
+		priority = 50
+		trigger = { 
+			coa_def_roman_ensign_trigger = yes
 		}
 	}
 }
@@ -288,6 +312,1357 @@ BRG = { #Burgundy
 		priority = 50
 		trigger = { 
 			coa_def_roman_ensign_trigger = yes
+		}
+	}
+}
+
+COR = { #Corsica
+	flag_definition = {
+		coa = COR
+		subject_canton = COR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = COR_fascist
+		subject_canton = COR_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = COR_communist
+		subject_canton = COR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+DAL = { #Dalmatia
+	flag_definition = {
+		coa = DAL
+		subject_canton = DAL
+		priority = 1
+	}	
+	
+	flag_definition = {
+		coa = DAL_monarchy
+		subject_canton = DAL_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DAL_fascist
+		subject_canton = DAL_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DAL_communist
+		subject_canton = DAL_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+SUE = { #Gallaecia
+	flag_definition = {
+		coa = SUE
+		subject_canton = SUE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = SUE_republic
+		subject_canton = SUE_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SUE_communist
+		subject_canton = SUE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = SUE_fascist
+		subject_canton = SUE_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SUE_subject_ROM
+		priority = 50
+		trigger = { 
+			coa_def_roman_ensign_trigger = yes
+		}
+	}
+}
+
+GLL = { #Gallia
+	flag_definition = {
+		coa = GLL
+		subject_canton = GLL
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = GLL_monarchy
+		subject_canton = GLL_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = GLL_communist
+		subject_canton = GLL_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = GLL_dictatorship
+		subject_canton = GLL_dictatorship
+		priority = 1500
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = GLL_subject_ROM
+		priority = 50
+		trigger = { 
+			coa_def_roman_ensign_trigger = yes
+		}
+	}
+}
+
+GAU = { #Gaul
+	flag_definition = {
+		coa = GAU
+		subject_canton = GAU
+		priority = 1
+	}
+}
+
+HER = { #Herulia
+	flag_definition = {
+		coa = HER
+		subject_canton = HER
+		priority = 1
+	}
+}
+
+HIS = { #Hispania
+	flag_definition = {
+		coa = HIS
+		subject_canton = HIS
+		priority = 1
+	}
+	
+		
+	flag_definition = {
+		coa = HIS_monarchy
+		subject_canton = HIS_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = HIS_fascist
+		subject_canton = HIS_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = HIS_communist
+		subject_canton = HIS_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ILL = { #Illyria
+	flag_definition = {
+		coa = ILL
+		subject_canton = ILL
+		priority = 1
+	}
+	
+		
+	flag_definition = {
+		coa = ILL_monarchy
+		subject_canton = ILL_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ILL_fascist
+		subject_canton = ILL_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ILL_communist
+		subject_canton = ILL_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ITA = { #Italia
+	flag_definition = {
+		coa = ITA
+		subject_canton = ITA
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = ITA_monarchy
+		subject_canton = ITA_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ITA_fascist
+		subject_canton = ITA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ITA_communist
+		subject_canton = ITA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+NAR = { #Narbonnensis
+	flag_definition = {
+		coa = NAR
+		subject_canton = NAR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = NAR_republic
+		subject_canton = NAR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+PNN = { #Pannonia
+	flag_definition = {
+		coa = PNN
+		subject_canton = PNN
+		priority = 10
+	}
+}
+
+RAE = { #Raetia
+	flag_definition = {
+		coa = RAE
+		subject_canton = RAE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = RAE_monarchy
+		subject_canton = RAE_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = RAE_fascist
+		subject_canton = RAE_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = RAE_communist
+		subject_canton = RAE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+SAR = { #Sardinia
+	flag_definition = {
+		coa = SAR
+		subject_canton = SAR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = SAR_monarchy
+		subject_canton = SAR_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SAR_fascist
+		subject_canton = SAR_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SAR_communist
+		subject_canton = SAR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+SIC = { #Sicilia
+	flag_definition = {
+		coa = SIC
+		subject_canton = SIC
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = SIC_monarchy
+		subject_canton = SIC_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SIC_fascist
+		subject_canton = SIC_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SIC_communist
+		subject_canton = SIC_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+SYA = { #Syracuse
+	flag_definition = {
+		coa = SYA
+		subject_canton = SYA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = SYA_monarchy
+		subject_canton = SYA_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SYA_fascist
+		subject_canton = SYA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SYA_communist
+		subject_canton = SYA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+TOL = { #Toledo
+	flag_definition = {
+		coa = TOL
+		subject_canton = TOL
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = TOL_republic
+		subject_canton = TOL_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+VAS = { #Vasconia
+	flag_definition = {
+		coa = VAS
+		subject_canton = VAS
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = VAS_republic
+		subject_canton = VAS_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = VAS_fascist
+		subject_canton = VAS_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+BYZ = { #Byzantium
+	flag_definition = {
+		coa = BYZ
+		subject_canton = BYZ
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BYZ_republic
+		subject_canton = BYZ_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BYZ_fascist
+		subject_canton = BYZ_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BYZ_theocracy
+		subject_canton = BYZ_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ROM_communist
+		subject_canton = ROM_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+}
+
+WRE = { # West Roman Empire
+	flag_definition = {
+		coa = WRE
+		subject_canton = WRE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = WRE_republic
+		subject_canton = WRE_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = WRE_fascist
+		subject_canton = WRE_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = WRE_theocracy
+		subject_canton = WRE_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = WRE_communist
+		subject_canton = WRE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}		
+}
+
+ACA = { #Achaia
+	flag_definition = {
+		coa = ACA
+		subject_canton = ACA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = ACA_republic
+		subject_canton = ACA_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ACA_fascist
+		subject_canton = ACA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ACA_communist
+		subject_canton = ACA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+CHR = { #Cherson
+	flag_definition = {
+		coa = CHR
+		subject_canton = CHR
+		priority = 10
+	}
+}
+
+CON = { #Consantinople
+	flag_definition = {
+		coa = CON
+		subject_canton = CON
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = CON_monarchy
+		subject_canton = CON_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BYZ_theocracy
+		subject_canton = BYZ_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+}
+
+CRE = { #Crete
+	flag_definition = {
+		coa = CRE
+		subject_canton = CRE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = CRE_republic
+		subject_canton = CRE_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = CRE_communist
+		subject_canton = CRE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+EPI = { #Epirus
+	flag_definition = {
+		coa = EPI
+		subject_canton = EPI
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = EPI_dictatorship
+		subject_canton = EPI_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = EPI_republic
+		subject_canton = EPI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = EPI_communist
+		subject_canton = EPI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = EPI_fascist
+		subject_canton = EPI_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+
+GRE = { #Greece
+	flag_definition = {
+		coa = GRE
+		subject_canton = GRE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = GRE_dictatorship
+		subject_canton = GRE_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = GRE_republic
+		subject_canton = GRE_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = GRE_communist
+		subject_canton = GRE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = GRE_fascist
+		subject_canton = GRE_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+MAC = { #Macedonia
+	flag_definition = {
+		coa = MAC
+		subject_canton = MAC
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = MAC_dictatorship
+		subject_canton = MAC_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = MAC_republic
+		subject_canton = MAC_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = MAC_communist
+		subject_canton = MAC_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = MAC_fascist
+		subject_canton = MAC_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+MOE = { #Moesia
+	flag_definition = {
+		coa = MOE
+		subject_canton = MOE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = MOE_republic
+		subject_canton = MOE_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+OST = { #Dacia
+	flag_definition = {
+		coa = OST
+		subject_canton = OST
+		priority = 1
+	}
+}
+
+OLY = { #Olympia
+	flag_definition = {
+		coa = OLY
+		subject_canton = OLY
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = OLY_republic
+		subject_canton = OLY_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+		
+	flag_definition = {
+		coa = OLY_dictatorship
+		subject_canton = OLY_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = OLY_communist
+		subject_canton = OLY_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = OLY_fascist
+		subject_canton = OLY_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+THR = { #Thracia
+	flag_definition = {
+		coa = THR
+		subject_canton = THR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = THR_republic
+		subject_canton = THR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+BRT = { #Britannia
+	flag_definition = {
+		coa = BRT
+		subject_canton = BRT
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = BRT_dictatorship
+		subject_canton = BRT_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRT_monarchy
+		subject_canton = BRT_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRT_communist
+		subject_canton = BRT_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRT_fascist
+		subject_canton = BRT_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+ANG = { #Anglia
+	flag_definition = {
+		coa = ANG
+		subject_canton = ANG
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = ANG_republic
+		subject_canton = ANG_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+BNI = { #Bernicia
+	flag_definition = {
+		coa = BNI
+		subject_canton = BNI
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BNI_republic
+		subject_canton = BNI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BNI_communist
+		subject_canton = BNI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BNI_fascist
+		subject_canton = BNI_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+DER = { #Deira
+	flag_definition = {
+		coa = DER
+		subject_canton = DER
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = DER_republic
+		subject_canton = DER_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DER_communist
+		subject_canton = DER_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DER_fascist
+		subject_canton = DER_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+BRY = { #Brythonia
+	flag_definition = {
+		coa = BRY
+		subject_canton = BRY
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BRY_theocracy
+		subject_canton = BRY_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRY_monarchy
+		subject_canton = BRY_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRY_communist
+		subject_canton = BRY_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRY_fascist
+		subject_canton = BRY_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+MAN = { #Isle of Man
+	flag_definition = {
+		coa = MAN
+		subject_canton = MAN
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = MAN_communist
+		subject_canton = MAN_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = MAN_fascist
+		subject_canton = MAN_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+VAL = { #Valentia
+	flag_definition = {
+		coa = VAL
+		subject_canton = VAL
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = VAL_communist
+		subject_canton = VAL_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = VAL_fascist
+		subject_canton = VAL_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+DUB = { #Dublin
+	flag_definition = {
+		coa = DUB
+		subject_canton = DUB
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = DUB_monarchy
+		subject_canton = DUB_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DUB_dictatorship
+		subject_canton = DUB_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DUB_communist
+		subject_canton = DUB_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DUB_fascist
+		subject_canton = DUB_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+IRE = { #Ireland
+	flag_definition = {
+		coa = IRE
+		subject_canton = IRE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = IRE_dictatorship
+		subject_canton = IRE_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = IRE_monarchy
+		subject_canton = IRE_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = IRE_communist
+		subject_canton = IRE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ANH = { #Anhalt
+	flag_definition = {
+		coa = ANH
+		subject_canton = ANH
+		priority = 1
+	}
+}
+
+FRA = { #Francia
+	flag_definition = {
+		coa = FRA
+		subject_canton = FRA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = FRA_dictatorship
+		subject_canton = FRA_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = FRA_republic
+		subject_canton = FRA_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = FRA_fascist
+		subject_canton = FRA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = FRA_communist
+		subject_canton = FRA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+
+BRE = { #Bremen
+	flag_definition = {
+		coa = BRE
+		subject_canton = BRE
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BRE_communist
+		subject_canton = BRE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+BRA = { #Brunswick
+	flag_definition = {
+		coa = BRA
+		subject_canton = BRA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BRA_monarchy
+		subject_canton = BRA_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+
+DIT = { #Dithmarschen
+	flag_definition = {
+		coa = DIT
+		subject_canton = DIT
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = DIT_communist
+		subject_canton = DIT_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+DOR = { #Dortmund
+	flag_definition = {
+		coa = DOR
+		subject_canton = DOR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = DOR_communist
+		subject_canton = DOR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DOR_monarchy
+		subject_canton = DOR_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DOR_dictatorship
+		subject_canton = DOR_dictatorship
+		priority = 10
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+}
+
+FOU = { #Four Cities
+	flag_definition = {
+		coa = FOU
+		subject_canton = FOU
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = FOU_monarchy
+		subject_canton = FOU_monarchy
+		priority = 0
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = FOU_republic
+		subject_canton = FOU_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
 		}
 	}
 }
