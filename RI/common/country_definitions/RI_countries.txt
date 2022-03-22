@@ -30,10 +30,10 @@ VIS = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { visigothic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_AQUITAINE
 
 }
 
@@ -43,10 +43,10 @@ BRI = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { briton }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_BRITTANY
 
 }
 
@@ -56,7 +56,7 @@ ASU = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { hispanic }
 	capital = STATE_CASTILE
@@ -69,7 +69,7 @@ BAE = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { hispanic }
 	capital = STATE_ANDALUSIA
@@ -81,10 +81,10 @@ BRG = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { germani }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_RHONE
 }
 
 #Corsica
@@ -93,7 +93,7 @@ COR = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { latin }
 	capital = STATE_CORSICA
@@ -105,7 +105,7 @@ DAL = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { balkan }
 	capital = STATE_DALMATIA
@@ -117,10 +117,10 @@ SUE = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { suebi }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_BEIRA
 }
 
 #Gallia
@@ -129,7 +129,7 @@ GLL = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { germani }
 	capital = STATE_GALLAECIA #placeholder
@@ -142,7 +142,7 @@ GAU = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { gallic }
 	capital = STATE_ORLEANS
@@ -155,10 +155,10 @@ HER = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { heruli }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_SLAVONIA
 
 }
 
@@ -168,7 +168,7 @@ HIS = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { hispanic }
 	capital = STATE_VALENCIA
@@ -181,7 +181,7 @@ ILL = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { illyrian balkan }
 	capital = STATE_BOSNIA
@@ -225,6 +225,7 @@ PNN = {
 	capital = STATE_TRANSDANUBIA
 }
 
+#Raetia
 RAE = {
 	color = { 153 153 182 }
 	
@@ -290,10 +291,10 @@ VAS = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = principality
 	
 	cultures = { basque }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_NAVARRA
 }
 
 #Byzantium
@@ -410,10 +411,10 @@ MOE = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { ostrogothic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_BULGARIA
 }
 
 #Ostrogothia
@@ -422,10 +423,10 @@ OST = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { ostrogothic }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_SOUTHERN_SERBIA
 }
 
 #Olympian Revolt
@@ -506,10 +507,10 @@ BRY = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = kingdom
 	
 	cultures = { briton }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_WEST_COUNTRY
 }
 
 #Manx
@@ -518,10 +519,10 @@ MAN = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = grand_principality
 	
 	cultures = { briton }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_LANCASHIRE
 }
 
 #Valentia
@@ -530,10 +531,10 @@ VAL = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = grand_principality
 	
 	cultures = { briton }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_LANCASHIRE
 }
 
 #Dublin
@@ -542,10 +543,10 @@ DUB = {
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = grand_principality
 	
 	cultures = { briton }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_LEINSTER
 }
 
 #Ireland
@@ -645,7 +646,7 @@ FOU = {
 	tier = principality
 	
 	cultures = { saxon }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_MECKLENBERG
 }
 
 #Frisia
@@ -653,10 +654,11 @@ FRI = {
 	color = { 165 89 27 }
 	
 	country_type = recognized
-	tier = kingdom #placeholder
+	
+	tier = kingdom
 	
 	cultures = { frisian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_FRIESLAND
 }
 
 #Hamburg
@@ -669,18 +671,6 @@ HAM = {
 	
 	cultures = { saxon }
 	capital = STATE_ELBE
-}
-
-#Kiel
-KIE = {
-	color = { 149 178 127 }
-	
-	country_type = recognized
-
-	tier = kingdom #placeholder
-	
-	cultures = { saxon danish }
-	capital = STATE_GALLAECIA #placeholder
 }
 
 #Lubeck
@@ -704,12 +694,12 @@ MAG = {
 	tier = principality
 	
 	cultures = { saxon }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_ANHALT
 }
 
 #Munster
 MUN = {
-	color = { 0 0 0 } #placeholder
+	color = { 100 80 0 }
 	
 	country_type = recognized
 
@@ -717,7 +707,7 @@ MUN = {
 	
 	cultures = { saxon }
 	religion = protestant
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_WESTPHALIA
 }
 
 #Oboritia
@@ -729,19 +719,19 @@ OBO = {
 	tier = principality
 	
 	cultures = { sorbian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_BRANDENBURG
 }
 
 #Osnabruck
 OSN = {
-	color = { 0 0 0 } #placeholder
+	color = { 32 32 32 }
 	
 	country_type = recognized
 
-	tier = kingdom #placeholder
+	tier = city_state
 	
 	cultures = { saxon }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_HANNOVER
 }
 
 #Rostock
@@ -753,7 +743,7 @@ ROS = {
 	tier = city_state
 	
 	cultures = { saxon }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_MECKLENBERG
 }
 
 #Stettin
@@ -765,7 +755,7 @@ STE = {
 	tier = city_state
 	
 	cultures = { saxon }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_MECKLENBERG
 }
 
 #Wismar
@@ -777,7 +767,7 @@ WIS = {
 	tier = city_state
 	
 	cultures = { saxon }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_MECKLENBERG
 }
 
 #Cologne
@@ -826,7 +816,7 @@ MAI = {
 	tier = city_state
 	
 	cultures = { franconian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_HESSE
 }
 
 #Nassau
@@ -850,7 +840,7 @@ THU = {
 	tier = kingdom
 	
 	cultures = { franconian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_THURINGIA
 }
 
 #Wurzburg
@@ -863,7 +853,7 @@ WRZ = {
 	
 	cultures = { franconian }
 	religion = catholic
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_HESSE
 }
 
 #Baden
@@ -894,19 +884,19 @@ BAV = {
 
 #Augsburg
 AUG = {
-	color = { 0 0 0 } #placeholder
+	color = { 112 224 23 }
 	
 	country_type = recognized
 
 	tier = principality
 	
 	cultures = { bavarian }
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_BAVARIA
 }
 
 #Nuremberg
 NUR = {
-	color = { 0 0 0 } #placeholder
+	color = { 228 97 0 }
 	
 	country_type = recognized
 
@@ -914,7 +904,7 @@ NUR = {
 	
 	cultures = { bavarian }
 	religion = protestant
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_FRANCONIA
 }
 
 #Lombardy
@@ -954,7 +944,7 @@ ALS = {
 	
 	cultures = { bavarian }
 	religion = protestant
-	capital = STATE_GALLAECIA #placeholder
+	capital = STATE_ALSACE_LORRAINE
 }
 
 #Sigmaringen
@@ -1004,3 +994,5 @@ NET = {
 	cultures = { dutch }
 	capital = STATE_HOLLAND
 }
+
+#Bergen

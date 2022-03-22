@@ -372,6 +372,48 @@ DOR = {
 	ai_will_do = { always = no }
 }
 
+LUB = {
+	provinces = { x60809F }
+	
+	ai_will_do = { always = no }
+}
+
+MAG = {
+	provinces = { xA080E0 }
+	
+	ai_will_do = { always = no }
+}
+
+AUG = {
+	provinces = { x565185 xC347B1 x704A5F x18A2E1 }
+	
+	ai_will_do = { always = no }
+}
+
+NUR = {
+	provinces = { xD0C0A0 }
+	
+	ai_will_do = { always = no }
+}
+
+WUR = {
+	states = { STATE_WURTTEMBERG }
+	
+	ai_will_do = { always = no }
+}
+
+MUN = {
+	provinces = { x1DD141 }
+	
+	ai_will_do = { always = no }
+}
+
+OSN = {
+	provinces = { x4D62A0 }
+	
+	ai_will_do = { always = no }
+}
+
 IRE = {
 	use_culture_states = yes
 	
@@ -836,12 +878,6 @@ COS = {
 
 FRM = {
 	provinces = { x11C0A0 }
-	
-	ai_will_do = { always = no }
-}
-
-LUB = {
-	provinces = { x60809F }
 	
 	ai_will_do = { always = no }
 }

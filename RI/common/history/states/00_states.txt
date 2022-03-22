@@ -6220,12 +6220,7 @@
 		
 		create_state = {
 			country = c:HAN
-			owned_provinces = { x60809F xBFCC21 x64824C xE000A0 }
-		}
-		
-		create_state = {
-			country = c:KIE
-			owned_provinces = { x00C060 x78B203 xE3C876 }
+			owned_provinces = { x00C060 x78B203 xE3C876 x60809F xBFCC21 x64824C xE000A0 }
 		}
 		
 		add_homeland = saxon

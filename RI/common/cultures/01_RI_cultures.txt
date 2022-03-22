@@ -3096,7 +3096,7 @@ greek={
 }
 
 thracian={
-	color={ 122 180 210 }
+	color={ 225 55 55 }
 	religion = catholic
 	traits = { greek_culture roman_culture_group european_heritage }
 	
