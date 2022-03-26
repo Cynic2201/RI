@@ -525,7 +525,7 @@ balkan={
 	}
 }
 
-rhaetian={
+raetian={
 	color={ 226 93 93 }
 	religion = catholic
 	traits = { roman_culture_group european_heritage }

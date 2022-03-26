@@ -90,6 +90,14 @@
 			country = c:STE
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:BGN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:VSB
+			type = puppet
+		}
 	}
 	
 	c:BRT = {

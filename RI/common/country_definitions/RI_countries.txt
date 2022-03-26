@@ -996,3 +996,199 @@ NET = {
 }
 
 #Bergen
+BGN = {
+	color = { 205 146 23 }
+
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { norwegian } #placeholder
+	capital = STATE_WESTERN_NORWAY
+}
+
+#Norway
+NOR = {
+	color = { 117  165  188 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures= { norwegian alban danish }
+	capital = STATE_EASTERN_NORWAY
+}
+
+#Alba
+SCO = {
+	color = { 176 162 73 } #placeholder
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { alban }
+	capital = STATE_LOWLANDS #placeholder
+}
+
+#Denmark
+DEN = {
+	color = hsv{ 1.01  0.8  0.5 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { danish }
+	capital = STATE_ZEALAND
+}
+
+#Faroe
+FAR = {
+	color = { 239 58 70 } #placeholder
+
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { icelandic }
+	capital = STATE_ICELAND
+}
+
+#Greenland
+GRN = {
+	color = hsv360{ 130 80 52 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { vinlandic inuit }
+	capital = STATE_GREENLAND
+	is_named_from_capital = yes
+}
+
+#Iceland
+ICL = {
+	color = { 62 129 155 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { icelandic }
+	capital = STATE_ICELAND
+	is_named_from_capital = yes
+}
+
+#Lappland
+SMI = {
+	color = { 28 146 136 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { sami }
+	
+	capital = STATE_NORTHERN_NORWAY
+}
+
+#Sweden
+SWE = {
+	color = { 87  130  199 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { swedish }
+	capital = STATE_SVEALAND
+}
+
+#Finland
+FIN = {
+	color = { 205  212  228 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { finnish }
+	capital = STATE_SOUTHERN_FINLAND
+}
+
+#Scania
+SCN = {
+	color = { 251  161  22 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { swedish }
+	capital = STATE_SCANIA
+	is_named_from_capital = yes
+}
+
+#Visby
+VSB = {
+	color = { 255 0 1 }
+
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { swedish saxon }
+	capital = STATE_GOTLAND
+}
+
+#Moravia
+MRV = {
+	color = { 190 164 47 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { moravian bohemian silesian } #placeholder
+	capital = STATE_MORAVIA
+}
+
+#Bohemia
+BOH = {
+	color = { 161 139 40 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { czech }	
+	capital = STATE_BOHEMIA
+	is_named_from_capital = yes
+}
+
+#Meissen
+MES = {
+	color = { 93 150 74 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { sorbian }
+	capital = STATE_SAXONY
+}
+
+#Sorbia
+SRB = {
+	color = { 140 65 105 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { sorbian }
+	capital = STATE_BRANDENBURG
+}
+

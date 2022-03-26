@@ -602,7 +602,7 @@
 				size = 124000
 			}
 			create_pop = {
-				culture = rhaetian
+				culture = raetian
 				size = 107800
 			}
 			create_pop = {

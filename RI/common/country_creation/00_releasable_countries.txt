@@ -414,6 +414,18 @@ OSN = {
 	ai_will_do = { always = no }
 }
 
+FAR = {
+	provinces = { x8B7790 }
+	
+	ai_will_do = { always = no }
+}
+
+MES = {
+	states = { STATE_SAXONY }
+	
+	ai_will_do = { always = no }
+}
+
 IRE = {
 	use_culture_states = yes
 	
