@@ -2560,7 +2560,7 @@ DER_fascist = {
 	}
 }
 
-BRY_monarchy = {
+CMB_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	
@@ -2577,7 +2577,7 @@ BRY_monarchy = {
 	}
 }
 
-BRY_theocracy = {
+CMB_theocracy = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -2587,7 +2587,7 @@ BRY_theocracy = {
 	}		
 }
 
-BRY = {
+CMB = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -2598,7 +2598,7 @@ BRY = {
 	}			
 }
 
-BRY_communist = {
+CMB_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 	color2 = "red"
@@ -2615,7 +2615,7 @@ BRY_communist = {
 	}			
 }
 
-BRY_fascist = {		
+CMB_fascist = {		
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -5218,4 +5218,616 @@ SRB_fascist = {
 		color2 = "black"
 		color3 = "red_light"
 	}	
+}
+
+KSH = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow_light"
+	}	
+}
+
+KSH_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_griffon.dds"
+		color1 = "black"
+		color2 = "yellow_light"
+		color3 = "yellow_light"
+	}	
+}
+
+POL = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_shield_accolade.dds"
+		color1 = "red"
+		instance = { scale = { 0.62 0.58 } position = { 0.5 0.24 } }		
+	}	
+		
+	colored_emblem = {
+		texture = "ce_eagle_crown.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.24 } }
+	}	
+}
+
+POL_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red"
+	}
+}
+
+POL_absolute_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+	
+    textured_emblem = {
+		texture = "te_poland.dds"
+	}
+}
+
+POL_fascist = {		
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_falanga.dds"
+		color1 = "red_light"
+	}
+}
+
+CRO_dictatorship = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "white"
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_checker_05.dds"
+		color1 = "blue"
+		instance = { scale = { 1.225 0.8 }}
+	}	
+}
+
+CRO = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_lion_rampant_forked_crowned.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "yellow"
+	}	
+}
+
+CRO_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue"
+	}	
+}
+
+VST = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_stripes_05.dds"
+		color1 = "red_light"
+	}	
+}
+
+BRS = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_fess_fimbriated.dds"
+		color1 = "red_light"
+		color2 = "white"
+	}	
+}
+
+DZG_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.48 } }	
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.78 } }				
+	}
+	colored_emblem = {
+		texture = "ce_crown_simple.dds"
+		color1 = "yellow"
+		color2 = "azure"
+		color3 = "white"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.22 } }			
+	}		
+}
+
+DZG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.70 } }	
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.30 } }			
+	}	
+}
+
+KGB = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red_light"
+	}	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.75 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "red_light"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.25 } }				
+	}	
+}
+
+KGB_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red_light"
+	}	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.75 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_crown_swedish.dds"
+		color1 = "red_light"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.25 } }				
+	}	
+}
+
+KGB_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "black"
+	}	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "red_light"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.75 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "black"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.25 } }				
+	}	
+}
+
+KGB_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.75 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "yellow_light"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.25 } }				
+	}	
+}
+
+RIG = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		instance = { scale = { 0.85 0.85 } }				
+	}
+}
+
+RIG_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "red_light"
+		instance = { scale = { 0.85 0.85 } }				
+	}
+}
+
+RUT_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+	}
+}
+
+RUT_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue_light"
+        instance = { scale = { 1.0 0.33 } position = { 0.5 0.835 }}	
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = "yellow"
+		instance = { position = { 0.25 0.33 } scale = { 0.5 0.5 }}
+	}	
+}
+
+RUT_anarchist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_blackarmy.dds"
+		color1 = "white"
+	}
+}
+
+RUT_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_tridentUKR.dds"
+		color1 = "red_light"
+	}
+}
+
+RUT_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_tridentUKR.dds"
+		color1 = "yellow"
+	}
+}
+
+RUT = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "yellow"
+	}
+}
+
+MZV = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "white"
+		color2 = "yellow_dark"
+		color3 = "white"
+	}
+}
+
+MZV_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red"
+	}
+}
+
+VAR = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+
+	colored_emblem = {
+		texture = "ce_avarhorse.dds"
+		color1 = "black"
+	}
+}
+
+VAR_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_avarfascist.dds"
+		color1 = "red_light"
+	}
+}
+
+VAR_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "red_light"
+	}
+	
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "white"
+		instance = { position = { 0 0.5 } }
+	}
+}
+
+TIA = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_bicolor_right.dds"
+		color1 = "red_light"
+	}
+	
+	colored_emblem = {
+		texture = "ce_dragohead.dds"
+		color1 = "yellow_light"
+	}
+}
+
+TIA_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_drago.dds"
+		color1 = "red_light"
+	}
+}
+
+TIA_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_drago.dds"
+		color1 = "yellow"
+		instance = {position = { 0.6 0.5 }}
+	}
+	
+	colored_emblem = {
+		texture = "ce_stripe_bottom_raised.dds"
+		color1 = "yellow"
+		instance = {rotation = 90 scale = { 0.5 1 } position = { 0.33 0.5 }}
+	}
+}
+
+TIA_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "orange"
+		color2 = "black"
+	}
+	
+	colored_emblem = {
+		texture = "ce_drago.dds"
+		color1 = "black"
+	}
+}
+
+MUS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_muscovy.dds"
+	}
+}
+
+MUS_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "black"
+		color2 = "white"
+	}
+}
+
+NOV = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "revolutionary_blue"
+		instance = {scale = { 1 1.25 }}
+	}
+}
+
+NOV_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_horse_nov.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+}
+
+NOV_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_horse_nov.dds"
+		color1 = "red_light"
+		color2 = "black"
+	}
+}
+
+NOV_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_castle_nov.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = {scale = { 0.9 0.9 }}
+	}
+}
+
+RYA = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	textured_emblem = {
+		texture = "te_ryazan.dds"
+	}
+}
+
+RYA_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_ryazanfas.dds"
+		color1 = "red_light"
+	}
+}
+
+RYA_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "red_light"
+	}
+}
+
+SMO = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_bear_smo.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+}
+
+SMO_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_fess_fimbriated.dds"
+		color1 = "red_light"
+		color2 = "yellow_light"
+		instance = { position = { 0.5 0.7 } scale = { 1 1.25 }}
+	}
+	
+	colored_emblem = {
+		texture = "ce_hammer_and_sickle.dds"
+		color1 = "yellow_light"
+		instance = { position = { 0.175 0.275 } scale = { 0.5 0.5 }}
+	}
+}
+
+SMO_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_cannon_smo.dds"
+		color1 = "yellow"
+		color2 = "black"
+		color3 = "red"
+	}
+}
+
+SMO_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_cannon_smo.dds"
+		color1 = "red_light"
+		color2 = "white"
+		color3 = "red_light"
+	}
+}
+
+TVE = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "red_light"
+		instance = {scale = { 1 1.2 }}
+	}
+}
+
+VLA = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_lion_vla.dds"
+		color1 = "yellow"
+	}
 }

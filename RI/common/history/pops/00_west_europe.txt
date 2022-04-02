@@ -220,7 +220,7 @@
 		}
 	}
 	s:STATE_WALES = {
-		region_state:BRY = {
+		region_state:CMB = {
 			create_pop = {
 				culture = briton
 				size = 778557
@@ -266,7 +266,7 @@
 		}
 	}
 	s:STATE_MIDLANDS = {
-		region_state:BRY = {
+		region_state:CMB = {
 			create_pop = {
 				culture = briton
 				size = 1040802
@@ -290,7 +290,7 @@
 		}
 	}
 	s:STATE_WEST_COUNTRY = {
-		region_state:BRY = {
+		region_state:CMB = {
 			create_pop = {
 				culture = briton
 				size = 1369600
@@ -797,6 +797,9 @@
 		}
 	}
 	s:STATE_POMERANIA = {
+		#STE:153k 13%
+		#FOU:458k 40%
+		#POM:538k 47%
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german

@@ -426,6 +426,64 @@ MES = {
 	ai_will_do = { always = no }
 }
 
+KSH = {
+	states = { STATE_WEST_PRUSSIA }
+	
+	ai_will_do = { always = no }
+}
+
+LUS = {
+	states = { STATE_BRANDENBURG }
+	
+	ai_will_do = { always = no }
+}
+
+SLS = {
+	states = { STATE_SILESIA }
+	
+	ai_will_do = { always = no }
+}
+
+CRO = {
+	states = { 
+	STATE_WEST_SLOVAKIA
+	STATE_EAST_SLOVAKIA	
+	}
+	
+	ai_will_do = { always = no }
+}
+
+POL = {
+	states = { STATE_POSEN }
+	
+	ai_will_do = { always = no }
+}
+
+VST = {
+	states = { STATE_WEST_GALICIA }
+	
+	ai_will_do = { always = no }
+}
+
+TIA = {
+	states = {
+	STATE_EASTERN_TRANSYLVANIA
+	STATE_WESTERN_TRANSYLVANIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BLK = {
+	states = {
+	STATE_MOLDAVIA
+	STATE_BESSARABIA
+	STATE_EAST_GALICIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
 IRE = {
 	use_culture_states = yes
 	
@@ -585,14 +643,6 @@ JAN = {
 	ai_will_do = { always = no }
 }
 
-POL = {
-	use_culture_states = yes
-	
-	required_num_states = 3
-
-	ai_will_do = { always = no }
-}
-
 UKR = {
 	use_culture_states = yes
 	
@@ -602,9 +652,6 @@ UKR = {
 }
 
 GAL = {
-	states = { STATE_EAST_GALICIA STATE_WEST_GALICIA }
-	
-	ai_will_do = { always = no }
 }
 
 HUN = {
@@ -625,12 +672,6 @@ ROM = {
 
 BOH = {
 	states = { STATE_BOHEMIA STATE_MORAVIA }
-
-	ai_will_do = { always = no }
-}
-
-CRO = {
-	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
@@ -684,22 +725,7 @@ HES = {
 	states = { STATE_HESSE }
 	
 	ai_will_do = { always = no }
-}
-
-PRU = {
-	states = { 
-		STATE_BRANDENBURG
-		STATE_POMERANIA
-		STATE_WEST_PRUSSIA
-		STATE_EAST_PRUSSIA
-		STATE_SILESIA
-		STATE_POSEN
-	}
-
-	required_num_states = 3
-	
-	ai_will_do = { always = no }
-}
+}	
 
 JAP = {
 	use_culture_states = yes

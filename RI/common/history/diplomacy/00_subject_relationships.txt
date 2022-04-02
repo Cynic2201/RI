@@ -98,6 +98,18 @@
 			country = c:VSB
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:RIG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:KGB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:DZG
+			type = puppet
+		}
 	}
 	
 	c:BRT = {
@@ -110,7 +122,7 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:BRY
+			country = c:CMB
 			type = puppet
 		}
 		create_diplomatic_pact = {
@@ -126,4 +138,50 @@
 			type = dominion
 		}
 	}
+	
+	c:SWE = {
+		create_diplomatic_pact = {
+			country = c:LIV
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:EST
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NOV
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ING
+			type = puppet
+		}
+	}
+	
+	c:RUT = {
+		create_diplomatic_pact = {
+			country = c:MZV
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SMO
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:TVE
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:MUS
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:VLA
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:RYA
+			type = customs_union
+		}
+	}			
 }

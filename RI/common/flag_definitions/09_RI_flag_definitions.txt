@@ -1327,16 +1327,16 @@ DER = { #Deira
 	}
 }
 
-BRY = { #Brythonia
+CMB = { #Cambria
 	flag_definition = {
-		coa = BRY
-		subject_canton = BRY
+		coa = CMB
+		subject_canton = CMB
 		priority = 1
 	}
 	
 	flag_definition = {
-		coa = BRY_theocracy
-		subject_canton = BRY_theocracy
+		coa = CMB_theocracy
+		subject_canton = CMB_theocracy
 		priority = 10
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
@@ -1344,8 +1344,8 @@ BRY = { #Brythonia
 	}
 	
 	flag_definition = {
-		coa = BRY_monarchy
-		subject_canton = BRY_monarchy
+		coa = CMB_monarchy
+		subject_canton = CMB_monarchy
 		priority = 10
 		trigger = { 
 			coa_def_monarchy_flag_trigger = yes
@@ -1353,8 +1353,8 @@ BRY = { #Brythonia
 	}
 	
 	flag_definition = {
-		coa = BRY_communist
-		subject_canton = BRY_communist
+		coa = CMB_communist
+		subject_canton = CMB_communist
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
@@ -1362,8 +1362,8 @@ BRY = { #Brythonia
 	}
 	
 	flag_definition = {
-		coa = BRY_fascist
-		subject_canton = BRY_fascist
+		coa = CMB_fascist
+		subject_canton = CMB_fascist
 		priority = 1500
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
@@ -2880,6 +2880,464 @@ SRB = { #Sorbia
 		priority = 1500
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+KSH = { #Kashubia
+	flag_definition = {
+		coa = KSH
+		subject_canton = KSH
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = KSH_monarchy
+		subject_canton = KSH_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+
+POL = { #Poland
+	flag_definition = {
+		coa = POL
+		subject_canton = POL
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = POL_republic
+		subject_canton = POL_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = POL_absolute_monarchy
+		subject_canton = POL_absolute_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = POL_fascist
+		subject_canton = POL_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+SIL = { #Silesia
+	flag_definition = {
+		coa = SIL
+		subject_canton = SIL
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = SIL_republic
+		subject_canton = SIL_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+CRO = { #Chrobatia
+	flag_definition = {
+		coa = CRO
+		subject_canton = CRO
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = CRO_republic
+		subject_canton = CRO_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = CRO_dictatorship
+		subject_canton = CRO_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+}
+
+VST = { #Vistula
+	flag_definition = {
+		coa = VST
+		subject_canton = VST
+		priority = 1
+	}
+}
+
+BRS = { #Borussaia
+	flag_definition = {
+		coa = BRS
+		subject_canton = BRS
+		priority = 1
+	}
+}
+
+DZG = { #Danzig
+	flag_definition = {
+		coa = DZG
+		subject_canton = DZG
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = DZG_monarchy
+		subject_canton = DZG_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = DZG_oligarchy
+		subject_canton = DZG_oligarchy
+		priority = 20
+		trigger = { 
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+}
+
+KGB = { #Konigsberg
+	flag_definition = {
+		coa = KGB
+		subject_canton = KGB
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = KGB_monarchy
+		subject_canton = KGB_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = KGB_fascist
+		subject_canton = KGB_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = KGB_communist
+		subject_canton = KGB_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+RIG = { #Riga
+	flag_definition = {
+		coa = RIG
+		subject_canton = RIG
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = RIG_fascist
+		subject_canton = RIG_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+RUT = { #Ruthenia
+	flag_definition = {
+		coa = RUT
+		subject_canton = RUT
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = RUT_republic
+		subject_canton = RUT_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = RUT_fascist
+		subject_canton = RUT_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = RUT_communist
+		subject_canton = RUT_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = RUT_anarchist
+		subject_canton = RUT_anarchist
+		priority = 15000
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = RUT_dictatorship
+		subject_canton = RUT_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+}
+
+MZV = { #Mazovia
+	flag_definition = {
+		coa = MZV
+		subject_canton = MZV
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = MZV_republic
+		subject_canton = MZV_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+VAR = { #Varchonia
+	flag_definition = {
+		coa = VAR
+		subject_canton = VAR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = VAR_republic
+		subject_canton = VAR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = VAR_fascist
+		subject_canton = VAR_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+TIA = { #Traiana
+	flag_definition = {
+		coa = TIA
+		subject_canton = TIA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = TIA_republic
+		subject_canton = TIA_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = TIA_fascist
+		subject_canton = TIA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = TIA_communist
+		subject_canton = TIA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+MUS = { #Muscovy
+	flag_definition = {
+		coa = MUS
+		subject_canton = MUS
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = MUS_republic
+		subject_canton = MUS_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+NOV = { #Novgorod
+	flag_definition = {
+		coa = NOV
+		subject_canton = NOV
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = NOV_dictatorship
+		subject_canton = NOV_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = NOV_fascist
+		subject_canton = NOV_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = NOV_monarchy
+		subject_canton = NOV_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+
+RYA = { #Ryazan
+	flag_definition = {
+		coa = RYA
+		subject_canton = RYA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = RYA_republic
+		subject_canton = RYA_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = RYA_fascist
+		subject_canton = RYA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+SMO = { #Smolensk
+	flag_definition = {
+		coa = SMO
+		subject_canton = SMO
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = SMO_dictatorship
+		subject_canton = SMO_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SMO_communist
+		subject_canton = SMO_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SMO_fascist
+		subject_canton = SMO_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+TVE = { #Tver
+	flag_definition = {
+		coa = TVE
+		subject_canton = TVE
+		priority = 1
+	}
+}
+
+VLA = { #Vladimir
+	flag_definition = {
+		coa = VLA
+		subject_canton = VLA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = VLA_communist
+		subject_canton = VLA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
 		}
 	}
 }

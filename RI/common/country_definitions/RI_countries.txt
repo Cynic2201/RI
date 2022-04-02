@@ -501,8 +501,8 @@ DER = {
 	capital = STATE_YORKSHIRE
 }
 
-#Brythonia
-BRY = {
+#Cambria
+CMB = {
 	color = { 72 68 148 }
 	
 	country_type = recognized
@@ -513,7 +513,7 @@ BRY = {
 	capital = STATE_WEST_COUNTRY
 }
 
-#Manx
+#Mann
 MAN = {	
 	color = { 90 86 160 }
 	
@@ -1151,7 +1151,7 @@ MRV = {
 
 	tier = kingdom
 	
-	cultures = { moravian bohemian silesian } #placeholder
+	cultures = { moravian bohemian silesian }
 	capital = STATE_MORAVIA
 }
 
@@ -1192,3 +1192,292 @@ SRB = {
 	capital = STATE_BRANDENBURG
 }
 
+#Kashubia
+KSH = {
+	color = { 161 97 97 }	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { polish }
+	capital = STATE_WEST_PRUSSIA
+}
+
+#Lusatia
+LUS = {
+	color = { 87 81 88 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { sorbian }
+	capital = STATE_BRANDENBURG
+}
+
+#Poland
+POL = {
+	color = { 197 92 106 }
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { polish }
+	capital = STATE_POSEN
+}
+
+#Pomerania
+POM = {
+	color = { 177 51 34 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { polish }
+	capital = STATE_POMERANIA
+}
+
+#Silesia (ERROR)
+SLS = {
+	color = { 74 118 65 }	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { silesian }
+	capital = STATE_SILESIA
+}
+
+#Chrobatia
+CRO = {
+	color = { 174 227 95 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { croat }
+	capital = STATE_WEST_SLOVAKIA
+}
+
+#Vistula
+VST = {
+	color = { 127 92 165 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { polish }
+	capital = STATE_WEST_GALICIA
+}
+
+#Borussaia
+BRS = {
+	color = { 0 49 83 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { borussai }
+	capital = STATE_EAST_PRUSSIA
+}
+
+#Danzig
+DZG = {
+	color = { 78 129 151 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { saxon }
+	capital = STATE_WEST_PRUSSIA
+}
+
+#Konigsberg
+KGB = {
+	color = { 0 118 190 }	
+	country_type = recognized
+	
+	tier = city_state
+	
+	cultures = { saxon }
+	capital = STATE_EAST_PRUSSIA
+}
+
+#Riga
+RIG = {
+	color = { 183 176 194 }	
+	country_type = recognized
+	
+	tier = city_state
+	
+	cultures = { saxon }
+	capital = STATE_LATVIA
+}
+
+#Ruthenia
+RUT = {
+	color = { 86 144 75 }	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { ruthenian }
+	capital = STATE_KIEV
+}
+
+#Aestia
+LIT = {
+	color = { 115 23 62 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { lithuanian }
+	capital = STATE_LITHUANIA
+}
+
+#Mazovia
+MZV = {
+	color = { 195 149 155 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { polish }
+	capital = STATE_MAZOVIA
+}
+
+#Varchonia
+VAR = {
+	color = { 219 154 160 }	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { avar }
+	capital = STATE_CENTRAL_HUNGARY
+}
+
+#Traiana (ERROR)
+TIA = {
+	color = { 226 95 95 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { dacian }
+	capital = STATE_EASTERN_TRANSYLVANIA
+}
+
+#Bolokhovia (ERROR)
+BLK = {
+	color = { 144 113 114 }
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { bolokhovian }
+	capital = STATE_MOLDAVIA
+}
+
+#Muscovy
+MUS = {
+	color = { 255 201 63 }	
+	country_type = recognized
+	
+	tier = city_state
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+}
+
+#Novgorod
+NOV = {
+	color = { 81 149 210 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_NOVGOROD
+}
+
+#Ryazan
+RYA = {
+	color = { 177 162 83 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+}
+
+#Smolensk
+SMO = {
+	color = { 132 138 50 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_SMOLENSK
+}
+
+#Tver
+TVE = {
+	color = { 137 159 184 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_TVER
+}
+
+#Vladimir
+VLA = {
+	color = { 129 192 118 }	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
+}
+
+#Estonia
+EST = {
+	color = { 47 110 161 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { estonian }
+	capital = STATE_ESTONIA
+	is_named_from_capital = yes
+}
+
+#Ingira
+ING = {
+	color = { 123 174 216 }	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { ugrian }
+	capital = STATE_INGRIA
+}
+
+#Livonia
+LIV = {
+	color = { 31 73 107 }	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { livonian }
+	capital = STATE_LATVIA
+}
