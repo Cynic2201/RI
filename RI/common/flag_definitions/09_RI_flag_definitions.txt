@@ -3341,3 +3341,82 @@ VLA = { #Vladimir
 		}
 	}
 }
+
+EST = { #Estonia
+	flag_definition = {
+		coa = EST
+		subject_canton = EST
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = EST_communist
+		subject_canton = EST_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = EST_dictatorship
+		subject_canton = EST_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+}
+
+LIV = { #Livonia
+	flag_definition = {
+		coa = LIV
+		subject_canton = LIV
+		priority = 100
+	}
+	
+	flag_definition = {
+		coa = LIV_communist
+		subject_canton = LIV_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = LIV_dictatorship
+		subject_canton = LIV_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = LIV_fascist
+		subject_canton = LIV_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = LIV_monarchy
+		subject_canton = LIV_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = LIV_republic
+		subject_canton = LIV_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}

@@ -454,7 +454,7 @@ CRO = {
 }
 
 POL = {
-	states = { STATE_POSEN }
+	use_culture_states = yes
 	
 	ai_will_do = { always = no }
 }

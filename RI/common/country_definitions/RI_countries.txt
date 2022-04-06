@@ -1481,3 +1481,26 @@ LIV = {
 	cultures = { livonian }
 	capital = STATE_LATVIA
 }
+
+
+#Ghassanids
+GHA = {
+	color = { 195 21 83 }	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { arab }
+	capital = STATE_TRANSJORDAN
+}
+
+#Iberia
+IBR = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier = principality #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}

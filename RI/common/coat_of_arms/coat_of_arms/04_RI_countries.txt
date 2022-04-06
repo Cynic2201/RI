@@ -5829,5 +5829,146 @@ VLA = {
 	colored_emblem = {
 		texture = "ce_lion_vla.dds"
 		color1 = "yellow"
+		color2 = "black"
+		color3 = "white"
+	}
+}
+
+VLA_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_lion_vla.dds"
+		color1 = "yellow"
+		color2 = "black"
+		color3 = "white"
+		instance = {position = { 0.66 0.5 }}
+	}
+	
+	colored_emblem = {
+		texture = "ce_bicolor_left_third.dds"
+		color1 = "blue_light"
+		instance = { position = { 0.45 0.5 } scale = { 0.9 1 }}
+	}
+	
+	colored_emblem = {
+		texture = "ce_hammer_and_sickle.dds"
+		color1 = "yellow_light"
+		instance = { position = { 0.15 0.25 } scale = { 0.5 0.5 }}
+	}	
+}
+
+EST = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "black"
+		color2 = "white"
+	}
+}
+
+EST_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant.dds"
+		color1 = "revolutionary_blue"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.8 0.7 } position = { 0.5 0.2 } }
+		instance = { scale = { 0.8 0.7 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.8 0.7 } position = { 0.5 0.8 } }			
+	}
+}
+
+EST_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = "yellow"
+        instance = { scale = { 0.45 0.45 } position = { 0.20 0.25 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_waves_estonia.dds"
+		color1 = "blue"
+		color2 = "white"
+	}	
+}
+
+LIV = {
+	pattern = "pattern_solid.tga"
+	color1 = { 115 0 49 }
+
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "green"
+	}
+	
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+		instance = {scale = { 1 .5 }}
+	}
+}
+
+LIV_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue"
+	}
+	
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+	}
+}
+
+LIV_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "revolutionary_blue"
+
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+	}
+}
+
+LIV_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue"
+	}
+	
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+	}
+	
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red_light"
+		instance = {scale = { 0.66 0.66 }}
+	}
+}
+
+LIV_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_livonia.dds"
 	}
 }
