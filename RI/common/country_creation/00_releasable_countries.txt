@@ -207,6 +207,25 @@ BYZ = {
 	STATE_TRABZON
 	STATE_CRIMEA
 	STATE_CYPRUS
+	STATE_ADANA
+	STATE_KARS
+	STATE_GREATER_CAUCASUS
+	STATE_ALEPPO
+	STATE_SYRIA
+	STATE_TRANSJORDAN
+	STATE_PALESTINE
+	STATE_SINAI
+	STATE_LOWER_EGYPT
+	STATE_MATRUH
+	STATE_MIDDLE_EGYPT
+	STATE_UPPER_EGYPT
+	STATE_EGYPTIAN_DESERT
+	STATE_DONGOLA
+	STATE_LIBYA
+	STATE_LIBYAN_DESERT
+	STATE_KARS
+	STATE_GREATER_CAUCASUS
+	STATE_LEBANON
 	}
 	
 	ai_will_do = { always = no }
@@ -487,6 +506,116 @@ BLK = {
 IRE = {
 	use_culture_states = yes
 	
+	ai_will_do = { always = no }
+}
+
+BIT = {
+	provinces = { 
+	xB0A060
+	xB8FEBB
+	x31CD7B
+	x2F78D7
+	x3020E0
+	x13886D
+	}
+	
+	ai_will_do = { always = no }
+}
+
+CIL = {
+	states = { STATE_ADANA }
+	
+	ai_will_do = { always = no }
+}
+
+ASI = {
+	states = { 
+	STATE_AYDIN
+	STATE_HUDAVENDIGAR
+	STATE_KONYA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ABG = {
+	provinces = { 
+	x73A639
+	x40D001
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GLT = {
+	states = { 
+	STATE_ANKARA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ISA = {
+	provinces = { 
+	xA09060
+	xE8DCC5
+	}
+	
+	ai_will_do = { always = no }
+}
+
+JUD = {
+	states = { 
+	STATE_PALESTINE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+PAL = {
+	states = { 
+	STATE_PALESTINE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ORE = {
+	states = { 
+	STATE_ADANA
+	STATE_ALEPPO
+	STATE_SYRIA
+	STATE_LEBANON
+	STATE_PALESTINE
+	STATE_TRANSJORDAN
+	STATE_PALESTINE
+	STATE_SINAI
+	}
+	
+	ai_will_do = { always = no }
+}
+
+PAL = {
+	states = { STATE_PALESTINE }
+
+	ai_will_do = { always = no }
+}
+
+PHO = {
+	states = {
+		STATE_LEBANON
+	}
+	ai_will_do = { always = no }
+}
+
+PON = {
+	states = {
+		STATE_TRABZON
+		STATE_KASTAMONU
+		STATE_KARS
+		STATE_CRIMEA
+		STATE_GREATER_CAUCASUS
+	}
 	ai_will_do = { always = no }
 }
 
@@ -1247,7 +1376,6 @@ EOT = {
 
 LEB = {
 	states = {
-		STATE_LEBANON
 	}
 	ai_will_do = { always = no }
 }
@@ -1390,21 +1518,6 @@ ISR = {
 
 	possible = {
 		has_technology_researched = pan-nationalism
-	}
-}
-
-PAL = {
-	states = {
-		STATE_PALESTINE
-		STATE_TRANSJORDAN
-	}
-
-	required_num_states = 1
-
-	ai_will_do = { always = no }
-
-	possible = {
-		has_technology_researched = nationalism
 	}
 }
 
