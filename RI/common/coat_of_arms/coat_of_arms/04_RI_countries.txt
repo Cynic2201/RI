@@ -5972,3 +5972,17 @@ LIV_dictatorship = {
 		texture = "te_livonia.dds"
 	}
 }
+
+GHA2 = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+
+	textured_emblem = {
+		texture = "te_ghassanids.dds"
+	}
+}
+
+GHA_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+}

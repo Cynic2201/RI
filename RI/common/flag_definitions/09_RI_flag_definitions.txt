@@ -3372,7 +3372,7 @@ LIV = { #Livonia
 	flag_definition = {
 		coa = LIV
 		subject_canton = LIV
-		priority = 100
+		priority = 1
 	}
 	
 	flag_definition = {
@@ -3401,10 +3401,45 @@ LIV = { #Livonia
 			coa_def_fascist_flag_trigger = yes
 		}
 	}
+
+	flag_definition = {
+		coa = LIV_republic
+		subject_canton = LIV_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+GHA = { #Ghassanids
+	flag_definition = {
+		coa = GHA
+		subject_canton = GHA
+		priority = 1000
+	}
 	
 	flag_definition = {
-		coa = LIV_monarchy
-		subject_canton = LIV_monarchy
+		coa = GHA_communist
+		subject_canton = GHA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = GHA_fascist
+		subject_canton = GHA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = GHA_monarchy
+		subject_canton = GHA_monarchy
 		priority = 10
 		trigger = { 
 			coa_def_monarchy_flag_trigger = yes
@@ -3412,8 +3447,8 @@ LIV = { #Livonia
 	}
 	
 	flag_definition = {
-		coa = LIV_republic
-		subject_canton = LIV_republic
+		coa = GHA_republic
+		subject_canton = GHA_republic
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes

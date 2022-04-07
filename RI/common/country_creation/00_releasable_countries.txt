@@ -533,6 +533,8 @@ ASI = {
 	STATE_AYDIN
 	STATE_HUDAVENDIGAR
 	STATE_KONYA
+	STATE_WEST_AEGEAN_ISLANDS
+	STATE_EAST_AEGEAN_ISLANDS
 	}
 	
 	ai_will_do = { always = no }
@@ -595,9 +597,15 @@ ORE = {
 	ai_will_do = { always = no }
 }
 
-PAL = {
-	states = { STATE_PALESTINE }
-
+SYR = {
+	states = {
+		STATE_SYRIA
+		STATE_ALEPPO
+		STATE_LEBANON
+		STATE_PALESTINE
+		STATE_TRANSJORDAN
+		STATE_DEIR_EZ_ZOR
+	}
 	ai_will_do = { always = no }
 }
 
@@ -1351,18 +1359,6 @@ DON = {
 	states = {
 		STATE_ROSTOV
 		STATE_KUBAN
-	}
-	ai_will_do = { always = no }
-}
-
-SYR = {
-	states = {
-		STATE_SYRIA
-		STATE_ALEPPO
-		STATE_LEBANON
-		STATE_PALESTINE
-		STATE_TRANSJORDAN
-		STATE_DEIR_EZ_ZOR
 	}
 	ai_will_do = { always = no }
 }

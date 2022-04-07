@@ -1572,7 +1572,6 @@ CIL = {
 	capital = STATE_ADANA
 }
 
-
 #Cyprus
 CYP = {
 	color = { 78 75 39 }
@@ -1627,7 +1626,7 @@ ORE = {
 	tier = kingdom
 	
 	cultures = { greek aramaic }
-	capital = STATE_ADANA
+	capital = STATE_ALEPPO
 }
 
 #Palestina
