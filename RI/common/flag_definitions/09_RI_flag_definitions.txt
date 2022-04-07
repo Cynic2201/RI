@@ -3416,7 +3416,16 @@ GHA = { #Ghassanids
 	flag_definition = {
 		coa = GHA
 		subject_canton = GHA
-		priority = 1000
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = GHA_absolute_monarchy
+		subject_canton = GHA_absolute_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
 	}
 	
 	flag_definition = {
@@ -3453,5 +3462,238 @@ GHA = { #Ghassanids
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
+	}
+}
+
+IBR = { #Iberia
+	flag_definition = {
+		coa = IBR
+		subject_canton = IBR
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = IBR_dictatorship
+		subject_canton = IBR_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = IBR_republic
+		subject_canton = IBR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+LAZ = { #Lazica
+	flag_definition = {
+		coa = LAZ
+		subject_canton = LAZ
+		priority = 1
+	}
+}
+
+OSR = { #Osroene
+	flag_definition = {
+		coa = OSR
+		subject_canton = OSR
+		priority = 1
+	}
+}
+
+ASI = { #Asia
+	flag_definition = {
+		coa = ASI
+		subject_canton = ASI
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = ASI_republic
+		subject_canton = ASI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ASI_monarchy
+		subject_canton = ASI_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ASI_dictatorship
+		subject_canton = ASI_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ASI_communist
+		subject_canton = ASI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ABG = { #Abasgia
+	flag_definition = {
+		coa = ABG
+		subject_canton = ABG
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = ABG_republic
+		subject_canton = ABG_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ABG_monarchy
+		subject_canton = ABG_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ABG_fascist
+		subject_canton = ABG_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ABG_communist
+		subject_canton = ABG_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+BIT = { #Bithynia
+	flag_definition = {
+		coa = BIT
+		subject_canton = BIT
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BIT_fascist
+		subject_canton = BIT_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+CIL = { #Cilicia
+	flag_definition = {
+		coa = CIL
+		subject_canton = CIL
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = CIL
+		subject_canton = CIL
+		priority = 100
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CIL_fascist
+		subject_canton = CIL_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+		
+	flag_definition = {
+		coa = CIL_republic
+		subject_canton = CIL_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+CYP = { #Cyprus
+	flag_definition = {
+		coa = CYP
+		subject_canton = CYP
+		priority = 1
+	}
+}
+
+GLT = { #Galatia
+	flag_definition = {
+		coa = GLT
+		subject_canton = GLT
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = GLT_fascist
+		subject_canton = GLT_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = GLT_communist
+		subject_canton = GLT_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+		
+	flag_definition = {
+		coa = GLT_republic
+		subject_canton = GLT_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+JUD = { #Judea
+	flag_definition = {
+		coa = JUD
+		subject_canton = JUD
+		priority = 1
 	}
 }

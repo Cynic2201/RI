@@ -1527,7 +1527,7 @@ OSR = {
 	capital = STATE_DEIR_EZ_ZOR
 }
 
-#Asiana
+#Asia
 ASI = {
 	color = { 13 94 175 }
 	country_type = recognized 
