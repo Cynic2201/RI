@@ -287,6 +287,11 @@ WRE = {
 	STATE_ALENTEJO
 	STATE_ESTREMADURA
 	STATE_ROMAGNA
+	STATE_ALGIERS
+	STATE_TLEMCEN
+	STATE_CONSTANTINE
+	STATE_TUNISIA
+	STATE_TRIPOLI
 	}
 	
 	ai_will_do = { always = no }
@@ -574,9 +579,10 @@ JUD = {
 	ai_will_do = { always = no }
 }
 
-PAL = {
+PLS = {
 	states = { 
 	STATE_PALESTINE
+	STATE_TRANSJORDAN
 	}
 	
 	ai_will_do = { always = no }
@@ -606,6 +612,7 @@ SYR = {
 		STATE_TRANSJORDAN
 		STATE_DEIR_EZ_ZOR
 	}
+	
 	ai_will_do = { always = no }
 }
 
@@ -613,6 +620,7 @@ PHO = {
 	states = {
 		STATE_LEBANON
 	}
+	
 	ai_will_do = { always = no }
 }
 
@@ -624,6 +632,85 @@ PON = {
 		STATE_CRIMEA
 		STATE_GREATER_CAUCASUS
 	}
+	
+	ai_will_do = { always = no }
+}
+
+EGY = {
+	states = {
+		STATE_MATRUH
+		STATE_LIBYA
+		STATE_LOWER_EGYPT
+		STATE_MIDDLE_EGYPT
+		STATE_EGYPTIAN_DESERT
+		STATE_SINAI
+		STATE_UPPER_EGYPT
+		STATE_DONGOLA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+AFR = {
+	states = {
+		STATE_TUNISIA
+		STATE_TRIPOLI
+		STATE_ALGIERS
+		STATE_CONSTANTINE
+		STATE_TLEMCEN
+	}
+	
+	ai_will_do = { always = no }
+}
+
+CYR = {
+	states = { STATE_LIBYA }
+	
+	ai_will_do = { always = no }
+}
+
+MAU = {
+	states = { 
+	STATE_ALGIERS
+	STATE_TLEMCEN
+	}
+	
+	ai_will_do = { always = no }
+}
+
+NUM = {
+	states = { 
+	STATE_CONSTANTINE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+THE = {
+	states = { 
+	STATE_MIDDLE_EGYPT
+	STATE_UPPER_EGYPT
+	STATE_EGYPTIAN_DESERT
+	STATE_DONGOLA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+TRI = {
+	states = { 
+	STATE_TRIPOLI
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ALX = {
+	provinces = { 
+	xA0D020
+	xFA7AAA
+	}
+	
 	ai_will_do = { always = no }
 }
 
@@ -1445,13 +1532,7 @@ DZG = {
 	ai_will_do = { always = no }
 }
 
-EGY = {
-	use_culture_states = yes
-	
-	required_num_states = 3
 
-	ai_will_do = { always = no }
-}
 CZH = {
 	use_culture_states = yes
 	

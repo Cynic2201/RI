@@ -233,7 +233,7 @@ RAE = {
 
 	tier = principality
 	
-	cultures = { rhaetian }
+	cultures = { latin }
 	capital = STATE_EAST_SWITZERLAND
 }
 
@@ -1163,7 +1163,7 @@ BOH = {
 
 	tier = kingdom
 	
-	cultures = { czech }	
+	cultures = { bohemian }	
 	capital = STATE_BOHEMIA
 	is_named_from_capital = yes
 }
@@ -1237,7 +1237,7 @@ POM = {
 	capital = STATE_POMERANIA
 }
 
-#Silesia (ERROR)
+#Silesia
 SLS = {
 	color = { 74 118 65 }	
 	country_type = recognized
@@ -1359,7 +1359,7 @@ VAR = {
 	capital = STATE_CENTRAL_HUNGARY
 }
 
-#Traiana (ERROR)
+#Traiana
 TIA = {
 	color = { 226 95 95 }	
 	country_type = recognized
@@ -1370,7 +1370,7 @@ TIA = {
 	capital = STATE_EASTERN_TRANSYLVANIA
 }
 
-#Bolokhovia (ERROR)
+#Bolokhovia
 BLK = {
 	color = { 144 113 114 }
 	country_type = recognized
@@ -1489,7 +1489,7 @@ GHA = {
 	
 	tier = grand_principality
 	
-	cultures = { arab }
+	cultures = { arabic }
 	religion = nestorian
 	capital = STATE_TRANSJORDAN
 }
@@ -1630,7 +1630,7 @@ ORE = {
 }
 
 #Palestina
-PAL = {
+PLS = {
 	color = { 0 142 76 }
 	country_type = recognized 
 	
@@ -1642,8 +1642,8 @@ PAL = {
 
 #Phonecia
 PHO = {
-	color = { 18 201 27 }
-	country_type = unrecognized
+	color = { 99 3 48 }
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1653,7 +1653,7 @@ PHO = {
 
 #Pontus
 PON = {
-	color = {  } #placeholder
+	color = { 90 147 128 }
 	country_type = recognized 
 	
 	tier = kingdom
@@ -1671,6 +1671,424 @@ SYR = {
 	
 	cultures = { aramaic }
 	capital = STATE_ALEPPO
+}
+
+#Aegyptus
+EGY = {
+	color = { 255 205 155 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { egyptian }
+	capital = STATE_LOWER_EGYPT
+}
+
+#Africa
+AFR = {
+	color = { 30 65 169 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { african }
+	capital = STATE_TUNISIA
+}
+
+#Alexandria
+ALX = {
+	color = { 84 172 222 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { african }
+	capital = STATE_TUNISIA
+}
+
+#Cyrenaica
+CYR = {
+	color = { 34 171 230 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { greek }
+	capital = STATE_LIBYA
+}
+
+#Mauretania
+MAU = {
+	color = { 218 98 98 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { african }
+	capital = STATE_ALGIERS
+}
+
+#Numidia
+NUM = {
+	color = { 220 202 96 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { african }
+	capital = STATE_CONSTANTINE
+}
+
+#Thebia
+THE = {
+	color = { 225 194 36 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { egyptian }
+	capital = STATE_MIDDLE_EGYPT
+}
+
+#Tripolitania
+TRI = {
+	color = { 180 137 148 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { african }
+	capital = STATE_TRIPOLI
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
 }
 
 #

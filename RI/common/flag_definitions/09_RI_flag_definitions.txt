@@ -3679,14 +3679,13 @@ GLT = { #Galatia
 			coa_def_communist_flag_trigger = yes
 		}
 	}
-		
+}
+
+ISA = { #Isauria
 	flag_definition = {
-		coa = GLT_republic
-		subject_canton = GLT_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
+		coa = ISA
+		subject_canton = ISA
+		priority = 1
 	}
 }
 
@@ -3695,5 +3694,231 @@ JUD = { #Judea
 		coa = JUD
 		subject_canton = JUD
 		priority = 1
+	}
+}
+
+PLS = { #Palestinia
+	flag_definition = {
+		coa = PLS
+		subject_canton = PLS
+		priority = 1
+	}
+}
+
+PHO = { #Phonecia
+	flag_definition = {
+		coa = PHO
+		subject_canton = PHO
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = PHO_monarchy
+		subject_canton = PHO_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = PHO_fascist
+		subject_canton = PHO_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = PHO_communist
+		subject_canton = PHO_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+PON = { #Pontus
+	flag_definition = {
+		coa = PON
+		subject_canton = PON
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = PON_monarchy
+		subject_canton = PON_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = PON_fascist
+		subject_canton = PON_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+SYR = { #Syria
+	flag_definition = {
+		coa = SYR
+		subject_canton = SYR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = SYR_republic
+		subject_canton = SYR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SYR_fascist
+		subject_canton = SYR_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = SYR_communist
+		subject_canton = SYR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+EGY = { #Aegyptus
+	flag_definition = {
+		coa = EGY
+		subject_canton = EGY
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = EGY_republic
+		subject_canton = EGY_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = EGY_dictatorship
+		subject_canton = EGY_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = EGY_communist
+		subject_canton = EGY_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+AFR = { #Africa
+	flag_definition = {
+		coa = AFR
+		subject_canton = AFR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = AFR_republic
+		subject_canton = AFR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = AFR_fascist
+		subject_canton = AFR_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = AFR_communist
+		subject_canton = AFR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ALX = { #Alexandria
+	flag_definition = {
+		coa = ALX
+		subject_canton = ALX
+		priority = 1
+	}
+}
+
+CYR = { #Cyrenaica
+	flag_definition = {
+		coa = CYR
+		subject_canton = CYR
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = CYR_republic
+		subject_canton = CYR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = CYR_fascist
+		subject_canton = CYR_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = CYR_communist
+		subject_canton = CYR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = CYR_dictatorship
+		subject_canton = CYR_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
 	}
 }
