@@ -293,7 +293,7 @@ VAS = {
 
 	tier = principality
 	
-	cultures = { basque }
+	cultures = { vasconian }
 	capital = STATE_NAVARRA
 }
 
@@ -455,7 +455,7 @@ THR = {
 
 #Britannia
 BRT = {
-	color = { 11 0 203 }
+	color = { 59 50 203 }
 	
 	country_type = recognized
 
@@ -1096,7 +1096,7 @@ SMI = {
 
 #Sweden
 SWE = {
-	color = { 87  130  199 }
+	color = { 87 130 199 }
 	
 	country_type = recognized
 
@@ -1145,7 +1145,7 @@ VSB = {
 
 #Moravia
 MRV = {
-	color = { 190 164 47 }
+	color = { 151 139 40 }
 
 	country_type = recognized
 
@@ -1339,7 +1339,7 @@ LIT = {
 
 #Mazovia
 MZV = {
-	color = { 195 149 155 }	
+	color = { 100 167 87 }	
 	country_type = recognized
 	
 	tier = grand_principality
@@ -1717,8 +1717,8 @@ CYR = {
 	capital = STATE_LIBYA
 }
 
-#Mauretania
-MAU = {
+#Caesariensis
+CAE = {
 	color = { 218 98 98 }
 	country_type = recognized 
 	
@@ -1761,158 +1761,436 @@ TRI = {
 	capital = STATE_TRIPOLI
 }
 
-#
- = {
-	color = {  } #placeholder
+#Alania
+ALA = {
+	color = { 115 152 43 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { alan }
+	capital = STATE_DAGESTAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Avaria
+AVA = {
+	color = { 94 86 159 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { avar }
+	capital = STATE_DAGESTAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Bulgaria
+BUL = {
+	color = { 116 107 140 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { bulgarian }
+	capital = STATE_KUBAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Khazaria
+KHA = {
+	color = { 150 179 213 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { khazarian }	
+	capital = STATE_DAGESTAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Magyaria
+MGY = {
+	color = { 152 85 92 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { hungarian }
+	capital = STATE_ASTRAKHAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Kalmykia
+KLM = {
+	color = { 83 81 94 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { kalmyk }
+	capital = STATE_ASTRAKHAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Kazania
+KZN = {
+	color = { 11 115 39 } #placeholder
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { tatar }
+	capital = STATE_KAZAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Kursk
+KRS = {
+	color = { 178 113 97 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = grand_principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { ruthenian }
+	capital = STATE_KURSK
 }
 
-#
- = {
-	color = {  } #placeholder
+#Sibir
+SBR = {
+	color = { 104 177 234 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { siberian }
+	capital = STATE_URAL
 }
 
-#
- = {
-	color = {  } #placeholder
+#Altava
+ALV = {
+	color = { 233 114 56 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { african berber }
+	capital = STATE_TLEMCEN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Vandalia
+VAN = {
+	color = { 104 150 154 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { vandal maghrebi }
+	capital = STATE_AL_RIF
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
+#Mauretania
+MAU = {
+	color = { 224 146 113 }
+	country_type = recognized
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { maghrebi berber }
+	capital = STATE_FEZ
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
+#Mali
+MLI = {
+	color = { 213 213 141 }
+	country_type = unrecognized 
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	tier = empire
+
+	cultures = { bambara fulbe }
+	capital = STATE_GUINEA
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
+#Fulo
+FUL = {
+	color = { 224 150 76 }
+	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { fulbe wolof }
+	capital = STATE_SENEGAL
+}
+
+#Songhai
+SGH = {
+	color = { 97 200 168 } #placeholder
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { songhai }
+	capital = STATE_TIMBUKTU
+}
+
+#Massina
+MSN = {
+	color = { 230 231 62 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { fulbe }
+	capital = STATE_EASTERN_MALI
+}
+
+#Adagh
+ADG = {
+	color = { 215 132 165 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tuareg }
+	capital = STATE_TIMBUKTU
+}
+
+#Ahaggar
+AHG = {
+	color = { 138 168 70 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tuareg }
+	capital = STATE_EAST_SAHARA
+}
+
+#Air
+AIR = {
+	color = { 30 31 162 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tuareg }
+	capital = STATE_NIGER
+}
+
+#Oualata
+OUA = {
+	color = { 113 95 122 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { maures }
+	capital = STATE_INNER_MAURITANIA
+}
+
+#Tibesti
+TBI = {
+	color = { 220 210 97 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { teda }
+	capital = STATE_CHAD
+}
+
+#Tuat
+TUA = {
+	color = { 142 88 74 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tuareg }
+	capital = STATE_SAHARA
+}
+
+#Ashanti
+ASH = {
+	color = { 97 98 195 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { akan }
+	capital = STATE_GHANA
+}
+
+#Benin
+BEN = {
+	color = { 110 173 129 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { edo }
+	capital = STATE_BENIN
+}
+
+#Bornu
+BOR = {
+	color = { 30 131 162 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kanuri }
+	capital = STATE_BORNU
+}
+
+#Dahomey
+DAH = {
+	color = { 11 84 179 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { fon }
+	capital = STATE_DAHOMEY
+}
+
+#Damagaram
+HAU = {
+	color = { 225 185 85 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { hausa }
+	capital = STATE_OUTER_HAUSALAND
+}
+
+#Igbo
+IBO = {
+	color = { 60 60 60 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { ibo }
+	capital = STATE_NIGER_DELTA
+}
+
+#Oyo
+OYO = {
+	color = { 211 184 179 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { yoruba }
+	capital = STATE_YORUBA_STATES
+}
+
+#Sokoto
+SOK = {
+	color = { 0 135 81 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { hausa fulbe }
+	capital = STATE_HAUSALAND
+}
+
+#Anyi
+AYI = {
+	color = { 131 210 34 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { akan }
+	capital = STATE_IVORY_COAST
+}
+
+#Baule
+BLE = {
+	color = { 218 104 44 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { akan }
+	capital = STATE_WINDWARD_COAST
+}
+
+#Ewe
+EWE = {
+	color = { 210 34 131 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { ewe }
+	capital = STATE_TOGO
+}
+
+#Jolof
+JLF = {
+	color = { 215  215  125 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { wolof }
+	capital = STATE_SENEGAL
+}
+
+#Kaabu
+KBU = {
+	color = { 101 63 41 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { mande }
+	religion = animist
+	capital = STATE_GAMBIA
+}
+
+#Kabadougou
+KBD = {
+	color = { 117 36 54 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { mande }
+	capital = STATE_WINDWARD_COAST
+}
+
+#Kong
+KNG = {
+	color = { 137 98 195 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { dyula senufo }
+	capital = STATE_IVORY_COAST
+}
+
+#Kru
+KRU = {
+	color = { 94 168 142 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { kru }
+	capital = STATE_WINDWARD_COAST
+}
+
+#Mossi
+MOS = {
+	color = { 27 128 45 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { mossi }
+	capital = STATE_VOLTA
 }
 
 #
