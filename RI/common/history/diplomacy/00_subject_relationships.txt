@@ -40,6 +40,26 @@
 			country = c:PNN
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:GHA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OSR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ARM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:IBR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LAZ
+			type = puppet
+		}
 	}
 	
 	c:BAV = {
@@ -183,5 +203,19 @@
 			country = c:RYA
 			type = customs_union
 		}
-	}			
+	}
+
+	c:MGY = {
+		create_diplomatic_pact = {
+			country = c:KRS
+			type = puppet
+		}
+	}
+	
+	c:NOR = {
+		create_diplomatic_pact = {
+			country = c:VIN
+			type = dominion
+		}
+	}	
 }

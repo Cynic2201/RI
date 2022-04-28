@@ -4220,7 +4220,7 @@ SBR = { # Sibir
 	flag_definition = {
 		coa = SBR
 		subject_canton = SBR
-		priority = 10000
+		priority = 1
 	}
 	flag_definition = {
 		coa = SBR_republic
@@ -4228,6 +4228,222 @@ SBR = { # Sibir
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+ALV = { # Altava
+	flag_definition = {
+		coa = ALV
+		subject_canton = ALV
+		priority = 1
+	}
+}
+
+VAN = { # Vandalia
+	flag_definition = {
+		coa = VAN
+		subject_canton = VAN
+		priority = 1
+	}
+	flag_definition = {
+		coa = VAN_republic
+		subject_canton = VAN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VAN_fascist
+		subject_canton = VAN_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+MAU = { # Mauretania
+	flag_definition = {
+		coa = MAU
+		subject_canton = MAU
+		priority = 1
+	}
+}
+
+MLI = { # Mali
+	flag_definition = {
+		coa = MLI
+		subject_canton = MLI
+		priority = 1
+	}
+	flag_definition = {
+		coa = MLI_republic
+		subject_canton = MLI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+ASH = { # Ashanti
+	flag_definition = {
+		coa = ASH
+		subject_canton = ASH
+		priority = 1
+	}
+	flag_definition = {
+		coa = ASH_republic
+		subject_canton = ASH_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ASH_fascist
+		subject_canton = ASH_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+BEN = { # Benin
+	flag_definition = {
+		coa = BEN
+		subject_canton = BEN
+		priority = 1
+	}
+}
+
+BOR = { # Bornu
+	flag_definition = {
+		coa = BOR
+		subject_canton = BOR
+		priority = 1
+	}
+	flag_definition = {
+		coa = BOR_republic
+		subject_canton = BOR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+DAH = { # Dahomey
+	flag_definition = {
+		coa = DAH
+		subject_canton = DAH
+		priority = 1
+	}
+	flag_definition = {
+		coa = DAH_republic
+		subject_canton = DAH_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = DAH_communist
+		subject_canton = DAH_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ARC = { # Arcadia
+	flag_definition = {
+		coa = ARC
+		subject_canton = ARC
+		priority = 1
+	}
+	flag_definition = {
+		coa = ARC_republic
+		subject_canton = ARC_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ARC_communist
+		subject_canton = ARC_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ARC_fascist
+		subject_canton = ARC_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+CNN = { # Connecticut
+	flag_definition = {
+		coa = CNN
+		subject_canton = CNN
+		priority = 1
+	}
+	flag_definition = {
+		coa = CNN_republic
+		subject_canton = CNN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CNN_communist
+		subject_canton = CNN_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+RHI = { # Rhode Island
+	flag_definition = {
+		coa = RHI
+		subject_canton = RHI
+		priority = 1
+	}
+	flag_definition = {
+		coa = RHI_monarchy
+		subject_canton = RHI_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RHI_communist
+		subject_canton = RHI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RHI_fascist
+		subject_canton = RHI_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
 		}
 	}
 }

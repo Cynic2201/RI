@@ -2193,59 +2193,263 @@ MOS = {
 	capital = STATE_VOLTA
 }
 
-#
- = {
-	color = {  } #placeholder
+#Massachusetts
+MSS = {
+	color = { 155 169 58 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { yankee }
+	capital = STATE_MASSACHUSETTS
 }
 
-#
- = {
-	color = {  } #placeholder
+#Arcadia
+ARC = {
+	color = { 216 167 75 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { yankee }
+	capital = STATE_NEW_BRUNSWICK
 }
 
-#
- = {
-	color = {  } #placeholder
+#Connecticut
+CNN = {
+	color = { 104 152 134 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { yankee }
+	capital = STATE_CONNECTICUT
 }
 
-#
- = {
-	color = {  } #placeholder
+#Rhode Island
+RHI = {
+	color = { 225 190 72 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = city_state
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { yankee }
+	capital = STATE_RHODE_ISLAND
 }
 
-#
- = {
+#Vermont
+VER = {
+	color = { 79 121 66 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { yankee }
+	capital = STATE_VERMONT
+}
+
+#New Netherlands
+NNE = {
+	color = { 213 114 25 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { havensmen laurentian }
+	capital = STATE_NEW_YORK
+}
+
+#Irokesenland
+IRO = {
+	color = { 87 182 80 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { iroquois }
+	
+	capital = STATE_NEW_YORK
+}
+
+#Laurentia
+LAU = {
+	color = { 190 125 48 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { laurentian }
+	capital = STATE_QUEBEC
+}
+
+#New Sweden
+NSV = {
+	color = { 124 153 199 }
+	country_type = recognized 
+	
+	tier = city_state
+	
+	cultures = { upplander }
+	capital = STATE_DELAWARE
+}
+
+#Vinland
+VIN = {
+	color = { 175 184 206 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { vinlandic }
+	capital = STATE_ONTARIO
+}
+
+#Virginia
+VIR = {
+	color = { 66 130 193 }
+	country_type = recognized 
+	
+	tier = empire
+	
+	cultures = { columbian ohian yankee }
+	capital = STATE_VIRGINIA
+}
+
+#Michigan
+MIC = {
+	color = { 77 109 224 } #placeholder
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { yankee }
+	capital = STATE_MICHIGAN
+}
+
+#Ohio
+OHI = {
+	color = { 92 66 193 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { ohian yankee }
+	capital = STATE_OHIO
+}
+
+#Brasil
+HBR = {
+	color = { 133 126 165 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { brendish nova_alban madogwys cherokee }
+	capital = STATE_SOUTH_CAROLINA
+}
+
+#Avalon
+AVL = {
 	color = {  } #placeholder
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier =  city_state 
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { brendish nova_alban }
+	capital = STATE_SOUTH_CAROLINA
+}
+
+#Bhiryd
+BHI = {
+	color = { 95 171 58 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { madogwys }
+	capital = STATE_ALABAMA
+}
+
+#Brendland
+BRL = {
+	color = { 112 150 105 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { brendish }
+	capital = STATE_SOUTH_CAROLINA
+}
+
+#Cherokee
+CHE = {
+	color = { 105 145 40 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { cherokee }
+	capital = STATE_TENNESSEE
+}
+
+#Nova Alba
+NVA = {
+	color = { 255 211 56 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { nova_alban }
+	capital = STATE_SOUTH_CAROLINA
+}
+
+#Carolina
+CAR = {
+	color = { 124 178 128 } #placeholder
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { carolinian }
+	capital = STATE_FLORIDA
+}
+
+#Fredonia
+FRE = {
+	color = { 237 220 81 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { fredonian }
+	capital = STATE_TEXAS
+}
+
+#Madoc
+MDC = {
+	color = { 138 171 58 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { madogwys }
+	capital = STATE_LOUISIANA
+}
+
+#Mississippi
+MIS = {
+	color = { 103 35 36 } #placeholder
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { fredonian }
+	capital = STATE_MISSOURI
 }
 
 #

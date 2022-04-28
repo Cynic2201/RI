@@ -763,6 +763,43 @@ SBR = {
 	ai_will_do = { always = no }
 }
 
+MAU = {
+	states = {
+		STATE_AL_RIF
+		STATE_FEZ
+		STATE_MARRAKECH
+		STATE_INNER_MOROCCO
+		STATE_WEST_SAHARA
+		STATE_MAURITANIA
+		STATE_CANARY_ISLANDS
+		STATE_MADERIA
+	}
+	ai_will_do = { always = no }
+}
+
+BEN = {
+	states = {
+		STATE_BENIN
+	}
+	ai_will_do = { always = no }
+}
+
+ARC = {
+	states = {
+		STATE_NEW_BRUNSWICK
+		STATE_QUEBEC
+		STATE_MAINE
+	}
+	ai_will_do = { always = no }
+}
+
+CNN = {
+	states = {
+		STATE_CONNECTICUT
+	}
+	ai_will_do = { always = no }
+}
+
 MTC = {
 	use_culture_states = yes
 	
@@ -1320,12 +1357,6 @@ CEY = {
 
 NEN = {
 	states = { 
-		STATE_MASSACHUSETTS
-		STATE_NEW_HAMPSHIRE
-		STATE_MAINE
-		STATE_CONNECTICUT
-		STATE_RHODE_ISLAND
-		STATE_VERMONT
 	}
 
 	ai_will_do = { always = no }
