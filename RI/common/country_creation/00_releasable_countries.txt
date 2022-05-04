@@ -800,6 +800,13 @@ CNN = {
 	ai_will_do = { always = no }
 }
 
+RHI = {
+	states = {
+		STATE_RHODE_ISLAND
+	}
+	ai_will_do = { always = no }
+}
+
 MTC = {
 	use_culture_states = yes
 	

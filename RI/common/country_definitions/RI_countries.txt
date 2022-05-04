@@ -2407,17 +2407,6 @@ NVA = {
 	capital = STATE_SOUTH_CAROLINA
 }
 
-#Carolina
-CAR = {
-	color = { 124 178 128 } #placeholder
-	country_type = recognized 
-	
-	tier = principality
-	
-	cultures = { carolinian }
-	capital = STATE_FLORIDA
-}
-
 #Fredonia
 FRE = {
 	color = { 237 220 81 }
@@ -2450,6 +2439,667 @@ MIS = {
 	
 	cultures = { fredonian }
 	capital = STATE_MISSOURI
+}
+
+#Hanseatic West Indies
+HWI = {
+	color = { 179 236 183 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { mexikaner xikaner }
+	capital = STATE_MEXICO
+}
+
+#Carolina
+CAR = {
+	color = { 124 178 128 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { carolinian }
+	capital = STATE_FLORIDA
+}
+
+#New Caledonia
+NCD = {
+	color = { 116 176 74 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { alban central_american }
+	capital = STATE_PANAMA
+}
+
+#Northern Provinces
+NPR = {
+	color = { 141 196 145 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { xikaner }
+	capital = STATE_NUEVO_LEON
+}
+
+#Barenland
+BAR = {
+	color = { 120 122 78 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { xikaner }
+	capital = STATE_CALIFORNIA
+}
+
+#Chichimeka
+CHC = {
+	color = { 248 229 21 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { oodham }
+	capital = STATE_ZACATECAS
+}
+
+#Galisko
+GLS = {
+	color = { 194 168 101 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { xikaner }
+	capital = STATE_JALISCO
+}
+
+#Handlerland
+HDL = {
+	color = { 225 169 95 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { xikaner }
+	capital = STATE_NUEVO_LEON
+}
+
+#Huasteka
+HUA = {
+	color = { 78 235 104 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { mayan nahua }
+	capital = STATE_NUEVO_LEON
+}
+
+#Kalifornia
+KLF = {
+	color = { 140 196 144 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { xikaner }
+	capital = STATE_BAJA_CALIFORNIA
+}
+
+#Karlstein
+KRL = {
+	color = { 119 185 125 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { xikaner }
+	capital = STATE_TEXAS
+}
+
+#Kolima
+KOL = {
+	color = { 194 168 101 }
+	country_type = colonial
+	
+	tier = city_state
+	
+	cultures = {  } #placeholder
+	capital = STATE_JALISCO
+}
+
+#Mayapan
+MAY = {
+	color = { 236 159 89 }
+	country_type = unrecognized 
+	
+	tier = kingdom
+	
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+
+#Mexiko
+MEX = {
+	color = { 56 143 53 }
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { mexikaner xikaner }
+	capital = STATE_MEXICO
+}
+
+#Azteka
+AZT = {
+	color = { 150 52 20 }
+	country_type = unrecognized
+	
+	tier = city_state
+	
+	cultures = { nahua }
+	capital = STATE_MEXICO
+}
+
+#Geldland
+GEL = {
+	color = { 103 169 107 } #placeholder
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { mexikaner }
+	capital = STATE_MEXICO
+}
+
+#Mixteka
+MIX = {
+	color = { 189 69 56 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { mixtec zapotec }
+	capital = STATE_MORELIA
+}
+
+#Taraska
+TAR = {
+	color = { 158 18 20 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { tarascan }
+	capital = STATE_ZACATECAS
+}
+
+#Tlaxkala
+TLA = {
+	color = { 148 149 21 }
+	country_type = unrecognized 
+	
+	tier = kingdom
+	
+	cultures = { nahua }
+	capital = STATE_MEXICO	
+}
+
+#Poyais
+POY = {
+	color = { 219 114 109 }
+	country_type = colonial 
+	
+	tier = city_state
+	
+	cultures = { poyain }
+	capital = STATE_HONDURAS
+}
+
+#Zentral Hesperidia
+ZHE = {
+	color = { 144 178 120 }
+	country_type = colonial
+	
+	tier = kingdom
+	
+	capital = STATE_SAN_SALVADOR
+	cultures = { central_american }
+}
+
+#Dutch West Indies
+DWI = {
+	color = { 190 117 120 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { karibener }
+	capital = STATE_PUERTO_RICO
+}
+
+#Kydonia
+KYD = {
+	color = { 220 162 109 }
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { kydonian }
+	capital = STATE_CUBA
+}
+
+#Patrian Isles
+PTR = {
+	color = { 200 15 10 }
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { latin }
+	capital = STATE_WEST_INDIES
+}
+
+#New Vandalia
+NVN = {
+	color = { 0 142 154 }
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { karibener }
+	capital = STATE_HAITI
+}
+
+#Kiskya
+KIS = {
+	color = { 0 0 0 } #placeholder
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { afro-karibener }
+	capital = STATE_HAITI
+}
+
+#Xaymaka
+XAY = {
+	color = { 72 180 190 }
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { karibener }
+	capital = STATE_JAMAICA
+}
+
+#West Indies
+WIN = {
+	color = { 50 150 50 } #placeholder
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { columbian afro-karibener }
+	capital = STATE_WEST_INDIES
+}
+
+#Aleutia
+ALE = {
+	color = { 182 243 239 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
+#Apache
+APC = {
+	color = { 198 158 109 }	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { apache }
+	capital = STATE_TEXAS
+}
+
+#Arapaho
+ARP = {
+	color = { 223 204 125 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_COLORADO
+}
+
+#Athabasca
+ATB = {
+	color = { 88 105 137 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_NORTHWEST_TERRITORIES
+}
+
+#Blackfoot Confederacy
+BLF = {
+	color = { 86 98 154 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { siouan } #placeholder
+	capital = STATE_ALBERTA
+}
+
+#Chinook
+CHN = {
+	color = { 121 10 15 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { chinook }
+	capital = STATE_OREGON
+}
+
+#Comanche
+COM = {
+	color = { 96 57 19 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { comanche }
+	capital = STATE_TEXAS
+}
+
+#Obijwe/Council of Three Fires
+OBI = {
+	color = { 229 0 0 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { obijwe }
+	capital = STATE_MINNESOTA
+}
+
+#Crow/Absaroka
+ABS = {
+	color = { 199 102 22 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MONTANA
+}
+
+#Haida
+HAD = {
+	color = { 20 191 20 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { haida }
+	capital = STATE_BRITISH_COLUMBIA
+}
+
+#Iron Confederacy
+IRC = {
+	color = { 61 158 124 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { cree siouan }
+	capital = STATE_SASKATCHEWAN
+}
+
+#Navajo
+NVJ = {
+	color = { 126 180 154 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { navajo }
+	capital = STATE_ARIZONA
+}
+
+#Nez Perce
+NZP = {
+	color = { 220 190 50 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { nez_perce }
+	capital = STATE_IDAHO
+}
+
+#Pawnee
+PWN = {
+	color = { 252 84 118 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { caddoan }
+	capital = STATE_NEBRASKA
+}
+
+#Salish
+SAL = {
+	color = { 8 89 97 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_WASHINGTON
+}
+
+#Shoshone
+SHS = {
+	color = { 124 69 49 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { shoshone }
+	capital = STATE_IDAHO
+}
+
+#Sioux Confederation
+LKT = {
+	color = { 91 33 120 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { dakota }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+#Ute
+UTE = {
+	color = { 235 126 175 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { paiute }
+	capital = STATE_UTAH
+}
+
+#Yokut
+YOK = {
+	color = { 218 177 163 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { yokut }
+	capital = STATE_CALIFORNIA
+}
+
+#Yurok
+YUR = {
+	color = { 192 201 144 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { hokan }
+	capital = STATE_CALIFORNIA
+}
+
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
 }
 
 #

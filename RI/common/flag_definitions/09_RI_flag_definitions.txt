@@ -4420,7 +4420,7 @@ RHI = { # Rhode Island
 	flag_definition = {
 		coa = RHI
 		subject_canton = RHI
-		priority = 1
+		priority = 10000
 	}
 	flag_definition = {
 		coa = RHI_monarchy

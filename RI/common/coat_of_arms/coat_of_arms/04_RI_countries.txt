@@ -7608,3 +7608,14 @@ CNN_communist = {
 		instance = {position = {.5 .45} scale = {.9 .9}}
 	}
 }
+
+RHI = {	
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_deer.dds"
+		color1 = "yellow_light"
+		instance = {position = {.5 .45} scale = {.9 .9}}
+	}
+}
