@@ -2969,6 +2969,260 @@ YUR = {
 	capital = STATE_CALIFORNIA
 }
 
+#Amazons
+AMZ = {
+	color = { 89 215 89 }
+	
+	country_type = decentralized
+	
+	tier = kingdom
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+
+#Guarani
+GNI = {
+	color = { 73 139 166 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_ALTO_PARAGUAY
+}
+
+#Maroons
+MRO = {
+	color = { 118 12 35 }
+	country_type = decentralized
+	
+	tier = kingdom
+	
+	cultures = { afro-amerigan amazonian }
+	capital = STATE_PARA
+}
+
+#Antarctica
+ANT = {
+	color = { 84 206 100 }
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { antarctican }
+	capital = STATE_RIO_DE_JANEIRO
+}
+
+#Counania
+COU = {
+	color = { 153 201 67 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { counani }
+	capital = STATE_PARA
+}
+
+#Palma
+PLM = {
+	color = { 167 207 255 }
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { afro_amerigan }
+	capital = STATE_PERNAMBUCO
+}
+
+#Amazonia
+AMA = {
+	color = { 204 59 33 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { latin }
+	capital = STATE_PARA
+}
+
+#Sintel
+SNT = {
+	color = { 0 0 0 } #placeholder
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { mauritian }
+	capital = STATE_PERNAMBUCO
+}
+
+#Tawantinsuyu
+TWT = {
+	color = { 129 93 97 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = { quechua }
+	capital = STATE_LIMA
+}
+
+#United States of Amerika
+AME = {
+	color = { 233 188 163 }
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { amerigan }
+	capital = STATE_MIRANDA
+}
+
+#Vilcabamba
+VIL = {
+	color = { 170 0 0 }
+	country_type = unrecognized 
+	
+	tier = kingdom
+	
+	cultures = { quechua }
+	capital = STATE_ICA
+}
+
+#Virland
+VRL = {
+	color = { 150 132 122 }
+	country_type = recognized 
+	
+	tier = empire
+	
+	cultures = { virlander }
+	capital = STATE_LIMA
+}
+
+#Aymara
+AYM = {
+	color = { 198 131 244 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { aimara }
+	capital = STATE_LA_PAZ
+}
+
+#Cajamarca
+CAJ = {
+	color = { 41 123 73 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_CAJAMARCA
+}
+
+#Cochabamba
+COC = {
+	color = { 160 64 48 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_LA_PAZ
+}
+
+#Cusco
+CUS = {
+	color = { 229 64 64 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_ICA
+}
+
+#Quito
+QUI = {
+	color = { 206 132 132 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_ECUADOR
+}
+
+#Argentum
+AGT = {
+	color = { 177 0 126 }
+	country_type = colonial 
+	
+	tier = grand_principality
+	
+	cultures = { argentine }
+	capital = STATE_BUENOS_AIRES
+}
+
+#New Suebia
+NSU = {
+	color = { 112 131 162 }
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { neu_suebi }
+	capital = STATE_URUGUAY
+}
+
+#Paraguay
+PGU = {
+	color = { 200 122 120 }
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { polish }
+	capital = STATE_BAJO_PARAGUAY
+}
+
+#Patagonia
+PAT = {
+	color = { 196 25 10 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+
+#Uruguay
+URU = {
+	color = { 133 150 176 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { neu_suebi }
+	capital = STATE_RIO_GRANDE_DO_SUL
+}
+
+#Wladychfa
+WLA = {
+	color = { 139 174 81 }
+	country_type = colonial 
+	
+	tier = principality
+	
+	cultures = { briton }
+	capital = STATE_PATAGONIA
+}
 
 #
  = {
