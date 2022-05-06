@@ -2981,10 +2981,21 @@ AMZ = {
 	capital = STATE_AMAZONAS
 }
 
+#Bororo
+BRR = {
+	color = { 105 214 155 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_MATO_GROSSO
+}
+
+
 #Guarani
 GNI = {
 	color = { 73 139 166 }
-	
 	country_type = decentralized
 	
 	tier = principality
@@ -2992,6 +3003,18 @@ GNI = {
 	cultures = { guarani }
 	capital = STATE_ALTO_PARAGUAY
 }
+
+#Guato
+GUT = {
+	color = { 199 186 80 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_MATO_GROSSO
+}
+
 
 #Maroons
 MRO = {
@@ -3002,6 +3025,39 @@ MRO = {
 	
 	cultures = { afro-amerigan amazonian }
 	capital = STATE_PARA
+}
+
+#Mura
+MUR = {
+	color = { 72 90 168 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+
+#Nambikwara
+NMB = {
+	color = { 161 225 194 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+
+#Tupinamba
+TPI = {
+	color = { 157 209 192 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tupinamba }
+	capital = STATE_MARANHAO
 }
 
 #Antarctica
