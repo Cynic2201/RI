@@ -1,0 +1,842 @@
+je_great_game = {
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+	
+	progressbar = yes
+	
+	immediate = {
+		set_variable = {
+			name = br_great_game
+			value = 0
+		}
+	}
+	
+	is_shown_when_inactive = {
+		c:GBR = ROOT
+	}
+		
+	possible = {
+		AND = {
+			c:RUS = {
+				#country_or_subject_owns_entire_state_region = STATE_URALSK
+				#country_or_subject_owns_entire_state_region = STATE_AKMOLINSK
+				#country_or_subject_owns_entire_state_region = STATE_SEMIRECHE
+				#OR = {
+					#has_interest_marker_in_region = region_central_asia
+					#has_interest_marker_in_region = region_persia
+				#}
+				NOT = {
+						is_subject_of = c:GBR
+				}
+			}
+			c:GBR = {
+				country_or_subject_owns_entire_state_region = STATE_DELHI
+				#OR = {
+					#has_interest_marker_in_region = region_central_asia
+					#has_interest_marker_in_region = region_persia
+				#}
+				NOT = {
+						is_subject_of = c:RUS
+				}
+			}
+		}
+	}
+		
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		custom_tooltip = {
+			text = great_game
+		}
+	}
+	
+	current_value = {
+		value = var:br_great_game
+	}
+
+	goal_add_value = {
+		add = 10
+	}
+	
+	progressbar = yes
+
+	on_weekly_pulse = {
+		effect = {
+			set_variable = {
+				name = br_great_game
+				value = 5
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_KHIVA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_KHIVA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_TURKMENIA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_TURKMENIA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_UZBEKIA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_UZBEKIA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_KIRGHIZIA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_KIRGHIZIA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_TAJIKISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_TAJIKISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_WESTERN_AFGHANISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_WESTERN_AFGHANISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_EASTERN_AFGHANISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_EASTERN_AFGHANISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_PASHTUNISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_PASHTUNISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_KASHMIR
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_KASHMIR
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_BALUCHISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_BALUCHISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_PUNJAB
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_PUNJAB
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:GBR = {
+							country_or_subject_owns_entire_state_region = STATE_SINDH
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_SINDH
+								OR = {
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:GBR
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_KHIVA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_KHIVA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_TURKMENIA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_TURKMENIA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_UZBEKIA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_UZBEKIA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_KIRGHIZIA
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_KIRGHIZIA
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_TAJIKISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_TAJIKISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_WESTERN_AFGHANISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_WESTERN_AFGHANISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_EASTERN_AFGHANISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_EASTERN_AFGHANISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_PASHTUNISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_PASHTUNISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_KASHMIR
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_KASHMIR
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_BALUCHISTAN
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_BALUCHISTAN
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_PUNJAB
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_PUNJAB
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						c:RUS = {
+							country_or_subject_owns_entire_state_region = STATE_SINDH
+						}
+						any_country = {
+							AND = {
+								country_or_subject_owns_entire_state_region = STATE_SINDH
+								OR = {
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = defensive_pact
+									}
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = dominion
+									}									
+									has_diplomatic_pact = {
+										who = c:RUS
+										type = protectorate
+									}
+								}
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = br_great_game
+					subtract = 1
+				}
+			}
+		}
+	}
+		
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

@@ -64,6 +64,10 @@
 			country = c:PTR
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:AMA
+			type = dominion
+		}
 	}
 	
 	c:BAV = {
@@ -289,6 +293,47 @@
 		create_diplomatic_pact = {
 			country = c:DWI
 			type = dominion
+		}
+	}
+	
+	c:VRL = {
+		create_diplomatic_pact = {
+			country = c:KIT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:KSM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CUZ
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AYM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:QUC
+			type = puppet
+		}
+	}
+	c:VIL = {
+		create_diplomatic_pact = {
+			country = c:MUR
+			type = vassal
+		}
+	}
+	c:PGU = {
+		create_diplomatic_pact = {
+			country = c:GUT
+			type = vassal
+		}
+	}
+	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:COU
+			type = vassal
 		}
 	}
 }

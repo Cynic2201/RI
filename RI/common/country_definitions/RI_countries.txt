@@ -2751,7 +2751,7 @@ WIN = {
 
 #Aleutia
 ALE = {
-	color = { 182 243 239 }
+	color = { 34 138 84 }
 	country_type = decentralized 
 	
 	tier = principality
@@ -2859,6 +2859,18 @@ HAD = {
 	capital = STATE_BRITISH_COLUMBIA
 }
 
+#Inuit
+INU = {
+	color = { 205 214 216 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
+
 #Iron Confederacy
 IRC = {
 	color = { 61 158 124 }
@@ -2936,6 +2948,17 @@ LKT = {
 	capital = STATE_SOUTH_DAKOTA
 }
 
+#Tlingit
+TLN = {
+	color = { 194 94 84 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
 #Ute
 UTE = {
 	color = { 235 126 175 }
@@ -2968,6 +2991,18 @@ YUR = {
 	cultures = { hokan }
 	capital = STATE_CALIFORNIA
 }
+
+#Yupik
+YUP = {
+	color = {  }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
 
 #Amazons
 AMZ = {
@@ -3067,7 +3102,7 @@ ANT = {
 	
 	tier = kingdom
 	
-	cultures = { antarctican }
+	cultures = { antarktis }
 	capital = STATE_RIO_DE_JANEIRO
 }
 
@@ -3139,7 +3174,7 @@ AME = {
 
 #Vilcabamba
 VIL = {
-	color = { 170 0 0 }
+	color = { 138 54 50 }
 	country_type = unrecognized 
 	
 	tier = kingdom
@@ -3170,30 +3205,8 @@ AYM = {
 	capital = STATE_LA_PAZ
 }
 
-#Cajamarca
-CAJ = {
-	color = { 41 123 73 }
-	country_type = unrecognized 
-	
-	tier = principality
-	
-	cultures = { quechua }
-	capital = STATE_CAJAMARCA
-}
-
-#Cochabamba
-COC = {
-	color = { 160 64 48 }
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { quechua }
-	capital = STATE_LA_PAZ
-}
-
-#Cusco
-CUS = {
+#Cuzco
+CUZ = {
 	color = { 229 64 64 }
 	country_type = unrecognized 
 	
@@ -3203,8 +3216,19 @@ CUS = {
 	capital = STATE_ICA
 }
 
-#Quito
-QUI = {
+#Kashamarka
+KSM = {
+	color = { 41 123 73 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_CAJAMARCA
+}
+
+#Kito
+KIT = {
 	color = { 206 132 132 }
 	country_type = unrecognized
 	
@@ -3214,18 +3238,29 @@ QUI = {
 	capital = STATE_ECUADOR
 }
 
-#Argentum
+#Quchapampa
+QUC = {
+	color = { 160 64 48 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_LA_PAZ
+}
+
+#Argentia
 AGT = {
 	color = { 177 0 126 }
 	country_type = colonial 
 	
 	tier = grand_principality
 	
-	cultures = { argentine }
+	cultures = { argentian }
 	capital = STATE_BUENOS_AIRES
 }
 
-#New Suebia
+#Neu Suebia
 NSU = {
 	color = { 112 131 162 }
 	country_type = colonial
