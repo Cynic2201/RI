@@ -336,4 +336,11 @@
 			type = vassal
 		}
 	}
+	
+	c:PLM = {
+		create_diplomatic_pact = {
+			country = c:LEE
+			type = dominion
+		}
+	}
 }
