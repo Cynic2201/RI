@@ -1652,7 +1652,7 @@ PHO = {
 }
 
 #Pontus
-PON = {
+PNT = {
 	color = { 90 147 128 }
 	country_type = recognized 
 	
@@ -2563,7 +2563,7 @@ BAR = {
 }
 
 #Chichimeka
-CHC = {
+CHM = {
 	color = { 248 229 21 }
 	country_type = unrecognized 
 	
@@ -3652,6 +3652,545 @@ WAD = {
 	
 	cultures = { fur }
 	capital = STATE_WADDAI
+}
+
+#Alodia
+ALO = {
+	color = { 135 144 180 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = {  } #placeholder
+	capital = STATE_BLUE_NILE
+}
+
+#Dar Fertit
+DFT = {
+	color = { 167 92 56 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { equatorial_bantu azande }
+	capital = STATE_EQUATORIA
+}
+
+#Darfur
+DFR = {
+	color = { 84 75 91 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { fur }
+	capital = STATE_DARFUR
+}
+
+#Dinka
+DNK = {
+	color = { 78 99 75 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { dinka }
+	capital = STATE_EQUATORIA
+}
+
+#Makuria
+MKR = {
+	color = { 183 80 52 }
+	country_type = recognized 
+	
+	tier = kingdom
+	
+	cultures = {  } #placeholder
+	capital = STATE_DONGOLA
+}
+
+#Nuer
+NUE = {
+	color = { 230 227 240 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { nuer }
+	capital = STATE_EQUATORIA
+}
+
+#Toposa
+TPS = {
+	color = { 232 101 68 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { nilotic }
+	capital = STATE_EQUATORIA
+}
+
+#Aksum
+AKS = {
+	color = { 113 160 213 }
+	country_type = recognized 
+	
+	tier = empire
+	
+	cultures = {  } #placeholder
+	capital = STATE_GONDER
+}
+
+#Bale
+BLL = {
+	color = { 156 100 184 } #placeholder
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = {  } #placeholder
+	capital = STATE_OROMIA
+}
+
+#Borana
+BRN = {
+	color = { 236 236 104 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { oromo }
+	capital = STATE_AMHARA
+}
+
+#Geledi
+GLD = {
+	color = { 38 160 67 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+#Hobyo
+HOB = {
+	color = { 255 73 7 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+#Kaffa
+KFA = {
+	color = { 150 0 25 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { sidama oromo }
+	capital = STATE_AMHARA
+}
+
+#Majerteen
+MJT = {
+	color = { 220 200 100 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+#Ogaden
+OGA = {
+	color = { 119 132 24 } #placeholder
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { somali } #placeholder
+	capital = STATE_OROMIA
+}
+
+#Sidamo
+SDM = {
+	color = { 83 65 167 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { sidama oromo }
+	capital = STATE_AMHARA
+}
+
+#Warsangali
+WSG = {
+	color = { 18 97 128 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+
+#Acholi
+ACH = {
+	color = { 166 225 217 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { luo lacustrine_bantu }
+	capital = STATE_UGANDA
+}
+
+#Ankole
+ANK = {
+	color = { 126 162 98 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { baganda lacustrine_bantu }
+	capital = STATE_UGANDA
+}
+
+#Azania
+AZA = {
+	color = { 81 141 85 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { swahili }
+	capital = STATE_ZANZIBAR
+}
+
+#Bemba
+BMB = {
+	color = { 192 90 121 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { lacustrine_bantu }
+	capital = STATE_KAZEMBE
+}
+
+#Buganda
+BUG = {
+	color = { 21 21 227 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { baganda }
+	capital = STATE_UGANDA
+}
+
+#Bunyoro
+BNY = {
+	color = { 174 24 66 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { baganda lacustrine_bantu }
+	capital = STATE_UGANDA
+}
+
+#Burundi
+BRD = {
+	color = { 21 191 16 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { rundi }
+	capital = STATE_TANGANYIKA
+}
+
+#Gogo
+GGO = {
+	color = { 244 228 166 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { lacustrine_bantu }
+	capital = STATE_LINDI
+}
+
+#Hehe
+HHE = {
+	color = { 126 84 131 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { lacustrine_bantu }
+	capital = STATE_LINDI
+}
+
+#Karagwe
+KRG = {
+	color = { 48 177 169 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { lacustrine_bantu baganda }
+	capital = STATE_TANGANYIKA
+}
+
+#Kikuyu
+KKY = {
+	color = { 169 52 90 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { kikuyu }
+	capital = STATE_KENYA
+}
+
+#Luo
+LUO = {
+	color = { 153 153 168 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { luo }
+	capital = STATE_RIFT_VALLEY
+}
+
+#Masai
+MSI = {
+	color = { 190 103 84 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { maasai }
+	capital = STATE_RIFT_VALLEY
+}
+
+#Maseko
+MSK = {
+	color = { 75 75 148 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { shona }
+	capital = STATE_ZAMBEZIA
+}
+
+#Nyamwezi
+NYM = {
+	color = { 164 125 26 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { unyamwezi }
+	capital = STATE_TANGANYIKA
+}
+
+#Rwanda
+RWD = {
+	color = { 213 160 18 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { ruanda }
+	capital = STATE_TANGANYIKA
+}
+
+#Sangu
+SNG = {
+	color = { 203 54 66 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { lacustrine_bantu }
+	capital = STATE_LINDI
+}
+
+#Turkana
+TRK = {
+	color = { 103 84 190 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { nilotic maasai }
+	capital = STATE_RIFT_VALLEY
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
+}
+
+#
+ = {
+	color = {  } #placeholder
+	country_type = recognized 
+	
+	tier =  #placeholder
+	
+	cultures = {  } #placeholder
+	capital = STATE_ #placeholder
 }
 
 #

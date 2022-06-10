@@ -624,7 +624,7 @@ PHO = {
 	ai_will_do = { always = no }
 }
 
-PON = {
+PNT = {
 	states = {
 		STATE_TRABZON
 		STATE_KASTAMONU
