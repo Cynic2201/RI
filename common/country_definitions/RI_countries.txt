@@ -4241,37 +4241,37 @@ ZUL = {
 	capital = STATE_ZULULAND
 }
 
-#
- = {
-	color = {  } #placeholder
+#Bjarmaland
+BJR = {
+	color = { 154 189 206 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { norwegian bjarmian }
+	capital = STATE_ARKHANGELSK
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
+#Perm
+PRM = {
+	color = { 236 159 90 }
+	country_type = unrecognized
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	tier = principality
+
+	cultures = { ugrian }
+	capital = STATE_PERM
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
+#Vepsland
+VPS = {
+	color = { 175 175 85 }
+	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { ugrian }
+	capital = STATE_GALICH
 }
 
 #

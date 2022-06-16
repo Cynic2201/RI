@@ -123,14 +123,6 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:VSB
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:RIG
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:KGB
 			type = puppet
 		}
@@ -232,6 +224,14 @@
 		create_diplomatic_pact = {
 			country = c:VIN
 			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:BJR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SMI
+			type = puppet
 		}
 	}
 	
