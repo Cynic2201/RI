@@ -6949,7 +6949,7 @@ STATES = {
 		}
 		add_homeland = ukrainian
 	}
-	s:STATE_MECKLENBERG = {
+	s:STATE_MECKLENBURG = {
 		create_state = {
 			country = c:MEC
 			owned_provinces = { xD8F441 xE080A0 x4545BE x12E54F x24CA48 }

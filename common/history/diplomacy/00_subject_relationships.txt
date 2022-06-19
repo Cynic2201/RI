@@ -343,4 +343,42 @@
 			type = dominion
 		}
 	}
+	
+	c:ARA = {
+		create_diplomatic_pact = {
+			country = c:TYY
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NSR
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NMY
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:JBR
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:AGH
+			type = vassal
+		}
+	}
+	
+	c:PER = {
+		create_diplomatic_pact = {
+			country = c:LAK
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:QAR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MAZ
+			type = puppet
+		}
+	}
 }

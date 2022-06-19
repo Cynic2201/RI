@@ -4274,136 +4274,136 @@ VPS = {
 	capital = STATE_GALICH
 }
 
-#
- = {
-	color = {  } #placeholder
+#Arabia
+ARA = {
+	color = { 66  111  19 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { arabic }
+	capital = STATE_HEDJAZ
+}
+
+#Aghlabids
+AGH = {
+	color = { 150 193 105 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { arabic }
+	capital = STATE_HAIL
+}
+
+#Amrids
+AMR = {
+	color = { 211 218 139 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { arabic }
+	capital = STATE_NEJD
+}
+
+#Jabrids
+JBR = {
+	color = { 136 178 91 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { arabic }
+	capital = STATE_NEJD
+}
+
+#Nasrids
+NSR = {
+	color = { 55 97 11 }
+	country_type = unrecognized 
+	
+	tier = grand_principality
+	
+	cultures = { arabic }
+	capital = STATE_HEDJAZ
+}
+
+#Numayrids
+NMY = {
+	color = { 136 178 91 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { arabic }
+	capital = STATE_NEJD
+}
+
+#Tayyids
+TYY = {
+	color = { 75 116 33 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { arabic }
+	capital = STATE_HAIL
+}
+
+#Himyar
+HIM = {
+	color = { 123 118 193 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
+	cultures = { himyarite }
+	capital = STATE_YEMEN
+}
+
+#Bahrain
+BHN = {
+	color = { 169  51  51 }
+	country_type = recognized
+	
+	tier = city_state
+	
+	cultures = { arabic }
+	capital = STATE_ABU_DHABI
+}
+
+#Lakhmids
+LAK = {
+	color = { 158 103 25 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { arabic }
 	capital = STATE_ #placeholder
 }
 
-#
- = {
-	color = {  } #placeholder
+#Mazun
+MAZ = {
+	color = { 217 141 34 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { arabic }
+	capital = STATE_OMAN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Qarmatians
+QAR = {
+	color = { 255 221 97 }
 	country_type = recognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { arabic }
+	capital = STATE_NEJD
 }
 
 #
