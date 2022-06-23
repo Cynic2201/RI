@@ -3817,8 +3817,13 @@ STATES = {
 			owned_provinces = { xF9F87A x80C0B0 xCAB9F2 }
 		}
 		create_state = {
+			country = c:BIC
+			owned_provinces = { x8080B0 x08673B }
+		}
+		create_state = {
 			country = c:GBR
-			owned_provinces = { xC00130 x8080B0 x08673B }
+			owned_provinces = { xC00130 }
+			state_type = treaty_port
 		}
 		create_state = {
 			country = c:PRK
