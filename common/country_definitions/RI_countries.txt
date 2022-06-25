@@ -4551,7 +4551,7 @@ MGL = {
 
 #Oghuz
 OGH = {
-	color = { 190 44 73 }
+	color = { 153 35 59 }
 	country_type = decentralized 
 	
 	tier = principality
