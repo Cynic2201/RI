@@ -380,5 +380,21 @@
 			country = c:MAZ
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:BAC
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SOG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ABN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AVA
+			type = puppet
+		}
 	}
 }

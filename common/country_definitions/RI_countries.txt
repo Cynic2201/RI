@@ -1770,17 +1770,6 @@ ALA = {
 	capital = STATE_DAGESTAN
 }
 
-#Avaria
-AVA = {
-	color = { 94 86 159 }
-	country_type = recognized 
-	
-	tier = principality
-	
-	cultures = { avar }
-	capital = STATE_DAGESTAN
-}
-
 #Bulgaria
 BUL = {
 	color = { 116 107 140 }
@@ -4406,10 +4395,175 @@ QAR = {
 	capital = STATE_NEJD
 }
 
+#Persia
+PER = {
+	color = { 229 170 87 }
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { persian }
+	capital = STATE_KHORASAN
+}
+
+#Avaria
+AVA = {
+	color = { 94 86 159 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { avar }
+	capital = STATE_DAGESTAN
+}
+
+#Albania
+ABN = {
+	color = { 212 148 62 }
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { albanian }
+	capital = STATE_AZERBIJAN
+}
+
+#Asoristan
+ASO = {
+	color = { 0 0 0 } #placeholder
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = { assyrian } #placeholder
+	capital = STATE_BAGHDAD
+}
+
+#Atropatena
+ATR = {
+	color = { 0 0 0 } #placeholder
+	country_type = recognized 
+	
+	tier =  principality
+	
+	cultures = {  } #placeholder
+	capital = STATE_TABRIZ
+}
+
+#Bactria
+BAC = {
+	color = { 236 184 113 }
+	country_type = recognized 
+	
+	tier = grand_principality
+	
+	cultures = { bactrian }
+	capital = STATE_WESTERN_AFGHANISTAN
+}
+
+#Kurdistan
+KUR = {
+	color = { 192 245 71 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { kurdish }
+	capital = STATE_BAGHDAD
+}
+
+#Sistan
+SIS = {
+	color = { 0 0 0 } #placeholder
+	country_type = recognized 
+	
+	tier = principality
+	
+	cultures = {  } #placeholder
+	capital = STATE_SISTAN
+}
+
+#Sogdia
+SOG = {
+	color = { 197 137 58 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { sogdian uzbek }
+	capital = STATE_UZBEKIA
+}
+
+#Kazakhs
+KAZ = {
+	color = { 90 108 171 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { kazak }
+	capital = STATE_SEMIRECHE
+}
+
+#Khoshut
+KHO = {
+	color = { 213 227 240 }
+	country_type = unrecognized 
+	
+	tier = kingdom
+	
+	cultures = { tibetan mongol }
+	capital = STATE_LHASA
+}
+
+#Moghul
+MOG = {
+	color = { 87 92 104 }
+	country_type = unrecognized 
+	
+	tier = kingdom
+	
+	cultures = { mongol uighur }
+	capital = STATE_DZUNGARIA
+}
+
+#Liao
+LIA = {
+	color = { 102 108 122 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { khitan }
+	capital = STATE_KIRGHIZIA
+}
+
+#Mongolia
+MGL = {
+	color = { 101 144 36 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { mongol }
+	capital = STATE_URGA
+}
+
+#Oghuz
+OGH = {
+	color = { 190 44 73 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { oghuz }
+	capital = STATE_URALSK
+}
+
 #
  = {
 	color = {  } #placeholder
-	country_type = recognized 
+	country_type = unrecognized 
 	
 	tier =  #placeholder
 	
@@ -4420,7 +4574,7 @@ QAR = {
 #
  = {
 	color = {  } #placeholder
-	country_type = recognized 
+	country_type = unrecognized 
 	
 	tier =  #placeholder
 	
@@ -4431,7 +4585,7 @@ QAR = {
 #
  = {
 	color = {  } #placeholder
-	country_type = recognized 
+	country_type = unrecognized 
 	
 	tier =  #placeholder
 	
@@ -4442,7 +4596,7 @@ QAR = {
 #
  = {
 	color = {  } #placeholder
-	country_type = recognized 
+	country_type = unrecognized 
 	
 	tier =  #placeholder
 	
@@ -4453,7 +4607,7 @@ QAR = {
 #
  = {
 	color = {  } #placeholder
-	country_type = recognized 
+	country_type = unrecognized 
 	
 	tier =  #placeholder
 	
@@ -4464,84 +4618,7 @@ QAR = {
 #
  = {
 	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = recognized 
+	country_type = unrecognized 
 	
 	tier =  #placeholder
 	
