@@ -397,4 +397,11 @@
 			type = puppet
 		}
 	}
+	
+	c:MOG = {
+		create_diplomatic_pact = {
+			country = c:LIA
+			type = vassal
+		}
+	}
 }

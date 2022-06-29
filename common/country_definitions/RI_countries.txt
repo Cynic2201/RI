@@ -3056,7 +3056,6 @@ YUP = {
 	capital = STATE_ALASKA
 }
 
-
 #Amazons
 AMZ = {
 	color = { 89 215 89 }
@@ -4483,48 +4482,48 @@ SIS = {
 	capital = STATE_SISTAN
 }
 
-#Sogdia
-SOG = {
-	color = { 197 137 58 }
-	country_type = unrecognized 
+#Kashgar
+KSG = {
+	color = { 136 169 180 } #placeholder
+	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { sogdian uzbek }
-	capital = STATE_UZBEKIA
+	cultures = { uyghr }
+	capital = STATE_TIANSHAN
 }
 
-#Kazakhs
-KAZ = {
-	color = { 90 108 171 }
+#Kipchaks
+KIP = {
+	color = { 60 80 140 }
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { kazak }
+	cultures = { kipchak }
 	capital = STATE_SEMIRECHE
 }
 
-#Khoshut
-KHO = {
-	color = { 213 227 240 }
-	country_type = unrecognized 
+#Khwarezmia
+KHW = {
+	color = { 97 101 181 }
+	country_type = unrecognized
 	
 	tier = kingdom
 	
-	cultures = { tibetan mongol }
-	capital = STATE_LHASA
+	cultures = { kwarezmian }
+	capital = STATE_KHIVA
 }
 
-#Moghul
-MOG = {
-	color = { 87 92 104 }
-	country_type = unrecognized 
+#Ladakh
+LAD = {
+	color = { 82 195 39 }
+	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
-	cultures = { mongol uighur }
-	capital = STATE_DZUNGARIA
+	cultures = { tibetan }
+	capital = STATE_KASHMIR
 }
 
 #Liao
@@ -4549,37 +4548,26 @@ MGL = {
 	capital = STATE_URGA
 }
 
-#Oghuz
-OGH = {
-	color = { 153 35 59 }
-	country_type = decentralized 
-	
-	tier = principality
-	
-	cultures = { oghuz }
-	capital = STATE_URALSK
-}
-
-#
- = {
-	color = {  } #placeholder
+#Naimans
+NAI = {
+	color = { 122 159 172 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { mongol }
+	capital = STATE_DZUNGARIA
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Tumed
+TUM = {
+	color = { 220 230 233 }
+	country_type = unrecognized
 	
-	tier =  #placeholder
+	tier = kingdom
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { tibetan mongol }
+	capital = STATE_LHASA
 }
 
 #
