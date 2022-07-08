@@ -302,3 +302,195 @@ DEI = {
 	cultures = { dutch }
 	capital = STATE_WEST_JAVA
 }
+
+# Siak
+SAK = {
+	color = { 21  196  68 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+
+# Pontianak
+PON = {
+	color = { 255 102 102 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+# Sambas
+SMB = {
+	color = { 102  102  255 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+# Jambi
+JMB = {
+	color = { 223  228  192 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+
+# Yogyakarta
+YOG = {
+	color = { 201  28  54 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { javan }
+	capital = STATE_CENTRAL_JAVA
+}
+
+# Surakarta
+SRK = {
+	color = { 239 51 64 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { javan }
+	capital = STATE_CENTRAL_JAVA
+}
+
+# Buton
+BTN = {
+	color = { 209  203  31 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { moluccan }
+	capital = STATE_CELEBES
+}
+
+# Selangor
+SEL = {
+	color = { 249 215 61 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
+# Perak
+PRK = {
+	color = { 76  122  117 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
+# Sulu
+SUL = {
+	color = { 89  164  144 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { moro }
+	capital = STATE_MINDANAO
+}
+
+# Sulawesi
+SLW = {
+	color = { 153 0 0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { moluccan }
+	capital = STATE_CELEBES
+}
+
+# Tidore
+TID = {
+	color = { 176  232  64 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { moluccan }
+	capital = STATE_MOLUCCAS
+}
+
+# Sintang
+STG = {
+	color = { 255 255 0 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+# Banjar
+BNJ = {
+	color = { 171  175  40 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_EAST_BORNEO
+}
+
+# Indonesia
+IDN = {
+	color = { 0  128  128 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { balinese batak bornean dayak javan malay moluccan sumatran }
+	capital = STATE_WEST_JAVA
+}
+
+# Maguindanao
+MGD = {
+	color = { 119  32  29 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { moro }
+	capital = STATE_MINDANAO
+}
