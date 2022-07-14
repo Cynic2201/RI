@@ -5296,338 +5296,353 @@ VSY = {
 	
 	tier = kingdom
 	
-	cultures = { visayan }
+	cultures = { visayan vandal }
 	capital = STATE_VISAYAS
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Aboriginals
+ABO = {
+	color = { 144 16 0 }
+	tier = principality
 	
-	tier =  #placeholder
+	country_type = decentralized
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Arnhem
+ARN = {
+	color = { }#placeholder
+	country_type = colonial
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	capital = STATE_NORTHERN_TERRITORY
+	cultures = { australian }
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Auralia
+AUR = {
+	color = { 156 103 80 }
+	country_type = colonial
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	capital = STATE_SOUTH_AUSTRALIA
+	cultures = { australian }
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Bilua
+BLA = {
+	color = { 140 166 75 }
 	
-	tier =  #placeholder
+	country_type = decentralized
+
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { melanesian }
+	capital = STATE_SOLOMON_ISLANDS
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Fiji
+FJI = {
+	color = { 159 173 219 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { melanesian }
+	capital = STATE_FIJI
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Halia
+HLA = {
+	color = { 210 184 220 }
 	
-	tier =  #placeholder
+	country_type = decentralized
+
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { melanesian }
+	capital = STATE_BOUGAINVILLE
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Kanak
+KNK = {
+	color = { 190 173 103 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { melanesian }
+	capital = STATE_KANAK
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Micronesia
+MCR = {
+	color = { 248 218 99 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { micronesian }
+	capital = STATE_EAST_MICRONESIA
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Nauru
+NRU = {
+	color = { 231 131 17 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { melanesian }
+	capital = STATE_NAURU
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#New Holland
+NWH = {
+	color = { 199 102 108 }
+	country_type = colonial
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	capital = STATE_WESTERN_AUSTRALIA
+	cultures = { australian }
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Ngai Tahu
+NTU = {
+	color = { 62 92 54 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { maori }
+	capital = STATE_SOUTH_ISLAND
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Ngati Toa
+NTO = {
+	color = { 148 185 190 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { maori }
+	capital = STATE_NORTH_ISLAND
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Noongar
+NNG = {
+	color = { 209 160 107 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Polynesia
+PLY = {
+	color = { 176 62 136 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { polynesian }
+	capital = STATE_TAHITI
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Tasmania
+TSM = {
+	color = { 181 156 116 }
+	country_type = colonial
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	capital = STATE_NORTH_ISLAND
+	cultures = { australian }
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Tonga
+TNG = {
+	color = { 69 38 162 }
+	country_type = decentralized
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { polynesian }
+	capital = STATE_TONGA
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Van Diemen's Land
+VDL = {
+	color = { 172 140 88 }
+	country_type = colonial
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	capital = STATE_VICTORIA
+	cultures = { australian }
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Vanuatu
+VNT = {
+	color = { 37 214 50 }
+	country_type = decentralized
+
+	tier = principality
 	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { melanesian }
+	capital = STATE_VANUATU
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Willemsland
+WIL = {
+	color = { 193 136 99 }
+	country_type = colonial
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	capital = STATE_QUEENSLAND
+	cultures = { australian }
 }
 
-#
- = {
-	color = {  } #placeholder
+#Song
+SON = {
+	color = { 102 136 142 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = empire
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { han }
+	capital = STATE_NANJING
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Yunnan
+YUN = {
+	color = { 79 105 110 }
+	country_type = unrecognized
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { han yi }
+	capital = STATE_YUNNAN
+	is_named_from_capital = yes
 }
 
-#
- = {
-	color = {  } #placeholder
+#Fusang
+FUS = {
+	color = { 207 141 83 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = empire
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { japanese han }
+	capital = STATE_BEIJING
 }
 
-#
- = {
-	color = {  } #placeholder
+#Bohai
+BHA = {
+	color = { 169 101 42 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { japanese korean }
+	capital = STATE_GWANBUK
 }
 
-#
- = {
-	color = {  } #placeholder
+#Nurgan
+NRG = {
+	color = { 207 150 101 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { manchu }
+	capital = STATE_NORTHERN_MANCHURIA
 }
 
-#
- = {
+#Liaodong
+LID = {
 	color = {  } #placeholder
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { han }
+	capital = STATE_SHENGJING
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Korea
+KOR = {
+	color = { 157  144  97 }
 	
-	tier =  #placeholder
+	country_type = unrecognized
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	tier = kingdom
+	
+	cultures = { korean }
+	capital = STATE_SEOUL
 }
 
-#
- = {
-	color = {  } #placeholder
+#Kato
+KTO = {
+	color = { 89 100 145 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { japanese }
+	capital = STATE_GYEONGGI
 }
 
-#
- = {
-	color = {  } #placeholder
+#Konishi
+KNS = {
+	color = { 82 92 133 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = grand_principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { japanese }
+	capital = STATE_YANGHO
 }
 
-#
- = {
-	color = {  } #placeholder
+#Kuroda
+KRO = {
+	color = { 100 112 162 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { japanese }
+	capital = STATE_YANGSEO
 }
 
-#
- = {
-	color = {  } #placeholder
+#Mori
+MRI = {
+	color = { 100 112 163 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { japanese }
+	capital = STATE_YEONGNAM
+}
+
+#Jurchens
+JUR = {
+	color = { 221 206 128 }
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	capital = STATE_OUTER_MANCHURIA
 }
 
 #
