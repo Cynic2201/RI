@@ -5768,7 +5768,7 @@ NIV = {
 
 #Sibir
 SBR = {
-	color = { 104 177 234 }
+	color = { 71 131 160 }
 	country_type = unrecognized 
 	
 	tier = principality
