@@ -1836,17 +1836,6 @@ KRS = {
 	capital = STATE_KURSK
 }
 
-#Sibir
-SBR = {
-	color = { 104 177 234 }
-	country_type = recognized 
-	
-	tier = principality
-	
-	cultures = { siberian }
-	capital = STATE_URAL
-}
-
 #Altava
 ALV = {
 	color = { 233 114 56 }
@@ -5603,7 +5592,7 @@ KTO = {
 
 #Konishi
 KNS = {
-	color = { 82 92 133 }
+	color = { 43 68 175 }
 	country_type = unrecognized 
 	
 	tier = grand_principality
@@ -5623,15 +5612,103 @@ KRO = {
 	capital = STATE_YANGSEO
 }
 
+#Japan
+JAP = {
+	color = { 194 53 60 }
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { japanese }
+	capital = STATE_KANSAI
+}
+
+#Edo
+EDO = {
+	color = { 118 32 36 }
+	country_type = unrecognized 
+	
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_KANTO
+}
+
+#Chosokabe
+CHS = {
+	color = { 195 195 195 }
+	country_type = unrecognized 
+	
+	tier = grand_principality
+	
+	cultures = { japanese }
+	capital = STATE_SHIKOKU
+}
+
 #Mori
 MRI = {
-	color = { 100 112 163 }
+	color = { 251 195 16 }
+	country_type = unrecognized 
+	
+	tier = grand_principality
+	
+	cultures = { japanese }
+	capital = STATE_YEONGNAM
+}
+
+#Otomo
+OTO = {
+	color = { 255 127 39 }
 	country_type = unrecognized 
 	
 	tier = principality
 	
 	cultures = { japanese }
-	capital = STATE_YEONGNAM
+	capital = STATE_KYUSHU
+}
+
+#Shimazu
+SHM = {
+	color = { 184 61 186 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { japanese }
+	capital = STATE_KYUSHU
+}
+
+#Chukchi
+CHU = {
+	color = { 112 93 178 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { siberian inuit }
+	capital = STATE_CHUKOTKA
+}
+
+#Evenki
+EVK = {
+	color = { 62 130 138 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { siberian }
+	capital = STATE_UPPER_YENISEYSK
+}
+
+#Evens
+EVN = {
+	color = { 193 193 193 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { siberian }
+	capital = STATE_OKHOTSK
 }
 
 #Jurchens
@@ -5645,147 +5722,70 @@ JUR = {
 	capital = STATE_OUTER_MANCHURIA
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Koryaks
+KRY = {
+	color = { 188 153 99 }
+	country_type = decentralized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { siberian }
+	capital = STATE_KAMCHATKA
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Kyghyz
+KYG = {
+	color = { 210 164 65 }
+	country_type = decentralized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { kirghiz }
+	capital = STATE_TOMSK
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Nenets
+NNT = {
+	color = { 191 207 175 }
+	country_type = decentralized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { ugrian }
+	capital = STATE_OB
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Nivkh
+NIV = {
+	color = { 54 102 190 }
+	country_type = decentralized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { siberian }
+	capital = STATE_SAKHALIN
 }
 
-#
- = {
-	color = {  } #placeholder
+#Sibir
+SBR = {
+	color = { 104 177 234 }
 	country_type = unrecognized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { siberian }
+	capital = STATE_URAL
 }
 
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
+#Yakuts
+YAK = {
+	color = { 134 129 101 }
+	country_type = decentralized 
 	
-	tier =  #placeholder
+	tier = principality
 	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
-}
-
-#
- = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier =  #placeholder
-	
-	cultures = {  } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { yakut }
+	capital = STATE_YAKUTSK
 }
 
 #
