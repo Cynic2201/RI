@@ -985,6 +985,8 @@
  FRC_ADJ:0 "Franconian"
  SAM:0 "Samoa"
  SAM_ADJ:0 "Samoan"
+ RPN:0 "Rapa Nui"
+ RPN_ADJ:0 "Rapa Nui"
 
 l_english:
  #ABS:0 "Absaroka"

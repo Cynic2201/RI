@@ -454,4 +454,59 @@
 			type = puppet
 		}
 	}
+	
+	c:ALM = {
+		create_diplomatic_pact = {
+			country = c:ULM
+			type = puppet
+		}
+	}
+	
+	c:MRV = {
+		create_diplomatic_pact = {
+			country = c:POM
+			type = puppet
+		}
+	}
+	
+	c:FUS = {
+		create_diplomatic_pact = {
+			country = c:BHA
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NRG
+			type = vassal
+		}
+	}
+	
+	c:SON = {
+		create_diplomatic_pact = {
+			country = c:YUN
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:ANA
+			type = vassal
+		}
+	}
+	
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:NWH
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:AUR
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:WIL
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:VDL
+			type = dominion
+		}
+	}
 }
