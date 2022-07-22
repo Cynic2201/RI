@@ -37,7 +37,7 @@ MAD = {
 	
 	country_type = unrecognized
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { malagasy }
 	capital = STATE_NORTH_MADAGASCAR

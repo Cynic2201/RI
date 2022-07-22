@@ -1477,7 +1477,7 @@ BGL = {
 	
 	tier = principality
 	
-	cultures = { bengali }
+	cultures = { bengali bihari }
 	capital = STATE_SOUTH_BENGAL
 }
 
@@ -2264,7 +2264,7 @@ BOL = {
 	tier = kingdom
 	
 	cultures = { south_andean }
-	capital = STATE_SANTA_CRUZ
+	capital = STATE_LA_PAZ
 }
 
 BRZ = {
@@ -2556,7 +2556,7 @@ IBE = {
 
 	tier = empire
 	
-	cultures = { spanish catalan portuguese basque }
+	cultures = { spanish catalan portuguese basque galician }
 	capital = STATE_TOLEDO
 }
 
@@ -2567,8 +2567,8 @@ ORG = {
 	
 	tier = principality
 	
-	cultures = { yankee anglo_canadian }
-	capital = STATE_OREGON
+	cultures = { anglo_canadian yankee }
+	capital = STATE_BRITISH_COLUMBIA
 }
 
 COM = {
@@ -3146,7 +3146,7 @@ CSC = { # Cascadia
 IRO = { # Iroquois
 	color = { 87 182 80 }
 	
-	country_type = decentralized
+	country_type = recognized
 	
 	tier = principality
 	
