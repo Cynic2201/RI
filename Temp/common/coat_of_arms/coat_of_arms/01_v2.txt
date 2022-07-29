@@ -98,7 +98,6 @@ MOR = { textured_emblem = { texture = "V2/MOR.tga" } }
 MUG = { textured_emblem = { texture = "V2/MUG.tga" } }
 MYS = { textured_emblem = { texture = "V2/MYS.tga" } }
 NAL = { textured_emblem = { texture = "V2/NAL.tga" } }
-NAT = { textured_emblem = { texture = "V2/NAT.tga" } }
 NEJ = { textured_emblem = { texture = "V2/NEJ.tga" } }
 NEN = { textured_emblem = { texture = "V2/NEN.tga" } }
 NEP = { textured_emblem = { texture = "V2/NEP.tga" } }

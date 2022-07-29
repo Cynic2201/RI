@@ -337,6 +337,7 @@ STATE_POTOSI={
 	capped_resources={
 		bg_lead_mining=12
 		bg_logging=9
+		bg_gold_mining=4
 	}
 }
 

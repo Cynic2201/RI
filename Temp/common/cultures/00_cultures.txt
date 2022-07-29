@@ -1,5 +1,5 @@
 ﻿north_german={
-	color={ 90 60 60 }
+	color= hsv{ 0.392 0.43 0.70 }
 	religion = protestant
 	traits = { german_speaking european_heritage }
 	male_common_first_names={
@@ -11,6 +11,7 @@
 		August
 		Bernhard
 		Burkhard
+		
 		Dieter
 		Eduard
 		Edwin
@@ -40,6 +41,7 @@
 		Lukas
 		Manfred
 		Maximilian
+		Markus
 		Michael
 		Nikolaus
 		Otto
@@ -154,6 +156,7 @@
 		Gloger
 		Goerdeler
 		Goetz
+		Grebe
 		Groener
 		Groth
 		Hagen
@@ -195,13 +198,14 @@
 		Woehlert
 		Zerrahn
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 south_german={
-	color={ 50 80 80 }
+	color= hsv{ 0.50 0.43 0.45 }
 	religion = catholic
 	traits = { german_speaking european_heritage }
 	male_common_first_names={
@@ -257,9 +261,6 @@ south_german={
 		Walter
 		Werner
 		Wilhelm
-		Depre
-		Lehmkuhl
-		Olbers
 	}
 	female_common_first_names = {
 		Anna Adelgunde Alexandra Augusta
@@ -374,14 +375,17 @@ south_german={
 		Zink
 		Depre
 		Lakner
+		Lehmkuhl
+		Olbers
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 ashkenazi={
-	color={ 130 100 100 }
+	color= hsv{ 0.13 0.80 0.99 }
 	religion = jewish
 	traits = { jewish_group european_heritage } 
 	# could have German-speaking, but would make them not discriminated which would be very ahistorical
@@ -465,10 +469,11 @@ ashkenazi={
 	ethnicities = {
 		1 = caucasian
 	}
+	graphics = european
 }
 
 dutch={
-	color={ 230 130 50 }
+	color= hsv{ 0.07 0.49 0.93 }
 	religion = protestant
 	traits = { beneluxian_culture_group european_heritage }
 	male_common_first_names={
@@ -693,13 +698,14 @@ dutch={
 		van_der_Werff
 		van_der_Wijck
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 flemish={
-	color={ 250 180 80 }
+	color= hsv{ 0.9 0.38 0.80 }
 	religion = catholic
 	traits = { beneluxian_culture_group european_heritage }
 	male_common_first_names={
@@ -949,13 +955,14 @@ flemish={
 		van_der_Linden_d_Hooghvorst
 		van_der_Looy
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 wallonian={
-	color={ 190 90 20 }
+	color= hsv{ 0.74 0.59 0.74 }
 	religion = catholic
 	traits = { beneluxian_culture_group francophone european_heritage }
 	male_common_first_names={
@@ -1186,13 +1193,14 @@ wallonian={
 		le_Hon
 		van_Snick
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 boer={
-	color={ 220 145 0 }
+	color= hsv{ 0.10 0.80 0.86 }
 	religion = protestant
 	traits = { beneluxian_culture_group african_settler european_heritage }
 	male_common_first_names={
@@ -1307,13 +1315,14 @@ boer={
 		van_Zyl
 		Viljoen
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 swiss={
-	color={ 180 40 40 }
+	color= hsv{ 0.0 0.47 0.70 }
 	religion = protestant
 	traits = { german_speaking francophone italophone european_heritage }
 	male_common_first_names={
@@ -1412,13 +1421,14 @@ swiss={
 		Zeni
 		de_Staeel
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 swedish={
-	color={ 20 40 160 }
+	color= hsv{ 0.64 0.57 0.62 }
 	religion = protestant
 	traits = { scandinavian_culture_group european_heritage }
 
@@ -1565,17 +1575,18 @@ swedish={
 		Dahlberg
 		Borg
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 danish={
-	color={ 220 40 40 }
+	color= hsv{ 0 0.51 0.86 }
 	religion = protestant
 	traits = { scandinavian_culture_group european_heritage }
 	male_common_first_names={
-		ASmund
+		Aasmund
 		Aage
 		Adam
 		Alber
@@ -1699,13 +1710,14 @@ danish={
 		Zytphen-Adeler
 		de_Meza
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 norwegian={
-	color={ 140 20 140 }
+	color= hsv{ 0.83 0.35 0.54 }
 	religion = protestant
 	traits = { scandinavian_culture_group european_heritage }
 	male_common_first_names={
@@ -1840,13 +1852,14 @@ norwegian={
 		Zwilgmeyer
 		Lie
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 icelandic={
-	color={ 80 20 150 }
+	color= hsv{ 0.74 0.46 0.58 }
 	religion = protestant
 	traits = { scandinavian_culture_group european_heritage }
 	male_common_first_names={
@@ -1912,13 +1925,14 @@ icelandic={
 		Thorhallson
 		Asgeirsson
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 finnish={
-	color={ 220 220 220 }
+	color= hsv{ 0 0 0.86 }
 	religion = protestant
 	traits = { finnic scandinavian_culture_group european_heritage }
 	male_common_first_names={
@@ -2060,13 +2074,14 @@ finnish={
 		Nurmivaara
 		Valapuro
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 sami={
-	color={ 60 180 110 }
+	color= hsv{ 0.40 0.36 0.70 }
 	religion = protestant
 	traits = { finnic european_heritage }
 	# could have scandinavian_culture_group but that would make them ahistorically non-discriminated
@@ -2110,13 +2125,14 @@ sami={
 		Somby
 		Turi
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 british={
-	color={ 220 100 220 }
+	color= hsv{ 0.83 0.24 0.86 }
 	religion = protestant
 	traits = { anglophone european_heritage }
 	
@@ -2234,13 +2250,14 @@ british={
 		# populate with names here
 	}	
 	
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 irish={
-	color={ 35 140 50 }
+	color= hsv{ 0.35 0.58 0.54 }
 	religion = catholic
 	traits = { celtic_people european_heritage }
 	# could have anglophone but would make them non-discriminated in Britain
@@ -2409,13 +2426,15 @@ irish={
 		White
 		Wilson
 	}
+	
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 australian={
-	color={ 87 113 174 }
+	color= hsv{ 0.61 0.50 0.68 }
 	religion = protestant
 	traits = { anglophone new_world_settler european_heritage }
 	male_common_first_names={
@@ -2532,13 +2551,14 @@ australian={
 		War
 		Yeamans
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 north_italian={
-	color={ 90 210 130 }
+	color= hsv{ 0.38 0.27 0.86 }
 	religion = catholic
 	traits = { italophone european_heritage }
 	
@@ -2687,13 +2707,14 @@ north_italian={
 		Vaccari
 		Zupelli
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 south_italian={
-	color={ 40 150 90 }
+	color= hsv{ 0.21 0.43 0.58 }
 	religion = catholic
 	traits = { italophone european_heritage }
 	
@@ -2794,13 +2815,14 @@ south_italian={
 		Vernazza
 		Zunica
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 maltese={
-	color={ 100 150 120 }
+	color= hsv{ 0.40 0.03 0.58 }
 	religion = catholic
 	traits = { italophone european_heritage }
 	male_common_first_names={
@@ -2874,13 +2896,14 @@ maltese={
 		Strickland
 		Vella
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 basque={
-	color={ 220 170 30 }
+	color= hsv{ 0.12 0.56 0.86 }
 	religion = catholic
 	traits = { iberian_culture_group european_heritage }
 	male_common_first_names={
@@ -2990,13 +3013,14 @@ basque={
 		de_Renteria
 		de_Ubisztongo
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 spanish={
-	color={ 220 220 30 }
+	color= hsv{ 0.16 0.56 0.86 }
 	religion = catholic
 	traits = { iberian_culture_group hispanophone european_heritage }
 	male_common_first_names={
@@ -3174,13 +3198,14 @@ spanish={
 		Yague
 		Alvarez
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 catalan={
-	color={ 220 110 30 }
+	color= hsv{ 0.07 0.56 0.86 }
 	religion = catholic
 	traits = { iberian_culture_group european_heritage }
 	male_common_first_names={
@@ -3320,13 +3345,14 @@ catalan={
 		Virigili
 		Vives
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 portuguese={
-	color={ 160 220 30 }
+	color= hsv{ 0.21 0.56 0.86 }
 	religion = catholic
 	traits = { iberian_culture_group lusophone european_heritage }
 	male_common_first_names={
@@ -3511,13 +3537,14 @@ portuguese={
 		dos_Reis
 		dos_Santos
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 french={
-	color={ 20 20 100 }
+	color= hsv{ 0.66 0.50 0.49 }
 	religion = catholic
 	traits = { francophone european_heritage }
 	
@@ -3644,13 +3671,82 @@ french={
 		Vaillant Ventresque Villette Vivier Vaidis Vilette
 		Wattelier Winant
 	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+occitan={
+	color= hsv{ 0.50 0.30 0.88 }
+	religion = catholic
+	traits = { francophone european_heritage }
+
+	# the best wine is from Occitania, of course.
+	obsessions = {
+		wine
+	}
+
+	male_common_first_names={
+		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
+		Brut Bernat BerenguiE_r Beneset Bonifaci
+		Claudi Cesar Constantin Constanci Carles ClamenC_ Ciprian Cesari Crestian CailU_s
+		DA_vid
+		Emilian Edoard Enric EstE_ve EugE_ni
+		Fermin Felip FE_lix Frederic Folco FrancE_s
+		GregO_ri GuilhE_m Gaston Gui
+		Imbert Ipolit
+		Joan Joan_Luc Juli JosE_p Just Joan_Marc JO_rdi
+		Luc Leon LoI_s
+		Marc MatE_u Marcellin Maurici Martin Maximin MiquE_u
+		Norbert Nicolau
+		OnE_st OnO_ri Olimp
+		Pau PE_ire Plini Pascal
+		Raimon RogiE_r Roman
+		Sarnin Septimi Sicard SilvE_stre Severin Simmac SE_rgi
+		TomA_s TeodO_si TeodO_r Teofil
+		Victor
+		XaviE_r
+	}
+	female_common_first_names={
+		AdelaI_da
+		Basilida
+		Clotilda Catarina Clara
+		ElisabE_t
+		FiladE_lfa
+		Jana Julia
+		EstE_la
+		Maria Marianna
+		Susana
+		TerE_sa
+		Urraca
+	}
+	common_last_names = {
+		Ayrinhac AubanE_u Arnaudin d_AstrO_s
+		Brunet Bernard Blanc de_BordE_u Boya Barrera Benaset
+		de_Camelat
+		Devoluy DO_sque DadO_r Delseny Desporrins DaugE_r Dulau DuclO_s
+		Eyt
+		Fallen Four_Pome de_Fondevila
+		Giera Garcin GojA_s Gonzales de_GastellU_
+		Jouveau Jauverd
+		Lacor Lescar Lalanne Lafont
+		Mistral Matieu Manciet
+		NavarrO_t
+		Polinet Palay PlantE_ Peirotet
+		Romanilha Rostaing Renan
+		Sarran de_Salanovat
+		Tavan
+		VigE_r VerdiE_r Verlhac	
+	}
+
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 breton={
-	color={ 230 230 255 }
+	color= hsv{ 0.16 0.39 0.95 }
 	religion = catholic
 	traits = { francophone celtic_people european_heritage }
 	male_common_first_names={
@@ -3736,13 +3832,14 @@ breton={
 		Vallee
 		de_Saint-Andre
 	}
+	graphics = european
 	ethnicities = {
 		1 = caucasian
 	}
 }
 
 croat={
-	color={ 140 140 190 }
+	color= hsv{ 0.66 0.06 0.74 }
 	religion = catholic
 	traits = { jugoslav european_heritage }
 	male_common_first_names={
@@ -3875,10 +3972,11 @@ croat={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 serb={
-	color={ 150 65 80 }
+	color= hsv{ 0.97 0.26 0.58 }
 	religion = orthodox
 	traits = { jugoslav european_heritage }
 	male_common_first_names={
@@ -4011,10 +4109,11 @@ serb={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 bulgarian={
-	color={ 65 150 100 }
+	color= hsv{ 0.40 0.26 0.58 }
 	religion = orthodox
 	traits = { jugoslav european_heritage }
 	male_common_first_names={
@@ -4137,10 +4236,11 @@ bulgarian={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 albanian={
-	color={ 140 0 0 }
+	color= hsv{ 0.10 0.60 0.44 }
 	religion = sunni
 	traits = { albanian_language european_heritage }
 	male_common_first_names={
@@ -4280,10 +4380,11 @@ albanian={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 slovene={
-	color={ 0 90 128 }
+	color= hsv{ 0.54 0.50 0.55 }
 	religion = catholic
 	traits = { jugoslav european_heritage }
 	male_common_first_names={
@@ -4426,10 +4527,11 @@ slovene={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 bosniak={
-	color={ 30 200 200 }
+	color= hsv{ 0.50 0.55 0.58 }
 	religion = sunni
 	traits = { jugoslav european_heritage }
 	male_common_first_names={
@@ -4555,10 +4657,11 @@ bosniak={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 romanian={
-	color={ 240 240 140 }
+	color= hsv{ 0.12 0.41 0.54 }
 	religion = orthodox
 	traits = { romanian_culture_group european_heritage }
 	male_common_first_names={
@@ -4703,12 +4806,13 @@ romanian={
 		Zottu
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 hungarian={
-	color={ 180 255 120 }
+	color= hsv{ 0.25 0.22 0.99 }
 	religion = catholic
 	traits = { hungarian_culture_group european_heritage }
 	male_common_first_names={
@@ -4844,12 +4948,13 @@ hungarian={
 		Vecsey
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 polish={
-	color={ 255 120 120 }
+	color= hsv{ 0 0.22 0.5 }
 	religion = catholic
 	traits = { west_slavic european_heritage }
 	male_common_first_names={
@@ -4917,6 +5022,7 @@ polish={
 		Helena
 		Izabela
 		Jozefa
+		Karolina
 		Konstancja
 		Maria
 		Marianna
@@ -4933,7 +5039,6 @@ polish={
 		Glowacki
 		Hauke-Boask
 		Iwaszkiewicz
-		Karolina
 		Pilsudski
 		Plater
 		Potocki
@@ -4958,8 +5063,8 @@ polish={
 		Dabrowski
 		Dembinski
 		Drzymala
-		Fabryvy
-		Iszikowski
+		Fabrycy
+		Idzikowski
 		Jasinski
 		Klicki
 		Konopczynski
@@ -4968,7 +5073,7 @@ polish={
 		Kozlowski
 		Langiewicz
 		Madalinski
-		Mierolawski
+		Mieroslawski
 		Mikolajczyk
 		Mokronowski
 		Niepokolczycki
@@ -4997,10 +5102,11 @@ polish={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 lithuanian={
-	color={ 17 162 48 }
+	color= hsv{ 0.42 0.48 0.83 }
 	religion = catholic
 	traits = { baltic_culture_group european_heritage }
 	male_common_first_names={
@@ -5144,12 +5250,13 @@ lithuanian={
 		Zuokas
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 czech={
-	color={ 120 120 255 }
+	color= hsv{ 0.66 0.32 0.99 }
 	religion = protestant
 	traits = { west_slavic european_heritage }
 	male_common_first_names={
@@ -5290,10 +5397,11 @@ czech={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 slovak={
-	color={ 120 255 255 }
+	color= hsv{ 0.50 0.32 0.79 }
 	religion = catholic
 	traits = { west_slavic european_heritage }
 	male_common_first_names={
@@ -5429,10 +5537,11 @@ slovak={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 russian={
-	color={ 0 70 10 }
+	color= hsv{ 0.35 0.40 0.37 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
 	male_common_first_names={
@@ -5528,7 +5637,7 @@ russian={
 		Denikin
 		Dragomirov
 		Frolov
-		Golivin
+		Golovin
 		Grishin
 		Gurko
 		Ivanov
@@ -5563,10 +5672,11 @@ russian={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 byelorussian={
-	color={ 100 140 110 }
+	color= hsv{ 0.37 0.28 0.54 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
 	male_common_first_names={
@@ -5630,7 +5740,7 @@ byelorussian={
 		Chibisov
 		Denikin
 		Dragomirov
-		Golivin
+		Golovin
 		Gurko
 		Ivanov
 		Kalinowski
@@ -5655,10 +5765,11 @@ byelorussian={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 ukrainian={
-	color={ 160 160 60 }
+	color= hsv{ 0.16 0.32 0.62 }
 	religion = orthodox
 	traits = { east_slavic european_heritage }
 	male_common_first_names={
@@ -5764,10 +5875,11 @@ ukrainian={
 	ethnicities = {
 		1 = slavic
 	}
+	graphics = european
 }
 
 ugrian={
-	color={ 60 160 160 }
+	color= hsv{ 0.50 0.32 0.62 }
 	religion = animist
 	traits = { finnic european_heritage }
 	male_common_first_names={
@@ -5804,12 +5916,13 @@ ugrian={
 		Zubov
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = circumpolar
 	}
+	graphics = generic
 }
 
 latvian={
-	color={ 162 17 48 }
+	color= hsv{ 0.96 0.59 0.63 }
 	religion = protestant
 	traits = { baltic_culture_group european_heritage }
 	male_common_first_names={
@@ -5951,12 +6064,13 @@ latvian={
 		de_Kolongs
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 estonian={
-	color={ 40 30 60 }
+	color= hsv{ 0.72 0.25 0.28 }
 	religion = protestant
 	traits = { finnic baltic_culture_group european_heritage }
 	male_common_first_names={
@@ -6099,12 +6213,13 @@ estonian={
 		Opik
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 greek={
-	color={ 200 50 100 }
+	color= hsv{ 0.94 0.45 0.48 }
 	religion = orthodox
 	traits = { greek_culture european_heritage }
 	
@@ -6252,12 +6367,13 @@ greek={
 		tes_Elladas
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 georgian={
-	color={ 70 110 70 }
+	color= hsv{ 0.33 0.26 0.43 }
 	religion = orthodox
 	traits = { caucasus_group european_heritage }
 	male_common_first_names={
@@ -6393,13 +6509,14 @@ georgian={
 		Zhordania
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 armenian={
-	color={ 135 125 20 }
-	religion = orthodox
+	color= hsv{ 0.15 0.55 0.52 }
+	religion = oriental_orthodox
 	traits = { caucasus_group european_heritage }
 	male_common_first_names={
 		Alexander
@@ -6530,14 +6647,15 @@ armenian={
 		Vartanian
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
+	graphics = european
 }
 
 sephardic={
-	color={ 50 60 10 }
+	color= hsv{ 0.20 0.53 0.23 }
 	religion = jewish
-	traits = { jewish_group european_heritage }
+	traits = { jewish_group european_heritage middle_eastern_heritage }
 	male_common_first_names={
 		Abraham
 		Amos
@@ -6622,15 +6740,19 @@ sephardic={
 		Saban
 		Sebag
 	}
+	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = caucasian
 	}
 }
 
 turkish={
-	color={ 250 55 55 }
+	color= hsv{ 0.99 0.48 0.80 }
 	religion = sunni
 	traits = { turkic middle_eastern_heritage }
+	obsessions = {
+		tea
+	}
 	male_common_first_names={
 		Abdulhamid
 		Abdulkerim
@@ -6758,10 +6880,11 @@ turkish={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 azerbaijani={
-	color={ 47 44 107 }
+	color= hsv{ 0.67 0.38 0.41 }
 	religion = shiite
 	traits = { caucasus_group turkic middle_eastern_heritage }
 	male_common_first_names={
@@ -6840,12 +6963,13 @@ azerbaijani={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 north_caucasian={
-	color={ 252 255 161 }
+	color= hsv{ 0.17 0.26 0.99 }
 	religion = sunni
-	traits = { caucasus_group european_heritage }
+	traits = { caucasus_group middle_eastern_heritage }
 	male_common_first_names={
 		Aslan
 		Hamza
@@ -6885,12 +7009,13 @@ north_caucasian={
 		Shaaban
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = north_caucasian
 	}
+	graphics = european
 }
 
 maghrebi={
-	color={ 24 103 22 }
+	color= hsv{ 0.32 0.58 0.30 }
 	traits = { arab_speaking middle_eastern_heritage }
 	religion = sunni
 	male_common_first_names={
@@ -6993,11 +7118,15 @@ maghrebi={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 misri={
-	color={ 34 145 86 }
+	color= hsv{ 0.41 0.46 0.56 }
 	religion = sunni
+	obsessions = {
+		coffee
+	}
 	traits = { arab_speaking middle_eastern_heritage }
 	male_common_first_names={
 		Abdulhamid
@@ -7094,12 +7223,16 @@ misri={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 mashriqi={
-	color={ 40 183 54 }
+	color= hsv{ 0.34 0.48 0.71 }
 	religion = shiite
 	traits = { arab_speaking middle_eastern_heritage }
+	obsessions = {
+		coffee
+	}
 	male_common_first_names={
 		Abd_Allah
 		Abd_al-Karim
@@ -7192,11 +7325,15 @@ mashriqi={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 bedouin={
-	color={ 128 172 181 }
+	color= hsv{ 0.52 0.49 0.85 }
 	religion = sunni
+	obsessions = {
+		coffee
+	}
 	traits = { arab_speaking middle_eastern_heritage }
 	male_common_first_names={
 		Abd_Allah
@@ -7284,10 +7421,11 @@ bedouin={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 berber={
-	color={ 51 75 70 }
+	color= hsv{ 0.20 0.55 0.45 }
 	religion = sunni
 	traits = { arab_speaking middle_eastern_heritage }
 	male_common_first_names={
@@ -7327,10 +7465,11 @@ berber={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 persian={
-	color={ 144 88 81 }
+	color= hsv{ 0.1 0.43 0.56 }
 	religion = shiite
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
 	male_common_first_names={
@@ -7414,10 +7553,11 @@ persian={
 	ethnicities = {
 		1 = arab
 	}
+	graphics = mideast_indian
 }
 
 uzbek={
-	color={ 152 67 56 }
+	color= hsv{ 0.01 0.46 0.59 }
 	religion = sunni
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
@@ -7472,8 +7612,9 @@ uzbek={
 		Gulkhani
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = central_asian
 	}
+	graphics = asian
 }
 
 kazak={
@@ -7527,8 +7668,9 @@ kazak={
 		Shoshak-ula
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = central_asian
 	}
+	graphics = asian
 }
 
 kirgiz={
@@ -7573,8 +7715,9 @@ kirgiz={
 		Kutebar
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = central_asian
 	}
+	graphics = asian
 }
 
 tajik={
@@ -7631,8 +7774,9 @@ tajik={
 		Maksum
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = central_asian
 	}
+	graphics = asian
 }
 
 uighur={
@@ -7683,10 +7827,11 @@ uighur={
 	ethnicities = {
 		1 = central_asian
 	}
+	graphics = asian
 }
 
 pashtun={
-	color={ 199 151 230 }
+	color= hsv{ 0.76 0.34 0.60 }
 	religion = sunni
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
@@ -7749,12 +7894,13 @@ pashtun={
 		Taunsvi
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 baluchi={
-	color={ 132 70 171 }
+	color= hsv{ 0.96 0.49 0.67 }
 	religion = sunni
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
@@ -7792,12 +7938,13 @@ baluchi={
 		Mazari
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 hazara={
-	color={ 172 120 211 }
+	color= hsv{ 0.76 0.23 0.89 }
 	religion = shiite
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
@@ -7831,12 +7978,13 @@ hazara={
 		Yazdani
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = central_asian
 	}
+	graphics = asian
 }
 
 turkmen={
-	color={ 192 150 190 }
+	color= hsv{ 0.84 0.21 0.75 }
 	religion = sunni
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
@@ -7871,12 +8019,13 @@ turkmen={
 		Nurali
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = arab
 	}
+	graphics = asian
 }
 
 kurdish={
-	color={ 47 131 255 }
+	color= hsv{ 0.59 0.51 0.79 }
 	religion = sunni
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
 	male_common_first_names={
@@ -7918,12 +8067,13 @@ kurdish={
 		Soltani
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = arab
 	}
+	graphics = asian
 }
 
 tatar={
-	color={ 45 87 99 }
+	color= hsv{ 0.53 0.24 0.28 }
 	religion = sunni
 	traits = { turkic european_heritage }
 	male_common_first_names={
@@ -7969,12 +8119,13 @@ tatar={
 		Yamasev
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = central_asian
 	}
+	graphics = asian
 }
 
 mongol={
-	color={ 230 230 44 }
+	color= hsv{ 0.16 0.30 0.50 }
 	religion = gelugpa
 	traits = { north_asian_heritage mongol_language }
 	male_common_first_names={
@@ -8023,12 +8174,13 @@ mongol={
 		Vanchinbalyn
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = central_asian
 	}
+	graphics = asian
 }
 
 siberian={
-	color={ 40 240 240 }
+	color= hsv{ 0.50 0.50 0.84 }
 	religion = animist
 	traits = { north_asian_heritage siberian_culture_group }
 	male_common_first_names={
@@ -8064,12 +8216,13 @@ siberian={
 		Yadrintsev
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = circumpolar
 	}
+	graphics = asian
 }
 
 yakut={
-	color={ 95 87 32 }
+	color= hsv{ 0.24 0.49 0.50 }
 	religion = animist
 	traits = { north_asian_heritage siberian_culture_group }
 	male_common_first_names={
@@ -8099,13 +8252,19 @@ yakut={
 		Sivtsev
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = circumpolar
 	}
+	graphics = asian
 }
 
 tibetan={
-	color={ 99 43 89 }
+	color= hsv{ 0.86 0.26 0.38 }
 	religion = gelugpa
+	
+	obsessions = {
+		tea
+	}
+	
 	traits = { tibetan_language himalayan east_asian_heritage }
 	male_common_first_names={
 		Andruk
@@ -8144,10 +8303,11 @@ tibetan={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 assamese={
-	color={ 112 134 156 }
+	color= hsv{ 0.58 0.28 0.61 }
 	religion = sunni
 	traits = { south_asian_heritage northeast_indian }
 	male_common_first_names={
@@ -8184,10 +8344,11 @@ assamese={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 bengali={
-	color={ 156 134 112 }
+	color= hsv{ 0.08 0.28 0.61 }
 	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8243,10 +8404,11 @@ bengali={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 bihari={
-	color={ 180 75 130 }
+	color= hsv{ 0.91 0.28 0.70 }
 	religion = hindu
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8284,10 +8446,11 @@ bihari={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 manipuri={
-	color={ 190 150 240 }
+	color= hsv{ 0.74 0.27 0.94 }
 	religion = hindu
 	traits = { south_asian_heritage northeast_indian }
 	male_common_first_names={
@@ -8328,12 +8491,18 @@ manipuri={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 nepali={
-	color={ 173 123 190 }
+	color= hsv{ 0.79 0.25 0.74 }
 	religion = hindu
 	traits = { himalayan south_asian_heritage }
+	
+	obsessions = {
+		tea
+	}
+	
 	male_common_first_names={
 		Amar
 		Bhakti
@@ -8381,10 +8550,11 @@ nepali={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 oriya={
-	color={ 190 63 88 }
+	color= hsv{ 0.96 0.36 0.74 }
 	religion = hindu
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8419,10 +8589,11 @@ oriya={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 sinhala={
-	color={ 74 39 40 }
+	color= hsv{ 0.99 0.27 0.29 }
 	religion = theravada
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8458,10 +8629,11 @@ sinhala={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 avadhi={
-	color={ 90 64 23 }
+	color= hsv{ 0.10 0.44 0.35 }
 	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8497,10 +8669,11 @@ avadhi={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 kanauji={
-	color={ 90 190 41 }
+	color= hsv{ 0.27 0.48 0.74 }
 	religion = hindu
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8531,10 +8704,11 @@ kanauji={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 panjabi={
-	color={ 190 180 170 }
+	color= hsv{ 0.08 0.10 0.74 }
 	religion = sikh
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8586,10 +8760,11 @@ panjabi={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 kashmiri={
-	color={ 170 88 200 }
+	color= hsv{ 0.78 0.26 0.78 }
 	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8630,10 +8805,11 @@ kashmiri={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 gujarati={
-	color={ 99 12 89 }
+	color= hsv{ 0.85 0.28 0.35 }
 	religion = hindu
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8674,10 +8850,11 @@ gujarati={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 marathi={
-	color={ 190 220 10 }
+	color= hsv{ 0.19 0.55 0.86 }
 	religion = hindu
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8733,10 +8910,11 @@ marathi={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 sindi={
-	color={ 190 65 230 }
+	color= hsv{ 0.78 0.50 0.83 }
 	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8785,10 +8963,11 @@ sindi={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 rajput={
-	color={ 192 232 147 }
+	color= hsv{ 0.24 0.16 0.90 }
 	religion = hindu
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
@@ -8835,10 +9014,11 @@ rajput={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 kannada={
-	color={ 82 32 170 }
+	color= hsv{ 0.72 0.51 0.66 }
 	religion = sunni
 	traits = { south_asian_heritage dravidian }
 	male_common_first_names={
@@ -8885,10 +9065,11 @@ kannada={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 malayalam={
-	color={ 170 100 23 }
+	color= hsv{ 0.08 0.56 0.66 }
 	religion = hindu
 	traits = { south_asian_heritage dravidian }
 	male_common_first_names={
@@ -8924,10 +9105,11 @@ malayalam={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 tamil={
-	color={ 180 23 75 }
+	color= hsv{ 0.94 0.57 0.70 }
 	religion = hindu
 	traits = { south_asian_heritage dravidian }
 	male_common_first_names={
@@ -8969,10 +9151,11 @@ tamil={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 telegu={
-	color={ 22 89 152 }
+	color= hsv{ 0.58 0.55 0.59 }
 	religion = hindu
 	traits = { south_asian_heritage dravidian }
 	male_common_first_names={
@@ -9011,10 +9194,11 @@ telegu={
 	ethnicities = {
 		1 = indian
 	}
+	graphics = mideast_indian
 }
 
 vietnamese={
-	color={ 23 99 12 }
+	color= hsv{ 0.31 0.37 0.48 }
 	religion = mahayana
 	traits = { sinosphere southeast_asian_heritage }
 	male_common_first_names={
@@ -9061,10 +9245,11 @@ vietnamese={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 khmer={
-	color={ 220 86 34 }
+	color= hsv{ 0.04 0.54 0.86 }
 	religion = theravada
 	traits = { khmer_language southeast_asian_heritage }
 	male_common_first_names={
@@ -9103,10 +9288,11 @@ khmer={
 	ethnicities = {
 		1 = south_east_asian
 	}
+	graphics = asian
 }
 
 batak={
-	color={ 170 190 170 }
+	color= hsv{ 0.33 0.10 0.74 }
 	religion = animist
 	traits = { southeast_asian_heritage malay_culture }
 	male_common_first_names={
@@ -9152,10 +9338,11 @@ batak={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 dayak={
-	color={ 120 180 120 }
+	color= hsv{ 0.30 0.23 0.70 }
 	religion = animist
 	traits = { southeast_asian_heritage malay_culture }
 	male_common_first_names={
@@ -9209,10 +9396,11 @@ dayak={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 malagasy={
-	color={ 87 164 95 }
+	color= hsv{ 0.35 0.26 0.64 }
 	religion = animist
 	traits = { malagasy_language southeast_asian_heritage }
 	male_common_first_names={
@@ -9253,12 +9441,13 @@ malagasy={
 		Razafindramary
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = polynesian
 	}
+	graphics = generic
 }
 
 filipino={
-	color={ 200 220 30 }
+	color= hsv{ 0.18 0.56 0.86 }
 	religion = catholic
 	traits = { southeast_asian_heritage malay_culture }
 	male_common_first_names={
@@ -9315,10 +9504,104 @@ filipino={
 	ethnicities = {
 		1 = south_east_asian
 	}
+	graphics = asian
+}
+
+moro={
+	color= hsv{ 0.41 0.80 0.60 }
+	religion = sunni
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names={
+		Aliyud_Din
+		Shakirul_Lah
+		Jamalul_Kiram
+		Mohammed_Esmail_Kiram
+		Badarud_Din
+		Shahabud_Din
+		Nasarud_Din
+		Alimud_Din
+		Bantilan_Muizzud_Din
+		Mohammad_Israel
+		Sharapud_Din
+		Shakirul_Lah
+		Mohammad_Pulalun_Kiram
+		Jamalul_A_Lam
+		Wasit
+		Mohammed_Esmail_Kiram
+		Mohammed
+		Kiram
+		Abdulmari
+		Abul
+		Hussin
+		Abdul
+		Abdulmunir
+		Iskandar
+		Mangigin
+		Kawasa
+		Bayan
+		Farouk
+		Omar
+		Iskandar_Qudraullah
+		Muhammad_Makakwa
+	}
+	female_common_first_names = {
+		Amirah
+		Aminah
+		Amanah
+		Fatmawati
+		Tahira
+		Fatima
+		Laisa
+		Bahira
+		Fayza
+		Ghalia
+		Nadia
+		Noura
+		Samira
+		Sulafa
+		Zeina
+		Zuhur
+	}	
+	noble_last_names = {
+		Mastura
+		Pagayawan
+		Bayang
+		Masiu
+		Bansayan
+		Rogan
+		Taporog
+		Minitupad
+		Borocot
+		Bacolod
+		Maribo
+		Ramain
+		Ditsaan
+		Baloi
+	}
+	common_last_names={
+		Janjalani
+		Jikiri
+		Sali
+		Sahidulla
+		Sulayman
+		Akbar
+		Asarul
+		Dimaporo
+		Bago
+		Ali
+		Amin
+		Hashim
+		Usman
+		Mangudadatu
+	}
+	ethnicities = {
+		1 = south_east_asian
+	}
+	graphics = asian
 }
 
 javan={
-	color={ 154 32 88 }
+	color= hsv{ 0.92 0.49 0.60 }
 	religion = sunni
 	traits = { southeast_asian_heritage malay_culture }
 	male_common_first_names={
@@ -9364,10 +9647,11 @@ javan={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 moluccan={
-	color={ 90 132 76 }
+	color= hsv{ 0.29 0.22 0.51 }
 	religion = sunni
 	traits = { southeast_asian_heritage malay_culture }
 	male_common_first_names={
@@ -9405,10 +9689,11 @@ moluccan={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 thai={
-	color={ 76 99 150 }
+	color= hsv{ 0.61 0.29 0.58 }
 	religion = theravada
 	traits = { tai southeast_asian_heritage }
 	male_common_first_names={
@@ -9443,10 +9728,11 @@ thai={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 mon={
-	color={ 140 210 160 }
+	color= hsv{ 0.38 0.23 0.82 }
 	religion = theravada
 	traits = { southeast_asian_heritage khmer_language }
 	male_common_first_names={
@@ -9474,10 +9760,11 @@ mon={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 khmu={
-	color={ 190 170 170 }
+	color= hsv{ 0 0.10 0.74 }
 	religion = animist
 	traits = { southeast_asian_heritage khmer_language }
 	male_common_first_names={
@@ -9520,10 +9807,11 @@ khmu={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 lao={
-	color={ 90 45 154 }
+	color= hsv{ 0.73 0.40 0.60 }
 	religion = theravada
 	traits = { tai southeast_asian_heritage }
 	male_common_first_names={
@@ -9566,10 +9854,11 @@ lao={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 shan={
-	color={ 76 122 90 }
+	color= hsv{ 0.41 0.07 0.37 }
 	religion = theravada
 	traits = { southeast_asian_heritage tai }
 	male_common_first_names={
@@ -9618,10 +9907,11 @@ shan={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 burmese={
-	color={ 99 87 27 }
+	color= hsv{ 0.13 0.42 0.38 }
 	religion = theravada
 	traits = { burmese_language southeast_asian_heritage }
 	male_common_first_names={
@@ -9661,10 +9951,11 @@ burmese={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 kachin={
-	color={ 255 98 76 }
+	color= hsv{ 0.2 0.40 0.99 }
 	religion = animist
 	traits = { burmese_language southeast_asian_heritage }
 	male_common_first_names={
@@ -9701,10 +9992,11 @@ kachin={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 karen={
-	color={ 99 88 122 }
+	color= hsv{ 0.72 0.07 0.47 }
 	religion = theravada
 	traits = { burmese_language southeast_asian_heritage }
 	male_common_first_names={
@@ -9746,10 +10038,11 @@ karen={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 japanese={
-	color={ 230 230 230 }
+	color= hsv{ 0 0 90 }
 	religion = mahayana
 	traits = { yamato east_asian_heritage }
 	male_common_first_names={
@@ -9921,10 +10214,11 @@ japanese={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 manchu={
-	color={ 245 255 160 }
+	color= hsv{ 0.18 0.225 0.160 }
 	religion = mahayana
 	traits = { sinosphere north_asian_heritage }
 	male_common_first_names={
@@ -9996,17 +10290,15 @@ manchu={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 han={
-	color={ 163 68 68 }
+	color= hsv{ 0 0.28 0.63 }
 	religion = mahayana
 	traits = { sinosphere han_chinese east_asian_heritage }
 	obsessions = {
 		opium
-	}
-	ethnicities = {
-		10 = asian_test
 	}
 	male_common_first_names={
 		Chen
@@ -10079,10 +10371,11 @@ han={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 korean={
-	color={ 87 89 25 }
+	color= hsv{ 0.17 0.41 0.34 }
 	religion = mahayana
 	traits = { korean_language east_asian_heritage }
 	male_common_first_names={
@@ -10142,10 +10435,11 @@ korean={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 ainu={
-	color={ 130 130 130 }
+	color= hsv{ 0 0 0.5 }
 	religion = animist
 	traits = { ainu_language north_asian_heritage }
 	male_common_first_names={
@@ -10189,10 +10483,11 @@ ainu={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 hakka={
-	color={ 89 63 24 }
+	color= hsv{ 0.1 0.43 0.34 }
 	religion = mahayana
 	traits = { han_chinese east_asian_heritage }
 	male_common_first_names={
@@ -10256,10 +10551,11 @@ hakka={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 miao={
-	color={ 98 67 155 }
+	color= hsv{ 0.62 0.46 0.50 }
 	religion = animist
 	traits = { hmong_mien_language east_asian_heritage }
 	male_common_first_names={
@@ -10320,10 +10616,11 @@ miao={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 min={
-	color={ 76 32 200 }
+	color= hsv{ 0.71 0.54 0.78 }
 	religion = mahayana
 	traits = { han_chinese east_asian_heritage }
 	male_common_first_names={
@@ -10382,10 +10679,11 @@ min={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 zhuang={
-	color={ 200 75 134 }
+	color= hsv{ 0.92 0.32 0.88 }
 	religion = animist
 	traits = { tai east_asian_heritage }
 	male_common_first_names={
@@ -10436,10 +10734,11 @@ zhuang={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 yi={
-	color={ 134 25 80 }
+	color= hsv{ 0.91 0.51 0.52 }
 	religion = animist
 	traits = { tibetan_language east_asian_heritage }
 	male_common_first_names={
@@ -10513,10 +10812,11 @@ yi={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 yue={
-	color={ 89 34 100 }
+	color= hsv{ 0.80 0.36 0.39 }
 	religion = mahayana
 	traits = { han_chinese east_asian_heritage}
 	male_common_first_names={
@@ -10590,10 +10890,11 @@ yue={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 polynesian={
-	color={ 89 35 168 }
+	color= hsv{ 0.73 0.49 0.65 }
 	religion = animist
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	male_common_first_names={
@@ -10643,66 +10944,83 @@ polynesian={
 	ethnicities = {
 		1 = polynesian
 	}
+	graphics = generic
 }
 
-hawaiian={
-	color={ 89 155 67 }
+hawaiian={ # 
+	color= hsv{ 0.29 0.26 0.60 }
 	religion = protestant
 	traits = { polynesian_group indigenous_oceanic_heritage }
+	male_noble_first_names = {
+		Alapa_imaloiki _Aikanaka
+		Eia
+		Ha_alo_u Ha_alelea
+		Kuhio Kala_imamahu Keaweamahi Kalaniulumoku Koakanu Kekaulike Kauakahiakua Kehahana Kiwala_o Kauhane Kaiakea Kahanamoku Ka_opuiki Kaisera Kamaunu
+		Lunalilo
+		Maile
+		Nahili Namaile Noukana Nahi_ole_a
+		Paoa
+		Zorobabela
+	}
 	male_common_first_names={
-		Brendun
-		Charles
-		Herbert
-		James
-		Jason
-		Jesse
-		Joseph
+		Aberahama _Alika _Anederea
+		Beniamina
+		Dani_ela
+		_Enoka Ehu
+		Hekekia Hairama Hugo 
+		Iosepa Ioane Iona Iosua Io_ela Ieremia Isaac
+		Kawika Keoni Kepano Keoki Kimo Kolomona
+		Lewi Luka Lakalo
+		Mika_ele Mareko Mataio Mose Makini
+		Noah
+		Paulo Petero Pilipo
 		Samuel
-		William
+		Timoteo Toma
+		Zakaria
 	}
 	female_common_first_names = {
-		Auli'i
+		Abigail Ahia Ana Analea
 		Elizabeth
-		Kina'u
-		Kaliko
-		Kamamalu
-		Kamaikui
-		Kekelaokalani
-		Mary
-		Pane
-		Pauahi
+		Haupa Hana Haleloke 
+		Inaina
+		Kala Kina'u Kaliko Kamamalu Kamaikui Kekahili Kekelaokalani Kauwahine Kalukuna Kipa Kahiliopua Kauwa Kaha
+		Lucy Laura Lanihau
+		Maria Miriama Mareta Maile Mele
+		Naomi Namahana Namokuelua Na_awa
+		Pane Pauahi Papapaunauapu
+		Rahela
 	}	
 	noble_last_names = {
-		Keliimaikai
-		Kalakaua
-		Kamehameha
-		Kawananakoa
-		Keoua
+		Aholo
+		Hua Hoapili
+		Keliimaikai Kalakaua Kalaniana_ole Kamehameha Kawananakoa Keoua Kaneakua Ka_auwai Keawe Kalakaua Kanoa Kapeau Kina_u Kanehoa Kekaaniau Kamamali Ka_eo
+		La_anui Loeau Leleiohoku 
+		Moehonua Maheha Mahoe
+		Nakuina Nohomualani Namakeha Naea
+		Olohana
+		Pi_ikoi Peleioholani Palekaluhi Papaiahiahi Pahulemu 
 	}
 	common_last_names={
-		Akaka
-		Apoliona
-		Gaulteria
-		Hee
-		Iaukea
-		Kahanamoku
-		Kanahele
-		Kekumano
-		Lahilahi
-		Mahealani
-		Momoa
-		Nawahi
-		Sossamon
-		Trask
-		Wentz
+		Akaka Apoliona Aki Akina Apaka Alapai
+		Boyd Bipikane
+		Hanaike Hakuole Hiwauli Ho_opi_i Haili Hohopa
+		Iaukea _I_i
+		Kahanawai Kahanamoku Kanahele Kekumano Kawelo Kapena Kapaa Kamauoha Kamakau Kapahu Kaunamano Koahou Kaluna Kauhi Kaai Kekuku Kalama Kahauolopua Kaapana Kamakahi
+		Lilikalani Lahilahi 
+		Muolo Maikai Momoa Mahealani Makalua Malo
+		Nawahi Nowlein Napuaelua Nahakuelua Nahinu Nahaolelua Nainoa
+		Piianaia Pua Pukui Punahoa Pavao
+		Ukeke
+		Waiamau Waipuilani Waipa
 	}
 	ethnicities = {
 		1 = polynesian
 	}
+	graphics = generic
 }
 
 melanesian={
-	color={ 187 42 167 }
+	color= hsv{ 0.85 0.47 0.73 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage polynesian_group }
 	male_common_first_names={
@@ -10751,10 +11069,11 @@ melanesian={
 	ethnicities = {
 		1 = polynesian
 	}
+	graphics = generic
 }
 
 micronesian={
-	color={ 68 213 88 }
+	color= hsv{ 0.35 0.38 0.83 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage polynesian_group }
 	male_common_first_names={
@@ -10804,10 +11123,11 @@ micronesian={
 	ethnicities = {
 		1 = polynesian
 	}
+	graphics = generic
 }
 
 maori={
-	color={ 95 14 187 }
+	color= hsv{ 0.74 0.32 0.63 }
 	religion = animist
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	male_common_first_names={
@@ -10854,10 +11174,11 @@ maori={
 	ethnicities = {
 		1 = polynesian
 	}
+	graphics = generic
 }
 
 aborigine={
-	color={ 78 24 92 }
+	color= hsv{ 0.79 0.37 0.36 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian }
 	male_common_first_names={
@@ -10916,10 +11237,11 @@ aborigine={
 	ethnicities = {
 		1 = polynesian
 	}
+	graphics = generic
 }
 
 zapotec={
-	color={ 87 199 81 }
+	color= hsv{ 0.32 0.29 0.78 }
 	religion = catholic
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
@@ -10999,12 +11321,13 @@ zapotec={
 		Vichido
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = native_american
 	}
+	graphics = generic
 }
 
 mayan={
-	color={ 98 88 142 }
+	color= hsv{ 0.69 0.08 0.55 }
 	religion = catholic
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
@@ -11094,12 +11417,13 @@ mayan={
 		Xiloj
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = native_american
 	}
+	graphics = generic
 }
 
 nahua={
-	color={ 88 175 160 }
+	color= hsv{ 0.47 0.29 0.38 }
 	religion = catholic
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
@@ -11191,10 +11515,11 @@ nahua={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 tarascan={
-	color={ 87 188 192 }
+	color= hsv{ 0.50 0.24 0.75 }
 	religion = catholic
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
@@ -11281,10 +11606,11 @@ tarascan={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 quechua={
-	color={ 178 141 85 }
+	color= hsv{ 0.10 0.22 0.69 }
 	religion = catholic
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
@@ -11372,10 +11698,11 @@ quechua={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 guarani={
-	color={ 89 80 175 }
+	color= hsv{ 0.66 0.19 0.68 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
@@ -11467,10 +11794,11 @@ guarani={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 aimara={
-	color={ 190 45 23 }
+	color= hsv{ 0.02 0.57 0.74 }
 	religion = catholic
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
@@ -11564,10 +11892,11 @@ aimara={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 amazonian={
-	color={ 4 255 84 }
+	color= hsv{ 0.38 0.58 0.59 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
@@ -11656,6 +11985,7 @@ amazonian={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 patagonian={
@@ -11748,6 +12078,7 @@ patagonian={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 guajiro={
@@ -11816,10 +12147,11 @@ guajiro={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 tupinamba={
-	color={ 43 212 67 }
+	color= hsv{ 0.44 0.24 0.71 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
@@ -11884,10 +12216,11 @@ tupinamba={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 metis={
-	color={ 15 68 192 }
+	color= hsv{ 0.61 0.72 0.75 }
 	religion = catholic
 	traits = { indigenous_american_heritage francophone north_american_group }
 	male_common_first_names={
@@ -11930,10 +12263,11 @@ metis={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 dakota={
-	color={ 66 78 134 }
+	color= hsv{ 0.63 0.30 0.52 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -11980,10 +12314,11 @@ dakota={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 cherokee={
-	color={ 136 114 173 }
+	color= hsv{ 0.72 0.34 0.67 }
 	religion = protestant
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12050,10 +12385,11 @@ cherokee={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 muskogean={ # Creek and Seminole
-	color={ 136 173 114 }
+	color= hsv{ 0.27 0.2 0.67 }
 	religion = protestant
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12101,10 +12437,11 @@ muskogean={ # Creek and Seminole
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 pueblo={
-	color={ 222 238 156 }
+	color= hsv{ 0.19 0.34 0.93 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12157,10 +12494,11 @@ pueblo={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 inuit={
-	color={ 210 243 242 }
+	color= hsv{ 0.49 0.03 0.99 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12217,12 +12555,13 @@ inuit={
 		Sivuarapik
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = circumpolar
 	}
+	graphics = asian
 }
 
 cree={
-	color={ 127 244 100 }
+	color= hsv{ 0.30 0.39 0.95 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12268,10 +12607,11 @@ cree={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 navajo={
-	color={ 83 111 191 }
+	color= hsv{ 0.62 0.26 0.74 }
 	traits = { indigenous_american_heritage north_american_group }
 	religion = animist
 	male_common_first_names={
@@ -12316,10 +12656,11 @@ navajo={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 athabaskan={
-	color={ 116 182 182 }
+	color= hsv{ 0.50 0.36 0.65 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12378,9 +12719,10 @@ athabaskan={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 salish={ # Tlingit and Haida merged together, forgive me
-	color={ 100 160 190 }
+	color= hsv{ 0.55 0.47 0.54 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12423,9 +12765,10 @@ salish={ # Tlingit and Haida merged together, forgive me
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 nez_perce={ # Nez Perce
-	color={ 180 120 80 }
+	color= hsv{ 0.06 0.45 0.70 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12460,9 +12803,10 @@ nez_perce={ # Nez Perce
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 siouan={
-	color={ 255 240 130 }
+	color= hsv{ 0.14 0.35 0.99 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12509,9 +12853,10 @@ siouan={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 comanche={
-	color={ 96 57 19 }
+	color= hsv{ 0.08 0.5 0.37 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12554,9 +12899,10 @@ comanche={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 algonquian={ # just Iroquois names
-	color={ 200 220 165 }
+	color= hsv{ 0.22 0.15 0.86 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12623,9 +12969,10 @@ algonquian={ # just Iroquois names
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 caddoan={ # Choctaw
-	color={ 200 200 75 }
+	color= hsv{ 0.16 0.65 0.85 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12662,9 +13009,10 @@ caddoan={ # Choctaw
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 paiute={ # Ute and Shoshone
-	color={ 230 130 70 }
+	color= hsv{ 0.06 0.39 0.80 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12719,9 +13067,10 @@ paiute={ # Ute and Shoshone
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 hokan={
-	color={ 222 160 180 }
+	color= hsv{ 0.94 0.27 0.87 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12778,9 +13127,10 @@ hokan={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 apache={
-	color={ 240 190 75 }
+	color= hsv{ 0.11 0.58 0.94 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12813,9 +13163,10 @@ apache={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 oodham={
-	color={ 150 10 60 }
+	color= hsv{ 0.94 0.63 0.58 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
@@ -12860,6 +13211,7 @@ oodham={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 mixtec={
 	color={ 150 80 70 }
@@ -12954,6 +13306,7 @@ mixtec={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 muisca={
 	color={ 125 12 52 }
@@ -13002,6 +13355,7 @@ muisca={
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 miskito = {
@@ -13076,6 +13430,7 @@ miskito = {
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 
 cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
@@ -13124,10 +13479,11 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 	ethnicities = {
 		1 = native_american
 	}
+	graphics = generic
 }
 	
 yankee={
-	color={ 65 65 129 }
+	color= hsv{ 0.66 0.39 0.50 }
 	religion = protestant
 	traits = { new_world_settler anglophone european_heritage }
 	male_common_first_names = {
@@ -13226,8 +13582,9 @@ yankee={
 		Young
 		Zook
 	}
+	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = caucasian
 	}
 }
 
@@ -13323,13 +13680,14 @@ dixie={
 		Yelverton Yager Yancey
 		Zinn
 	}
+	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = caucasian
 	}
 }
 
 mexican={
-	color={ 51 117 62 }
+	color=hsv{ 0.99 0.50 0.65 }
 	religion = catholic
 	traits = { new_world_settler hispanophone european_heritage }
 	male_common_first_names={
@@ -13534,12 +13892,13 @@ mexican={
 		Zimbron
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = south_american
 	}
+	graphics = generic
 }
 
 central_american={
-	color={ 101 164 172 }
+	color= hsv{ 0.51 0.21 0.67 }
 	religion = catholic
 	traits = { new_world_settler hispanophone european_heritage }
 	male_common_first_names={
@@ -13666,12 +14025,13 @@ central_american={
 		Zeledon
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = south_american
 	}
+	graphics = generic
 }
 
 caribeno={
-	color={ 122 11 74 }
+	color= hsv { 0.9 0.4 0.47 }
 	religion = catholic
 	traits = { new_world_settler hispanophone european_heritage }
 	male_common_first_names={
@@ -13802,12 +14162,13 @@ caribeno={
 		Zayas
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = south_american
 	}
+	graphics = generic
 }
 
 north_andean={
-	color={ 146 156 116 }
+	color= hsv{ 0.20 0.35 0.41 }
 	religion = catholic
 	traits = { new_world_settler hispanophone european_heritage }
 	male_common_first_names={
@@ -13938,12 +14299,13 @@ north_andean={
 		Zaldua
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = south_american
 	}
+	graphics = generic
 }
 
 south_andean={
-	color={ 116 156 146 }
+	color= hsv{ 0.45 0.15 0.61 }
 	religion = catholic
 	traits = { new_world_settler hispanophone european_heritage }
 	male_common_first_names={
@@ -14076,12 +14438,13 @@ south_andean={
 		Agreda
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = south_american
 	}
+	graphics = generic
 }
 
 platinean={
-	color={ 199 232 151 }
+	color=hsv{ 0.23 0.24 0.9 }
 	religion = catholic
 	traits = { new_world_settler hispanophone european_heritage }
 	male_common_first_names={
@@ -14210,12 +14573,13 @@ platinean={
 		Yrigoyen
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = south_american
 	}
+	graphics = generic
 }
 
 brazilian={
-	color={ 0 112 66 }
+	color= hsv{ 0.50 0.53 0.40 }
 	religion = catholic
 	traits = { new_world_settler lusophone european_heritage }
 	male_common_first_names={
@@ -14348,12 +14712,13 @@ brazilian={
 		Wandenkolk
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = south_american
 	}
+	graphics = generic
 }
 
 afro_american={
-	color={ 42 42 42 }
+	color= hsv{ 0.10 0.10 0.24 }
 	religion = protestant
 	traits = { new_world_settler anglophone african_heritage }
 	male_common_first_names={
@@ -14427,10 +14792,11 @@ afro_american={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 afro_caribbean={
-	color={ 32 57 32 }
+	color= hsv{ 0.32 0.27 0.32 }
 	religion = protestant
 	traits = { new_world_settler african_heritage anglophone }
 	male_common_first_names={
@@ -14530,10 +14896,11 @@ afro_caribbean={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 afro_caribeno={
-	color={ 12 83 12 }
+	color= hsv{ 0.33 0.45 0.32 }
 	religion = catholic
 	traits = { new_world_settler african_heritage hispanophone }
 	male_common_first_names={
@@ -14633,10 +15000,11 @@ afro_caribeno={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 afro_brazilian={
-	color={ 154 103 180 }
+	color= hsv{ 0.77 0.22 0.50 }
 	religion = catholic
 	traits = { new_world_settler african_heritage lusophone }
 	male_common_first_names={
@@ -14747,10 +15115,11 @@ afro_brazilian={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 afro_antillean={
-	color={ 24 44 49 }
+	color= hsv{ 0.53 0.21 0.29 }
 	religion = catholic
 	traits = { new_world_settler african_heritage francophone }
 	male_common_first_names={
@@ -14894,10 +15263,11 @@ afro_antillean={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 akan={
-	color={ 88 68 147 }
+	color= hsv{ 0.70 0.43 0.47}
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -14941,10 +15311,11 @@ akan={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 bambara={
-	color={ 45 88 164 }
+	color= hsv{ 0.60 0.62 0.84 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15000,10 +15371,11 @@ bambara={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 bassa={
-	color={ 87 44 188 }
+	color= hsv{ 0.71 0.46 0.73 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names = {
@@ -15024,10 +15396,11 @@ bassa={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 dyula={
-	color={ 78 99 230 }
+	color= hsv{ 0.64 0.36 0.7 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15062,10 +15435,11 @@ dyula={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 edo={
-	color={ 88 99 154 }
+	color= hsv{ 0.63 0.32 0.6 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15107,10 +15481,11 @@ edo={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 ewe={
-	color={ 43 99 156 }
+	color= hsv{ 0.58 0.42 0.61 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15156,10 +15531,11 @@ ewe={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 fon={
-	color={ 188 92 47 }
+	color= hsv{ 0.05 0.45 0.73 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15193,10 +15569,11 @@ fon={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 fulbe={
-	color={ 22 146 187 }
+	color= hsv{ 0.54 0.52 0.53 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15244,10 +15621,11 @@ fulbe={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 haratin={
-	color={ 252 78 125 }
+	color= hsv{ 0.95 0.39 0.78 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names = {
@@ -15279,10 +15657,11 @@ haratin={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 hausa={
-	color={ 218 68 212 }
+	color= hsv{ 0.83 0.40 0.50 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15323,10 +15702,11 @@ hausa={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 ibibio={
-	color={ 99 157 68 }
+	color= hsv{ 0.27 0.26 0.61 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15376,10 +15756,11 @@ ibibio={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 ibo={
-	color={ 88 27 192 }
+	color= hsv{ 0.72 0.55 0.75 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15438,10 +15819,11 @@ ibo={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 kissi={
-	color={ 88 144 87 }
+	color= hsv{ 0.33 0.39 0.56 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15479,10 +15861,11 @@ kissi={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 kru={
-	color={ 24 175 75 }
+	color= hsv{ 0.38 0.56 0.78 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15531,10 +15914,11 @@ kru={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 mande={
-	color={ 44 188 87 }
+	color= hsv{ 0.12 0.56 0.73 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15585,10 +15969,11 @@ mande={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 maures={
-	color={ 252 125 78 }
+	color= hsv{ 0.04 0.39 0.88 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15646,10 +16031,11 @@ maures={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 mossi={
-	color={ 230 14 213 }
+	color= hsv{ 0.84 0.43 0.80 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15702,10 +16088,11 @@ mossi={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 senufo={
-	color={ 88 190 62 }
+	color= hsv{ 0.29 0.37 0.34 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15752,10 +16139,11 @@ senufo={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 songhai={
-	color={ 142 28 67 }
+	color= hsv{ 0.94 0.50 0.55 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15797,10 +16185,11 @@ songhai={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 tiv={
-	color={ 252 255 161 }
+	color= hsv{ 0.17 0.16 0.99 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15829,10 +16218,11 @@ tiv={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 tuareg={
-	color={ 84 75 240 }
+	color= hsv{ 0.67 0.38 0.94 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15869,10 +16259,11 @@ tuareg={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 wolof={
-	color={ 91 146 180 }
+	color= hsv{ 0.56 0.19 0.40 }
 	religion = sunni
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15923,10 +16314,11 @@ wolof={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 yoruba={
-	color={ 240 75 89 }
+	color= hsv{ 0.98 0.38 0.94 }
 	religion = animist
 	traits = { west_african_culture_group african_heritage }
 	male_common_first_names={
@@ -15994,10 +16386,11 @@ yoruba={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 bakongo={
-	color={ 87 154 62 }
+	color= hsv{ 0.28 0.29 0.60 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16039,10 +16432,11 @@ bakongo={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 baguirmi={
-	color={ 48 192 75 }
+	color= hsv{ 0.36 0.45 0.75 }
 	religion = sunni
 	traits = { central_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16082,10 +16476,11 @@ baguirmi={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 fang={
-	color={ 164 45 180 }
+	color= hsv{ 0.81 0.40 0.70 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16153,10 +16548,11 @@ fang={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 kanuri={
-	color={ 189 142 177 }
+	color= hsv{ 0.87 0.04 0.74 }
 	religion = sunni
 	traits = { central_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16196,10 +16592,11 @@ kanuri={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 luba={
-	color={ 87 45 69 }
+	color= hsv{ 0.90 0.18 0.54 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16238,10 +16635,11 @@ luba={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 lunda={
-	color={ 142 65 188 }
+	color= hsv{ 0.77 0.35 0.73 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16287,10 +16685,11 @@ lunda={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 mongo={
-	color={ 150 44 197 }
+	color= hsv{ 0.01 0.47 67 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16360,10 +16759,11 @@ mongo={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 sara={
-	color={ 145 64 125 }
+	color= hsv{ 0.87 0.25 0.56 }
 	religion = animist
 	traits = { central_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16391,10 +16791,11 @@ sara={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 teda={
-	color={ 156 198 100 }
+	color= hsv{ 0.23 0.49 0.77 }
 	religion = sunni
 	traits = { central_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16431,10 +16832,11 @@ teda={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 equatorial_bantu={ # Gabon + Cameroon + CAR
-	color={ 87 154 62 }
+	color= hsv{ 0.38 0.49 0.80 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
 	male_common_first_names = {
@@ -16480,10 +16882,11 @@ equatorial_bantu={ # Gabon + Cameroon + CAR
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 fluvian_bantu = { # DRC
-	color={ 154 62 87 }
+	color= hsv{ 0.95 0.29 0.30 }
 	religion = animist
 	traits = { central_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16525,10 +16928,11 @@ fluvian_bantu = { # DRC
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 nilotic = {
-	color={ 155 74 164 }
+	color= hsv{ 0.88 0.35 0.64 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16559,11 +16963,12 @@ nilotic = {
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 amhara={
-	color={ 88 142 37 }
-	religion = coptic
+	color= hsv{ 0.25 0.43 0.55 }
+	religion = oriental_orthodox
 	traits = { ethiopian east_african_culture_group african_heritage }
 	male_common_first_names={
 		Amare
@@ -16605,10 +17010,11 @@ amhara={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 afar={
-	color={ 198 46 99 }
+	color= hsv{ 0.94 0.46 0.77 }
 	religion = sunni
 	traits = { ethiopian east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16641,10 +17047,11 @@ afar={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 azande={
-	color={ 31 89 150 }
+	color= hsv{ 0.58 0.49 0.58 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16675,10 +17082,11 @@ azande={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 baganda={
-	color={ 98 155 187 }
+	color= hsv{ 0.55 0.17 0.73 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16733,10 +17141,11 @@ baganda={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 beja={
-	color={ 231 231 45 }
+	color= hsv{ 0.16 0.50 0.90 }
 	religion = sunni
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16778,10 +17187,11 @@ beja={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 dinka={
-	color={ 59 91 247 }
+	color= hsv{ 0.63 0.46 0.96 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16827,10 +17237,11 @@ dinka={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 fur={
-	color={ 84 75 91 }
+	color= hsv{ 0.76 0.07 0.81 }
 	religion = sunni
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16873,10 +17284,11 @@ fur={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 kikuyu={
-	color={ 99 164 74 }
+	color= hsv{ 0.28 0.24 0.34 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -16951,10 +17363,11 @@ kikuyu={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 luo={
-	color={ 156 156 89 }
+	color=hsv{ 0.16 0.12 0.61 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -16991,10 +17404,11 @@ luo={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 maasai={
-	color={ 134 57 84 }
+	color= hsv{ 0.97 0.37 0.52 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -17028,10 +17442,11 @@ maasai={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 nuer={
-	color={ 68 199 204 }
+	color= hsv{ 0.50 0.36 0.80 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -17073,10 +17488,11 @@ nuer={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 nuba={
-	color={ 48 213 48 }
+	color= hsv{ 0.63 0.47 0.83 }
 	religion = animist
 	traits = { east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -17120,11 +17536,12 @@ nuba={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 oromo={
-	color={ 162 23 199 }
-	religion = coptic
+	color= hsv{ 0.79 0.42 0.75 }
+	religion = oriental_orthodox
 	traits = { ethiopian east_african_culture_group african_heritage }
 	male_common_first_names={
 		Abadula
@@ -17167,10 +17584,11 @@ oromo={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 ruanda={
-	color={ 184 21 46 }
+	color= hsv{ 0.97 0.58 0.72 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -17212,10 +17630,11 @@ ruanda={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 rundi={
-	color={ 48 213 48 }
+	color= hsv{ 0.33 0.43 0.73 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -17283,10 +17702,11 @@ rundi={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 sidama={
-	color={ 84 97 38 }
+	color= hsv{ 0.20 0.30 0.38 }
 	religion = sunni
 	traits = { ethiopian east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -17329,16 +17749,13 @@ sidama={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 somali={
-	color={ 226 22 48 }
+	color={ 0.97 0.7 0.78}
 	religion = sunni
 	traits = { arab_speaking east_african_culture_group african_heritage }
-
-	ethnicities = {
-		10 = somali_test
-	}
 
 	male_common_first_names={
 		Abdi
@@ -17389,10 +17806,11 @@ somali={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 sudanese={
-	color={ 241 241 78 }
+	color= hsv{ 0.16 0.37 0.84 }
 	religion = sunni
 	traits = { arab_speaking east_african_culture_group african_heritage }
 	male_common_first_names={
@@ -17436,10 +17854,11 @@ sudanese={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 sukuma={
-	color={ 54 167 122 }
+	color= hsv{ 0.43 0.37 0.65 }
 	religion = sunni
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -17505,10 +17924,11 @@ sukuma={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 swahili={
-	color={ 84 96 204 }
+	color= hsv{ 0.65 0.28 0.80 }
 	religion = sunni
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -17606,11 +18026,12 @@ swahili={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 tigray={
-	color={ 61 49 183 }
-	religion = coptic
+	color={ 0.68 0.43 0.71 }
+	religion = oriental_orthodox
 	traits = { ethiopian east_african_culture_group african_heritage }
 	male_common_first_names={
 		Abraha
@@ -17652,10 +18073,11 @@ tigray={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 unyamwezi={
-	color={ 46 146 246 }
+	color= hsv{ 0.58 0.51 0.96 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -17721,10 +18143,11 @@ unyamwezi={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 lacustrine_bantu={ # Lake Victoria + Lake Tanganyika + Lake Malawi
-	color={ 87 154 62 }
+	color= hsv{ 0.52 0.09 0.55 }
 	religion = animist
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -17790,10 +18213,11 @@ lacustrine_bantu={ # Lake Victoria + Lake Tanganyika + Lake Malawi
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 chewa={
-	color={ 88 88 88 }
+	color= hsv{ 0.45 0.6 0.34 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -17861,10 +18285,11 @@ chewa={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 herero={
-	color={ 94 180 42 }
+	color= hsv{ 0.27 0.46 0.70 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -17938,10 +18363,11 @@ herero={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 khoisan={
-	color={ 122 46 133 }
+	color= hsv{ 0.71 0.35 0.42 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage }
 	male_common_first_names={
@@ -17988,10 +18414,11 @@ khoisan={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 lomwe={
-	color={ 184 220 31 }
+	color= hsv{ 0.19 0.55 0.86 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18057,10 +18484,11 @@ lomwe={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 makua={
-	color={ 94 156 82 }
+	color= hsv{ 0.30 0.17 0.41 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18129,10 +18557,11 @@ makua={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 nguni={
-	color={ 165 43 18 }
+	color= hsv{ 0.02 0.59 0.64 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18199,10 +18628,11 @@ nguni={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 ovimbundu={
-	color={ 91 63 231 }
+	color= hsv{ 0.69 0.42 0.90 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18250,10 +18680,11 @@ ovimbundu={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 sena={
-	color={ 81 212 142 }
+	color= hsv{ 0.41 0.31 0.83 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18318,10 +18749,11 @@ sena={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 shona={
-	color={ 98 134 18 }
+	color= hsv{ 0.21 0.56 0.36 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18369,10 +18801,11 @@ shona={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 sotho={
-	color={ 42 121 176 }
+	color= hsv{ 0.56 0.46 0.69 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18442,10 +18875,11 @@ sotho={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 tonga={
-	color={ 94 187 36 }
+	color= hsv{ 0.26 0.50 0.73 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18512,10 +18946,11 @@ tonga={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 tswana={
-	color={ 91 212 36 }
+	color= hsv{ 0.28 0.43 0.83 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18562,10 +18997,11 @@ tswana={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 xhosa={
-	color={ 49 58 156 }
+	color= hsv{ 0.60 0.38 0.51 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18618,10 +19054,11 @@ xhosa={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 yao={
-	color={ 189 20 31 }
+	color= hsv{ 0.98 0.59 0.64 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18671,10 +19108,11 @@ yao={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 zulu={
-	color={ 32 6 86 }
+	color= hsv{ 0.72 0.43 0.63 }
 	religion = animist
 	traits = { southern_african_culture_group bantu african_heritage }
 	male_common_first_names={
@@ -18735,10 +19173,11 @@ zulu={
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 kavango_bantu={ # Angola + Namibia
-	color={ 87 62 154 }
+	color= hsv{ 0.1 0.29 0.60 }
 	religion = animist
 	traits = { southern_african_culture_group african_heritage bantu }
 	male_common_first_names={
@@ -18794,10 +19233,11 @@ kavango_bantu={ # Angola + Namibia
 	ethnicities = {
 		1 = african
 	}
+	graphics = african
 }
 
 anglo_canadian={
-	color={ 94 117 55 }
+	color= hsv{ 0.22 0.22 0.45 }
 	religion = protestant
 	traits = { new_world_settler anglophone european_heritage }
 	male_common_first_names={
@@ -18997,13 +19437,14 @@ anglo_canadian={
 		Walshe
 		Wetherald
 	}
+	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = caucasian
 	}
 }
 
 franco_canadian={
-	color={ 194 140 86 }
+	color= hsv{ 0.01 0.45 0.76 }
 	religion = catholic
 	traits = { new_world_settler francophone european_heritage }
 	male_common_first_names={
@@ -19157,13 +19598,14 @@ franco_canadian={
 		Vallieres
 		Viger
 	}
+	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = caucasian
 	}
 }
 
 sorb={
-	color={ 67 80 128 }
+	color= hsv{ 0.63 0.17 0.5 }
 	religion = catholic
 	traits = { west_slavic european_heritage }
 	male_common_first_names={
@@ -19233,14 +19675,15 @@ sorb={
 		Witkojc
 		Zejler
 	}
+	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = caucasian
 	}
 }
 
 
 tuvan={
-	color={ 68 242 236 }
+	color= hsv{ 0.49 0.41 0.74 }
 	religion = gelugpa
 	traits = { north_asian_heritage turkic mongol_language }
 	male_common_first_names={
@@ -19293,12 +19736,13 @@ tuvan={
 		Sevek
 	}
 	ethnicities = {
-		1 = eth_placeholder
+		1 = asian
 	}
+	graphics = asian
 }
 
 corsican = {
-	color={ 68 242 236 }
+	color= hsv{ 0.49 0.51 0.84 }
 	religion = catholic
 	traits = { european_heritage francophone italophone }
 	male_common_first_names={
@@ -19453,9 +19897,107 @@ corsican = {
 		Vaccari
 		Zupelli
 	}
+	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = caucasian
 	}
 }
 
-
+yemenite={
+	color=hsv{ 0.34 0.38 0.58 }
+	religion = shiite
+	traits = { arab_speaking middle_eastern_heritage }
+	male_common_first_names={
+		Abd_Allah
+		Abd_al-Karim
+		Abd_al-Malik
+		Abd_al-Qadir
+		Abd_al-Rahman
+		Ahmad
+		Ali
+		Fawzi
+		Fuad
+		Halil
+		Hasan
+		Hisham
+		Ibrahim
+		Ishaq
+		Iskandar
+		Jamal
+		Kamil
+		Khalid
+		Muhammad
+		Mustafa
+		Nur_al-Din
+		Sa_d_al-Din
+		Salim
+		Shukri
+		Tawfiq
+		Umar
+		Uthman
+		Yahya
+		Yusuf
+		Zafir
+	}
+	female_common_first_names = {
+		Bahira
+		Fayza
+		Ghalia
+		Nadia
+		Noura
+		Samira
+		Sulafa
+		Zeina
+		Zuhur
+	}	
+	noble_last_names = {
+		al-Ali
+		al-Atassi
+		al-Atrash
+		al-Azma
+		Al_Faiz
+		al-Ghani_al-Nabulsi
+		al-Hiraki
+		Al-Rahman_Al-Gillani
+		al-Zaydani
+		Nuseibeh
+	}
+	common_last_names={
+		al-Askari
+		al-Baghdadi
+		al-Basri
+		al-Ghazzawi
+		al-Halabi
+		al-Hamawi
+		al-Himsi
+		al-Mawsili
+		al-Nablusi
+		al-Qudsi
+		al-Shami
+		ibm_Kamil
+		ibn_Abd_Allah
+		ibn_Abd_al-Qadir
+		ibn_Abu_Bakr
+		ibn_Ahmad
+		ibn_Ali
+		ibn_Fuad
+		ibn_Halil
+		ibn_Hasan
+		ibn_Hisham
+		ibn_Ishaq
+		ibn_Ja_far
+		ibn_Khalid
+		ibn_Muhammad
+		ibn_Mustafa
+		ibn_Salim
+		ibn_Umar
+		ibn_Uthman
+		ibn_Yusuf
+		Asmar
+		Mokarzel
+	}
+	ethnicities = {
+		1 = arab
+	}
+	graphics = mideast_indian
+}

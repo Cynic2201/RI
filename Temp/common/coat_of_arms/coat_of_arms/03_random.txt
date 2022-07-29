@@ -896,8 +896,6 @@ template = {
 			color2 = list "normal_colors"
 			color3 = list "metal_colors"
 			instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
-			#instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
-			#instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
 			instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
 		}
 	
@@ -906,10 +904,8 @@ template = {
 			color1 = list "normal_colors"
 			color2 = list "metal_colors"
 			color3 = list "normal_colors"
-			#instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
 			instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
 			instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
-			#instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
 		}
 	}
 	template_quarter_counterchanged_charges_metal = {
@@ -929,8 +925,6 @@ template = {
 			color2 = list "metal_colors"
 			color3 = list "normal_colors"
 			instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
-			#instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
-			#instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
 			instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
 		}
 	
@@ -939,10 +933,8 @@ template = {
 			color1 = list "metal_colors"
 			color2 = list "normal_colors"
 			color3 = list "metal_colors"
-			#instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
 			instance = { scale = { 0.5 0.5 } position = { 0.75 0.25 } }
 			instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
-			#instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
 		}
 	}
 
@@ -988,12 +980,6 @@ template = {
 		color4 = list "metal_colors"
 		color5 = list "normal_colors"
 	
-		# colored_emblem = {
-		# 	texture = list "borders"
-		# 	color1 = color2
-		# 	color2 = color1
-		# }
-	
 		colored_emblem = {
 			texture = list "charge"
 			color1 = color4
@@ -1009,12 +995,6 @@ template = {
 		color3 = list "metal_colors"
 		color4 = list "normal_colors"
 		color5 = list "metal_colors"
-	
-		# colored_emblem = {
-		# 	texture = list "borders"
-		# 	color1 = color2
-		# 	color2 = color1
-		# }
 	
 		colored_emblem = {
 			texture = list "charge"
@@ -1032,12 +1012,6 @@ template = {
 		color4 = list "metal_colors"
 		color5 = list "normal_colors"
 	
-		# colored_emblem = {
-		# 	texture = list "borders"
-		# 	color1 = color2
-		# 	color2 = color1
-		# }
-	
 		colored_emblem = {
 			texture = list "charge"
 			color1 = color4
@@ -1053,13 +1027,7 @@ template = {
 		color3 = list "metal_colors"
 		color4 = list "normal_colors"
 		color5 = list "metal_colors"
-	
-		# colored_emblem = {
-		# 	texture = list "borders"
-		# 	color1 = color2
-		# 	color2 = color1
-		# }
-	
+
 		colored_emblem = {
 			texture = list "charge"
 			color1 = color4

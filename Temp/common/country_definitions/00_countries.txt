@@ -2461,7 +2461,7 @@ JAN = {
 }
 
 BIC = {
-	color = { 249  56  58 }
+	color = { 188  113  61 }
 	
 	country_type = colonial
 	
@@ -2567,8 +2567,8 @@ ORG = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian yankee }
-	capital = STATE_BRITISH_COLUMBIA
+	cultures = { yankee anglo_canadian }
+	capital = STATE_OREGON
 }
 
 COM = {
@@ -3206,7 +3206,7 @@ APC = { # Apacheria
 BLF = { # Niitsitapi / Blackfoot Confederacy
 	color = hsv{ 0.63 0.68 0.60 }
 	
-	cultures = { siouan } # TODO Plains Algonquian culture
+	cultures = { siouan }
 	
 	country_type = decentralized
 	

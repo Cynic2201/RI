@@ -1,12 +1,8 @@
 default_revolutionary_canton = {
-    colored_emblem = {
-        texture = "ce_circle.dds"
-        color1 = "yellow"
-        color2 = "yellow"
-    }
 	colored_emblem = {
-		texture = "ce_aurochs_head.dds"
-		color1 = "red"
-		color2 = "red"
+		texture = "ce_revolution_tear.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "highlight"
 	}
 }

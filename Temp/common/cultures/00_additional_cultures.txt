@@ -1,5 +1,5 @@
 ﻿welsh={
-	color={ 53 217 102 }
+	color= hsv{ 0.38 0.45 0.85 }
 	religion = protestant
 	traits = { anglophone celtic_people european_heritage }
 	
@@ -116,6 +116,7 @@
 	ethnicities = {
 		1 = caucasian
 	}
+	graphics = european
 }
 
 scottish={
@@ -236,10 +237,11 @@ scottish={
 	ethnicities = {
 		1 = caucasian
 	}
+	graphics = european
 }
 
 galician={
-	color={ 44 208 243 }
+	color= hsv{ 0.52 0.51 0.75 }
 	religion = catholic
 	traits = { iberian_culture_group lusophone european_heritage }
 	male_common_first_names={
@@ -342,19 +344,19 @@ galician={
 	noble_last_names = {
 		Correia_de_Sa
 		Costa
-		da_Cunha
+		da_Cunna
 		da_Silva_Pereira
 		de_Almada
-		de_Braganca
+		de_Braganza
 		de_Braganca-Coburgo
 		Carballo
 		de_Caula
 		de_Oliveira
 		de_Queiros
 		de_Sousa
-		de_Sousa_Coutinho
+		de_Sousa_Coutinno
 		de_Vasconcelos
-		dos_Anjos
+		dos_Anxos
 		Rangel
 		Rebelo
 		Vilela
@@ -424,6 +426,7 @@ galician={
 	ethnicities = {
 		1 = caucasian
 	}
+	graphics = european
 }
 
 malay={
@@ -478,9 +481,10 @@ malay={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
-bornean={													# TODO: Add more names
+bornean={
 	color={ 224 224 224 }
 	religion = sunni
 	traits = { southeast_asian_heritage malay_culture }
@@ -532,9 +536,10 @@ bornean={													# TODO: Add more names
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
-sumatran={													# TODO: Add more names
+sumatran={
 	color={ 146 115 115 }
 	religion = sunni
 	traits = { southeast_asian_heritage malay_culture }
@@ -586,6 +591,7 @@ sumatran={													# TODO: Add more names
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
 balinese={
@@ -632,6 +638,90 @@ balinese={
 	ethnicities = {
 		1 = asian
 	}
+	graphics = asian
 }
 
-# TODO implement Occitan
+cajun={
+	color= hsv{ 0.62 0.54 0.72 }
+	religion = catholic
+	traits = { new_world_settler francophone european_heritage }
+	male_common_first_names={
+		Amos Anatole Aaron Augustin Achille
+        Baptiste Bernard Bolivar Blaise Baudouin Branford Barnabe Benjamin
+        Charles Clayton Claude Clement Conrad Christophe Constant
+        Domenic Dudley David Daniel 
+        Eraste Eugene Earl Edwin Ernoul Emmanuel Etienne
+        Felix Frederic Ferdinand Fortunat
+        Gustave Gilbert Gabriel Girard
+        Henri Herbert Hollis Hardin Hippolyte Hilaire
+        Ignace
+        Jean Jean-Baptiste Joachim Justin
+        Louis Leon Louis-Auguste Luc Lazare Laurent Lionel
+        Marius Marc Michel
+        Napoleon Nazaire Norbert
+        Olivier Omer
+        Paul Pierre Pelerin Polycarp
+        Raphael Rodrigue
+        Sylvain 
+        Thomas Theophile
+        Ursin Ulysse Urbain
+        Victor Virgil
+        Xaxier
+	}
+	female_common_first_names = {
+		Anne Ada Agnes Amelie Angelique Alice
+        Blandine Berenice Brigitte Barbara
+        Catherine Cecile Constance Christine Claudette Carmen Charlotte
+        Drusilla Debora
+        Eulalie Evangeline Eurydice
+        Flavie Florastine
+        Gabrielle Georgette Georgie
+        Honorine Hazel
+        Jacqueline Jeanne Justine
+        Leopauline Louise
+        Melanie Modeste Miriam Marie
+        Nicole
+        Ophelia Odette Olive
+        Pelagie Prudence
+        Regine Rita Rosette Rose
+        Sylvie Seraphine Severine Sophie Sabine
+        Theodorine
+        Ursuline
+        Virginie
+        Yolande
+	}	
+	noble_last_names = {
+		Bedard
+		Bellemare
+		Cartier
+		David
+		Papineau
+		Surrette
+	}
+	common_last_names={
+		Arceneaux Aucoin Anzelmo Authement
+        Bertinot Bertus Bordelon Brister Broussard Bellocq
+        Chachere Chenier de_Clouet Coupar Creaux Cailloux Couvillon
+        DeBuys Dede Delaroderie Delhomme Delouche Deshotel Dorgenois Doucet Delaup Dessommes
+        Estilette dEnvrich
+        Fontenot Freret Fuglaar Flambeau
+        Gerois Girod Gisclair Goff Guilbeaux Guyote Grenouille Guillory Guidry Guillotte Glapion 
+        Hebert
+        Istre
+        Jeanlouis Jearnmard Jumonville
+        Lambert Landry Larcade Larriviere Latiolais Lavergne LeBlance Lemelle Lafitte
+        Montoucet de_Macarty Marchand Martinet Montegut Mouton Metoyer Morial
+        Nicaud Nagin
+        Pavy Perrault Pinac Pitot Prieur Peltier Paillard Permillion
+        Rabon de_Reggio Rilleux Ritchie Roffignac Roman Roudanez Rozier Robideaux Rosembraise Rillieux
+        Savoie Schexnayder Sibille Simien Simoneaux Sarebresole Soule Sentell
+        Teekell Teurlings Trevigne Vercher de_Ville Vauquelin Verret Vandage
+        Vallencourt
+        Wende
+        Zeringue
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

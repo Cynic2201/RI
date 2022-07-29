@@ -13,23 +13,22 @@
 @NZL_coa_offset = @[3/16] 
 @sm_fra = 0.16
 
-# IGNORE
-ABO = { # Aboriginals
-	pattern = "pattern_solid.tga"
-	color1 = "black"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "red"
-		color2 = "red"
-	}
-
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-	}
-}
+#ABO = { # Aboriginals
+#	pattern = "pattern_solid.tga"
+#	color1 = "black"
+#
+#	colored_emblem = {
+#		texture = "ce_bicolor_bottom.dds"
+#		color1 = "red"
+#		color2 = "red"
+#	}
+#
+#	colored_emblem = {
+#		texture = "ce_circle.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#	}
+#}
 
 ABS = { # Absaroke Crow
 	# Combination of traditionnal Crow designs
@@ -139,19 +138,19 @@ ABU = { # Abu Dhabi
 		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
 	}
 }
-ABU_late = {
-	# Later adopted the white stripe at the hoist as variant after reverting to traditionnal plain red
-	# TODO (UNUSED)
-
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "white"
-		instance = { scale = { 0.5 1.0 } position = { 0.08 0.5 } }	
-	}
-}
+#ABU_late = {
+#	# Later adopted the white stripe at the hoist as variant after reverting to traditionnal plain red
+#	# TODO (UNUSED)
+#
+#	pattern = "pattern_solid.tga"
+#	color1 = "red"
+#
+#	colored_emblem = {
+#		texture = "ce_solid.dds"
+#		color1 = "white"
+#		instance = { scale = { 0.5 1.0 } position = { 0.08 0.5 } }	
+#	}
+#}
 ABU_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -791,28 +790,28 @@ ARG = { # Argentina
 		instance = { scale = { 0.3 0.3 } position = { 0.88 0.89 } }		
 	}			
 }
-ARG_early = {
-	# 1818-29 Flag (light blue with larger central stripe)
-	# TODO (UNUSED)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "blue_light"
-		color2 = "blue_light"
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }	
-		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }		
-	}	
-	
-	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
-	}	
-}
+#ARG_early = {
+#	# 1818-29 Flag (light blue with larger central stripe)
+#	# TODO (UNUSED)
+#
+#	pattern = "pattern_solid.tga"
+#	color1 = "white"
+#
+#	colored_emblem = {
+#		texture = "ce_solid.dds"
+#		color1 = "blue_light"
+#		color2 = "blue_light"
+#		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }	
+#		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }		
+#	}	
+#
+#	colored_emblem = {
+#		texture = "ce_inti.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+#	}	
+#}
 
 ARG_welsh = {
 	#TODO add a trigger for the flag
@@ -2096,7 +2095,33 @@ BER = { # Beroda
 	
 	pattern = "pattern_solid.tga"
 	color1 = "saffron"
-}	
+}
+
+BGL  = { # Bengal
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }	
+		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }			
+	}
+}
+
+BHN = { # Bahrain
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { position = { 0.12 0.5 } scale = { 0.25 1 } }			
+	}
+}
 
 BHO = { # Bhopal
 	pattern = "pattern_solid.tga"
@@ -2361,6 +2386,17 @@ BLG_republic = { # Bulungan
 	colored_emblem = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "yellow"
+		color2 = "black"
+	}
+}
+
+BNJ = { # Banjar
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "black"
 		color2 = "black"
 	}
 }
@@ -3203,23 +3239,23 @@ BUR_subject = {
 	}		
 }
 
-BUR_late = {
-	# 1941 design (similar in colour to colonial flag)
-	# TODO (UNUSED)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }		
-	}
-	textured_emblem = {
-		texture = "te_peacock.dds"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.51 } }
-	}		
-}
+#BUR_late = {
+#	# 1941 design (similar in colour to colonial flag)
+#	# TODO (UNUSED)
+#
+#	pattern = "pattern_solid.tga"
+#	color1 = "blue"
+#	colored_emblem = {
+#		texture = "ce_frame_circle.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }		
+#	}
+#	textured_emblem = {
+#		texture = "te_peacock.dds"
+#		instance = { scale = { 1.0 1.0 } position = { 0.5 0.51 } }
+#	}		
+#}
 
 BRZ = { # Brazil
 	# 1822-89
@@ -4337,6 +4373,28 @@ CEY_subject_GBR = {
     }	
 }
 
+CHC = { # Chechnya
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "yellow"
+
+	# That's it!
+}
+
+CHC_imamate = { # Caucasian Imamate
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "yellow"
+
+	colored_emblem = {		
+		texture = "ce_solid.dds"
+		color1 = "red"
+		color2 = "red"
+        instance = { position = { 0.5 0.1 } scale = { 0.66 0.2 } }
+        instance = { position = { 0.5 0.9 } scale = { 0.66 0.2 } }	
+	}	
+}
+
 CHE = { # Cherokee
 	# Cherokee flag - Alternate circle design
 	pattern = "pattern_solid.tga"
@@ -4802,6 +4860,45 @@ CHP_subject = {
     }		
 }
 
+CIR = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {		
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+
+		# Right side stars
+
+        instance = { position = { 0.12 0.65 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.18 0.43 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.27 0.25 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.38 0.14 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.38 0.3 } scale = { 0.15 0.15 } }
+
+		# Middle row stars
+        instance = { position = { 0.5 0.1 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.5 0.3 } scale = { 0.15 0.15 } }
+
+		# Left side stars
+
+        instance = { position = { 0.88 0.65 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.82 0.43 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.73 0.25 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.62 0.14 } scale = { 0.15 0.15 } }
+        instance = { position = { 0.62 0.3 } scale = { 0.15 0.15 } }
+	}
+
+	colored_emblem = {		
+		texture = "ce_three_arrows_square.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+
+        instance = { position = { 0.5 0.67 } scale = { 0.5 0.5 } }
+    }
+}
+
 CLM = { # Colombia
 	# 1831-57 Starting/Republic
 	# TODO 1854 CoA for Monarchy
@@ -5065,55 +5162,55 @@ CNG = { # Congo
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.51 }  }
 	}
 }
-# IGNORE
-CNG_republic = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "yellow"
 
-	colored_emblem = {
-		texture = "ce_bend_sinister.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 1.25 1.25 } position = { 0.5 0.5 }  }
-	}
-	colored_emblem = {
-		texture = "ce_bend_sinister.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
-	}	
- 	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.5 0.5 } position = { 0.18 0.30 } }				
-	}	
-}
-# IGNORE
-CNG_dictatorship = {
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.6 0.6 } position = { 0.5 0.51 }  }
-	}
- 	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "yellow"
-		color2 = "white"
-		instance = { scale = { 0.15 0.15 } position = { 0.1 0.10 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.1 0.26 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.1 0.42 } }	
-		instance = { scale = { 0.15 0.15 } position = { 0.1 0.58 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.1 0.74 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.1 0.90 } }			
-	}	
-}
+#CNG_republic = {
+#	pattern = "pattern_solid.tga"
+#	color1 = "blue"
+#	color2 = "yellow"
+#
+#	colored_emblem = {
+#		texture = "ce_bend_sinister.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#		instance = { scale = { 1.25 1.25 } position = { 0.5 0.5 }  }
+#	}
+#	colored_emblem = {
+#		texture = "ce_bend_sinister.dds"
+#		color1 = "red"
+#		color2 = "red"
+#		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+#	}	
+# 	colored_emblem = {
+#		texture = "ce_star_05.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#		instance = { scale = { 0.5 0.5 } position = { 0.18 0.30 } }				
+#	}	
+#}
+## IGNORE
+#CNG_dictatorship = {
+#	pattern = "pattern_solid.tga"
+#	color1 = "blue"
+#	color2 = "yellow"
+#
+#	colored_emblem = {
+#		texture = "ce_star_05.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#		instance = { scale = { 0.6 0.6 } position = { 0.5 0.51 }  }
+#	}
+# 	colored_emblem = {
+#		texture = "ce_star_05.dds"
+#		color1 = "yellow"
+#		color2 = "white"
+#		instance = { scale = { 0.15 0.15 } position = { 0.1 0.10 } }		
+#		instance = { scale = { 0.15 0.15 } position = { 0.1 0.26 } }		
+#		instance = { scale = { 0.15 0.15 } position = { 0.1 0.42 } }	
+#		instance = { scale = { 0.15 0.15 } position = { 0.1 0.58 } }		
+#		instance = { scale = { 0.15 0.15 } position = { 0.1 0.74 } }		
+#		instance = { scale = { 0.15 0.15 } position = { 0.1 0.90 } }			
+#	}	
+#}
 
 COM = { # Comanche
 	# Design from a period war shield featuring first rays of the sun
@@ -6141,24 +6238,24 @@ DOM = { # Dominican republic
 		instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
 	}	
 }
-DOM_early = {
-	# 1844 design, possibly used before (haitian flag with white cross, variants with stars)
-	# TODO (UNUSED)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "red"
-		color2 = "red"
-	}
-	colored_emblem = {
-		texture = "ce_cross_england.dds"
-		color1 = "white"
-		color2 = "white"
-	}
-}
+#DOM_early = {
+#	# 1844 design, possibly used before (haitian flag with white cross, variants with stars)
+#	# TODO (UNUSED)
+#
+#	pattern = "pattern_solid.tga"
+#	color1 = "blue"
+#
+#	colored_emblem = {
+#		texture = "ce_bicolor_bottom.dds"
+#		color1 = "red"
+#		color2 = "red"
+#	}
+#	colored_emblem = {
+#		texture = "ce_cross_england.dds"
+#		color1 = "white"
+#		color2 = "white"
+#	}
+#}
 
 DON = {	# Don Republic
 	pattern = "pattern_solid.tga"
@@ -6818,7 +6915,6 @@ EGY_republic = {
 }
 EGY_dictatorship = {
 	# 1958 revolution
-	# TODO Proper Saladin's eagle
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -7138,28 +7234,28 @@ FRA_dictatorship = {
 		instance = { scale = { 0.6 0.6 } position = { 0.495 0.48 } }
 	}
 }
-FRA_dictatorship_emperor = {
-	# Imperial std of Napoleon
-	# TODO decide between one or the other for dictatorship (the tricolore in simple design was still the official flag)
-	# TODO (UNUSED)
-	
-	pattern = "pattern_border_double.dds"
-	color1 = "white"
-	color2 = "red"
-	color3 = "blue"
-	
-	textured_emblem = {
-		texture = "te_crown_imperial_eagles.dds"
-		instance = { scale = { 0.25 0.25 } position = { 0.5 0.22 } }
-	}			
-	colored_emblem = {
-		texture = "ce_eagle_napoleonian.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		color3 = "white"
-		instance = { scale = { 0.75 0.75 } position = { 0.5 0.58 } }
-	}
-}
+#FRA_dictatorship_emperor = {
+#	# Imperial std of Napoleon
+#	# TODO decide between one or the other for dictatorship (the tricolore in simple design was still the official flag)
+#	# TODO (UNUSED)
+#
+#	pattern = "pattern_border_double.dds"
+#	color1 = "white"
+#	color2 = "red"
+#	color3 = "blue"
+#
+#	textured_emblem = {
+#		texture = "te_crown_imperial_eagles.dds"
+#		instance = { scale = { 0.25 0.25 } position = { 0.5 0.22 } }
+#	}			
+#	colored_emblem = {
+#		texture = "ce_eagle_napoleonian.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#		color3 = "white"
+#		instance = { scale = { 0.75 0.75 } position = { 0.5 0.58 } }
+#	}
+#}
 FRA_communist = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -9602,19 +9698,19 @@ HON = { # Honduras
 		instance = { scale = { 0.15 0.15 } position = { 0.62 0.59 } }		
 	}	
 }
-HON_early = {
-	# early unofficial design without stars (1838-49)
-	# TODO (UNUSED)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "blue"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue"
-	}
-}
+#HON_early = {
+#	# early unofficial design without stars (1838-49)
+#	# TODO (UNUSED)
+#
+#	pattern = "pattern_solid.tga"
+#	color1 = "blue"
+#
+#	colored_emblem = {
+#		texture = "ce_tricolor_horizontal.dds"
+#		color1 = "white"
+#		color2 = "blue"
+#	}
+#}
 HON_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -10300,6 +10396,38 @@ KNK = {
 	}
 }
 
+KTI = { # Kutai
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_lion_statant_guardant.dds"
+		color1 = "orange"
+		color2 = "black"
+	}
+}
+
+JAB = { # Jabal Shammar
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {		
+		texture = "ce_crescent_large.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+
+        instance = { position = { 0.45 0.5 } scale = { 1 1 } }
+    }
+
+	colored_emblem = {		
+		texture = "ce_star_08.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+
+        instance = { position = { 0.81 0.25 } scale = { 0.35 0.35 } }
+    }
+}
+
 JAI = { # Jaipur
 	# Sun face only added 1877 but helps differenciate with numerous similar designs in the area
 	# Colour order changed 1922 (to RYWGB)
@@ -10681,6 +10809,14 @@ JAV_theocracy = {
 		color2 = "blue"		
 		instance = { scale = { 0.75 0.75 } position = { 0.25 0.5 } }
 	}		
+}
+
+JMB = { # Jambi
+	# No really, this is it, this is the historical flag. If you read this comment and then file a bug on the forums I will be passive-aggressive and snide.
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "white"
 }
 
 JOD = { # Jodhpur
@@ -11628,6 +11764,66 @@ LAD = { # Ladakh
 	}	
 }
 
+KAT = { # Kathiri
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "yellow"
+	}
+
+	colored_emblem = {
+		texture = "ce_chevron.dds"
+		color1 = "red"
+		color2 = "red"		
+		instance = { scale = { 0.5 1.0 } position = { 0.18 0.5 } rotation = 90 }				
+	}
+
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"		
+		instance = { scale = { 0.2 0.2 } position = { 0.10 0.62 } }	
+		instance = { scale = { 0.2 0.2 } position = { 0.10 0.38 } }	
+		instance = { scale = { 0.2 0.2 } position = { 0.25 0.5 } }				
+	}
+}
+
+LAH = { # Lahej
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		color2 = "red"		
+		instance = { scale = { 0.5 1.0 } position = { 0.25 0.5 } }				
+	}
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		color2 = "white"		
+		instance = { scale = { 0.02 0.66 } position = { 0.25 0.5 } }				
+	}
+
+	colored_emblem = {
+		texture = "ce_spearhead.dds"
+		color1 = "white"
+		color2 = "white"		
+		instance = { scale = { 0.5 1.0 } position = { 0.25 0.25 } }				
+	}
+
+	colored_emblem = {
+		texture = "ce_crossed_scimitars.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 1.0 0.5 } position = { 0.25 0.5 } rotation = 180 }	
+	}
+}
+
 LAN = { # Lanfang
 	
 	pattern = "pattern_solid.tga"
@@ -12365,6 +12561,24 @@ SUD_theocracy = { # Mahdist State
 	}		
 }
 
+MAH = { # Mahra
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_crescent_star_05.dds"
+		color1 = "black"
+		color2 = "black"		
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.5 } }				
+	}
+}
+
 MAK = { # Makran
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -12843,6 +13057,14 @@ MEX_subject_USA = {
 	}
 }
 
+MGD = { # Maguindanao
+	# Starting flag
+	# Plain yellow flag
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+
 MGL = { # Mongolia
 	# 1911 (the design is somewhat simplified, from surviving flag)
 	pattern = "pattern_border_double.dds"
@@ -12963,20 +13185,20 @@ MKT = { # Miskito
 		color2 = color2
 	}
 }
-MKT_late = {
-	# Later 1853-81 variants have 10 or 12 stripes 
-	# TODO (UNUSED)
-	
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	color2 = "blue"
-
-	colored_emblem = {
-		texture = "ce_stripes_10.dds"
-		color1 = color2
-		color2 = color2
-	}
-}
+#MKT_late = {
+#	# Later 1853-81 variants have 10 or 12 stripes 
+#	# TODO (UNUSED)
+#
+#	pattern = "pattern_solid.tga"
+#	color1 = "white"
+#	color2 = "blue"
+#
+#	colored_emblem = {
+#		texture = "ce_stripes_10.dds"
+#		color1 = color2
+#		color2 = color2
+#	}
+#}
 
 MLT = {
 	pattern = "pattern_solid.tga"
@@ -14718,6 +14940,29 @@ NVJ = { # Navajo
 		color2 = "yellow"
 		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 }  }
 	}
+}
+
+NVS = { # Nova Scotia
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "red"
+	color3 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_nova_scotia.dds"
+        instance = { position = { 0.5 0.5 } scale = { 1.5 1.5 } }
+	}	
+}
+NVS_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "red"
+	color3 = "red"
+	
+   sub = {
+        parent = "sub_NVS" 
+		instance = { scale = { 0.5 0.5 } offset = { 0.5 0.25 }  }   
+    }
 }
 
 NZL = {	
@@ -16963,6 +17208,19 @@ POM = { # Pomerania
 	}
 }
 
+PON = { # Pontianak
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_crescent_star_05_pale.dds"
+		color1 = "green"
+		color2 = "green"
+	}	
+}
+
 POR = { # Portugal
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -17436,6 +17694,17 @@ PRG_communist = {
 		color2 = "red"
 		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
 	}	
+}
+
+PRK = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "black"
+	}
 }
 
 PRU = {
@@ -18058,6 +18327,19 @@ SAF_fascist = {
 	}	
 }
 
+SAK = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "green"
+
+	}	
+}
+
 SAR = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -18427,6 +18709,30 @@ SCO_fascist = {
 		color2 = "black"
 		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
+}
+
+SEL = { # Selangor
+	
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_per_cross.dds"
+		color1 = "yellow"
+		color2 = "yellow"			
+	}	
+	colored_emblem = {
+		texture = "ce_crescent_large.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+	}		
+	colored_emblem = {
+		texture = "ce_star_05_tilted.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { -0.25 0.25 } position = { 0.35 0.25 } }
+	}	
 }
 
 SEQ = { # Indian Territory
@@ -19067,6 +19373,19 @@ SLV_fascist = {
 	}	
 }
 
+SMB = { # Sambas
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "yellow"
+	}	
+}
+
 SMI = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -19353,6 +19672,50 @@ SPA_subject_GBR = {
         parent = "sub_SPA_coa" 
         instance = { scale = { 0.5 0.5 } offset = { 0.5 0.30 } }
     }	
+}
+
+SRK = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+}
+
+STG = { # Sintang
+	# This is also all the flag is and I will also fight you if you complain about this one.
+
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+}
+
+SUL = { # Sulu
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+		
+	colored_emblem = {
+		texture = "ce_sulu.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { position = { 0.41 0.5 } scale = { 1.0 1.0 } }		
+	}
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { position = { 0.035 0.5 } scale = { 0.07 } }		
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		color2 = "blue"
+        instance = { position = { 0.105 0.5 } scale = { 0.07 } }		
+	}
 }
 
 SWE = {
@@ -20105,6 +20468,22 @@ TIB_subject = {
 	
 }
 
+TID = { # Tidore
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { position = { 0.25 0.25 } scale = { 0.35 0.35 } }	
+        instance = { position = { 0.25 0.75 } scale = { 0.35 0.35 } }
+        instance = { position = { 0.75 0.25 } scale = { 0.35 0.35 } rotation = 180 }	
+        instance = { position = { 0.75 0.75 } scale = { 0.35 0.35 } rotation = 180 }
+        instance = { position = { 0.5 0.5 } scale = { 0.30 0.50 } rotation = 270 }	
+	}
+}
+
 TNG = { # Tonga
 	# First hist. design with Ave Maria monogram
 	
@@ -20771,6 +21150,20 @@ UKR_communist = {
 		color2 = color2
 		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
 	}	
+}
+UKR_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "black"
+		color2 = "black"
+	}
+}
+UKR_free_state = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
 }
 
 ULS = {
@@ -22220,6 +22613,17 @@ YEM_subject_GBR = {
 	}		
 }
 
+YOG = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"	
+	}		
+}
+
 YUC = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -22365,5 +22769,31 @@ TRH = { # Turkestan, using the flag of the Basmachi movement as a base
 		color1 = "white"
 		color2 = "white"
 		instance = { scale = { 0.22 0.22 } position = { 0.3 0.5 } rotation = 18 }	
+	}
+}
+
+LOU = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "white"
+	color3 = "yellow"
+
+	textured_emblem = {
+		texture = "te_louisiana_swan.dds"
+		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
+	}
+}
+LOU_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_fleur_quebec.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.2 0.6 } scale = { 0.6 0.6 } }
+		instance = { position = { 0.5 0.4 } scale = { 0.6 0.6 } }
+		instance = { position = { 0.8 0.6 } scale = { 0.6 0.6 } }
 	}
 }
