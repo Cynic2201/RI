@@ -29,7 +29,7 @@ STATES = {
 		}
 		
 		add_homeland = yankee
-		add_homeland = algonquian
+		add_homeland = iroquoian
 	}
 	s:STATE_VIRGINIA = {
 		create_state = {
@@ -509,6 +509,7 @@ STATES = {
 			
 		add_homeland = yankee	
 		add_homeland = dakota
+		add_homeland = algonquian
 	}
 	s:STATE_WISCONSIN = {
 		create_state = {
@@ -518,7 +519,8 @@ STATES = {
 		}
 		
 		add_homeland = yankee		
-		add_homeland = dakota		
+		add_homeland = dakota
+		add_homeland = algonquian	
 	}
 	s:STATE_INDIANA = {
 		create_state = {
@@ -536,6 +538,7 @@ STATES = {
 		}
 		
 		add_homeland = yankee
+		add_homeland = algonquian
 	}
 	s:STATE_OHIO = {
 		create_state = {
@@ -874,6 +877,7 @@ STATES = {
 		}
 		
 		add_homeland = anglo_canadian
+		add_homeland = iroquoian
 		add_homeland = algonquian
 	}
 	s:STATE_QUEBEC = {

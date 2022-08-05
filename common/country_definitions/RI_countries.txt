@@ -2309,7 +2309,7 @@ IRO = {
 	
 	tier = principality
 	
-	cultures = { iroquois }
+	cultures = { iroquoian }
 	
 	capital = STATE_NEW_YORK
 }
