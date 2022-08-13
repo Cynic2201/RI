@@ -1028,7 +1028,7 @@ SCO = {
 	tier = kingdom
 	
 	cultures = { alban }
-	capital = STATE_LOWLANDS #placeholder
+	capital = STATE_HIGHLANDS #placeholder
 }
 
 #Denmark
@@ -1845,6 +1845,7 @@ ALV = {
 	
 	cultures = { african berber }
 	capital = STATE_TLEMCEN
+	is_named_from_capital = yes
 }
 
 #Vandalia
@@ -1977,6 +1978,7 @@ GAE = {
 	
 	cultures = { berber }
 	capital = STATE_SAHARA
+	is_named_from_capital = yes
 }
 
 #Garmantia
@@ -1999,6 +2001,7 @@ NSA = {
 	
 	cultures = { berber }
 	capital = STATE_LIBYAN_DESERT
+	is_named_from_capital = yes
 }
 
 #Oualata
@@ -2021,6 +2024,7 @@ SIW = {
 	
 	cultures = { berber }
 	capital = STATE_EGYPTIAN_DESERT
+	is_named_from_capital = yes
 }
 
 #Tibesti

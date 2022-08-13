@@ -105,7 +105,12 @@ STATES = {
 	s:STATE_BALUCHISTAN = {
 		create_state = {
 			country = c:MAK
-			owned_provinces = { x978421 x4E09C5 xF9577D x45F2DD x113E0B x7FE584 xC070E0 xC6E602 xB0F79E x407060 x951063 xB7B2BD x8ED831 x2E7961 xE87BBF }
+			owned_provinces = { x978421 x4E09C5 xF9577D x45F2DD x113E0B x7FE584 xC070E0 xC6E602 xB0F79E x407060 x951063 x8ED831 x2E7961 xE87BBF }
+		}
+		create_state = {
+			country = c:OMA
+			state_type = treaty_port
+			owned_provinces = { xB7B2BD }
 		}
 		create_state = {
 			country = c:KAL
@@ -5066,12 +5071,17 @@ STATES = {
 		
 		add_homeland = mashriqi
 		add_homeland = turkish
-		add_homeland = kurdish		
+		add_homeland = kurdish
+		add_homeland = assyrian
 	}
 	s:STATE_LARISTAN = {
 		create_state = {
 			country = c:PER
-			owned_provinces = { x42FC41 x36F270 x2F832B xB80596 xAFE8A5 x8070A0 xE816BC x3FA81D xAAA21C xC83D18 xB2B395 x9DF415 x1BC9CB xF58FBD x20B506 xA54E11 xB67223 x876E91 x0170A0 x75B0BE x350DED x01F020 xCC1B0F xE9C86A x901598 xF8EBE8 x6DDC3B x5D2CF2 x80F020 xAFF45C x648853 xFF73DA xCCDD76 x75B934 x2E57B1 xB0513F xF6D834 xD73959 xCBE9C4 xF24BDE xCACC49 x0D4D86 xEB9357 x6796CE x922EDA xF14D58 x2E09CE x7FB23D x9869E8 x99F186 x177599 x5293C9 xE862E9 x159AB3 x407020 x83424B x5E1734 x8D0125 xF4E18B x124E6F }
+			owned_provinces = { x2F832B xB80596 xAFE8A5 x8070A0 xE816BC x3FA81D xC83D18 xB2B395 x9DF415 x1BC9CB xF58FBD x20B506 xA54E11 xB67223 x01F020 xCC1B0F xE9C86A x901598 xF8EBE8 x6DDC3B x5D2CF2 x80F020 xAFF45C x648853 xFF73DA xCCDD76 x75B934 x2E57B1 xB0513F xF6D834 xD73959 xCBE9C4 xF24BDE xCACC49 x0D4D86 xEB9357 x6796CE x922EDA xF14D58 x2E09CE x7FB23D x9869E8 x99F186 x177599 x5293C9 xE862E9 x159AB3 x407020 x83424B x5E1734 x8D0125 xF4E18B x124E6F }
+		}
+		create_state = {
+			country = c:OMA
+			owned_provinces = { xAAA21C x876E91 x0170A0 x350DED x75B0BE x36F270 x42FC41 }
 		}
 		
 		add_homeland = persian
@@ -5145,6 +5155,7 @@ STATES = {
 		add_homeland = persian
 		add_homeland = kurdish
 		add_homeland = azerbaijani
+		add_homeland = assyrian
 	}
 	s:STATE_LURISTAN = {
 		create_state = {
@@ -5354,6 +5365,7 @@ STATES = {
 		add_homeland = armenian
 		add_homeland = kurdish
 		add_homeland = mashriqi
+		add_homeland = assyrian
 	}
 	s:STATE_EASTERN_AFGHANISTAN = {
 		create_state = {
@@ -6471,11 +6483,11 @@ STATES = {
 	s:STATE_WEST_GALICIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { x1161E0 x90E060 xC8690C x66DCEE xA63CE6 xFCC35F xC7B7B8 x5F3456 x56599F xA550A9 x11E061 x9061E0 }
+			owned_provinces = { x90E060 x1161E0 xC8690C x66DCEE xA63CE6 xFCC35F xC7B7B8 x5F3456 x56599F xA550A9 x9061E0 }
 		}
 		create_state = {
 			country = c:KRA
-			owned_provinces = { x906060 }
+			owned_provinces = { x906060 x11E061 }
 		}
 		
 		add_homeland = polish
@@ -7002,7 +7014,6 @@ STATES = {
 			state_type = unincorporated
 		}
 		
-		add_homeland = french
 		add_homeland = corsican
 	}
 	s:STATE_PASHTUNISTAN = {
@@ -7098,6 +7109,7 @@ STATES = {
 		
 		add_homeland = mashriqi
 		add_homeland = kurdish
+		add_homeland = assyrian
 	}
 	s:STATE_BAJA_CALIFORNIA = {
 		create_state = {
