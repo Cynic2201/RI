@@ -429,3 +429,40 @@ STATE_SCHLESWIG = {
 #TODO    }
     naval_exit_id = 3019
 }
+
+STATE_LUSATIA = {
+    id = 1023
+    subsistence_building = "building_subsistence_farms"
+    provinces = { xCF5D8E x34386E x9B9076 x83B1A8 xA65DA6 x60BF20 x614121 xDF4020 x76EF4E  }
+    traits = { "state_trait_oder_river" }
+#TODO    city = 
+    farm = x83B1A8
+    mine = xDF4020
+#TODO    wood = 
+#TODO    arable_land = 
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+#TODO    capped_resources = {
+#TODO        bg_coal_mining = 
+#TODO        bg_logging = 
+#TODO    }
+}
+
+STATE_MEISSEN = {
+    id = 1024
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x169073 xC00A37 x795368 x917939 xAFDFBF x43CE26 x31E0C0 }
+    prime_land = { x31E0C0 xC00A37 x169073 xAFDFBF x917939 x43CE26 }
+    traits = { "state_trait_elbe_river" }
+    city = "x169073"
+#TODO    farm = 
+    mine = "x917939"
+    wood = "x31E0C0"
+#TODO    arable_land = 
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+#TODO    capped_resources = {
+#TODO        bg_coal_mining = 
+#TODO        bg_iron_mining = 
+#TODO        bg_sulfur_mining = 
+#TODO        bg_logging = 
+#TODO    }
+}
