@@ -466,3 +466,21 @@ STATE_MEISSEN = {
 #TODO        bg_logging = 
 #TODO    }
 }
+
+STATE_BORNHOLM = {
+    id = 1025
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x9000E0 }
+    city = x9000E0
+    port = x9000E0
+    farm = x9000E0
+    mine = x9000E0
+    wood = x9000E0
+#TODO    arable_land = 
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+#TODO    capped_resources = {
+#TODO        bg_logging = 
+#TODO        bg_fishing = 
+#TODO    }
+    naval_exit_id = 3019
+}

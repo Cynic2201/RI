@@ -3531,6 +3531,9 @@
 			owned_provinces = { x0CAEA7 x7F0BF0 xED2792 xC16C09 }
 		}
 		
+		add_homeland = danish
+	}
+	s:STATE_BORNHOLM = {#Split off of Zealand
 		create_state = {
 			country = c:HAN
 			owned_provinces = { x9000E0 }

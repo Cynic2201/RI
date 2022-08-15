@@ -178,6 +178,8 @@
  STATE_LESSER_POLAND:0 "Lesser Poland"
  STATE_WEST_GALICIA:0 "Krakow"
  STATE_EAST_GALICIA:0 "Halych"
+ STATE_BORNHOLM:0 "Bornholm"
+ STATE_EAST_PRUSSIA:0 "Pruthenia"
  
 l_english:
 
@@ -747,7 +749,7 @@ l_english:
  #STATE_ANHALT:0 "Anhalt"
  #STATE_POMERANIA:0 "Pomerania"
  #STATE_WEST_PRUSSIA:0 "West Prussia"
- STATE_EAST_PRUSSIA:0 "East Prussia"
+ #STATE_EAST_PRUSSIA:0 "East Prussia"
  #STATE_RHINELAND:0 "Rhineland"
  #STATE_NORTH_RHINE:0 "North Rhine"
  #STATE_SILESIA:0 "Silesia"
