@@ -273,10 +273,11 @@ STATE_LAZIO = {
     mine = "x3040A0"
     wood = "xB040A0"
     arable_land = 66
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_monuments" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" }
     capped_resources = {
         bg_logging = 11
         bg_fishing = 7
+        bg_monuments = 1
     }
     naval_exit_id = 3032
 }
@@ -680,11 +681,12 @@ STATE_EASTERN_THRACE = {
     mine = "xFCF160"
     wood = "x608BB0"
     arable_land = 68
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" "bg_monuments" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_iron_mining = 18
         bg_logging = 4
         bg_fishing = 10
+        bg_monuments = 1
     }
     naval_exit_id = 3035
 }

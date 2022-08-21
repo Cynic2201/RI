@@ -27,11 +27,12 @@ STATE_MOSCOW = {
     mine = "xE1114E"
     wood = "x14830F"
     arable_land = 174
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_monuments" }
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 30
         bg_logging = 34
+        bg_monuments = 1
     }
 }
 
@@ -537,6 +538,7 @@ STATE_WEST_GALICIA = {
     id = 161
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1161E0" "x11E061" "x56599F" "x5F3456" "x66DCEE" "x906060" "x9061E0" "x90E060" "xA550A9" "xA63CE6" "xC7B7B8" "xC8690C" "xFCC35F" }
+    prime_land = { "x5F3456" "xFCC35F" }
     city = "x906060"
     farm = "x5F3456"
     mine = "x5F3456"

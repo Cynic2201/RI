@@ -787,7 +787,6 @@ BEN = {
 ARC = {
 	states = {
 		STATE_NEW_BRUNSWICK
-		STATE_QUEBEC
 		STATE_MAINE
 	}
 	ai_will_do = { always = no }
