@@ -2302,7 +2302,7 @@ NNE = {
 	tier = kingdom
 	
 	cultures = { havensmen laurentian }
-	capital = STATE_NEW_YORK
+	capital = STATE_NEW_JERSEY
 }
 
 #Irokesenland
@@ -2484,7 +2484,7 @@ MIS = {
 	tier = principality
 	
 	cultures = { fredonian }
-	capital = STATE_MISSOURI
+	capital = STATE_ARKANSAS
 }
 
 #Hanseatic West Indies
@@ -2950,6 +2950,17 @@ NZP = {
 	capital = STATE_IDAHO
 }
 
+#Osage
+OSA = {
+	color = { 121 210 115 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MISSOURI
+}
+
 #Pawnee
 PWN = {
 	color = { 252 84 118 }
@@ -3047,6 +3058,17 @@ YUP = {
 	
 	cultures = { inuit }
 	capital = STATE_ALASKA
+}
+
+#Wichita
+WIT = {
+	color = { 126 11 224 }
+	country_type = decentralized 
+	
+	tier = principality
+	
+	cultures = { caddoan }
+	capital = STATE_KANSAS
 }
 
 #Amazons

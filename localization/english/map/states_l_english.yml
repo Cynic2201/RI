@@ -219,6 +219,10 @@
  STATE_ARKANSAS:0 "Mississippi"
  STATE_LOUISIANA:0 "Madoc"
  STATE_MISSISSIPPI:0 "Dwyrain"
+ STATE_MISSOURI:0 "Acansa"
+ STATE_OKLAHOMA:0 "Washita"
+ STATE_KANSAS:0 "Kidilia" (Quivira)
+ STATE_NEBRASKA:0 "Lakota"
  
 l_english:
 
@@ -232,12 +236,12 @@ l_english:
  STATE_MONTANA:0 "Montana"
  STATE_NORTH_DAKOTA:0 "North Dakota"
  STATE_SOUTH_DAKOTA:0 "South Dakota"
- STATE_NEBRASKA:0 "Nebraska"
- STATE_KANSAS:0 "Kansas"
- STATE_OKLAHOMA:0 "Oklahoma"
+ #STATE_NEBRASKA:0 "Nebraska"
+ #STATE_KANSAS:0 "Kansas"
+ #STATE_OKLAHOMA:0 "Oklahoma"
  #STATE_LOUISIANA:0 "Louisiana"
  #STATE_ARKANSAS:0 "Arkansas"
- STATE_MISSOURI:0 "Missouri"
+ #STATE_MISSOURI:0 "Missouri"
  STATE_IOWA:0 "Iowa"
  STATE_MINNESOTA:0 "Minnesota"
  STATE_WISCONSIN:0 "Wisconsin"
