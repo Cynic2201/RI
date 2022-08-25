@@ -2824,7 +2824,7 @@ ARP = {
 	
 	tier = principality
 	
-	cultures = { siouan }
+	cultures = { algonquian }
 	capital = STATE_COLORADO
 }
 
@@ -2846,7 +2846,7 @@ BLF = {
 	
 	tier = principality
 	
-	cultures = { siouan } #placeholder
+	cultures = { algonquian }
 	capital = STATE_ALBERTA
 }
 
@@ -2857,7 +2857,7 @@ CHN = {
 	
 	tier = principality
 	
-	cultures = { chinook }
+	cultures = { penutian }
 	capital = STATE_OREGON
 }
 
@@ -2879,8 +2879,8 @@ OBI = {
 	
 	tier = principality
 	
-	cultures = { obijwe }
-	capital = STATE_MINNESOTA
+	cultures = { algonquian }
+	capital = STATE_SUPERIOR
 }
 
 #Crow/Absaroka
@@ -3034,7 +3034,7 @@ YOK = {
 	
 	tier = principality
 	
-	cultures = { yokut }
+	cultures = { penutian }
 	capital = STATE_CALIFORNIA
 }
 
@@ -3045,13 +3045,13 @@ YUR = {
 	
 	tier = principality
 	
-	cultures = { hokan }
+	cultures = { algonquian }
 	capital = STATE_CALIFORNIA
 }
 
 #Yupik
 YUP = {
-	color = {  }
+	color = { 239 189 100 }
 	country_type = decentralized 
 	
 	tier = principality

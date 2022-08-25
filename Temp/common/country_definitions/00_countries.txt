@@ -1923,7 +1923,7 @@ XIN = {
 PHI = {
 	color = { 92 87 122 }
 	
-	country_type = unrecognized
+	country_type = colonial
 	
 	tier = kingdom
 	
