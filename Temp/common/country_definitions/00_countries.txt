@@ -3762,3 +3762,15 @@ ASS = {
 	cultures = { assyrian }
 	capital = STATE_MOSUL
 }
+
+# KLM
+KLM = {
+	color = { 58 65 73 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { kalmyk }
+	capital = STATE_ASTRAKHAN
+}
