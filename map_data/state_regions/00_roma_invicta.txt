@@ -711,3 +711,110 @@ STATE_BRASILIA = {
 #TODO    }
     naval_exit_id = 3067
 }
+
+STATE_CRETTARO = {
+    id = 1038
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x0A1D52 xCE2837 x6B4C3A x5B5167 xD03080 x70C1FF x44E6F0 x75E1C3 x6EFE9A }
+#TODO    city = 
+#TODO    farm = 
+#TODO    mine = 
+#TODO    wood = 
+#TODO    arable_land = 
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+#TODO    capped_resources = {
+#TODO        bg_iron_mining = 
+#TODO        bg_gold_mining = 
+#TODO    }
+}
+
+STATE_POYAIS = {
+    id = 1039
+    subsistence_building = "building_subsistence_farms"
+    provinces = { xC27057 x3D20D1 x600AC6 x907080 x528F3B x55B06A xE2A108 }
+    traits = { "state_trait_central_american_cordilleras" }
+#TODO    city = 
+#TODO    port = 
+    farm = x55B06A
+#TODO    mine = 
+#TODO    wood = 
+#TODO    arable_land = 
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+#TODO    capped_resources = {
+#TODO        bg_logging = 
+#TODO        bg_fishing = 
+#TODO    }
+#TODO    resource = {
+#TODO        type = "bg_rubber"
+#TODO        undiscovered_amount = 
+#TODO    }
+    naval_exit_id = 3026
+}
+
+STATE_APURE = {
+    id = 1040
+    subsistence_building = "building_subsistence_farms"
+    provinces = { xA3020D x00004B x371070 x022930 x7909D1 x9204DB x0F4006 xB80E5A x265803 x0D53B4 xDE1F39 x4A49B3 x005ED2 x316874 x675E58 xC040D0 x2B8932 x3E7DF4 xAD68CA x838543 x5A88D4 xA287D5 xED7983 x59B14F x1BD001 x24CD7D xF085F7 x8BB742 xFE9918 x46C0F4 x5CE536 x17F9D8 x66F9D3 xF0F246 }
+#TODO    city = 
+#TODO    farm = 
+    mine = xF085F7
+    wood = x9204DB
+#TODO    arable_land = 
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+#TODO    capped_resources = {
+#TODO        bg_logging = 
+#TODO        bg_fishing = 
+#TODO    }
+#TODO    resource = {
+#TODO        type = "bg_rubber"
+#TODO        undiscovered_amount = 
+#TODO    }
+}
+
+STATE_QUITO = {
+    id = 1041
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x0000D0 x071415 x4000D0 x41165C x6B096B x8000D0 x2521E8 x92111D x8A1A0D x9110AC x5437B1 x1B533D x464276 xA03713 x3C5C5E xBC2EA9 xC734B8 x824FE7 x6E5F7F x755FE4 x248C22 xFD39FD x248E5D x8D62E6 x5575E4 x8D6B95 xFB499C x8170A2 x53873F xB26C25 xAD65A3 x6675F2 x439628 x0EA863 xEB5ADD xB37B33 x6D9C0C x459CD5 xA29A00 xC48C3C xE873F1 xDA8750 x71A577 xB8908A x10BCFE xAAA314 x70B453 xE3A387 x7EC991 xDFB23F x7DCF6B x55DF94 x60DC96 xF5B8CC xE9C0F3 xDAEE9F }
+    traits = { "state_trait_andes" }
+    city = x92111D
+#TODO    farm = 
+#TODO    mine = 
+    wood = x7EC991
+#TODO    arable_land = 
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+#TODO    capped_resources = {
+#TODO        bg_coal_mining = 
+#TODO        bg_iron_mining = 
+#TODO        bg_logging = 
+#TODO        bg_fishing = 
+#TODO    }
+#TODO    resource = {
+#TODO        type = "bg_rubber"
+#TODO        undiscovered_amount = 
+#TODO    }
+}
+
+STATE_VILCABAMBA = {
+    id = 1043
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x131739 x2410B7 x2C1E28 x1F2F47 xA00788 x4721A4 xE00010 x451DFA xCF0442 x5720BB x542F50 x8F231D x253E79 x9E207E x174A88 x0D584B xF605CB x5C413B x0A51AC x43494D x4040D0 xE70FB1 x045D66 x4C4D63 xD619E0 xFF1B33 xF211E2 x7B4D37 xD0336A x4758AE xE527E3 xD54205 x186AEE x725B6B x735E45 xEB3580 x6A5AAF xF23C51 x9A5667 xC0524B xE74282 x677249 x627358 xA25E6F xB94EE4 xF940B8 x199608 x4F8420 x1A8BA1 xB15AC4 x42895F x9866F2 x7E7888 x6780B3 x08AC16 x817BB5 x6B8F1E xE26287 x1CA561 xAB73D1 x8D8F6C x64989F x3F9FD5 x9084FB x959B26 x22BE37 x7B95EA x2CBF49 xFA73DA xB29291 xB19B32 x49B0BF x49B3A4 xB5966F x4EB3AA xFF8828 x95A83A x0CD27A x46BCB9 x41C0D0 xF79A14 x72B0FA xB2AB53 x5AC0B3 xDEA235 x11DE6C x83B7C6 xF3A702 x0AF425 xFBAC56 x2AF127 xF0A4FE xA0C0F0 x20F378 x93D464 xF1BD3D x7DD2F8 x32FA5C x46F090 xFDB1E8 xB3DC65 x83E894 x88E8DC xF4D455 xB4F357 xBDFBD1 xC8FBC2 xDBFFFF }
+    traits = { "state_trait_amazon_rainforest" }
+#TODO    city = 
+    farm = x95A83A
+#TODO    mine = 
+#TODO    wood = 
+#TODO    arable_land = 
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+#TODO    capped_resources = {
+#TODO        bg_logging = 
+#TODO        bg_gold_mining = 
+#TODO    }
+#TODO    resource = {
+#TODO        type = "bg_rubber"
+#TODO        undiscovered_amount = 
+#TODO    }
+#TODO    resource = {
+#TODO        type = "bg_oil_extraction"
+#TODO        undiscovered_amount = 
+#TODO    }
+}

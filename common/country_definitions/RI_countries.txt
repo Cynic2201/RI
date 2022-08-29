@@ -3272,7 +3272,7 @@ AYM = {
 	capital = STATE_LA_PAZ
 }
 
-#Cuzco
+#Cuzko
 CUZ = {
 	color = { 229 64 64 }
 	country_type = unrecognized 
@@ -3336,17 +3336,6 @@ NSU = {
 	
 	cultures = { neu_suebi }
 	capital = STATE_URUGUAY
-}
-
-#Paraguay
-PGU = {
-	color = { 200 122 120 }
-	country_type = colonial
-	
-	tier = principality
-	
-	cultures = { polish }
-	capital = STATE_BAJO_PARAGUAY
 }
 
 #Patagonia
