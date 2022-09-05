@@ -2083,17 +2083,6 @@ DAH = {
 	capital = STATE_DAHOMEY
 }
 
-#Damagaram
-HAU = {
-	color = { 225 185 85 }
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { hausa }
-	capital = STATE_OUTER_HAUSALAND
-}
-
 #Igbo
 IBO = {
 	color = { 60 60 60 }
@@ -2125,18 +2114,6 @@ LEE = {
 	
 	cultures = { afro_amerigan }
 	capital = STATE_LIBERIA
-}
-
-#Sokoto
-SOK = {
-	color = { 0 135 81 }
-	
-	country_type = unrecognized
-	
-	tier = kingdom
-	
-	cultures = { hausa fulbe }
-	capital = STATE_HAUSALAND
 }
 
 #Anyi
@@ -3109,7 +3086,7 @@ GNI = {
 #Guato
 GUT = {
 	color = { 199 186 80 }
-	country_type = unrecognized 
+	country_type = decentralized 
 	
 	tier = principality
 	
@@ -5755,7 +5732,7 @@ KYG = {
 	
 	tier = principality
 	
-	cultures = { kirghiz }
+	cultures = { siberian }
 	capital = STATE_TOMSK
 }
 
@@ -5799,7 +5776,7 @@ YAK = {
 	
 	tier = principality
 	
-	cultures = { yakut }
+	cultures = { siberian }
 	capital = STATE_YAKUTSK
 }
 
@@ -5879,6 +5856,39 @@ HAW = {
 	cultures = { hawaiian }
 	capital = STATE_HAWAIIAN_ISLANDS
 	is_named_from_capital = yes
+}
+
+#Dendi
+DND = {
+	color = { 255 128 128 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { songhai }
+	capital = STATE_ #placeholder
+}
+
+#Hausa
+HAU = {
+	color = { 29 186 241 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { hausa }
+	capital = STATE_EAST_HAUSALAND
+}
+
+#Haixi
+HAX = {
+	color = { 207 150 101 }
+	country_type = unrecognized 
+	
+	tier = principality
+	
+	cultures = { manchu }
+	capital = STATE_SOUTHERN_MANCHURIA
 }
 
 #

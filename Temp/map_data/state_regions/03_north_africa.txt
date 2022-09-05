@@ -28,13 +28,11 @@ STATE_UPPER_EGYPT = {
     farm = "xB002FE"
     mine = "xD0D060"
     wood = "xEDE183"
-    arable_land = 20
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_land = 60
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
-        bg_iron_mining = 24
-        bg_lead_mining = 24
         bg_logging = 2
-        bg_fishing = 6
+        bg_fishing = 13
     }
     naval_exit_id = 3047
 }
@@ -49,7 +47,7 @@ STATE_MIDDLE_EGYPT = {
     farm = "x50D060"
     mine = "xA41CF4"
     wood = "x50D060"
-    arable_land = 42
+    arable_land = 62
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 2
@@ -99,10 +97,12 @@ STATE_SINAI = {
     farm = "xD431F9"
     mine = "x8E5FD6"
     wood = "xC3AB33"
-    arable_land = 72
-    arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
+    arable_land = 12
+    arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_fishing = 10
+        bg_fishing = 3
+        bg_iron_mining = 24
+        bg_lead_mining = 24
     }
     naval_exit_id = 3047
 }

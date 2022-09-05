@@ -6,9 +6,10 @@
     port = "x700080"
     farm = "x44578C"
     arable_land = 16
-    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_monuments" }
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_fishing = 1
+        bg_monuments = 1
     }
     naval_exit_id = 3067
 }
@@ -45,12 +46,13 @@ STATE_NEW_YORK = {
     mine = "x9CC56A"
     wood = "xD534B1"
     arable_land = 106
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_monuments" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 45
         bg_logging = 20
         bg_whaling = 5
         bg_fishing = 6
+        bg_monuments = 1
     }
     naval_exit_id = 3067
 }
@@ -1484,7 +1486,7 @@ STATE_JALISCO = {
     farm = "x02AE5B"
     mine = "x1559EB"
     wood = "x4CF985"
-    arable_land = 38
+    arable_land = 50
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_iron_mining = 33
