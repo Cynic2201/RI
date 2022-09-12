@@ -1,0 +1,946 @@
+bjarmian={
+	color= { 75 152 188 }
+	religion = protestant
+	traits = { finnic uralic_heritage }
+	male_common_first_names={
+		Adrian Alfred Amund Anders Andreas Arne Arve August
+		Bernt Bernhard Birger Bj_Orn Blostrup
+		Carl Caspar Christen Christian Christopher Cort
+		Dagfin
+		Einar Elias Emil Erik Eggert Erich
+		Fordel Fredrik
+		Georg Gerhard Gustav
+		Haakon Hans Hans_Magne Harald Herman
+		Ivar Ingvald
+		Jacob Johan Johannes J_Orgen Jon
+		Karl Knud
+		Lauritz Ludvig
+		Magne Mathias 
+		Nils
+		Ogmund Olaf Olav Ole Osvald Otto
+		Palme Peter Petter
+		Roar
+		Sigurd
+		Theodor Thomas
+		Zacharias
+		Aleksandr
+		Dmitri
+		Ivan
+		Jukka
+		Santeri
+		Vladimir
+	}
+	female_common_first_names = {
+		Alette Alvide Anna Anne Ane Augusta
+		Barbara Bertha Birgitte Berthe
+		Camilla Catharina Christine Christiane Conradine
+		Dorothea
+		Elisabeth Elise Eldrid Ermegaard Elen
+		Gustava
+		Hanna Halldis Helga Hendrikke Hermana Hilchen
+		Inga Inger Ingeborg Irene Ingebor
+		Jacobine Jensine Josephine Jensenette Johanne
+		Kari Karen Karoline Kristine
+		Lucia
+		Maren Martha Marthe Margrethe Marie Marit Maria
+		Oline
+		Nicoline
+		Petra Petrine
+		Ragnhild
+		Sara Sophie Susanne Sanna Sigrid Siri
+		Thea Tora
+		Aili
+		Margareta
+		Marja
+		Nasti
+	}	
+	noble_last_names = {
+		Anker
+		Bagge Benkestok Bjelke Brodtkorb
+		Cappelen Cloumann Collett
+		Darre de_Tonsberg
+		Gyldenkrantz
+		Haslum Holck
+		Kane Knagenhjelm Kollerud Konow Krohg
+		Lovenskiold
+		Mellebye Meltzer Midelfart Morgenstierne Motzfeldt
+		Prydz
+		Rosenvinge
+		Skanke Stabell Steenstrup Stoltenberg Sverdrup
+		von_Holstein-Glucksburg von_Klenow von_Westen_Sylow_Koren
+		Wedel-Jarlsberg Werenskiold Wergeland
+		Zeiner-Gundersen Zwilgmeyer
+	}
+	common_last_names={
+		Andersen Andreassen Adeler
+		Balchen Berg Berge Bloch Borresen Bratzland Brentzon
+		Carlsen Carstensen Christiansen
+		Dahl
+		Egge
+		Falsen Fleicher Frisvold
+		Gjeranger Gundersen
+		Hansen Henriksen Hjermann Hund Huvestad
+		Jaatun Jacobsen Jensen Johansen Johannessen J_Orgensen
+		Kaldager Karlsen
+		Lambrechts Larsen Loftesnaes Lie Lund Lundegaard
+		Moen Munthe M_Oller M_Orch
+		Nielsen Nilsen
+		Olsen
+		Pedersen Pettersen
+		Rein Rolfsen Rye
+		Schmidt Sissener S_Orensen
+		Thorsen
+		Vika
+		Weidemann Wiborg With
+		Ubmeje 
+		Nuorane 
+		Gajka 
+		Kaise 
+		Saiva 
+		Keite 
+		Magga 
+		Guoladat
+		Kokko
+		Likhachev
+		Mamin
+		Minin
+		Sibiriak
+		Tikhanov
+		Zubov
+	}
+	ethnicities = {
+		1 = circumpolar
+	}
+	graphics = generic
+}
+
+estonian={
+	color= hsv{ 0.72 0.25 0.28 }
+	religion = arian
+	traits = { finnic baltic_culture_group uralic_heritage }
+	male_common_first_names={
+		Aadu
+		Alar
+		Aleksander
+		Andrus
+		Artur
+		August
+		Bernard
+		Dmitri
+		Eduard
+		Eerik
+		Elmar
+		Ernst
+		Georg
+		Gustav
+		Haman
+		Harri
+		Heino
+		Hendrik
+		Hjalmar
+		Ivari
+		Jaan
+		Jakob
+		Johannes
+		Joosep
+		Juhan
+		Julius
+		Juri
+		Kaarel
+		Kalev
+		Konstantin
+		Lennart
+		Ludvig
+		Madis
+		Mart
+		Mikhel
+		Nigul
+		Olev
+		Paavo
+		Peeter
+		Pent
+		Ragnar
+		Siiri
+		Sven
+		Tarmo
+		Toomas
+		Tonis
+		Uno
+		Valmar
+		Villwm
+		Voldemar
+	}
+	female_common_first_names = {
+		Aino
+		Anna
+		Astrid
+		Caroline
+		Doris
+		Dorothea
+		Jutta
+		Mari
+		Marta
+	}	
+	noble_last_names = {
+		Angelus
+		Brede
+		Kopp
+		Kukk
+		Leesment
+		Rahamagi
+		von_Ditmar
+		von_Schilling
+		von_Stackelberg
+		von_zur-Muhlen
+	}
+	common_last_names={
+		Aamisepp
+		Aavik
+		Adams
+		Anvel
+		Barbarus
+		Bornhohe
+		Eenpalu
+		Hint
+		Hurt
+		Irv
+		Jaakson
+		Jekelius
+		Jervan
+		Kalm
+		Kangro
+		Kint
+		Klaasen
+		Klumberg
+		Koern
+		Kogerman
+		Kotli
+		Kranig
+		Kumari
+		Kupine
+		Kuulmata
+		Kuusik
+		Koiv
+		Laidoner
+		Laretei
+		Leppik
+		Lipping
+		Lohk
+		Moora
+		Mae
+		Mannil
+		Natus
+		Nurkse
+		Nurmekund
+		Orkivu
+		Perna
+		Piiper
+		Poska
+		Puusepp
+		Pats
+		Poopuu
+		Rei
+		Reinman
+		Rank
+		Siinmaa
+		Sikkar
+		Sirk
+		Strandman
+		Tonisson
+		Uluots
+		Vaga
+		Veske
+		Vilbaste
+		Vilms
+		Warma
+		von_Uexkull
+		Okva
+		Opik
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+finnish={
+	color= hsv{ 0 0 0.86 }
+	religion = arian
+	traits = { finnic scandinavian_culture_group uralic_heritage }
+	male_common_first_names={
+		Aatto
+		Abraham
+		Akseli
+		Aleksanteri
+		Anders
+		Aukusti
+		Edvard
+		Eemil
+		Erkki
+		Erno
+		Fabian
+		Fredrik
+		Fridolf
+		Georg
+		Gosta
+		Harald
+		Hjalmar
+		Hugo
+		Johannes
+		Juho
+		Kaarlo
+		Kurt
+		Lars
+		Martti
+		Mikko
+		Paavo
+		Petteri
+		Rudolf
+		Viktor
+		Vilho
+		Vaino
+	}
+	female_common_first_names = {
+		Agneta
+		Alexandra
+		Amanda
+		Anna
+		Brita
+		Caroline
+		Elisabeth
+		Hilda
+		Johanna
+		Josefina
+		Margareta
+		Maria
+		Mathilda
+		Ottaliana
+		Sofia
+		Thorild
+		Ulrika
+		Sanna
+	}	
+	noble_last_names = {
+		Adlercreutz
+		Alfthan
+		Alopaeus
+		Antell
+		Armfelt
+		Arppe
+		Berbom
+		Berg
+		Carpelan
+		Cedercreutz
+		Edelfelt
+		Edelheim
+		Ehrnrooth
+		Finckenberg
+		Furuhjelm
+		Gadolin
+		Goeoes
+		Granfelt
+		Gripenberg
+		Hisinger
+		Jaegerhorn
+		Jarnefalt
+		Klick
+		Klinckowstrom
+		Mannerheim
+		Molander
+		Nordenswan
+		Pipping
+		Rosenkampff
+		Snellman
+		Tawaststjerna
+		Tudeer
+		von_Becker
+		von_Blom
+		von_Bonsdorff
+		von_Born
+		von_Chiewitz
+		von_Daehn
+		von_Etter
+		von_Fieandt
+		von_Haartman
+		von_Hellens
+		von_Hesse_Kassel
+		von_Kothen
+		von_Kraemer
+		von_Rajalin
+		von_Rechenberg
+		Walheim
+		Zilliacus
+	}
+	common_last_names={
+		Airo
+		Aspara
+		Cajander
+		Heinrichs
+		Heiskanen
+		Holsti
+		Ignatius
+		Koistinen
+		Kuusi
+		Kyander
+		Linder
+		Mechelin
+		Multamaki
+		Nenonen
+		Oesch
+		Paasikivi
+		Raappana
+		Ramsay
+		Sihvo
+		Siilasvuo
+		Stadius
+		Talvela
+		Thesleff
+		Tujulin
+		Tuompo
+		Walden
+		Wallenius
+		Wetzer
+		Oquist
+		Osterman
+		von_Schoultz
+		Nurmivaara
+		Valapuro
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+hungarian={
+	color= hsv{ 0.25 0.22 0.99 }
+	religion = jewish
+	traits = { hungarian_culture_group uralic_heritage }
+	male_common_first_names={
+		Alajos
+		Albert
+		Anasztaz
+		Andras
+		Arisztid
+		Aurel
+		Benedek
+		Bertalan
+		Bela
+		Beni
+		Daniel_3
+		David_2
+		Edvard_2
+		Erno
+		Ferencz
+		Gyula
+		Gyorgy
+		Gabor
+		Gabriel_2
+		Gaspar_2
+		Ignac
+		Imre
+		Istvan
+		Izidor
+		Janos
+		Jozsef
+		Jozsef_Manes
+		Katalin
+		Kelemen
+		Krisztian
+		Kalman
+		Karoly
+		Lajos
+		Laszlo
+		Mano
+		Mihaly
+		Myklos
+		Mor
+		Sandor
+		Peter_2
+		Rafael_2
+		Simon
+		Sandor_2
+		Tivadar
+		Vilmos
+		Virag
+		Zsigmond
+		Almos
+		Elias_2
+		Odon
+	}
+	female_common_first_names = {
+		Amalia_2
+		Anna
+		Bertha
+		Brigitta
+		Emilia
+		Emma
+		Flora
+		Fruzina
+		Judit
+		Kornelia
+		Maria
+		Milena
+		Nina
+		Polixenia
+		Riza
+		Rozalia
+		Terez
+		Vilma
+		Zsuzsanna
+	}	
+	noble_last_names = {
+		Andrassy
+		Deak
+		Erenyi_Ullmann
+		Frakashazi_Fischer
+		Laczkovics
+		Lahner
+		Leiningen-Westerburg
+		Lichtenstein
+		Osterreicher
+		von_Benedek
+		Zrinyi
+		Stefics
+	}
+	common_last_names={
+		Apponyi
+		Aulich
+		Bacher
+		Baross
+		Batthyany
+		Beothy
+		Bothmer
+		Damjanich
+		Dessewffy
+		Egressy
+		Farkas
+		Goldziher
+		Gungl
+		Hauszmann
+		Heller
+		Horthy
+		Izso
+		Jaszai
+		Joseffy
+		Katona
+		Kaufman
+		Kiss
+		Knezich
+		Kogutowicz
+		Keler
+		Liszt
+		Lazar
+		Mikszath
+		Molnar
+		Nagy-Sandor
+		Ottinger
+		Perczel
+		Poeltenberg
+		Remenyi
+		Rohr
+		Schweidel
+		Szemere
+		Szlavic
+		Szechenyi
+		Tersztyansky
+		Torok
+		Varga
+		Vecsey
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+karelian={
+	color= { 149 190 190 }
+	religion = protestant
+	traits = { finnic scandinavian_culture_group uralic_heritage }
+	male_common_first_names={
+		Aatto
+		Abraham
+		Akseli
+		Aleksanteri
+		Anders
+		Aukusti
+		Edvard
+		Eemil
+		Erkki
+		Erno
+		Fabian
+		Fredrik
+		Fridolf
+		Georg
+		Gosta
+		Harald
+		Hjalmar
+		Hugo
+		Johannes
+		Juho
+		Kaarlo
+		Kurt
+		Lars
+		Martti
+		Mikko
+		Paavo
+		Petteri
+		Rudolf
+		Viktor
+		Vilho
+		Vaino
+	}
+	female_common_first_names = {
+		Agneta
+		Alexandra
+		Amanda
+		Anna
+		Brita
+		Caroline
+		Elisabeth
+		Hilda
+		Johanna
+		Josefina
+		Margareta
+		Maria
+		Mathilda
+		Ottaliana
+		Sofia
+		Thorild
+		Ulrika
+		Sanna
+	}	
+	noble_last_names = {
+		Adlercreutz
+		Alfthan
+		Alopaeus
+		Antell
+		Armfelt
+		Arppe
+		Berbom
+		Berg
+		Carpelan
+		Cedercreutz
+		Edelfelt
+		Edelheim
+		Ehrnrooth
+		Finckenberg
+		Furuhjelm
+		Gadolin
+		Goeoes
+		Granfelt
+		Gripenberg
+		Hisinger
+		Jaegerhorn
+		Jarnefalt
+		Klick
+		Klinckowstrom
+		Mannerheim
+		Molander
+		Nordenswan
+		Pipping
+		Rosenkampff
+		Snellman
+		Tawaststjerna
+		Tudeer
+		von_Becker
+		von_Blom
+		von_Bonsdorff
+		von_Born
+		von_Chiewitz
+		von_Daehn
+		von_Etter
+		von_Fieandt
+		von_Haartman
+		von_Hellens
+		von_Hesse_Kassel
+		von_Kothen
+		von_Kraemer
+		von_Rajalin
+		von_Rechenberg
+		Walheim
+		Zilliacus
+	}
+	common_last_names={
+		Airo
+		Aspara
+		Cajander
+		Heinrichs
+		Heiskanen
+		Holsti
+		Ignatius
+		Koistinen
+		Kuusi
+		Kyander
+		Linder
+		Mechelin
+		Multamaki
+		Nenonen
+		Oesch
+		Paasikivi
+		Raappana
+		Ramsay
+		Sihvo
+		Siilasvuo
+		Stadius
+		Talvela
+		Thesleff
+		Tujulin
+		Tuompo
+		Walden
+		Wallenius
+		Wetzer
+		Oquist
+		Osterman
+		von_Schoultz
+		Nurmivaara
+		Valapuro
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+livonian={
+	color= { 115 23 62 }
+	religion = protestant
+	traits = { finnic baltic_culture_group european_heritage }
+	male_common_first_names={
+		Aaron
+		Abrams
+		Alberts
+		Aleksandrs
+		Aloisz
+		Andrejs
+		Arkadij
+		Armands
+		Arnolds
+		Atis
+		Brunis
+		Bruno
+		Eduards
+		Eliass
+		Elmars
+		Emils
+		Evgenijs
+		Filips
+		Fricis
+		Gustavs
+		Heinrihs
+		Hermanis
+		Izaks
+		Janis
+		Jazeps
+		Jekabs
+		Johans
+		Juris
+		Karlis
+		Krisjanis
+		Leo
+		Mark
+		Martins
+		Mihails
+		Mikelis
+		Nikolajs
+		Oskars
+		Pauls
+		Peteris
+		Rihards
+		Roberts
+		Romans
+		Sandis
+		Sergejs
+		Valdemars
+		Valerians
+		Valter
+		Vilis
+		Vladimirs
+		Zigfrids
+	}
+	female_common_first_names = {
+		Amida
+		Antonija 
+		Benigna
+		Berta
+		Diana
+		Elfriede 
+		Elza 
+		Emilija
+		Inguna
+		Johanna
+		Julija
+		Karoline
+		Klara
+		Lidija
+		Lizete
+		Magda
+		Marija
+		Marta
+		Matilde
+		Regina
+		Roze
+	}	
+	noble_last_names = {
+		Krek
+		Penikis
+		Plavins
+		Tontegode
+		von_Knabenau
+		von_Lieven
+		von_Mengden
+		von_Plettenberg
+		von_Stamm
+		von_Wolff
+	}
+	common_last_names={
+		Abakovskis
+		Apsenieks
+		Balodis
+		Baumanis
+		Berkis
+		Berzin
+		Betins
+		Braons
+		Caks
+		Cakste
+		Caps
+		Celmins
+		Dalins
+		Dambitis
+		Darzins
+		Desslers
+		Eizenteins
+		Goppers
+		Halsmans
+		Irbitis
+		Kalnins
+		Kalpaks
+		Kovalevskis
+		Krogzems
+		Kronvalds
+		Kucis
+		Kuks
+		Kviesis
+		Lacis
+		Leiko
+		Loskis
+		Maters
+		Matisons
+		Meierovics
+		Mihelssons
+		Milenbahs
+		Millers
+		Needra
+		Ozolins
+		Petrovs
+		Plieksans
+		Pumpurs
+		Rothko
+		Simanis
+		Stucka
+		Tumins
+		Ulmanis
+		Veidenbaums
+		de_Kolongs
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+sami={
+	color= hsv{ 0.40 0.36 0.70 }
+	religion = protestant
+	traits = { finnic european_heritage }
+	male_common_first_names={
+		Aikia
+		Asllak
+		Biejas
+		Dure
+		Erke
+		Hanno
+		Iskko
+		Joha
+		Laras
+		Markkos
+		Mikko
+		Niillas
+		Osku
+		Quiwe
+		Uhkku
+	}
+	female_common_first_names = {
+		Aili
+		Margareta
+		Marja
+		Nasti
+	}	
+	noble_last_names = {
+		Aeijih
+		Keskitalo
+		Magga
+		Nuorane
+		Nysto
+		Ukonsaari
+	}
+	common_last_names={
+		Dunfjeld
+		Haetta
+		Kappfjell
+		Kvitfjell
+		Magga
+		Somby
+		Turi
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+ugrian={
+	color= hsv{ 0.50 0.32 0.62 }
+	religion = catholic
+	traits = { finnic european_heritage }
+	male_common_first_names={
+		Aleksandr
+		Dmitri
+		Ivan
+		Jukka
+		Santeri
+		Vladimir
+	}
+	female_common_first_names = {
+		Aili
+		Margareta
+		Marja
+		Nasti
+	}	
+	noble_last_names = {
+		Ubmeje 
+		Nuorane 
+		Gajka 
+		Kaise 
+		Saiva 
+		Keite 
+		Magga 
+		Guoladat
+	}
+	common_last_names={
+		Kokko
+		Likhachev
+		Mamin
+		Minin
+		Sibiriak
+		Tikhanov
+		Zubov
+	}
+	ethnicities = {
+		1 = circumpolar
+	}
+	graphics = generic
+}
+

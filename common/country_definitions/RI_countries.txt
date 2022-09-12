@@ -2374,17 +2374,6 @@ HBR = {
 	capital = STATE_SOUTH_CAROLINA
 }
 
-#Avalon
-AVL = {
-	color = {  } #placeholder
-	country_type = recognized 
-	
-	tier =  city_state 
-	
-	cultures = { brendish nova_alban }
-	capital = STATE_SOUTH_CAROLINA
-}
-
 #Bhiryd
 BHI = {
 	color = { 95 171 58 }
@@ -2471,7 +2460,7 @@ HWI = {
 	
 	tier = principality
 	
-	cultures = { mexikaner xikaner }
+	cultures = { mexikaner ksikaner }
 	capital = STATE_MEXICO
 }
 
@@ -2504,7 +2493,7 @@ NPR = {
 	
 	tier = principality
 	
-	cultures = { xikaner }
+	cultures = { ksikaner }
 	capital = STATE_NUEVO_LEON
 }
 
@@ -2515,7 +2504,7 @@ BAR = {
 	
 	tier = principality
 	
-	cultures = { xikaner }
+	cultures = { ksikaner }
 	capital = STATE_CALIFORNIA
 }
 
@@ -2537,7 +2526,7 @@ GLS = {
 	
 	tier = principality
 	
-	cultures = { xikaner }
+	cultures = { ksikaner }
 	capital = STATE_JALISCO
 }
 
@@ -2548,7 +2537,7 @@ HDL = {
 	
 	tier = principality
 	
-	cultures = { xikaner }
+	cultures = { ksikaner }
 	capital = STATE_NUEVO_LEON
 }
 
@@ -2570,7 +2559,7 @@ KLF = {
 	
 	tier = principality
 	
-	cultures = { xikaner }
+	cultures = { ksikaner }
 	capital = STATE_BAJA_CALIFORNIA
 }
 
@@ -2581,7 +2570,7 @@ KRL = {
 	
 	tier = principality
 	
-	cultures = { xikaner }
+	cultures = { ksikaner }
 	capital = STATE_TEXAS
 }
 
@@ -2614,7 +2603,7 @@ MEX = {
 	
 	tier = kingdom
 	
-	cultures = { mexikaner xikaner }
+	cultures = { mexikaner ksikaner }
 	capital = STATE_MEXICO
 }
 
@@ -5384,6 +5373,17 @@ NRU = {
 
 #New Holland
 NWH = {
+	color = {  }
+	country_type = colonial
+	
+	tier = principality
+	
+	capital = STATE_WESTERN_AUSTRALIA
+	cultures = { australian }
+}
+
+#Zwanenland
+ZWA = {
 	color = { 199 102 108 }
 	country_type = colonial
 	

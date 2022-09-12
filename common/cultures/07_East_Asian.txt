@@ -1,0 +1,934 @@
+hakka={
+	color= hsv{ 0.1 0.43 0.34 }
+	religion = mahayana
+	traits = { han_chinese east_asian_heritage }
+	male_common_first_names={
+		Chen
+		Deng
+		Feng
+		Hong
+		Huang
+		Li
+		Liao
+		Liu
+		Qiu
+		Shi
+		Shu
+		Soong
+		Sun
+		Tsai
+		Wu
+		Xie
+		Xue
+		Yang
+		Ye
+		Zhang
+		Zhen
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dakai
+		Fengjia
+		Qiu
+		Rengan
+		Xiuqing
+		Xiuquan
+		Yatsen
+		Yongfu
+		Yucheng
+		Yunshan
+		Zicai
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+japanese={
+	color= hsv{ 0 0 90 }
+	religion = mahayana
+	traits = { yamato east_asian_heritage }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+khitan={
+	color= rgb{ 203 42 42 }
+	religion = mahayana
+	traits = { han_chinese east_asian_heritage }
+	obsessions = {
+		opium
+	}
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+korean={
+	color= hsv{ 0.17 0.41 0.34 }
+	religion = mahayana
+	traits = { korean_language east_asian_heritage }
+	male_common_first_names={
+		Bak
+		Chwa-chin
+		Gu
+		Han
+		Heong-gyo
+		Hong
+		Jeong
+		Jo
+		Kwon
+		Mung-geun
+		Sang-yong
+		Sim
+		Yi
+		Yun
+	}
+	female_common_first_names = {
+		Bingheogak
+		Hwahyeop
+		Jeongildang
+		Seonhui
+		Sinjeong
+		Sunghee
+		Yeongsuhap
+		Yunjidang
+	}	
+	noble_last_names = {
+		Chang
+		Choe
+		Gim
+		Gwon
+		Han
+		Kim
+	}
+	common_last_names={
+		Bo
+		Ch_ok
+		Chung
+		Guk
+		Gyu
+		Haung
+		Hu
+		Hwan
+		Hyong
+		Jip
+		Mok
+		Seo
+		Seon
+		Shinjong
+		Si
+		Sun
+		Taek
+		Yong
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+miao={
+	color= hsv{ 0.62 0.46 0.50 }
+	religion = animist
+	traits = { hmong_mien_language east_asian_heritage }
+	male_common_first_names={
+		Bang
+		Blong
+		Chay
+		Dia
+		Hang
+		Ka
+		Kak
+		Kao
+		Mai
+		Mee
+		Neng
+		Pa
+		Qin
+		Shen
+		Zong
+		Zoua
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Cha
+		Congwen
+		Her
+		Liangyu
+		Lo
+		Lyfoung
+		Moua
+		Pao
+		Sao
+		Thao
+		Vue
+		Yang
+		Zhiming
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+min={
+	color= hsv{ 0.71 0.54 0.78 }
+	religion = mahayana
+	traits = { han_chinese east_asian_heritage }
+	male_common_first_names={
+		Bing
+		Chen
+		Du
+		He
+		Hou
+		Lin
+		Qin
+		Sa
+		Shen
+		Tan
+		Wong
+		Wu
+		Xu
+		Xue
+		Yan
+		Zheng
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Baochen
+		Baozhen
+		Debang
+		Fu
+		Huiyin
+		Nai-siong
+		Nee
+		Sen
+		Shu
+		Xin
+		Zexu
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+north_han={
+	color= rgb{ 145 30 30 }
+	religion = mahayana
+	traits = { han_chinese east_asian_heritage }
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+south_han={
+	color= rgb{ 200 199 168 }
+	religion = mahayana
+	traits = { han_chinese east_asian_heritage }
+	obsessions = {
+		opium
+	}
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+tibetan={
+	color= rgb{ 132 121 86 }
+	religion = gelugpa
+	traits = { tibetan_language himalayan east_asian_heritage }
+	obsessions = {
+		tea
+	}
+	male_common_first_names={
+		Andruk
+		Chamba
+		Gendun
+		Jamphel
+		Mipham
+		Namgang
+		Norbhu
+		Penor
+		Trimon
+		Tsarong
+		Tsepon
+	}
+	female_common_first_names = {
+		Jamyang
+		Lhakpa
+		Ngawang
+		Phuntsog
+		Tsewang
+	}	
+	noble_last_names = {
+		Lhalu
+		Ngapoi
+	}
+	common_last_names={
+		Chophel
+		Dzasa
+		Lungshar
+		Rinpoche
+		Shakabpa
+		Shatra
+		Tashi
+		Wangyal
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+yi={
+	color= hsv{ 0.91 0.51 0.52 }
+	religion = animist
+	traits = { tibetan_language east_asian_heritage }
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+yue={
+	color= hsv{ 0.80 0.36 0.39 }
+	religion = mahayana
+	traits = { han_chinese east_asian_heritage}
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+zhuang={
+	color= hsv{ 0.92 0.32 0.88 }
+	religion = animist
+	traits = { tai east_asian_heritage }
+	male_common_first_names={
+		Be
+		Duc
+		Hoang
+		Le
+		Nong
+		Quoc
+		Quynh
+		The
+		Van
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Cao
+		Chan
+		Den
+		Hau
+		Khanh
+		Manh
+		Phach
+		Phung
+		Thu
+		Trieu
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
