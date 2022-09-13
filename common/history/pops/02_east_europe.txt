@@ -179,7 +179,7 @@
 			}
 		}
 	}
-	s:STATE_KARELIA = {
+	s:STATE_EAST_KARELIA = {
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -847,7 +847,7 @@
 			}
 		}
 	}
-	s:STATE_VOJVODINA = {
+	s:STATE_DELVIDEK = {
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
@@ -983,36 +983,7 @@
 			}
 		}
 	}
-	s:STATE_EASTERN_TRANSYLVANIA = {
-		region_state:AUS = {
-			create_pop = {
-				culture = hungarian
-				religion = protestant
-				size = 286000
-			}
-			create_pop = {
-				culture = romanian
-				size = 388000
-			}
-			create_pop = {
-				culture = south_german
-				size = 3008
-			}
-			create_pop = {
-				culture = north_german
-				size = 164000
-			}
-			create_pop = {
-				culture = hungarian
-				size = 142000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 32800
-			}
-		}
-	}
-	s:STATE_WESTERN_TRANSYLVANIA = {
+	s:STATE_SOUTHERN_TRANSYLVANIA = {
 		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
@@ -1038,6 +1009,35 @@
 			create_pop = {
 				culture = north_german
 				size = 87996
+			}
+		}
+	}
+	s:STATE_NORTHERN_TRANSYLVANIA = {
+		region_state:AUS = {
+			create_pop = {
+				culture = hungarian
+				religion = protestant
+				size = 286000
+			}
+			create_pop = {
+				culture = romanian
+				size = 388000
+			}
+			create_pop = {
+				culture = south_german
+				size = 3008
+			}
+			create_pop = {
+				culture = north_german
+				size = 164000
+			}
+			create_pop = {
+				culture = hungarian
+				size = 142000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 32800
 			}
 		}
 	}

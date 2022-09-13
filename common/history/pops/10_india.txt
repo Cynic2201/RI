@@ -1,9 +1,9 @@
 ﻿POPS = {
-s:STATE_BIHAR = {
+	s:STATE_BIHAR = {
 		region_state:BIC = {
 			create_pop = {
 				culture = bihari
-				size = 9244392
+				size = 9124092
 			}
 			create_pop = {
 				culture = british
@@ -12,7 +12,18 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = bihari
 				religion = sunni
-				size = 1260392
+				size = 1210301
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bihari
+				size = 120300
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bihari
+				religion = sunni
+				size = 50091
 			}
 		}
 	}
@@ -21,11 +32,22 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 14883032
+				size = 14062032
 			}
 			create_pop = {
 				culture = bengali
-				size = 8854164
+				size = 8644162
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				religion = hindu
+				size = 420100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				size = 210002
 			}
 		}
 	}
@@ -34,7 +56,7 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = assamese
 				religion = hindu
-				size = 982804
+				size = 922404
 			}
 			create_pop = {
 				culture = british
@@ -43,11 +65,11 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = thai
 				religion = animist
-				size = 769204
+				size = 719004
 			}
 			create_pop = {
 				culture = manipuri
-				size = 385204
+				size = 355200
 			}
 			create_pop = {
 				culture = assamese
@@ -55,7 +77,29 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = bengali
-				size = 220000
+				size = 210000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = assamese
+				religion = hindu
+				size = 60400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = thai
+				religion = animist
+				size = 50200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = manipuri
+				size = 30004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				size = 10000
 			}
 		}
 	}
@@ -64,7 +108,7 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 8200520
+				size = 8100320
 			}
 			create_pop = {
 				culture = british
@@ -72,12 +116,12 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = kanauji
-				size = 6030848
+				size = 5900848
 			}
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 1080400
+				size = 1010100
 			}
 			create_pop = {
 				culture = avadhi
@@ -86,7 +130,7 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = kanauji
 				religion = sunni
-				size = 684400
+				size = 644400
 			}
 			create_pop = {
 				culture = panjabi
@@ -94,7 +138,35 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = nepali
-				size = 92020
+				size = 82020
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				religion = hindu
+				size = 100200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				size = 130000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				religion = sunni
+				size = 40000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = panjabi
+				religion = sunni
+				size = 70300
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = nepali
+				size = 10000
 			}
 		}
 	}
@@ -103,7 +175,7 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 4108000
+				size = 4004000
 			}
 			create_pop = {
 				culture = avadhi
@@ -112,31 +184,63 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = avadhi
-				size = 416000
+				size = 382000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				religion = hindu
+				size = 104000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 34000
 			}
 		}
 		region_state:BIC = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 2064808
+				size = 2014800
 			}
 			create_pop = {
 				culture = nepali
-				size = 116400
+				size = 106400
 			}
 			create_pop = {
 				culture = kanauji
-				size = 832400
+				size = 800400
 			}
 			create_pop = {
 				culture = avadhi
-				size = 724800
+				size = 700800
 			}
 			create_pop = {
 				culture = kanauji
 				religion = sunni
 				size = 201404
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				religion = hindu
+				size = 50008
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = nepali
+				size = 10000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				size = 32000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 24000
 			}
 		}
 	}
@@ -144,12 +248,12 @@ s:STATE_BIHAR = {
 		region_state:BER = {
 			create_pop = {
 				culture = gujarati
-				size = 6744412
+				size = 6634412
 			}
 			create_pop = {
 				culture = gujarati
 				religion = animist
-				size = 87200
+				size = 81200
 			}
 			create_pop = {
 				culture = british
@@ -157,17 +261,43 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = sindi
-				size = 348388
+				size = 318300
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gujarati
+				size = 110000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gujarati
+				religion = animist
+				size = 6000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sindi
+				size = 30088
 			}
 		}
 		region_state:KUT = {
 			create_pop = {
 				culture = gujarati
-				size = 280208
+				size = 200208
 			}
 			create_pop = {
 				culture = sindi
-				size = 28400
+				size = 26200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gujarati
+				size = 20000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sindi
+				size = 2200
 			}
 		}
 	}
@@ -175,52 +305,98 @@ s:STATE_BIHAR = {
 		region_state:IND = {
 			create_pop = {
 				culture = marathi
-				size = 1019992
+				size = 951959
 			}
 			create_pop = {
 				culture = avadhi
-				size = 28000
+				size = 26000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = marathi
+				size = 68033 
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 2000
 			}
 		}
 		region_state:BUN = {
 			create_pop = {
 				culture = kanauji
-				size = 885204
+				size = 845004
 			}
 			create_pop = {
 				culture = avadhi
-				size = 36000
+				size = 33000
 			}
 			create_pop = {
 				culture = kanauji
 				religion = animist
-				size = 496800
+				size = 466800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				size = 40200 
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				religion = animist
+				size = 30000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 3000 
 			}
 		}
 		region_state:GWA = {
 			create_pop = {
 				culture = marathi
-				size = 1123992
+				size = 1060992
 			}
 			create_pop = {
 				culture = avadhi
-				size = 60004
+				size = 55002
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = marathi
+				size = 63000 
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = marathi
+				size = 5002
 			}
 		}
 		region_state:BHO = {
 			create_pop = {
 				culture = marathi
-				size = 800000
+				size = 770000
 			}
 			create_pop = {
 				culture = avadhi
-				size = 12000
+				size = 11000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = marathi
+				size = 30000 
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 1000 
 			}
 		}
 		region_state:BIC = {
 			create_pop = {
 				culture = marathi
-				size = 3339996
+				size = 3239096
 			}
 			create_pop = {
 				culture = british
@@ -228,31 +404,41 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = avadhi
-				size = 159988
+				size = 139908
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = marathi
+				size = 100900 
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 20080 
 			}
 		}
 	}
 	s:STATE_KASHMIR = {
 		region_state:PAN = {
-			create_pop = { #62%
+			create_pop = {
 				culture = kashmiri
 				size = 1328002
 			}
-			create_pop = { #1.8%
+			create_pop = {
 				culture = panjabi
 				size = 37727
 			}
-			create_pop = { #22.3%
+			create_pop = {
 				culture = tibetan
 				religion = mahayana
-				size = 475369
+				size = 445369
 			}
-			create_pop = { #11.7%
+			create_pop = {
 				culture = kashmiri
 				religion = hindu
 				size = 249384
 			}
-			create_pop = { #1.8%
+			create_pop = {
 				culture = pashtun
 				size = 37727
 			}
@@ -283,21 +469,38 @@ s:STATE_BIHAR = {
 		region_state:BIC = {
 			create_pop = {
 				culture = nepali
-				size = 486027
+				size = 405027
 			}
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 36867
+				size = 33867
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 356383
+				size = 326183
 			}
 			create_pop = {
 				culture = british
 				size = 3072
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = nepali
+				size = 21000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = panjabi
+				religion = sunni
+				size = 3000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = panjabi
+				religion = hindu
+				size = 30200
 			}
 		}
 	}
@@ -305,12 +508,23 @@ s:STATE_BIHAR = {
 		region_state:BUN = {
 			create_pop = {
 				culture = kanauji
-				size = 500240
+				size = 480220
 			}
 			create_pop = {
 				culture = kanauji
 				religion = animist
-				size = 155737
+				size = 144737
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				size = 20020
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				religion = animist
+				size = 11000
 			}
 		}
 		region_state:HYD = {
@@ -336,32 +550,65 @@ s:STATE_BIHAR = {
 		region_state:NAG = {
 			create_pop = {
 				culture = marathi
-				size = 2454514
+				size = 2404314
 			}
 			create_pop = {
 				culture = avadhi
-				size = 155737
+				size = 135037
 			}
 			create_pop = {
 				culture = kanauji
 				religion = animist
-				size = 1264771
+				size = 1214700
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = marathi
+				size = 50200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 20700
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
+				religion = animist
+				size = 50071
 			}
 		}
 		region_state:BAS = {
 			create_pop = {
 				culture = telegu
-				size = 335070
+				size = 310070
 			}
 			create_pop = {
 				culture = telegu
 				religion = sunni
-				size = 28552
+				size = 26552
 			}
 			create_pop = {
 				culture = telegu
 				religion = animist
-				size = 170371
+				size = 150301
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = telegu
+				religion = animist
+				size = 20070
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = telegu
+				religion = sunni
+				size = 2000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = telegu
+				size = 25070
 			}
 		}
 	}
@@ -370,20 +617,37 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 9570411
+				size = 9370101
 			}
 			create_pop = {
 				culture = bengali
 				religion = animist
-				size = 119096
+				size = 109096
 			}
 			create_pop = {
 				culture = bengali
-				size = 6662763
+				size = 6602700
 			}
 			create_pop = {
 				culture = british
-				size = 18527
+				size = 18520
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				religion = hindu
+				size = 200310
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				religion = animist
+				size = 10007
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				size = 60063
 			}
 		}
 	}
@@ -403,61 +667,121 @@ s:STATE_BIHAR = {
 				religion = hindu
 				size = 248000
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 31000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sindi
+				size = 12000
+			}
 		}
 	}
 	s:STATE_RAJPUTANA = {
 		region_state:BIK = {
 			create_pop = {
 				culture = rajput
-				size = 1032004
+				size = 1001004
 			}
 			create_pop = {
 				culture = avadhi
-				size = 32000
+				size = 31000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rajput
+				size = 31000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 1000
 			}
 		}
 		region_state:JAS = {
 			create_pop = {
 				culture = rajput
-				size = 407996
+				size = 387096
 			}
 			create_pop = {
 				culture = avadhi
-				size = 32000
+				size = 29000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rajput
+				size = 20900
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 3000
 			}
 		}
 		region_state:MEW = {
 			create_pop = {
 				culture = rajput
-				size = 1953350
+				size = 1903300
 			}
 			create_pop = {
 				culture = avadhi
-				size = 18142
+				size = 16042
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rajput
+				size = 50050
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 2100
 			}
 		}
 		region_state:JOD = {
 			create_pop = {
 				culture = rajput
-				size = 1717504
+				size = 1667504
 			}
 			create_pop = {
 				culture = avadhi
-				size = 84665
+				size = 80665
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rajput
+				size = 50000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 4000
 			}
 		}
 		region_state:JAI = {
 			create_pop = {
 				culture = rajput
-				size = 2322217
+				size = 2300217
 			}
 			create_pop = {
 				culture = avadhi
-				size = 491062
+				size = 461052
 			}
 			create_pop = {
 				culture = british
 				size = 48
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rajput
+				size = 22000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = avadhi
+				size = 30010
 			}
 		}
 	}
@@ -518,7 +842,7 @@ s:STATE_BIHAR = {
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
 		region_state:FRA = {
-			create_pop = {					# TODO Add Slave pops
+			create_pop = {
 				culture = french
 				size = 29992
 			}
@@ -559,7 +883,7 @@ s:STATE_BIHAR = {
 		region_state:ORI = {
 			create_pop = {
 				culture = oriya
-				size = 456412
+				size = 436212
 			}
 			create_pop = {
 				culture = bengali
@@ -570,11 +894,16 @@ s:STATE_BIHAR = {
 				religion = animist
 				size = 176396
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = oriya
+				size = 20200
+			}
 		}
 		region_state:BIC = {
 			create_pop = {
 				culture = oriya
-				size = 899992
+				size = 869092
 			}
 			create_pop = {
 				culture = british
@@ -584,13 +913,18 @@ s:STATE_BIHAR = {
 				culture = bengali
 				size = 4400
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = oriya
+				size = 30900
+			}
 		}
 	}
 	s:STATE_CIRCARS = {
 		region_state:BIC = {
 			create_pop = {
 				culture = telegu
-				size = 9762168
+				size = 9712168
 			}
 			create_pop = {
 				culture = british
@@ -598,7 +932,7 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = kannada
-				size = 336095
+				size = 326095
 			}
 			create_pop = {
 				culture = telegu
@@ -609,6 +943,16 @@ s:STATE_BIHAR = {
 				culture = kannada
 				religion = shiite
 				size = 8598
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = telegu
+				size = 50000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kannada
+				size = 10000
 			}
 		}
 	}
@@ -664,7 +1008,7 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = malayalam
-				religion = orthodox
+				religion = oriental_orthodox # St. Thomas Christians
 				size = 111996
 			}
 			create_pop = {
@@ -685,7 +1029,7 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = malayalam
-				religion = orthodox
+				religion = oriental_orthodox # St. Thomas Christians
 				size = 124000
 			}
 			create_pop = {
@@ -707,7 +1051,7 @@ s:STATE_BIHAR = {
 	}
 	s:STATE_MADRAS = {
 		region_state:FRA = {
-			create_pop = { # TODO add slave pops to French India when possible
+			create_pop = {
 				culture = tamil
 				size = 182284
 			}
@@ -809,7 +1153,7 @@ s:STATE_BIHAR = {
 	}
 	s:STATE_BOMBAY = {
 		region_state:POR = {
-			create_pop = {				# TODO Add slave pops
+			create_pop = {
 				culture = marathi
 				religion = catholic
 				size = 364858

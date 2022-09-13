@@ -1,4 +1,6 @@
-﻿POPS = {
+﻿# REGARDING BRAZIL: There are several varying estimates for Brazil's population overall in the 1830s. There's no good censuses for 1836 specifically, and provincial censuses are all over the place in terms of quality and distance in time from 1836. Everything will be drawn from estimates of estimates and probably have some issues with accuracy. I can do nothing but apologize, and encourage students of history to go forth and write a book I can steal data from in the future.
+
+POPS = {
 	s:STATE_ECUADOR = {
 		region_state:ECU = {
 			create_pop = {
@@ -520,11 +522,11 @@
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 56196
+				size = 11000
 			}
 			create_pop = {
 				culture = platinean
-				size = 3996
+				size = 1030
 			}
 		}
 	}
@@ -571,20 +573,32 @@
 			}
 			create_pop = {
 				culture = patagonian
-				size = 32000
+				size = 2000
 			}
 		}
-	}
-	s:STATE_PATAGONIA = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 56200
+				size = 30000
+			}		
+		}
+	}
+	s:STATE_PATAGONIA = {
+		region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 25100
+			}
+		}
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 31100
 			}
 			create_pop = {
 				culture = platinean
 				size = 8000
-			}
+			}			
 		}
 	}
 	s:STATE_RIO_NEGRO = {
@@ -655,6 +669,12 @@
 				size = 450
 			}
 		}
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 8000
+			}		
+		}
 	}
 	s:STATE_CORRIENTES = {
 		region_state:ARG = {
@@ -706,15 +726,25 @@
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size = 27500
-			}
-			create_pop = {
-				culture = platinean
-				size = 36004
+				size = 9000
 			}
 			create_pop = {
 				culture = quechua # Santiagueño Quechua
-				size = 8500
+				size = 400
+			}
+		}
+		region_state:ARG = {
+			create_pop = {
+				culture = platinean
+				size = 34804
+			}
+			create_pop = {
+				culture = guarani
+				size = 1500
+			}
+			create_pop = {
+				culture = quechua # Santiagueño Quechua
+				size = 1200
 			}
 		}
 	}
@@ -753,10 +783,16 @@
 				size = 3200
 			}
 		}
-		region_state:PAT = {
+		region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size = 40200
+				size = 28200
+			}
+		}
+		region_state:SLK = {
+			create_pop = {
+				culture = patagonian
+				size = 12000
 			}
 		}
 	}
@@ -768,17 +804,7 @@
 			}
 		}
 	}
-	s:STATE_AMAZONAS = {
-		region_state:CLM = {
-			create_pop = {
-				culture = amazonian
-				size = 12000
-			}
-			create_pop = {
-				culture = north_andean
-				size = 210
-			}
-		}
+	s:STATE_ACRE={
 		region_state:BOL = {
 			create_pop = {
 				culture = amazonian
@@ -791,6 +817,18 @@
 			create_pop = {
 				culture = brazilian
 				size = 90
+			}
+		}
+	}
+	s:STATE_AMAZONAS = {
+		region_state:CLM = {
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+			create_pop = {
+				culture = north_andean
+				size = 210
 			}
 		}
 		region_state:PRA = {
@@ -812,16 +850,22 @@
 				size = 1980 # 1840 Amazonas Census
 			}
 		}
+		region_state:BOL = { # I have literally no idea what number to put here.
+			create_pop = {
+				culture = amazonian
+				size = 10000
+			}
+		}		
 	}
 	s:STATE_MATO_GROSSO = {
 		region_state:PRG = {
 			create_pop = {
 				culture = guarani
-				size = 12000
+				size = 38000
 			}
 			create_pop = {
-				culture = brazilian
-				size = 8000
+				culture = platinean
+				size = 4000
 			}
 		}
 		region_state:BRZ = {
@@ -840,7 +884,7 @@
 			}
 			create_pop = {
 				culture = guarani
-				size = 40000
+				size = 30000
 			}
 			create_pop = {
 				culture = amazonian
@@ -869,28 +913,37 @@
 			}
 		}
 	}
-	s:STATE_PARANA = { # Parana (1836 census) + Santa Catarina (1828_
+	s:STATE_PARANA = { # Parana, 1830. 36566 total.
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 61365
-			}
-			create_pop = {
-				culture = tupinamba
-				size = 8000
-			}
-			create_pop = {
-				culture = guarani
-				size = 20000
+				size = 20444
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 19403
+				size = 6125
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 12652
+				size = 9997
+			}
+		}
+	}
+	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
+		region_state:BRZ = {
+			create_pop = {
+				culture = brazilian
+				size = 35582
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 13012
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 13159
 			}
 		}
 	}
@@ -966,24 +1019,66 @@
 			}
 		}
 	}
-	s:STATE_RIO_GRANDE_DO_NORTE = { # Rio Grande do Norte (1839) + Ceara + Piaui
+	s:STATE_RIO_GRANDE_DO_NORTE = { # Rio Grande do Norte, 1835 estimate. Total population of 87948.
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 47638
+				size = 29902
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 76000
+				size = 4944
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 50189
+				size = 10242
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 200756
+				size = 42860
+			}
+		}
+	}
+	s:STATE_CEARA = { # Ceara, 1835 estimate. Total population of 211451
+		region_state:BRZ = {
+			create_pop = {
+				culture = brazilian
+				size = 69779
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 2000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 25402
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 114270
+			}
+		}
+	}
+	s:STATE_PIAUI = { # Piaui, 1835 estimate. Total population of 94932.
+		region_state:BRZ = {
+			create_pop = {
+				culture = brazilian
+				size = 31839
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 23547
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 36546
 			}
 		}
 	}
@@ -1008,26 +1103,28 @@
 			}
 		}
 	}
-	s:STATE_MARANHAO = {
-		region_state:PRA = {
+	s:STATE_PARAIBA = { # Paraiba, 1835 estimate. Total population of 135764.
+		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 21297
+				size = 45114
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 3646
+				size = 7445
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 18637
+				size = 21960
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 30542
+				size = 61245
 			}
 		}
+	}
+	s:STATE_MARANHAO = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
@@ -1048,24 +1145,50 @@
 			}
 		}
 	}
-	s:STATE_PARA = {
-		region_state:PRA = {
+	s:STATE_GOIAS = { # total ballpark figure: 73918
+		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 90000
+				size = 21921
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 994 # 1825 estimate
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 47100
+				size = 12108
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 47100
+				size = 38895
+			}
+		}
+	}
+	s:STATE_PARA = {
+
+		region_state:PRA = {
+			create_pop = {
+				culture = brazilian
+				size = 111297
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 65737
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 77642
 			}
 			create_pop = {
 				culture = amazonian
 				size = 43800
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3646
 			}
 			create_pop = {
 				culture = french

@@ -218,7 +218,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 18597600
+				size = 14597600
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -227,7 +227,24 @@
 			}
 			create_pop = {
 				culture = manchu
-				size = 163988
+				size = 81994
+			}
+		}
+	}
+	s:STATE_SHENGJING = {
+		region_state:CHI = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 1291006
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 80000
+			}
+			create_pop = {
+				culture = manchu
+				size = 801994
 			}
 		}
 	}
@@ -556,16 +573,16 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 23156692
+				size = 8446940
 			}
 			create_pop = {
 				culture = manchu
-				size = 8400
+				size = 1613
 			}
 			create_pop = {
 				culture = han # nanfaren
 				religion = sunni
-				size = 284000
+				size = 54528
 			}
 		}
 	}
@@ -722,7 +739,7 @@
 			}
 		}
 	}
-	s:STATE_KHOVSGOL = {
+	s:STATE_ULIASTAI = {
 		region_state:CHI = {
 			create_pop = {
 				culture = mongol
@@ -738,7 +755,7 @@
 			}
 		}
 	}
-	s:STATE_ULAANBAATAR = {
+	s:STATE_URGA = {
 		region_state:CHI = {
 			create_pop = {
 				culture = mongol
@@ -777,7 +794,7 @@
 		region_state:CAM = {
 			create_pop = {
 				culture = khmer
-				size = 676408
+				size = 623202
 			}
 			create_pop = {
 				culture = yue
@@ -787,6 +804,15 @@
 				culture = khmer
 				religion = animist
 				size = 12000
+			}
+			create_pop = {
+				culture = vietnamese
+				size = 13002
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = khmer
+				size = 40204
 			}
 		}
 	}
@@ -815,7 +841,7 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 1861320
+				size = 1841220
 			}
 			create_pop = {
 				culture = miao
@@ -834,13 +860,18 @@
 				culture = min
 				size = 16000
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				size = 20100
+			}
 		}
 	}
 	s:STATE_ANNAM = {
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 2040396
+				size = 2040333
 			}
 			create_pop = {
 				culture = yue
@@ -855,18 +886,23 @@
 				religion = catholic
 				size = 216000
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				size = 30063
+			}
 		}
 	}
 	s:STATE_MEKONG = {
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 1212396
+				size = 1152396
 			}
 			create_pop = {
 				culture = vietnamese
 				religion = animist
-				size = 128000
+				size = 118000
 			}
 			create_pop = {
 				culture = khmer
@@ -885,13 +921,24 @@
 				culture = min
 				size = 11996
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				size = 60000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				religion = animist
+				size = 10000
+			}
 		}
 	}
 	s:STATE_LAOS = {
 		region_state:LUA = {
 			create_pop = {
 				culture = lao
-				size = 251028
+				size = 240024
 			}
 			create_pop = {
 				culture = miao
@@ -899,13 +946,23 @@
 			}
 			create_pop = {
 				culture = khmu
-				size = 73000
+				size = 69000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lao
+				size = 11004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = khmu
+				size = 4000
 			}
 		}
 		region_state:SIA = {
 			create_pop = {
 				culture = lao
-				size = 139996
+				size = 123996
 			}
 			create_pop = {
 				culture = shan
@@ -915,11 +972,16 @@
 				culture = thai
 				size = 54560
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = lao
+				size = 16000
+			}
 		}
 		region_state:CHP = {
 			create_pop = {
 				culture = lao
-				size = 91720
+				size = 86720
 			}
 			create_pop = {
 				culture = shan
@@ -928,6 +990,11 @@
 			create_pop = {
 				culture = miao
 				size = 35744
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lao
+				size = 5000
 			}
 		}
 	}
@@ -943,11 +1010,16 @@
 			}
 			create_pop = {
 				culture = shan
-				size = 297700
+				size = 267500
 			}
 			create_pop = {
 				culture = lao
 				size = 88400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = shan
+				size = 30200
 			}
 		}
 	}
@@ -985,7 +1057,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = karen
-				size = 200800
+				size = 180800
 			}
 			create_pop = {
 				culture = british
@@ -1003,6 +1075,11 @@
 				culture = thai
 				size = 36004
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = karen
+				size = 20000
+			}
 		}
 		region_state:SIA = {
 			create_pop = {
@@ -1018,7 +1095,7 @@
 				size = 60800
 			}
 			create_pop = {
-				pop_type = slave
+				pop_type = slaves
 				culture = karen
 				size = 20000
 			}
@@ -1112,7 +1189,7 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = burmese
-				size = 119888
+				size = 100888
 			}
 			create_pop = {
 				culture = british
@@ -1126,6 +1203,11 @@
 			create_pop = {
 				culture = bengali
 				size = 7996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 19000
 			}
 		}
 	}
@@ -1142,19 +1224,20 @@
 		}
 	}
 	s:STATE_HOKKAIDO = {
+		region_state:AIN = {
+			create_pop = {
+				culture = ainu
+				size = 707500
+			}
+		}
 		region_state:JAP = {
 			create_pop = {
 				culture = ainu
-				size = 767520
+				size = 60020
 			}
 			create_pop = {
 				culture = japanese
-				religion = shinto
-				size = 107520
-			}
-			create_pop = {
-				culture = japanese
-				size = 107520
+				size = 67862
 			}
 		}
 	}
@@ -1238,8 +1321,9 @@
 				culture = japanese
 				size = 259181
 			}
-	
+		}	
 	}
+	
 	s:STATE_CHUGOKU = {
 		region_state:JAP = {
 			create_pop = {
@@ -1278,7 +1362,15 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 2744004
+				size = 1372002
+			}
+		}
+	}
+	s:STATE_YANGHO = {
+		region_state:KOR = {
+			create_pop = {
+				culture = korean
+				size = 1372002
 			}
 		}
 	}

@@ -55,6 +55,10 @@
 	s:STATE_SOUTH_AUSTRALIA = {
 		region_state:SAS = {
 			create_pop = {
+				culture = australian
+				size = 10500
+			}		
+			create_pop = {
 				culture = aborigine
 				size = 32000
 			}
