@@ -751,7 +751,7 @@ afro_brasilian={
 afro_columbian={
 	color= { 97 84 97 }
 	religion = protestant
-	traits = { afro_hesperdian british_people african_heritage }
+	traits = { afro_hesperdian columbian_culture african_heritage }
 	male_common_first_names={
 		Albert Abraham Alexander Anthony Adam
 		Booker
@@ -10050,7 +10050,6 @@ brendish={
 	color= { 118 151 114 }
 	religion = catholic
 	traits = { british_people celtic_heritage }
-	# could have anglophone but would make them non-discriminated in Britain
 	male_common_first_names={
 		Alexander
 		Arthur
@@ -12166,7 +12165,7 @@ amerigan={
 anglian={
 	color= rgb{ 239 96 88 }
 	religion = protestant
-	traits = { british germanic_heritage }
+	traits = { british_people germanic_heritage }
 	male_common_first_names={
 		Algernon Alexander Adam Andrew Albert Alphonse Arthur Augustus Anthony Archibald Adolphus Abel Alfred Acton Aylmer Ambrose Austen
 		Bruce Benedict Beauchamp Benjamin Byron Bartholomew
@@ -13037,7 +13036,7 @@ carolinian={
 columbian={
 	color= rgb{ 66 94 193 }
 	religion = protestant
-	traits = { british germanic_heritage }
+	traits = { columbian_culture germanic_heritage }
 	male_common_first_names = {
 		Andrew Alexander Atticus Alpheus Alfred Allen Arthur Augustus Archibald Algernon Ambrose Asa Arthur Angus Abner Auburn Archer Adam Arnold Amos Alben Alwyn
 		Braxton Basil Birkett Bushrod Benedict
@@ -14049,7 +14048,7 @@ frankish={
 fredonian={
 	color= rgb{ 66 94 193 }
 	religion = protestant
-	traits = { british germanic_heritage }
+	traits = { columbian_culture germanic_heritage }
 	male_common_first_names = {
 		Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin
         Henry Allison Horace Felix Jerome Lawrence Alexander Louis
@@ -16908,7 +16907,7 @@ norwegian={
 ohian={
 	color= rgb{ 34 69 193 }
 	religion = protestant
-	traits = { british germanic_heritage }
+	traits = { columbian_culture germanic_heritage }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -17087,7 +17086,7 @@ ostrogothic={
 poyain ={
 	color= rgb{ 104 62 255 }
 	religion = protestant
-	traits = { british germanic_heritage }
+	traits = { british_people germanic_heritage }
 	male_common_first_names={
 		Algernon Alexander Adam Andrew Albert Alphonse Arthur Augustus Anthony Archibald Adolphus Abel Alfred Acton Aylmer Ambrose Austen
 		Bruce Benedict Beauchamp Benjamin Byron Bartholomew
@@ -17992,7 +17991,7 @@ suebi={
 
 swedish={
 	color= hsv{ 0.64 0.57 0.62 }
-	religion = protestant
+	religion = arian
 	traits = { scandinavian_culture_group germanic_heritage }
 	male_common_first_names={
 		Albrecht
@@ -18829,7 +18828,7 @@ visigothic={
 yankee={
 	color= rgb{ 135 206 235 }
 	religion = protestant
-	traits = { british germanic_heritage }
+	traits = { columbian_culture germanic_heritage }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -18955,7 +18954,7 @@ yankee={
 aimara={
 	color= hsv{ 0.02 0.57 0.74 }
 	religion = arian
-	traits = { south_american_group indigenous_hesperdian_heritage }
+	traits = { south_american_group german_speaking indigenous_hesperdian_heritage }
 	male_common_first_names={
 		Agustin
 		Alejandro
@@ -19855,7 +19854,7 @@ iroquoian={
 mayan={
 	color= hsv{ 0.69 0.08 0.55 }
 	religion = arian
-	traits = { native_mesoamerican_culture_group indigenous_hesperdian_heritage }
+	traits = { native_mesoamerican_culture_group german_speaking indigenous_hesperdian_heritage }
 	male_common_first_names={
 		Agustin
 		Akbal
@@ -19951,7 +19950,7 @@ mayan={
 miskito = {
 	color={ 240 240 100 }
 	religion = animist
-	traits = { indigenous_hesperdian_heritage native_mesoamerican_culture_group }
+	traits = { indigenous_hesperdian_heritage native_mesoamerican_culture_group german_speaking }
 	
 	male_common_first_names={
 		Alexander Albert
@@ -20026,7 +20025,7 @@ miskito = {
 mixtec={
 	color={ 150 80 70 }
 	religion = animist
-	traits = { native_mesoamerican_culture_group indigenous_hesperdian_heritage }
+	traits = { native_mesoamerican_culture_group german_speaking indigenous_hesperdian_heritage }
 	male_common_first_names={
 		Agustin
 		Akbal
@@ -20224,7 +20223,7 @@ muskogean={
 nahua={
 	color= hsv{ 0.47 0.29 0.38 }
 	religion = arian
-	traits = { native_mesoamerican_culture_group indigenous_hesperdian_heritage }
+	traits = { native_mesoamerican_culture_group german_speaking indigenous_hesperdian_heritage }
 	male_common_first_names={
 		Antonio
 		Carlos
@@ -20727,7 +20726,7 @@ pueblo={
 quechua={
 	color= hsv{ 0.10 0.22 0.69 }
 	religion = arian
-	traits = { indigenous_hesperdian_heritage south_american_group }
+	traits = { indigenous_hesperdian_heritage south_american_group german_speaking }
 	male_common_first_names={
 		Agustin
 		Alejandro
@@ -21084,7 +21083,7 @@ skraeling={
 tarascan={
 	color= hsv{ 0.50 0.24 0.75 }
 	religion = arian
-	traits = { native_mesoamerican_culture_group indigenous_hesperdian_heritage }
+	traits = { native_mesoamerican_culture_group german_speaking indigenous_hesperdian_heritage }
 	male_common_first_names={
 		Agustin
 		Alberto
@@ -21244,7 +21243,7 @@ tupinamba={
 zapotec={
 	color= hsv{ 0.32 0.29 0.78 }
 	religion = arian
-	traits = { native_mesoamerican_culture_group indigenous_hesperdian_heritage }
+	traits = { native_mesoamerican_culture_group german_speaking indigenous_hesperdian_heritage }
 	male_common_first_names={
 		Agustin
 		Alberto
@@ -28272,7 +28271,7 @@ karelian={
 livonian={
 	color= { 115 23 62 }
 	religion = protestant
-	traits = { finnic baltic_culture_group european_heritage }
+	traits = { finnic baltic_culture_group uralic_heritage }
 	male_common_first_names={
 		Aaron
 		Abrams
@@ -28420,7 +28419,7 @@ livonian={
 sami={
 	color= hsv{ 0.40 0.36 0.70 }
 	religion = protestant
-	traits = { finnic european_heritage }
+	traits = { finnic uralic_heritage }
 	male_common_first_names={
 		Aikia
 		Asllak
@@ -28470,7 +28469,7 @@ sami={
 ugrian={
 	color= hsv{ 0.50 0.32 0.62 }
 	religion = catholic
-	traits = { finnic european_heritage }
+	traits = { finnic uralic_heritage }
 	male_common_first_names={
 		Aleksandr
 		Dmitri

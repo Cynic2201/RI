@@ -13,6 +13,9 @@ caucasian_heritage = {
 celtic_heritage = {
 	heritage = yes
 }
+east_asian_heritage = {
+	heritage = yes
+}
 egyptian_heritage = {
 	heritage = yes
 }
@@ -60,6 +63,7 @@ british_people = {}
 burmese_language = {}
 caucasus_group = {}
 central_african_culture_group = {}
+columbian_culture = {}
 dravidian = {}
 east_african_culture_group = {}
 egyptian = {}
