@@ -5,7 +5,7 @@ arian = {
 	traits = {
 		christian 
 	}
-	color = { 1 .9 .2 }
+	color = { 0.9 0.9 0.2 }
 }
 
 catholic = {
@@ -21,6 +21,7 @@ khristian = {
 	traits = {
 		christian
 	}
+	color = { 0.5 0 0.6 }
 }
 
 nestorian = {
@@ -47,6 +48,14 @@ oriental_orthodox = {
 	color = { 0.4 0.6 0.8 }
 }
 
+spartanian = {
+	texture = #TODO
+	traits = {
+		christian
+	}
+	color = { 0.5 0.1 0 }
+}
+
 sunni = {
 	texture = "gfx/interface/icons/religion_icons/sunni.dds"
 	traits = {
@@ -65,7 +74,7 @@ jewish = {
 		jewish
 	}
 	color = { 0.5 0.5 0.2 }
-}	
+}
 
 mahayana = {
 	texture = "gfx/interface/icons/religion_icons/mahayana.dds"

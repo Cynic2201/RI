@@ -1,61 +1,54 @@
 ﻿POPS = {
 	s:STATE_SAN_SALVADOR = {
-		region_state:UCA = {
+		region_state:ZHE = {
 			create_pop = {
-				culture = central_american
+				culture = hesperdian
 				size = 428204
 			}
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:UCA = {
+		region_state:ZHE = {
 			create_pop = {
-				culture = central_american
-				size = 164404
+				culture = hesperdian
+				size = 147964
 			}
 			create_pop = {
 				culture = mayan
-				size = 312000
-			}
-		}
-		region_state:GBR = {
-			create_pop = {
-				culture = afro_caribbean
-				size = 7104
-			}
-			create_pop = {
-				culture = british
-				size = 104
+				size = 249600
 			}
 		}
 	}
 	s:STATE_HONDURAS = {
-		region_state:UCA = {
+		region_state:ZHE = {
 			create_pop = {
-				culture = central_american
-				size = 385204
+				culture = hesperdian
+				size = 308163
+			}
+		}
+	}
+	s:STATE_POYAIS = {
+		region_state:POY = {
+			create_pop = {
+				culture = poyain
+				size = 77041
 			}
 			create_pop = {
-				culture = miskito # Cape of Gracias a Dios Miskito
-				size = 3000
+				culture = miskito
+				religion = protestant
+				size = 6000
 			}
 		}
 	}
 	s:STATE_NICARAGUA = {
-		region_state:UCA = {
+		region_state:ZHE = {
 			create_pop = {
-				culture = central_american
-				size = 284000
+				culture = hesperdian
+				size = 284500
 			}
 			create_pop = {
-				culture = miskito # Miskito pop. across the 'borders'
-				size = 4000
-			}
-		}
-		region_state:MKT = {
-			create_pop = {
-				culture = miskito # Tawira Miskito
-				size = 30000
+				culture = miskito
+				size = 38000
 			}
 			create_pop = {
 				culture = miskito
@@ -63,50 +56,42 @@
 				size = 10000
 			}
 			create_pop = {
-				culture = afro_caribbean # Miskito Sambu
-				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 500
-			}
-			create_pop = {
-				culture = british
-				size = 500
+				culture = afro_amerigan
+				size = 20500
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_amerigan
 				size = 1000
 			}
 		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:UCA = {
+		region_state:ZHE = {
 			create_pop = {
-				culture = central_american
+				culture = hesperdian
 				size = 83992
 			}
 		}
 	}
 	s:STATE_PANAMA = {
-		region_state:CLM = {
+		region_state:NCD = {
 			create_pop = {
-				culture = central_american
-				size = 87792
+				culture = hesperdian
+				size = 47392
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 28300
+				culture = afro_amerigan
+				size = 32300
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_amerigan
 				size = 4100
 			}
 			create_pop = {
-				culture = north_andean
-				size = 4000
+				culture = caledonian
+				size = 34400
 			}
 			create_pop = {
 				culture = cariban
@@ -115,137 +100,129 @@
 		}
 	}
 	s:STATE_HAITI = {
-		region_state:HAI = {
+		region_state:NVN = {
 			create_pop = {
-				culture = afro_antillean
-				size = 316808
+				culture = afro_karibener
+				size = 606828
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 40000
-			}
-			create_pop = {
-				culture = caribeno
-				size = 40000
-			}
-		}
-	}
-	s:STATE_SANTO_DOMINGO = {
-		region_state:HAI = {
-			create_pop = {
-				culture = afro_antillean
-				size = 226020
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 24000
-			}
-			create_pop = {
-				culture = caribeno
-				size = 20000
+				culture = karibener
+				size = 60000
 			}
 		}
 	}
 	s:STATE_PUERTO_RICO = {
-		region_state:SPA = {
+		region_state:DWI = {
 			create_pop = {
-				culture = caribeno
+				culture = mauritian
 				size = 182500
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = afro_amerigan
 				size = 168400
 			}
 			create_pop = {
-				culture = spanish
+				culture = dutch
 				size = 5904
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
+				culture = afro_amerigan
 				size = 42000
 			}		
 		}
-	}
-	s:STATE_BAHAMAS = {
-		region_state:GBR = {
+		region_state:HWI = {
 			create_pop = {
-				culture = british
-				size = 19200
+				culture = saxon
+				size = 3992
 			}
 			create_pop = {
-				culture = afro_caribbean
-				size = 100400
+				culture = afro_amerigan
+				size = 39996
+			}
+		}
+	}
+	s:STATE_BAHAMAS = {
+		region_state:KYD = {
+			create_pop = {
+				culture = kydonian
+				size = 69400
 			}
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:FRA = {
+		region_state:NOR = {
 			create_pop = {
-				culture = french
-				size = 22200
+				culture = norwegian
+				size = 11100
 			}
 			create_pop = {
-				culture = afro_antillean
-				size = 216104
-			}
-		}
-		region_state:DEN = {
-			create_pop = {
-				culture = danish
-				size = 3992
-			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 39996
+				culture = afro_amerigan
+				size = 108052
 			}
 		}
-		region_state:GBR = {
+		region_state:NVN = {
 			create_pop = {
-				culture = british
-				size = 34704
+				culture = karibener
+				size = 9082
 			}
 			create_pop = {
-				culture = afro_caribbean
-				size = 234768
+				culture = afro_karibener
+				size = 68564
+			}
+		}
+		region_state:DWI = {
+			create_pop = {
+				culture = mauritian
+				size = 2271
 			}
 			create_pop = {
-				culture = dutch
-				size = 396
+				culture = afro_amerigan
+				size = 102846
+			}
+		}
+		region_state:VIR = {
+			create_pop = {
+				culture = columbian
+				size = 18164
+			}
+			create_pop = {
+				culture = afro_columbian
+				size = 171410
+			}
+		}
+		region_state:PTR = {
+			create_pop = {
+				culture = atlantic
+				size = 5006
+			}
+			create_pop = {
+				culture = kydonian
+				size = 11680
 			}
 		}
 	}
 	s:STATE_JAMAICA = {
-		region_state:GBR = {
+		region_state:XAY = {
 			create_pop = {
-				culture = afro_caribbean
+				culture = afro_karibener
 				size = 358596
 			}
 			create_pop = {
-				culture = british
+				culture = karibener
 				size = 23040
 			}
 		}
 	}
 	s:STATE_CUBA = {
-		region_state:CUB = {
-			# 896400
+		region_state:KYD = {
 			create_pop = {
-				culture = caribeno
-				size = 461304 # est. "white" population in 1836 of 483308, minus the explicit Spanish pops below
+				culture = kydonian
+				size = 598822
 			}
 			create_pop = {
-				culture = afro_caribeno
-				size = 152011
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 288786
-			}			
-			create_pop = {
-				culture = spanish
-				size = 22004
+				culture = cariban
+				size = 88159
 			}
 		}
 	}

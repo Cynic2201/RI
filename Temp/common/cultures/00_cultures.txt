@@ -7520,7 +7520,7 @@ bedouin={
 	graphics = mideast_indian
 }
 
-berber={
+berber={ # Amazigh
 	color= hsv{ 0.20 0.55 0.45 }
 	religion = sunni
 	traits = { arab_speaking middle_eastern_heritage }
@@ -8165,7 +8165,7 @@ kurdish={
 	ethnicities = {
 		1 = arab
 	}
-	graphics = asian
+	graphics = mideast_indian
 }
 
 tatar={
@@ -11328,7 +11328,7 @@ maori={
 	graphics = generic
 }
 
-aborigine={
+aborigine={ # Aboriginal
 	color= hsv{ 0.08 0.28 0.61 }
 	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian }

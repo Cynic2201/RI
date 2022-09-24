@@ -114,6 +114,15 @@ native_american_clothes_trigger = {
 	}
 }
 
+native_north_american_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = {
+			has_discrimination_trait = north_american_group
+		}
+	}
+}
+
 muslim_clothes_pop_trigger = {
      exists = scope:pop
   	scope:pop = {

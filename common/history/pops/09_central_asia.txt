@@ -220,6 +220,14 @@
 	s:STATE_ASTRAKHAN = {
 		region_state:RUS = {
 			create_pop = {
+				culture = russian
+				size = 136004
+			}
+			create_pop = {
+				culture = mongol
+				size = 19996
+			}
+			create_pop = {
 				culture = kalmyk
 				size = 795208
 			}

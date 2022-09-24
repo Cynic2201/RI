@@ -116,7 +116,7 @@
  STATE_CHAMPAGNE:0 "Austrasia"
  STATE_ALSACE_LORRAINE:0 "Alsace"
  STATE_FRANCHE_COMTE:0 "Lorraine"
- STATE_WALLONIA:0 "Leudisisn"
+ STATE_WALLONIA:0 "Leudisis"
  STATE_FLANDERS:0 "Tournaisis"
  STATE_BRABANT:0 "Brabant"
  STATE_RHINELAND:0 "Rhineland"
@@ -399,6 +399,7 @@
  STATE_BANAT:0 "Temeskoz"
  STATE_DELVIDEK:0 "Alvidek"
  STATE_NORTHERN_TRANSYLVANIA:0 "Erdely"
+ STATE_CAPE_VERDE:0 "Sudinseln"
  
 l_english:
 
@@ -420,7 +421,7 @@ l_english:
  #STATE_MISSOURI:0 "Missouri"
  STATE_IOWA:0 "Iowa"
  STATE_MINNESOTA:0 "Minnesota"
- STATE_WISCONSIN:0 "Wisconsin"
+ #STATE_WISCONSIN:0 "Wisconsin"
  #STATE_NEW_YORK:0 "New York"
  #STATE_INDIANA:0 "Indiana"
  #STATE_MICHIGAN:0 "Michigan"

@@ -101,5 +101,6 @@ southern_african_culture_group = {}
 tai = {}
 tibetan_language = {}
 turkic = {}
+vandalic_people = {}
 west_african_culture_group = {}
 yamato = {}

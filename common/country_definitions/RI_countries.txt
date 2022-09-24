@@ -2515,7 +2515,7 @@ CHM = {
 	
 	tier = principality
 	
-	cultures = { oodham }
+	cultures = { nahua }
 	capital = STATE_ZACATECAS
 }
 
@@ -2691,7 +2691,7 @@ DWI = {
 	
 	tier = principality
 	
-	cultures = { karibener }
+	cultures = { mauritian }
 	capital = STATE_PUERTO_RICO
 }
 
@@ -2713,7 +2713,7 @@ PTR = {
 	
 	tier = principality
 	
-	cultures = { latin }
+	cultures = { atlantic }
 	capital = STATE_WEST_INDIES
 }
 
@@ -2757,7 +2757,7 @@ WIN = {
 	
 	tier = kingdom
 	
-	cultures = { columbian afro_karibener }
+	cultures = { columbian afro_columbian }
 	capital = STATE_WEST_INDIES
 }
 
@@ -3168,7 +3168,7 @@ AMA = {
 	
 	tier = principality
 	
-	cultures = { latin }
+	cultures = { atlantic }
 	capital = STATE_PARA
 }
 
@@ -3710,7 +3710,7 @@ BLL = {
 	
 	tier = principality
 	
-	cultures = {  } #placeholder
+	cultures = { oromo } #placeholder
 	capital = STATE_OROMIA
 }
 
