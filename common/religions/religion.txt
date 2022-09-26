@@ -145,3 +145,11 @@ mazdaist = {
 	}
 	color = { 0.8 1 0.3 }
 }
+
+zoroastrian = {
+	texture = #TODO
+	traits = {
+		zoroastrian
+	}
+	color = { 1 0.8 0.3 }
+}

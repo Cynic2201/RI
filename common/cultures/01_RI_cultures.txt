@@ -10271,7 +10271,7 @@ georgian={
 
 circassian={
 	color= { 91 107 85 }
-	religion = jewish
+	religion = nestorian
 	traits = { caucasus_group caucasian_heritage }
 	male_common_first_names={
 		Aslan
@@ -10319,7 +10319,7 @@ circassian={
 
 north_caucasian={
 	color= hsv{ 0.17 0.26 0.99 }
-	religion = jewish
+	religion = nestorian
 	traits = { caucasus_group caucasian_heritage }
 	male_common_first_names={
 		Aslan

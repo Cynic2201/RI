@@ -363,10 +363,10 @@
 		}
 	}
 	s:STATE_GALICH = {
-		region_state:PRM = {
+		region_state:PRM = {   
 			create_pop = {
 				culture = ugrian
-				size = 296877
+				size = 1203563
 			}
 		}
 	}

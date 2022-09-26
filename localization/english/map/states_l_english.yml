@@ -400,6 +400,8 @@
  STATE_DELVIDEK:0 "Alvidek"
  STATE_NORTHERN_TRANSYLVANIA:0 "Erdely"
  STATE_CAPE_VERDE:0 "Sudinseln"
+ STATE_BAGHDAD:0 "Asoristan"
+ STATE_BASRA:0 "Meshan"
  
 l_english:
 
@@ -797,8 +799,8 @@ l_english:
  #STATE_LEBANON:0 "Lebanon"
  #STATE_SYRIA:0 "Syria"
  #STATE_ALEPPO:0 "Aleppo"
- STATE_BAGHDAD:0 "Baghdad"
- STATE_BASRA:0 "Basra"
+ #STATE_BAGHDAD:0 "Baghdad"
+ #STATE_BASRA:0 "Basra"
  STATE_MOSUL:0 "Mosul"
  STATE_LARISTAN:0 "Laristan"
  STATE_SISTAN:0 "Sistan"
