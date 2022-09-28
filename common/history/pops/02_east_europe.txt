@@ -389,7 +389,7 @@
 				size = 24000
 			}
 			create_pop = {
-				culture = hungarian
+				culture = magyar
 				size = 16204
 			}
 		}
@@ -401,7 +401,7 @@
 				size = 1148366
 			}
 			create_pop = {
-				culture = hungarian
+				culture = magyar
 				size = 16000
 			}
 			create_pop = {

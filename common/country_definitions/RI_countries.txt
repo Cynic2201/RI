@@ -4978,6 +4978,7 @@ ACE = {
 	
 	capital = STATE_ACEH
 	cultures = { sumatran }
+	religion = nestorian
 	is_named_from_capital = yes
 }
 
@@ -4989,6 +4990,7 @@ BAL = {
 	tier = principality
 	
 	cultures = { balinese moluccan }
+	religion = hindu
 	capital = STATE_SUNDA_ISLANDS
 }
 
@@ -5011,6 +5013,7 @@ BLN = {
 	tier = principality
 	
 	cultures = { moluccan } #placeholder
+	religion = protestant
 	capital = STATE_CELEBES
 }
 
@@ -5022,6 +5025,7 @@ BRU = {
 	tier = principality
 	
 	cultures = { bornean }
+	religion = nestorian
 	capital = STATE_NORTH_BORNEO
 }
 
@@ -5044,6 +5048,7 @@ BTN = {
 	tier = principality
 	
 	cultures = { moluccan }
+	religion = hindu
 	capital = STATE_CELEBES
 }
 
@@ -5123,7 +5128,7 @@ LAR = {
 	
 	tier = kingdom
 	
-	cultures = { moluccan }
+	cultures = { melanesian }
 	capital = STATE_SUNDA_ISLANDS
 }
 
@@ -5190,6 +5195,7 @@ RYU = {
 	tier = principality
 	
 	cultures = { japanese } #placeholder
+	religion = khristian
 	capital = STATE_RYUKYU_ISLANDS
 }
 
@@ -5212,6 +5218,7 @@ SLW = {
 	tier = principality
 	
 	cultures = { moluccan }
+	religion = hindu
 	capital = STATE_CELEBES
 }
 
@@ -5223,6 +5230,7 @@ SUN = {
 	tier = principality
 	
 	cultures = { javan }
+	religion = theravada
 	capital = STATE_WEST_JAVA
 }
 
@@ -5590,6 +5598,7 @@ KNS = {
 	tier = grand_principality
 	
 	cultures = { japanese }
+	religion = khristian
 	capital = STATE_YANGHO
 }
 
@@ -5634,6 +5643,7 @@ CHS = {
 	tier = grand_principality
 	
 	cultures = { japanese }
+	religion = khristian
 	capital = STATE_SHIKOKU
 }
 
@@ -5645,6 +5655,7 @@ MRI = {
 	tier = grand_principality
 	
 	cultures = { japanese }
+	religion = khristian
 	capital = STATE_YEONGNAM
 }
 
@@ -5656,6 +5667,7 @@ OTO = {
 	tier = principality
 	
 	cultures = { japanese }
+	religion = khristian
 	capital = STATE_KYUSHU
 }
 
@@ -5667,6 +5679,7 @@ SHM = {
 	tier = principality
 	
 	cultures = { japanese }
+	religion = khristian
 	capital = STATE_KYUSHU
 }
 

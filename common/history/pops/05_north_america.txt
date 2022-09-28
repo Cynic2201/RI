@@ -926,7 +926,7 @@
 		}
 		region_state:VAS = {
 			create_pop = {
-				culture = vasconian
+				culture = vasconic
 				size = 8280
 			}
 		}
