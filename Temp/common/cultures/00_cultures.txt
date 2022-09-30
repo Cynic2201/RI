@@ -2228,21 +2228,21 @@ british={ # "English" in localization
 	}
 	
 	male_common_first_names={
-		Algernon Alexander Adam Andrew Albert Alphonse Arthur Augustus Anthony Archibald Adolphus Abel Alfred Acton Aylmer Ambrose Austen
-		Bruce Benedict Beauchamp Benjamin Byron Bartholomew
-		Charles Christopher Cecil Chichester Collingwood Cornelius
+		Algernon Alexander Adam Andrew Albert Alphonse Arthur Augustus Anthony Archibald Adolphus Abel Alfred Acton Aylmer Ambrose Austen Adrian Alan Arnold Auberon Allen
+		Bruce Benedict Beauchamp Benjamin Byron Bartholomew Barnaby Basil Bertram Bertrand
+		Charles Christopher Cecil Chichester Collingwood Cornelius Caleb Clarence Claude
 		David Daniel Donald Dudley
 		Ebenezer Edward Edmund Edgar Evelyn Egerton Edwin Eustace Eric
 		Francis Frederick Frederic Fairfax
 		George Gregory Garnet Guildford Gathorne Gerard Gipps Granville Geoffrey Gonville Godfrey
 		Harold Henry Hugh Horatio Hedworth Humphrey Harold Harcourt Hedley Herbert
 		Isambard Isaac
-		John James Jacob Jeremy Joseph Julian Josslyn
+		John James Jacob Jeremy Joseph Julian Josslyn Joshua
 		Kenelm
 		Laurence Leonard_2 Lyon Lionel Lewis
-		Mark Michael Matthew Massey Montague Myles Murrough Maurice Martin
+		Mark Michael Matthew Massey Montague Myles Murrough Maurice Martin Maxwell
 		Nigel Nicholas Nathaniel Neville
-		Oliver Octavius
+		Oliver Octavius Oscar Oswald
 		Peter Paul Patrick Poulett Philip Percy
 		Richard Robert Roger Rudyard Redvers Rowland Reginald Roundell Rupert Rufus Ross
 		Stephen Simon Spencer Stanley Samuel Stafford Sewallis Sackville Sutherland
@@ -2275,27 +2275,27 @@ british={ # "English" in localization
 	}
 	common_last_names={
 		Allenby Anstruther Abercromby Annesley Assheton Arkwright Acland Armistead Archdale Anderson Akroyd Adair Aytoun Amcotts Allen Amherst Ashton Aytoun
-		Brown Buller Barrie Bright Benyon Brinckman Bathurst Bagwell Brewer Bruce Backhouse Bass Bateson Bowring Bourne Barrington Blennerhassett Bourke Beach Beaumont Brassey Bailey Biddulph Brand Baring Baines Brocklehurst Bentall Bazley Birley Bingham Bolckow Baxter Bagge Barttelot Beevor Barbauld Balfour Baillie Barnard Bayly Beerbohm Bellairs Bewick Bloomfield Blagden Borthwick Booth Bousfield Brightwell Broderip Broughton Budden Burdon Buxton Beauclerk Bosanquet Bromhead Brightwen
-		Cory Chard Courtney Coward Cowell Craufurd Cave Collins Cadogan Chambers Conolly Callan Coleridge Cole Carnegie Cholmeley Clive Croft Cowper Cameron Castlerosse Clay Cogan Colthurst Colebrooke Cross Chaplin Cowen Cartwright Cardwell Corrance Cochrane Conroy Cotton
+		Brown Buller Barrie Bright Benyon Brinckman Bathurst Bagwell Brewer Bruce Backhouse Bass Bateson Bowring Bourne Barrington Blennerhassett Bourke Beach Beaumont Brassey Bailey Biddulph Brand Baring Baines Brocklehurst Bentall Bazley Birley Bingham Bolckow Baxter Bagge Barttelot Beevor Barbauld Balfour Baillie Barnard Bayly Beerbohm Bellairs Bewick Bloomfield Blagden Borthwick Booth Bousfield Brightwell Broderip Broughton Budden Burdon Borradaile Buxton Beauclerk Bosanquet Bromhead Brightwen
+		Cory Chard Courtney Coward Cowell Craufurd Cave Collins Cadogan Chambers Conolly Callan Coleridge Cole Carnegie Cholmeley Clive Croft Cowper Cameron Castlerosse Clay Cogan Colthurst Colebrooke Cross Chaplin Cowen Cartwright Cardwell Corrance Cochrane Conroy Cotton Calthorpe
 		Duff Dalrymple Dixon Dalway Dilke Downing Dickson Davison Dalglish Dimsdale Dyott Dowse Dawson Dease Denison Dillwyn Dow Dunnell Despard Day Darter Selkirk
 		Edge Ennis Edwards Eaton Elliot Elcho Eastwick Eddowes
 		Fortescue Finnie Fordyce Feilden Forster Fowler Fagan Fletcher Fellowes Fothergill Fetherstonhaugh Fanshawe Flowerdew Fullteron Fleming Follows
-		Gresley Gooch Grenfell Glass Gilpin Gilbert Grosvenor Goldney Graham Grieve Goschen Gimbert Gardener
+		Gresley Gooch Grenfell Glass Gilpin Gilbert Grosvenor Goldney Graham Grieve Goschen Gimbert Gardener Grimstead Greenwell
 		Howard Hornby Hick Hughes Hardcastle Hope Hibbert Hoare Hodgson Henderson Hanmer Hughes Hutt Holford Holms Hurst Holmesdale Holt Harris Heygate Hodgkinson Headlam Hutton Haig
 		Illingworth Ivatt Irby Inchbald Ingelow Inglis
 		Jones Johnston Jessel Jardine Jackson Jolliffe
 		Kennard Kavanagh Kekewich Keown Knox Kingscote Knightley Kinnaird Kinglake
-		Lovelace Laird Lambert Lawson Legh Lennox Lowther Lopes Lefroy Lusk Leatham Lowe Leslie Lane Letby
+		Lovelace Laird Lambert Lawson Legh Lennox Lowther Lopes Lefroy Lusk Leatham Lowe Leslie Lane Letby Larwood
 		Moore Macfarlane Mellor McClure Muntz Murphy Maguire Matthews Miller Merry Moncreiff Monk Marling Mackintosh McArthur Manners Macfie McLagan Moore McEvoy Mitford McMahon Matheson Moynihan Majendie Mansfield Marindin Markham Maxse McBean McCorrie McDermond McMurdo McWheeney Mouat
 		Northcote North Nicol Norwood Nightall Notcott Newdegate Napier
 		Otway Ogilvy Onslow Ord Owens
-		Primrose Plunket Potter Plimsoll Pakington Pim Pease Playfair Price Pell Pelham Palmer Ponsonby Peppercorn Pennefather Plumptre Pitblado Pardoe Palliser
+		Primrose Plunket Potter Plimsoll Pakington Pim Pease Playfair Price Pell Pelham Palmer Ponsonby Peppercorn Pennefather Plumptre Pitblado Pardoe Palliser Pardon
 		Rawlinson Robertson Ripley Richards Raikes Rebow Round Reed Ramsden Pennington Ross Rumbold Raines Ramage Ridley Rowlands Russell Reddish Ridding
-		Stephenson Stanhope Seymour Stronge Sullivan Shaftoe Samuelson Shaw Stapleton Sartoris Saunderson Staveley Strutt Sheridan Stacpoole Scargill Salomons Stansfeld Smith Starkie Synan Seely Shirley Sidebottom Scratchley Sargent Shields Shute Sandbach Sellon Squire Snodgrass Stanger
-		Tite Traill Torrens Tollemache Trehawke Taylor Talbot Tomline Tolman Trevelyan Temple Thornycroft Troubridge Templeton Teesdale Tottenhame Tremayne
+		Stephenson Stanhope Seymour Stronge Sullivan Shaftoe Samuelson Shaw Stapleton Sartoris Saunderson Staveley Strutt Sheridan Stacpoole Scargill Salomons Stansfeld Smith Starkie Synan Seely Shirley Sidebottom Scratchley Sargent Shields Shute Sandbach Sellon Squire Snodgrass Stanger Sibthorp Sparks
+		Tite Traill Torrens Tollemache Trehawke Taylor Talbot Tomline Tolman Trevelyan Temple Thornycroft Troubridge Templeton Teesdale Tottenhame Tremayne Titmus Tyldesley
 		Upton Underdown
 		Veitch Vance Verner Vandeleur Vivian Vicars
-		Woollcombe Wedderburn Whitbread Whitmore Willyams Whitworth Waterlow Williamson Wethered Wyllie Wheelhouse Whatman Waterhouse Walsh Winterbotham Weguelin Wedgwood Whitelaw Wheatley Wingate
+		Woollcombe Wedderburn Whitbread Whitmore Willyams Whitworth Waterlow Williamson Wethered Wyllie Wheelhouse Whatman Waterhouse Walsh Winterbotham Weguelin Wedgwood Whitelaw Wheatley Wingate Willan Waugh Wisden
 		Young
 	}
 	
@@ -3207,6 +3207,7 @@ spanish={
 		Antonia
 		Bonifacia
 		Carlota
+		Clotilde
 		Concepcion
 		Dolores
 		Emilia
@@ -3228,79 +3229,49 @@ spanish={
 		Teresa
 	}	
 	noble_last_names = {
-		Alvarez_de_Toledo
-		Cabrera
-		Cagigal_de_la_Vega
-		Colon
-		de_Albornoz
-		de_Borbon
-		de_Carvajal
-		de_Orleans
-		de_la_Fuente
-		de_Silva
-		Fernandez_de_Cordoba
-		Fitz-James_Stuart
-		Garcia_de_la_Noceda
+		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
+		Barrionuevo de_Bohorques de_Bernuy de_Bago
+		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
+		DI_ez_de_Rivera de_Domecq
+		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
+		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
 		Hidalgo_de_Cisneros
-		Primo_de_Rivera
+		JordA_n_de_UrrI_es
+		LO_pez_de_Haro de_Llorach
+		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
+		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
+		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
+		de_QuirO_s de_Quintanilla
+		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
+		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
+		de_Tineo
+		de_Urquijo de_Uzqueta
+		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
+		de_ZufI_a
 	}
 	common_last_names={
-		Acuna
-		Aguirre
-		Alcala-Zamora
-		Allendesalazar
-		Alonso
-		Aranda
-		Arguelles-Meres
-		Asensio
-		Aznar
-		Barradas
-		Bugallal
-		Cano
-		Cervera
-		Diaz_2
-		Espartero
-		Escoda
-		Fernandez
-		Franco
-		Garcia
-		Gonzalez
-		Heredia
-		Hernandez
-		Herrera
-		Hevia
-		Linares
-		Lopez
-		Maroto
-		Martinez-Campos
-		Maura
-		Menendez
-		Miaja
-		Millan-Astray
-		Mina
-		Mola
-		Munoz
-		Marquez
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
+		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
+		Cano Cervera Corsi Cuadrada Comamala
+		Diaz_2 DomI_nguez
+		Espartero Escoda EguiazA_bal
+		Fernandez Franco Fajardo
+		Garcia Gonzalez Gil Grasset Galatas
+		Heredia Hernandez Herrera Hevia
+		Izaguirre
+		Linares Lopez Lorenzana Landazabal LarraN_aga
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
 		Narvaez
-		O_Donnell
-		Ortega
-		Pavia
-		Perez
-		Queipo_de_Llano
-		Rodriguez
-		Rojo
-		Ruiz
-		Sanjurjo
-		Serrano
-		Silvestre
-		Topete
-		Valdes
-		Varela
-		Villapol
-		Villar
+		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
+		Pavia Perez PajarO_n Pagaza Pattullo Pena
+		Queipo_de_Llano Quintana Quirante
+		Rodriguez Rojo Ruiz Reparez Ruete
+		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
+		Topete Tuduri Terradas Torralba
+		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
 		Weyler
 		Yague
-		Alvarez
+		Zamora Zabala
 	}
 	male_regal_first_names={
 		Alfonso Amadeo
@@ -3321,6 +3292,7 @@ spanish={
 		de_BorbO_n_Anjou
 		de_BorbO_n_Parma
 		de_Habsburgo
+		de_Orleans
 		de_Saboya
 		de_Wittelsbach
 	}	
@@ -13743,7 +13715,7 @@ yankee={
 		Everett English Eaton Egan Elliott Ewing
 		Fillmore Floyd Frelinghuysen Fairbanks Fess Fletcher Fairchild Farnsworth Fraser Foster Fry Fuller French Fowler Fiske Fitts Foss Fesler Faxon Fifield
 		Grant Green Garrison Granger Greeley Garfield Garcelon Gilbert Gibbs Griffin Gurney Goldsborough Glascock Grannis Grinstead Gould Goldrick Goodwin Grimes Gooding
-		Halleck Hall Hancock Harrison Hendricks Hobart Hanna Hitchcock Hooker Hackleman Harris Hawkins Hawley Heckman Humphreys Hunt Hunter Hayes Hollingsworth Hammatt Hoag Hammerslough Hodgeman Hutling Hammer Hagaman Holden Heffernan Huldy Hamblen Herrick Hurlbutt
+		Halleck Hall Hancock Harrison Hendricks Hobart Hanna Hitchcock Hooker Hackleman Harris Hawkins Hawley Heckman Humphreys Hunt Hunter Hayes Hollingsworth Hammatt Hoag Hammerslough Hodgeman Hutling Hammer Hagaman Holden Heffernan Huldy Hamblen Herrick Hurlbutt Hazeltine
 		Ingalls Irion Isbell
 		Johnson Jewell Jackson Jones Judkins
 		King Kern Kearny Kelley Kane Kilpatrick Kiddoo Keyes Kimball Kinnard Kirk Kennon Knowlton Kneeland Kittredge
@@ -14217,6 +14189,7 @@ central_american={
 		Ferrera
 		Figueroa
 		Garrigo
+		GU_ell
 		Guzman
 		Hernandez
 		Jerez

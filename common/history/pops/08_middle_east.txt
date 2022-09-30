@@ -259,7 +259,7 @@
 				size = 1400
 			}
 			create_pop = {
-				culture = greek
+				culture = syriac
 				size = 59820
 			}
 		}
@@ -275,7 +275,7 @@
 				size = 12000
 			}
 			create_pop = {
-				culture = greek
+				culture = syriac
 				size = 52000
 			}
 			create_pop = {
@@ -323,7 +323,7 @@
 				size = 257000
 			}
 			create_pop = {
-				culture = greek
+				culture = syriac
 				size = 96000
 			}
 			create_pop = {

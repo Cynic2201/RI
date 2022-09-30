@@ -3699,7 +3699,7 @@ AKS = {
 	
 	tier = empire
 	
-	cultures = {  } #placeholder
+	cultures = { axumite } #placeholder
 	capital = STATE_GONDER
 }
 
