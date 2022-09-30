@@ -17,10 +17,13 @@
 	diplomatic_action = protectorate
 	
 	country_type_change_alternatives = {
-		subject_type_dominion
 		subject_type_tributary
 	}
 	
+	can_change_subject_type_from = {
+		subject_type_customs_union
+	}
+		
 	valid_overlord_country_types = {
 		recognized
 		colonial
@@ -70,7 +73,6 @@ subject_type_puppet = {
 	}
 	
 	can_change_subject_type_from = {
-		subject_type_dominion
 		subject_type_protectorate
 		subject_type_personal_union
 	}
@@ -123,6 +125,10 @@ subject_type_tributary = {
 		subject_type_protectorate
 		subject_type_dominion
 	}
+	
+	can_change_subject_type_from = {
+		subject_type_customs_union
+	}	
 	
 	valid_overlord_country_types = {
 		unrecognized
@@ -200,7 +206,7 @@ subject_type_dominion = {
 	allow_change_country_flag = yes
 	use_overlord_map_color = yes
 	use_overlord_ruler = no
-	annex_on_country_formation = no
+	annex_on_country_formation = yes
 	can_start_own_diplomatic_plays = yes
 	breaks_if_subject_not_protected = yes
 	join_overlord_wars = no
@@ -217,6 +223,10 @@ subject_type_dominion = {
 	country_type_change_alternatives = {
 		subject_type_tributary
 	}
+	
+	can_change_subject_type_from = {
+		subject_type_protectorate
+	}	
 	
 	valid_overlord_country_types = {
 		recognized
@@ -311,10 +321,6 @@ subject_type_customs_union = {
 	convoy_contribution = 0.5
 		
 	diplomatic_action = customs_union
-	
-	country_type_change_alternatives = {
-		subject_type_protectorate
-	}
 	
 	valid_overlord_country_types = {
 		recognized
