@@ -499,7 +499,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_AEGEAN_ISLANDS = {
+	s:STATE_CONSTANTINOPLE = {
 		region_state:ROM = {
 			create_pop = {
 				culture = greek
@@ -727,13 +727,7 @@
 		region_state:OST = {
 			create_pop = {
 				culture = ostrogothic
-				size = 647683
-			}
-		}
-		region_state:ROM = {
-			create_pop = {
-				culture = ostrogothic
-				size = 121441
+				size = 769124
 			}
 			create_pop = {
 				culture = balkan

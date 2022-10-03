@@ -4782,12 +4782,8 @@
 	}
 	s:STATE_NORTHERN_SERBIA = {
 		create_state = {
-			country = c:ROM
-			owned_provinces = { xF9E78E }
-		}
-		create_state = {
 			country = c:OST
-			owned_provinces = { x4D115A x10A060 x4B1F45 xEDBA20 x3B6092 x74F1F4 x9061A0 x40AF95 x90A061 }
+			owned_provinces = { xF9E78E x4D115A x10A060 x4B1F45 xEDBA20 x3B6092 x74F1F4 x9061A0 x40AF95 x90A061 }
 		}
 		
 		add_homeland = ostrogothic
@@ -4890,7 +4886,7 @@
 		
 		add_homeland = greek	
 	}
-	s:STATE_WEST_AEGEAN_ISLANDS = {#Replace, constantinople
+	s:STATE_CONSTANTINOPLE = {#Replace, constantinople
 		create_state = {
 			country = c:ROM
 			owned_provinces = { xF0A020 }
