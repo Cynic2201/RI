@@ -1653,7 +1653,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=10
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_vineyards" "pm_tools_disabled" "pm_simple_farming" }
 			}
@@ -1769,7 +1769,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=16
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_vineyards" "pm_tools_disabled" "pm_simple_farming" }
 			}
@@ -1833,7 +1833,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=15
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_vineyards" "pm_tools_disabled" "pm_simple_farming" }
 			}
@@ -1889,7 +1889,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=6
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_vineyards" "pm_tools_disabled" "pm_simple_farming" }
 			}
@@ -2045,7 +2045,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=5
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -2377,7 +2377,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=8
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -3184,12 +3184,6 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
-			}
-			create_building={
-				building="building_rye_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
 				building="building_livestock_ranch"
