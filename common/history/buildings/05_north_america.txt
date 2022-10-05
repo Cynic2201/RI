@@ -1,40 +1,6 @@
 ﻿BUILDINGS={
-	s:STATE_DISTRICT_OF_COLUMBIA={
-
-		region_state:USA={
-			create_building={
-				building="building_government_administration"
-				level=6
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_maize_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_white_house"
-				level=1
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_american_buildings_dlc_trigger = yes
-		}
-		s:STATE_DISTRICT_OF_COLUMBIA={
-			region_state:USA={
-				create_building={
-					building="building_capitol_hill"
-					level=1
-				}
-			}
-		}
-	}
 	s:STATE_LOUISIANA={
-		region_state:USA={
+		region_state:MDC={
 			create_building={
 				building="building_port"
 				level=2
@@ -169,10 +135,10 @@
 		}
 	}
 	s:STATE_VIRGINIA={
-		region_state:USA={
+		region_state:VIR={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -196,7 +162,7 @@
 			}
 			create_building={
 				building="building_maize_farm"
-				level=5
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -229,7 +195,24 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}			
+			}
+			create_building={
+				building="building_white_house"
+				level=1
+			}		
+		}
+	}
+	if = {
+		limit = {
+			has_american_buildings_dlc_trigger = yes
+		}
+		s:STATE_VIRGINIA={
+			region_state:VIR={
+				create_building={
+					building="building_capitol_hill"
+					level=1
+				}
+			}
 		}
 	}
 	s:STATE_ALASKA={
