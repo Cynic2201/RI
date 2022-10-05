@@ -140,7 +140,6 @@ ABU = { # Abu Dhabi
 }
 #ABU_late = {
 #	# Later adopted the white stripe at the hoist as variant after reverting to traditionnal plain red
-#	# TODO (UNUSED)
 #
 #	pattern = "pattern_solid.tga"
 #	color1 = "red"
@@ -359,7 +358,7 @@ AFG_republic = {
 
 	}	
 	colored_emblem = {
-		texture = "ce_coa_afghanistan.dds" # TODO modern coa
+		texture = "ce_coa_afghanistan.dds"
 		color1 = "white"
 		color2 = "white"
 		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }			
@@ -383,7 +382,7 @@ AFG_dictatorship = {
 		instance = { scale = { 1.0 0.25 } position = { 0.5 0.125 } }			
 	}		
 	colored_emblem = {
-		texture = "ce_coa_afghanistan.dds" # TODO eagle coa version
+		texture = "ce_coa_afghanistan.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		instance = { scale = { 0.6 0.6 } position = { 0.22 0.24 } }			
@@ -792,7 +791,6 @@ ARG = { # Argentina
 }
 #ARG_early = {
 #	# 1818-29 Flag (light blue with larger central stripe)
-#	# TODO (UNUSED)
 #
 #	pattern = "pattern_solid.tga"
 #	color1 = "white"
@@ -813,9 +811,7 @@ ARG = { # Argentina
 #	}	
 #}
 
-ARG_welsh = {
-	#TODO add a trigger for the flag
-	
+ARG_welsh = {	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	
@@ -1169,6 +1165,35 @@ ASH_subject = {
 		color1 = "yellow_dark"
 		instance = { position = { 0.75 0.5 } scale = { 0.5 0.5 } }
 	}	
+}
+
+ASS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_faint"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red_light"
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.12 0.12 } position = { 0.1 0.14 }  }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.12 0.12 } position = { 0.19 0.1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.12 0.12 } position = { 0.16 0.23 }  }
+	}
 }
 
 AST = { # Australia
@@ -1662,7 +1687,6 @@ BAD_republic = {
 	}				
 }
 BAD_absolute_monarchy = {
-	# TODO Standard 1892 with order of loyalty collar or 1858 white background still with collar and two griffin supporters
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 				
@@ -2466,7 +2490,6 @@ BOL = {
 }
 BOL_dictatorship = { # Bolivia
 	# Starting/Pres. dictatorship
-	# TODO laurel circling (on top of) the seal
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -3241,7 +3264,6 @@ BUR_subject = {
 
 #BUR_late = {
 #	# 1941 design (similar in colour to colonial flag)
-#	# TODO (UNUSED)
 #
 #	pattern = "pattern_solid.tga"
 #	color1 = "blue"
@@ -3259,7 +3281,6 @@ BUR_subject = {
 
 BRZ = { # Brazil
 	# 1822-89
-	# TODO Branches of Coffee & Tobacco (laurel as PH)
 	
 	pattern = "pattern_rhombus.dds"
 	color1 = "green"
@@ -3796,7 +3817,6 @@ BUL = { # Bulgaria
 	}		
 }
 BUL_subject = {
-	# TODO make another one with COA instead
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	color2 = "green"
@@ -4775,9 +4795,7 @@ CHL_fascist = {
 		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
 	}	
 }
-CHL_communist = { 
-	# TODO Wheat ears instead of laurel
-	
+CHL_communist = { 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
@@ -4901,7 +4919,6 @@ CIR = {
 
 CLM = { # Colombia
 	# 1831-57 Starting/Republic
-	# TODO 1854 CoA for Monarchy
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -5277,7 +5294,6 @@ COR_subject = {
 
 COS = { # Costa Rica
 	# Adopted 1848 (variants of the UCA design before that)	
-	# TODO 1848 CoA Costa Rica for Monarchy flags
 	
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -5497,7 +5513,7 @@ CSA_communist = {
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } } 
 	}	
 	colored_emblem = {
-		texture = "ce_star_05.dds" # TODO rearrange stars
+		texture = "ce_star_05.dds"
 		color1 = "white"
 		color2 = "white"
 		instance = { scale = { 0.14 0.14 } position = { 0.5 0.505 } }				
@@ -5905,7 +5921,6 @@ DAG_communist = {
 		color2 = color1
         instance = { scale = { 0.145 0.145 } position = { 0.342 0.125 }  }
 	}
-	# TODO legend DASSR maybe (below soviet emblem)
 }
 
 DAH = {
@@ -6120,7 +6135,6 @@ DEI_voc = { #Company Flag
 
 DES = {
 	# Deseret
-	# TODO Displayed bald eagle - Won't look anywhere near satisfying without a large displayed wings variant
 	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -6240,7 +6254,6 @@ DOM = { # Dominican republic
 }
 #DOM_early = {
 #	# 1844 design, possibly used before (haitian flag with white cross, variants with stars)
-#	# TODO (UNUSED)
 #
 #	pattern = "pattern_solid.tga"
 #	color1 = "blue"
@@ -6627,7 +6640,7 @@ EST_absolute_monarchy = {
 		color2 = "white"
 	}
 	colored_emblem = {
-		texture = "ce_shield_heater.dds" # TODO maybe : renaissance shield
+		texture = "ce_shield_heater.dds"
 		color1 = "yellow"
 		color2 = "black"
 		instance = { position = { 0.5 0.5 } scale = { 0.80 0.74 } }
@@ -6751,8 +6764,6 @@ DEN = {
 }
 DEN_absolute_monarchy = {
 	# National Coat of Arms as placeholder
-	# TODO 19th c. royal coat of arms for this variant
-	# TODO hearts and TODO lion passant crowned (vs guardant for medieval arms) to complete the national CoA (to be used in field without mantle for other variants : const monarchy & dictatorship)
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -6787,7 +6798,7 @@ DEN_absolute_monarchy = {
 		instance = { scale = { 0.35 0.35 } position = { @third 0.21 } }
 	}	
 	colored_emblem = {
-		texture = "ce_lion_passant_guardant_long.dds" # TODO lion_passant_long_crowned
+		texture = "ce_lion_passant_guardant_long.dds"
 		color1 = "azure"
 		color2 = "red"
 		color3 = "white"
@@ -7236,8 +7247,6 @@ FRA_dictatorship = {
 }
 #FRA_dictatorship_emperor = {
 #	# Imperial std of Napoleon
-#	# TODO decide between one or the other for dictatorship (the tricolore in simple design was still the official flag)
-#	# TODO (UNUSED)
 #
 #	pattern = "pattern_border_double.dds"
 #	color1 = "white"
@@ -8421,7 +8430,6 @@ GRN = {
 
 GUA = { # Guatemala
 	# Since 1871 
-	# TODO modern CoA of Guatemala
 	
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
@@ -8681,7 +8689,7 @@ HAI_absolute_monarchy = {
 		instance = { scale = { 0.54 0.54 } position = { 0.5 0.49 } }		
 	}
 	colored_emblem = {
-		texture = "ce_coa_haiti.dds" # TODO Banner with Motto
+		texture = "ce_coa_haiti.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "yellow"
@@ -9467,7 +9475,6 @@ HES_subject_PRU = {
 
 HND = { # India
 	# Modern flag (azad hind) with dharmachakra (since 1947)
-	# TODO early indian designs ?
 	
 	pattern = "pattern_solid.tga"
 	color1 = "orange"
@@ -9700,7 +9707,6 @@ HON = { # Honduras
 }
 #HON_early = {
 #	# early unofficial design without stars (1838-49)
-#	# TODO (UNUSED)
 #
 #	pattern = "pattern_solid.tga"
 #	color1 = "blue"
@@ -9861,7 +9867,6 @@ HYD_republic = {
 	}		
 }
 HYD_absolute_monarchy = {
-	# TODO Nizamate coa
 	
 	pattern = "pattern_solid.tga"
 	color1 = "saffron"
@@ -10569,7 +10574,6 @@ JAM_republic = {
 }
 
 JAN = { # Jan Mayen
-	# TODO polar bear
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
@@ -10599,7 +10603,6 @@ JAN_republic = {
 	}
 }
 JAN_subject = {
-	# TODO polar bear
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 
@@ -10623,6 +10626,16 @@ JAP = { # Japan
 	}
 }
 JAP_tokugawa = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "black"
+		color2 = "white"
+	}
+}
+JAP_tokugawa_late = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
@@ -11443,7 +11456,6 @@ KOK_subject_GBR = {
 
 KOR = { 
 	# 1882 flag adopted at end of isolationist era
-	# TODO early Joseon variant
 	
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -12436,7 +12448,7 @@ MAC = { # Manchester
         instance = { position = { 0.5 0.32 } scale = { 1.33 0.75 } }
 	}	
 	colored_emblem = {
-		texture = "ce_bends_chief_manchester.dds" # TODO roundel version for ensign
+		texture = "ce_bends_chief_manchester.dds"
 		color1 = "yellow"
 		color2 = "red"
 		color3 = "white"
@@ -13186,8 +13198,7 @@ MKT = { # Miskito
 	}
 }
 #MKT_late = {
-#	# Later 1853-81 variants have 10 or 12 stripes 
-#	# TODO (UNUSED)
+#	# Later 1853-81 variants have 10 or 12 stripes
 #
 #	pattern = "pattern_solid.tga"
 #	color1 = "white"
@@ -13751,7 +13762,7 @@ MYS_princely = {
 		instance = { scale = { 0.70 0.70 } position = { 0.50 0.82 } }			
 	}	
 	colored_emblem = {
-		texture = "ce_crest_mysore.dds" # TODO make proper small lions for crest
+		texture = "ce_crest_mysore.dds"
 		color1 = "brown"
 		color2 = "yellow"
 		color3 = "white"
@@ -13777,7 +13788,6 @@ MYS_dictatorship = {
 }
 MYS_theocracy = {
 	# 18th c. flag of the Sultanate
-	# TODO islamic prayer inside circle	
 
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -15690,7 +15700,7 @@ ORA_subject_GBR = {
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }		
 	}
 	colored_emblem = {
-		texture = "ce_lion_passant_guardant.dds" # TODO Seal of Orange River Colony (with Springbok)
+		texture = "ce_lion_passant_guardant.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "white"
@@ -15743,7 +15753,7 @@ ORG_subject = {
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }
 	}
 	colored_emblem = {
-		texture = "ce_beaver.dds" # TODO Beaver with tail variant
+		texture = "ce_beaver.dds"
 		color1 = "tan"
 		color2 = "tan"
 		color3 = "white"
@@ -16655,7 +16665,7 @@ PEU_monarchy = {
 		color2 = "red"		
 	}		
 	colored_emblem = {
-		texture = "ce_ribbon.dds" # TODO flag knot
+		texture = "ce_ribbon.dds"
 		instance = { scale = { 0.15 0.15 } position = { 0.5 0.78 } }
 		color1 = "red"
 		color2 = "white"		
@@ -16682,7 +16692,7 @@ PEU_absolute_monarchy = {
 		color2 = "red"		
 	}		
 	colored_emblem = {
-		texture = "ce_ribbon.dds" # TODO flag knot
+		texture = "ce_ribbon.dds"
 		instance = { scale = { 0.15 0.15 } position = { 0.5 0.83 } }
 		color1 = "red"
 		color2 = "red"		
@@ -16736,7 +16746,6 @@ PEU_subject_SPA = {
 	}	
 }
 PEU_communist = {
-	# TODO Emblem of PCP (laurel and maize wreath)
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -16963,7 +16972,6 @@ PNI = {
 }
 
 PNM = {
-	# TODO 1904 CoA Panama for Monarchy (lesser vs greater for abs. monarchy possibly)
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	color2 = "red"
@@ -17395,7 +17403,6 @@ PPU = { # Papua
 	
 }
 PPU_subject = {
-	# TODO lion holding fleur de lis for German New Guinea
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
 	color2 = "white"
@@ -17464,7 +17471,6 @@ PRG = {
 }	
 PRG_dictatorship = { # Paraguay
 	# 1842 design (obverse of the flag, reverse featuring the lion) - Starting/Pres. dictatorship
-	# TODO palm & laurel branches
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -18626,6 +18632,17 @@ SCA_canton = {
 	}
 }
 
+SCH = { # Schleswig
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
+
 SCN = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -19537,7 +19554,6 @@ SPA_republic = {
 	}
 }
 SPA_dictatorship = {
-	# TODO Proper eagle of San Juan (which will also be needed for fascist design)
 	# Just the overall idea for now : Will look much better with the corrected eagle as supporter
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -20087,7 +20103,7 @@ TAS = {
 	color2 = "red"
 	color3 = "black"
 	colored_emblem = {		
-		texture = "ce_lion_passant_guardant.dds" # TODO use the great seal instead
+		texture = "ce_lion_passant_guardant.dds"
 		color1 = color2
 		color2 = color3
 	}
@@ -20354,8 +20370,6 @@ TIB = { # Tibet
 TIB_monarchy = {
 	# Variant of the 1920 snow lion flag
 	# The Yin Yang flaming sphere should be in the bottom left rather than sitting in his paws
-	
-	# TODO Mountains
 	
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -20668,7 +20682,7 @@ TRN_subject_GBR = {
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }		
 	}
 	colored_emblem = {
-		texture = "ce_lion_passant_guardant.dds" # TODO Seal of Transvaal (with lion)
+		texture = "ce_lion_passant_guardant.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		color3 = "white"
@@ -20775,9 +20789,7 @@ TUR_dictatorship = {
 		instance = { scale = { 0.3 0.3 } position = { 0.5 0.5 } }	
 	}		
 }
-TUR_theocracy = {
-	# TODO Replace with shahada on two lines inside a cartouche (from a naval flag, avoid repetitiveness of simple shahada designs)
-	
+TUR_theocracy = {	
 	pattern = "pattern_border_double.dds"
 	color1 = "red"
 	color2 = "white"
@@ -21777,7 +21789,6 @@ VIE_subject = {
 
 VNT = { # Vanuatu
 	# Simplified Independentist flag
-	# TODO modern flag for republic
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "blue"
@@ -22677,8 +22688,6 @@ YUG_communist = {
 }
 
 ZIM = { # Zimbabwe Rhodesia
-	# TODO : Rhodesia (subject) design would need pick, thistle
-	# TODO : Zimbabwe bird	
 	# Modern flag 1980
 	
 	pattern = "pattern_solid.tga"
@@ -22721,8 +22730,7 @@ ZIM = { # Zimbabwe Rhodesia
 		color1 = "red"
 		color2 = "red"
 		instance = { scale = { 0.5 0.5 } position = { 0.175 0.5 } }
-	}		
-	# TODO Zimbabwe bird
+	}
 }
 
 ZUL = {
@@ -22796,4 +22804,18 @@ LOU_monarchy = {
 		instance = { position = { 0.5 0.4 } scale = { 0.6 0.6 } }
 		instance = { position = { 0.8 0.6 } scale = { 0.6 0.6 } }
 	}
+}
+
+KLM = { # Kalmykia
+	# using the old flag of the Khanate rather than the 1930s-40s design
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+
+	colored_emblem = {		
+		texture = "ce_border_checkered.dds"
+		color1 = "red"
+		color2 = "red"			
+	}	
 }

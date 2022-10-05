@@ -95,7 +95,6 @@ color_lists = {
 			300 = "blue"
 		}
 
-		# TODO: more colors
 		1 = "green"
 		1 = "blue_light"
 		1 = "orange"

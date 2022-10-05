@@ -3988,6 +3988,47 @@ WRZ = {
 	}
 }
 
+ALM2 = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant_long.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.2 } }
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.8 } }		
+	}
+}
+
+ALM_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "black"
+		color2 = "red"
+	}
+}
+
+ALM = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant_long.dds"
+		color1 = "black"
+		color2 = "yellow"
+		color3 = "white"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.2 } }
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.8 } }		
+	}
+}
+
 BAD = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -7619,3 +7660,4 @@ RHI = {
 		instance = {position = {.5 .45} scale = {.9 .9}}
 	}
 }
+

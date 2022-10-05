@@ -2136,6 +2136,41 @@ WRZ = { #Wurzburg
 	}
 }
 
+ALM = { #Alemania
+	flag_definition = {
+		coa = ALM
+		subject_canton = ALM
+		priority = 100
+	}
+	
+	flag_definition = {
+		coa = ALM_republic
+		subject_canton = ALM_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ALM_absolute_monarchy
+		subject_canton = ALM_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ALM_fascist
+		subject_canton = ALM_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
 BAD = { #Baden
 	flag_definition = {
 		coa = BAD
