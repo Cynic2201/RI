@@ -4452,6 +4452,319 @@ KMR = { #Khmer
 	}
 }
 
+LNN = { #Lan Na
+	flag_definition = {
+		coa = LNN
+		subject_canton = LNN
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = LNN_republic
+		subject_canton = LNN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = LNN_absolute_monarchy
+		subject_canton = LNN_absolute_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	
+	flag_definition = {
+		coa = LNN_dictatorship
+		subject_canton = LNN_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = LNN_theocracy
+		subject_canton = LNN_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+}
+
+LNX = { #Lan Xang
+	flag_definition = {
+		coa = LNX
+		subject_canton = LNX
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = LNX_communist
+		subject_canton = LNX_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+LAV = { #Lavo
+	flag_definition = {
+		coa = LAV
+		subject_canton = LAV
+		priority = 1
+	}
+}
+
+LIG = { #Ligor
+	flag_definition = {
+		coa = LIG
+		subject_canton = LIG
+		priority = 1
+	}
+}
+
+PAH = { #Pahang
+	flag_definition = {
+		coa = PAH
+		subject_canton = PAH
+		priority = 1
+	}
+}
+
+PEG = { #Pegu
+	flag_definition = {
+		coa = PEG
+		subject_canton = PEG
+		priority = 1
+	}
+}
+
+SHC = { #Shan Confederation
+	flag_definition = {
+		coa = SHC
+		subject_canton = SHC
+		priority = 1
+	}
+}
+
+BAL = { #Bali
+	flag_definition = {
+		coa = BAL
+		subject_canton = BAL
+		priority = 1
+	}
+}
+
+BNJ = { #Banjar
+	flag_definition = {
+		coa = BNJ
+		subject_canton = BNJ
+		priority = 1
+	}
+}
+
+BLN = { #Bolaang
+	flag_definition = {
+		coa = BLN
+		subject_canton = BLN
+		priority = 1
+	}
+}
+
+BLG = { #Bulungan
+	flag_definition = {
+		coa = BLG
+		subject_canton = BLG
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BLG_republic
+		subject_canton = BLG_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+BUT = { #Buton
+	flag_definition = {
+		coa = BUT
+		subject_canton = BUT
+		priority = 1
+	}
+}
+
+DEI = { #Dutch East Indies
+	flag_definition = {
+		coa = DEI
+		subject_canton = DEI
+		priority = 1
+	}
+}
+
+BRU = { #Brunei
+	flag_definition = {
+		coa = BRU
+		subject_canton = BRU
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = BRU_absolute_monarchy
+		subject_canton = BRU_absolute_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRU_republic
+		subject_canton = BRU_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = BRU_dictatorship
+		subject_canton = BRU_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+}
+
+MID = { #Middag
+	flag_definition = {
+		coa = MID
+		subject_canton = MID
+		priority = 1
+	}
+}
+
+RYU = { #Ryukyu
+	flag_definition = {
+		coa = RYU
+		subject_canton = RYU
+		priority = 1
+	}
+}
+
+TON = { #Tondo
+	flag_definition = {
+		coa = TON
+		subject_canton = TON
+		priority = 1
+	}
+}
+
+JAV = { #Java
+	flag_definition = {
+		coa = JAV
+		subject_canton = JAV
+		priority = 1
+	}
+}
+
+KTI = { #Kutai
+	flag_definition = {
+		coa = KTI
+		subject_canton = KTI
+		priority = 1
+	}
+}
+
+LAN = { #Lan Fang
+	flag_definition = {
+		coa = LAN
+		subject_canton = LAN
+		priority = 1
+	}
+}
+
+LAR = { #Larantuka
+	flag_definition = {
+		coa = LAR
+		subject_canton = LAR
+		priority = 1
+	}
+}
+
+MGD = { #Maguindanao
+	flag_definition = {
+		coa = MGD
+		subject_canton = MGD
+		priority = 1
+	}
+}
+
+MAJ = { #Majapahit
+	flag_definition = {
+		coa = MAJ
+		subject_canton = MAJ
+		priority = 1
+	}
+}
+
+PPU = { #Papua
+	flag_definition = {
+		coa = PPU
+		subject_canton = PPU
+		priority = 1
+	}
+}
+
+SRI = { #Srivijia
+	flag_definition = {
+		coa = SRI
+		subject_canton = SRI
+		priority = 1
+	}
+}
+
+SLW = { #Sulawesi
+	flag_definition = {
+		coa = SLW
+		subject_canton = SLW
+		priority = 1
+	}
+}
+
+SUN = { #Sunda
+	flag_definition = {
+		coa = SUN
+		subject_canton = SUN
+		priority = 1
+	}
+}
+
+TER = { #Ternate
+	flag_definition = {
+		coa = TER
+		subject_canton = TER
+		priority = 1
+	}
+}
+
+ACE = { #Aceh
+	flag_definition = {
+		coa = ACE
+		subject_canton = ACE
+		priority = 1
+	}
+}
+
 IBR = { #Iberia
 	flag_definition = {
 		coa = IBR
@@ -4607,8 +4920,8 @@ CIL = { #Cilicia
 	}
 	
 	flag_definition = {
-		coa = CIL
-		subject_canton = CIL
+		coa = CIL_absolute_monarchy
+		subject_canton = CIL_absolute_monarchy
 		priority = 100
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes

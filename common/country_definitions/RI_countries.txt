@@ -5002,7 +5002,7 @@ BNJ = {
 	tier = principality
 	
 	cultures = { bornean }
-	capital = STATE_EAST_BORNEO
+	capital = STATE_WEST_BORNEO
 }
 
 #Bolaang
@@ -5050,17 +5050,6 @@ BTN = {
 	cultures = { moluccan }
 	religion = hindu
 	capital = STATE_CELEBES
-}
-
-#Cebu
-CEB = {
-	color = {  } #placeholder
-	country_type = unrecognized 
-	
-	tier = principality
-	
-	cultures = { visayan tamil } #placeholder
-	capital = STATE_VISAYAS
 }
 
 #DEI
@@ -5174,17 +5163,6 @@ PPU = {
 	
 	cultures = { melanesian }
 	capital = STATE_EASTERN_NEW_GUINEA
-}
-
-#Pontianak
-PON = {
-	color = { 255 102 102 }
-	country_type = unrecognized
-
-	tier = principality
-	
-	cultures = { bornean }
-	capital = STATE_WEST_BORNEO
 }
 
 #Ryukyu

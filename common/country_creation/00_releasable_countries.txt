@@ -868,6 +868,27 @@ ORI = {
 	ai_will_do = { always = no }
 }
 
+BAL = {
+	provinces = { 
+		x5ABA94
+		x100090
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BNJ= {
+	states = { STATE_WEST_BORNEO }
+	
+	ai_will_do = { always = no }
+}
+
+SUN = {
+	states = { STATE_WEST_JAVA }
+
+	ai_will_do = { always = no }
+}
+
 MTC = {
 	use_culture_states = yes
 	
