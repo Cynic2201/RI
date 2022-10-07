@@ -1331,7 +1331,7 @@ LIT = {
 	
 	tier = grand_principality
 	
-	cultures = { lithuanian }
+	cultures = { aesti }
 	capital = STATE_LITHUANIA
 }
 
@@ -4459,7 +4459,7 @@ KSG = {
 	
 	tier = principality
 	
-	cultures = { uyghr }
+	cultures = { uighur }
 	capital = STATE_TIANSHAN
 }
 
@@ -4603,8 +4603,8 @@ BIH = {
 	
 	tier = principality
 	
-	cultures = { bihari } #placeholder
-	capital = STATE_ #placeholder
+	cultures = { bihari }
+	capital = STATE_BIHAR
 }
 
 #Bundelkhand
@@ -5523,6 +5523,18 @@ YUN = {
 	is_named_from_capital = yes
 }
 
+#China
+CHI = {
+	color = { 252 185 61 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { beifaren nanfaren } 
+	capital = STATE_BEIJING
+}
+
 #Fusang
 FUS = {
 	color = { 207 141 83 }
@@ -5530,7 +5542,7 @@ FUS = {
 	
 	tier = empire
 	
-	cultures = { japanese han }
+	cultures = { japanese beifaren }
 	capital = STATE_BEIJING
 }
 
@@ -5563,7 +5575,7 @@ LID = {
 	
 	tier = principality
 	
-	cultures = { han }
+	cultures = { beifaren }
 	capital = STATE_SHENGJING
 }
 

@@ -475,7 +475,7 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
-			country = c:NRG
+			country = c:HAX
 			type = vassal
 		}
 	}

@@ -502,7 +502,7 @@ BLK = {
 	states = {
 	STATE_MOLDAVIA
 	STATE_BESSARABIA
-	STATE_EAST_GALICIA
+	STATE_HALYCH
 	}
 	
 	ai_will_do = { always = no }
@@ -806,6 +806,68 @@ RHI = {
 	ai_will_do = { always = no }
 }
 
+LIT = {
+	states = { 
+		STATE_LITHUANIA 
+	}
+
+	ai_will_do = { always = no }
+}
+
+BHN = {
+	provinces = { 
+	x505AE0
+	}
+	
+	ai_will_do = { always = no }
+}
+
+HIM = {
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+KSG = {
+	states = { 
+		STATE_DZUNGARIA 
+		STATE_TIANSHAN
+		STATE_TAJIKISTAN
+		}
+	
+	ai_will_do = { always = no }
+}
+
+LIA = {
+	states = { STATE_KIRGHIZIA }	
+	
+	ai_will_do = { always = no }
+}
+
+LID = {
+	states = { STATE_SHENGJING STATE_PYONGYANG }	
+	
+	ai_will_do = { always = no }
+}
+
+BGL = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
+BIH = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
+ORI = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
 MTC = {
 	use_culture_states = yes
 	
@@ -842,12 +904,6 @@ SCO = {
 
 EST = {
 	use_culture_states = yes
-
-	ai_will_do = { always = no }
-}
-
-LIT = {
-	states = { STATE_LITHUANIA }
 
 	ai_will_do = { always = no }
 }
