@@ -7346,6 +7346,141 @@ ARK_republic = {
 	}
 }
 
+CHA = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_stripes_09.dds"
+		color1 = "blue"
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		instance = { position = { -0.15 0.5 }}
+	}
+}
+
+CHA_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "green"
+	}
+}
+
+CHA_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "green"
+	}
+	
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { 0.25 0.25 } position = { 0.5 0.5 }}
+		instance = { scale = { 0.25 0.25 } position = { 0.3 0.5 }}
+		instance = { scale = { 0.25 0.25 } position = { 0.7 0.5 }}
+	}
+}
+
+DAI = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		instance = { scale = { 1.0 0.5 } }			
+	}	
+}
+
+DAI_absolute_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+
+DAI_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.66 0.66 } }
+	}
+}
+
+DAI_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_stripes_03_middle.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}	
+}
+
+KMR = {
+	pattern = "pattern_border_of_3.dds"
+	color1 = "yellow"
+	color2 = "green"
+	
+}
+
+KMR_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_angkor_vat.dds"
+		color1 = "yellow"
+	}
+}
+
+KMR_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_angkor_vat.dds"
+		color1 = "white"
+	}
+}
+
+KMR_fascist = {	
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		instance = { scale = { 0.42 0.58 } }	
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		instance = { scale = { 0.39 0.54 } }	
+	}	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "white"
+		instance = { scale = { 0.08 0.12 } }
+		instance = { scale = { 0.08 0.12 } position = { 0.30 0.22 } }
+		instance = { scale = { 0.08 0.12 } position = { 0.70 0.78 } }
+		instance = { scale = { 0.08 0.12 } position = { 0.30 0.78 } }
+		instance = { scale = { 0.08 0.12 } position = { 0.70 0.22 } }		
+	}	
+}
+
 IBR = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"

@@ -4348,6 +4348,110 @@ ARK = { #Arakan
 	}
 }
 
+CHA = { #Champa
+	flag_definition = {
+		coa = CHA
+		subject_canton = CHA
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = CHA_republic
+		subject_canton = CHA_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = CHA_communist
+		subject_canton = CHA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+DAI = { #Dai Nam/Vietnam
+	flag_definition = {
+		coa = DAI
+		subject_canton = DAI
+		priority = 1
+	}
+}
+
+DAI = { #Dai Nam/Vietnam
+	flag_definition = {
+		coa = DAI
+		subject_canton = DAI
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = DAI_absolute_monarchy
+		subject_canton = DAI_absolute_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = DAI_communist
+		subject_canton = DAI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+		
+	flag_definition = {
+		coa = DAI_republic
+		subject_canton = DAI_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+KMR = { #Khmer
+	flag_definition = {
+		coa = KMR
+		subject_canton = KMR
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = KMR_communist
+		subject_canton = KMR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = KMR_fascist
+		subject_canton = KMR_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+		
+	flag_definition = {
+		coa = KMR_republic
+		subject_canton = KMR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
 IBR = { #Iberia
 	flag_definition = {
 		coa = IBR
