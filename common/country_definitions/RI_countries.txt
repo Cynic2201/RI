@@ -2730,7 +2730,7 @@ NVN = {
 
 #Kiskya
 KIS = {
-	color = { 0 0 0 } #placeholder
+	color = {  } #placeholder
 	country_type = colonial
 	
 	tier = principality
@@ -3736,17 +3736,6 @@ GLD = {
 	capital = STATE_SOMALILAND
 }
 
-#Hobyo
-HOB = {
-	color = { 255 73 7 }
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { somali }
-	capital = STATE_SOMALILAND
-}
-
 #Kaffa
 KFA = {
 	color = { 150 0 25 }
@@ -4399,7 +4388,7 @@ ABN = {
 
 #Asoristan
 ASO = {
-	color = { 0 0 0 } #placeholder
+	color = { } #placeholder
 	country_type = recognized 
 	
 	tier = principality
@@ -4410,12 +4399,12 @@ ASO = {
 
 #Atropatena
 ATR = {
-	color = { 0 0 0 } #placeholder
+	color = {  } #placeholder
 	country_type = recognized 
 	
 	tier =  principality
 	
-	cultures = {  } #placeholder
+	cultures = { persian } #placeholder
 	capital = STATE_TABRIZ
 }
 
@@ -4443,13 +4432,26 @@ KUR = {
 
 #Sistan
 SIS = {
-	color = { 0 0 0 } #placeholder
+	color = { } #placeholder
 	country_type = recognized 
 	
 	tier = principality
 	
-	cultures = {  } #placeholder
+	cultures = { persian } #placeholder
 	capital = STATE_SISTAN
+}
+
+# Turkmenistan
+TRC = {
+	color = { 165 117 208 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+
+	cultures = { turkmen }
+
+	capital = STATE_TURKMENIA
 }
 
 #Kashgar
@@ -4797,6 +4799,30 @@ SIK = {
 	
 	cultures = { tibetan }
 	capital = STATE_HIMALAYAS
+}
+
+#Balochistan
+BLH = {
+	color = { 125 47 47 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { baluchi }
+	capital = STATE_BALUCHISTAN
+}
+
+#Pashtunistan
+PAS = {
+	color = { 92 148 152 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { pashtun }
+	capital = STATE_PASHTUNISTAN
 }
 
 #Sindh

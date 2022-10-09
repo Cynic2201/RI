@@ -999,6 +999,10 @@
  HAX_ADJ:0 "Haixi"
  ZWA:0 "Zwanenland"
  ZWA_ADJ:0 "Zwanen"
+ TRC:0 "Turkmenistan"
+ TRC_ADJ:0 "Turkmenistani"
+ PAS:0 "Pashtunistan"
+ PAS_ADJ:0 "Pashtunistani"
  
 l_english:
  #ABS:0 "Absaroka"
@@ -1840,8 +1844,8 @@ l_english:
  #PRM_ADJ:0 "Permian"
  HZJ:0 "Hazarajat"
  HZJ_ADJ:0 "Hazara"
- TRC:0 "Turkmenia"
- TRC_ADJ:0 "Turkmenian"
+ #TRC:0 "Turkmenia"
+ #TRC_ADJ:0 "Turkmenian"
  SIB:0 "Siberia"
  SIB_ADJ:0 "Siberian"
  #YAK:0 "Yakutia"

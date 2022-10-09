@@ -806,6 +806,14 @@ RHI = {
 	ai_will_do = { always = no }
 }
 
+VER = {
+	states = {
+		STATE_VERMONT
+		STATE_SHERBROOKE
+	}
+	ai_will_do = { always = no }
+}
+
 LIT = {
 	states = { 
 		STATE_LITHUANIA 
@@ -886,6 +894,60 @@ BNJ= {
 SUN = {
 	states = { STATE_WEST_JAVA }
 
+	ai_will_do = { always = no }
+}
+
+ASO = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
+ATR = {
+	states = { STATE_TABRIZ }
+	
+	ai_will_do = { always = no }
+}
+
+BLH = {
+	states = { STATE_BALUCHISTAN }
+	
+	ai_will_do = { always = no }
+}
+
+TRC = {
+	states = { STATE_TURKMENIA }
+	
+	ai_will_do = { always = no }
+}
+
+PAS = {
+	states = { STATE_PASHTUNISTAN }
+		
+	ai_will_do = { always = no }
+}
+
+SIS = {
+	states = { STATE_SISTAN }
+		
+	ai_will_do = { always = no }
+}
+
+IRO = {
+	states = { STATE_IROKESENLAND }
+
+	ai_will_do = { always = no }
+}
+
+LAU = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
+NSV = {
+	use_culture_states = yes
+	
 	ai_will_do = { always = no }
 }
 
@@ -1239,10 +1301,7 @@ DOM = {
 WIN = {
 	STATES = {
 		STATE_WEST_INDIES
-		STATE_JAMAICA
 	}
-	
-	required_num_states = 2
 
 	ai_will_do = { always = no }
 }
@@ -1460,12 +1519,6 @@ TWT = {
 }
 
 AYM = {
-	use_culture_states = yes
-
-	ai_will_do = { always = no }
-}
-
-IRO = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
@@ -1739,10 +1792,6 @@ KUR = {
 	}
 
 	ai_will_do = { always = no }
-
-	possible = {
-		has_technology_researched = nationalism
-	}
 }
 
 ISR = {

@@ -811,7 +811,7 @@ l_english:
  STATE_MAZANDARAN:0 "Mazandaran"
  STATE_IRAKAJEMI:0 "Irakajemi"
  #STATE_TABRIZ:0 "Tabriz"
- STATE_LURISTAN:0 "Luristan"
+ STATE_LURISTAN:0 "Kurdistan"
  STATE_ARMENIA:0 "Armenia"
  #STATE_AZERBAIJAN:0 "Azerbaijan"
  #STATE_GREATER_CAUCASUS:0 "Greater Caucasus"

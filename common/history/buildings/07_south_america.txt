@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_ECUADOR={
-		region_state:ECU={
+		region_state:VRL={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -46,7 +46,7 @@
 		}
 	}
 	s:STATE_GUAYANA={
-		region_state:NET={
+		region_state:DWI={
 			create_building={
 				building="building_sugar_plantation"
 				level=1
@@ -60,7 +60,13 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:FRA={
+		region_state:COU={
+			create_building={
+				building="building_sugar_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
 			create_building={
 				building="building_port"
 				level=1
@@ -68,7 +74,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:GBR={
+		region_state:ALS={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -84,7 +90,7 @@
 		}
 	}
 	s:STATE_ZULIA={
-		region_state:VNZ={
+		region_state:AME={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -106,7 +112,7 @@
 		}
 	}
 	s:STATE_MIRANDA={
-		region_state:VNZ={
+		region_state:AME={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -140,7 +146,7 @@
 		}
 	}
 	s:STATE_BOLIVAR={
-		region_state:VNZ={
+		region_state:AME={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -156,7 +162,7 @@
 		}
 	}
 	s:STATE_ANTIOQUIA={
-		region_state:CLM={
+		region_state:AME={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -196,7 +202,7 @@
 		}
 	}
 	s:STATE_GUAVIARE={
-		region_state:CLM={
+		region_state:AME={
 			create_building={
 				building="building_rice_farm"
 				level=1

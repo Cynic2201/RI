@@ -3508,7 +3508,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN={
-		region_state:HAM={
+		region_state:HAN={
 			create_building={
 				building="building_government_administration"
 				level=14

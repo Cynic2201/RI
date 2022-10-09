@@ -4594,10 +4594,10 @@ BLG = { #Bulungan
 	}
 }
 
-BUT = { #Buton
+BTN = { #Buton
 	flag_definition = {
-		coa = BUT
-		subject_canton = BUT
+		coa = BTN
+		subject_canton = BTN
 		priority = 1
 	}
 }
@@ -4765,6 +4765,162 @@ ACE = { #Aceh
 	}
 }
 
+PER = { #Afsharids
+	flag_definition = {
+		coa = PER
+		subject_canton = PER
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = PER_absolute_monarchy
+		subject_canton = PER_absolute_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+		
+	flag_definition = {
+		coa = PER_republic
+		subject_canton = PER_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = PER_dictatorship
+		subject_canton = PER_dictatorship
+		priority = 15
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = PER_fascist
+		subject_canton = PER_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = PER_communist
+		subject_canton = PER_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ABN = { #Albania
+	flag_definition = {
+		coa = ABN
+		subject_canton = ABN
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = ABN_republic
+		subject_canton = ABN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+ASO = { #Asoristan
+	flag_definition = {
+		coa = ASO
+		subject_canton = ASO
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = ASO_republic
+		subject_canton = ASO_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ASO_communist
+		subject_canton = ASO_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ASO_fascist
+		subject_canton = ASO_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+ATR = { #Atropatena
+	flag_definition = {
+		coa = ATR
+		subject_canton = ATR
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = ATR_republic
+		subject_canton = ATR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ATR_communist
+		subject_canton = ATR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+KUR = { #Kurdistan
+	flag_definition = {
+		coa = KUR
+		subject_canton = KUR
+		priority = 1
+	}
+		
+	flag_definition = {
+		coa = KUR_republic
+		subject_canton = KUR_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+SIS = { #Sistan
+	flag_definition = {
+		coa = SIS
+		subject_canton = SIS
+		priority = 1
+	}
+}
+
 IBR = { #Iberia
 	flag_definition = {
 		coa = IBR
@@ -4795,6 +4951,14 @@ LAZ = { #Lazica
 	flag_definition = {
 		coa = LAZ
 		subject_canton = LAZ
+		priority = 1
+	}
+}
+
+ORE = { #Oriens
+	flag_definition = {
+		coa = ORE
+		subject_canton = ORE
 		priority = 1
 	}
 }
@@ -4895,6 +5059,32 @@ ABG = { #Abasgia
 	}
 }
 
+ARM = { #Armenia
+	flag_definition = {
+		coa = ARM
+		subject_canton = ARM
+		priority = 1
+	}
+	
+	flag_definition = {
+		coa = ARM_republic
+		subject_canton = ARM_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ARM_communist
+		subject_canton = ARM_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
 BIT = { #Bithynia
 	flag_definition = {
 		coa = BIT
@@ -4917,24 +5107,6 @@ CIL = { #Cilicia
 		coa = CIL
 		subject_canton = CIL
 		priority = 1
-	}
-	
-	flag_definition = {
-		coa = CIL_absolute_monarchy
-		subject_canton = CIL_absolute_monarchy
-		priority = 100
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}
-
-	flag_definition = {
-		coa = CIL_fascist
-		subject_canton = CIL_fascist
-		priority = 1500
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
-		}
 	}
 		
 	flag_definition = {
@@ -5668,6 +5840,126 @@ DAH = { # Dahomey
 	}
 }
 
+DWI = { # Dutch West Indies
+	flag_definition = {
+		coa = DWI
+		subject_canton = DWI
+		priority = 1
+	}
+}
+
+KYD = { # Kydonia
+	flag_definition = {
+		coa = KYD
+		subject_canton = KYD
+		priority = 1
+	}
+	flag_definition = {
+		coa = KYD_monarchy
+		subject_canton = KYD_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = KYD_communist
+		subject_canton = KYD_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = KYD_fascist
+		subject_canton = KYD_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+PTR = { # Patrian Isles
+	flag_definition = {
+		coa = PTR
+		subject_canton = PTR
+		priority = 1
+	}
+}
+
+NVN = { # New Vandalia
+	flag_definition = {
+		coa = NVN
+		subject_canton = NVN
+		priority = 1
+	}
+}
+
+KIS = { # Kiskya
+	flag_definition = {
+		coa = KIS
+		subject_canton = KIS
+		priority = 1
+	}
+}
+
+XAY = { # Xaymaka
+	flag_definition = {
+		coa = XAY
+		subject_canton = XAY
+		priority = 1
+	}
+	flag_definition = {
+		coa = XAY_republic
+		subject_canton = XAY_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+WIN = { # West Indies
+	flag_definition = {
+		coa = WIN
+		subject_canton = WIN
+		priority = 1
+	}
+}
+
+MSS = { # Massachusetts
+	flag_definition = {
+		coa = MSS
+		subject_canton = MSS
+		priority = 1
+	}
+	flag_definition = {
+		coa = MSS_monarchy
+		subject_canton = MSS_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MSS_communist
+		subject_canton = MSS_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MSS_fascist
+		subject_canton = MSS_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+	
 ARC = { # Arcadia
 	flag_definition = {
 		coa = ARC
@@ -5728,7 +6020,7 @@ RHI = { # Rhode Island
 	flag_definition = {
 		coa = RHI
 		subject_canton = RHI
-		priority = 10000
+		priority = 1
 	}
 	flag_definition = {
 		coa = RHI_monarchy
@@ -5753,5 +6045,102 @@ RHI = { # Rhode Island
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
 		}
+	}
+}
+
+VER = { # Vermont
+	flag_definition = {
+		coa = VER
+		subject_canton = VER
+		priority = 1
+	}
+	flag_definition = {
+		coa = VER_communist
+		subject_canton = VER_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+NNE = { # New Netherlands
+	flag_definition = {
+		coa = NNE
+		subject_canton = NNE
+		priority = 1
+	}
+	flag_definition = {
+		coa = NNE_communist
+		subject_canton = NNE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NNE_fascist
+		subject_canton = NNE_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+IRO = { # Irokesenland
+	flag_definition = {
+		coa = IRO
+		subject_canton = IRO
+		priority = 1
+	}
+	flag_definition = {
+		coa = IRO_republic
+		subject_canton = IRO_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRO_communist
+		subject_canton = IRO_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IRO_fascist
+		subject_canton = IRO_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+NSV = { # New Sweden
+	flag_definition = {
+		coa = NSV
+		subject_canton = NSV
+		priority = 1
+	}
+	flag_definition = {
+		coa = NSV_communist
+		subject_canton = NSV_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+
+VIN = { # Vinland
+	flag_definition = {
+		coa = VIN
+		subject_canton = VIN
+		priority = 1
 	}
 }
