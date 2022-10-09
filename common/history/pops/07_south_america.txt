@@ -192,14 +192,6 @@
 		}
 	}
 	s:STATE_GUAVIARE = {
-		region_state:AMZ = {
-			create_pop = {
-				culture = amazonian
-				size = 88000
-			}
-		}
-	}
-	s:STATE_APURE = {
 		region_state:AME = {
 			create_pop = {
 				culture = afro_amerigan
@@ -213,6 +205,12 @@
 			create_pop = {
 				culture = amerigan
 				size = 27996
+			}
+		}
+		region_state:AMZ = {
+			create_pop = {
+				culture = amazonian
+				size = 88000
 			}
 		}
 	}

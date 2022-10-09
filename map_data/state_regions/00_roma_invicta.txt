@@ -751,26 +751,6 @@ STATE_POYAIS = {
     naval_exit_id = 3026
 }
 
-STATE_APURE = {
-    id = 10040
-    subsistence_building = "building_subsistence_farms"
-    provinces = { xA3020D x00004B x371070 x022930 x7909D1 x9204DB x0F4006 xB80E5A x265803 x0D53B4 xDE1F39 x4A49B3 x005ED2 x316874 x675E58 xC040D0 x2B8932 x3E7DF4 xAD68CA x838543 x5A88D4 xA287D5 xED7983 x59B14F x1BD001 x24CD7D xF085F7 x8BB742 xFE9918 x46C0F4 x5CE536 x17F9D8 x66F9D3 xF0F246 }
-#TODO    city = 
-#TODO    farm = 
-    mine = xF085F7
-    wood = x9204DB
-#TODO    arable_land = 
-    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
-#TODO    resource = {
-#TODO        type = "bg_rubber"
-#TODO        undiscovered_amount = 
-#TODO    }
-}
-
 STATE_QUITO = {
     id = 10041
     subsistence_building = "building_subsistence_farms"
