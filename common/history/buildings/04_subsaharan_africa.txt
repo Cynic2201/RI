@@ -220,7 +220,7 @@
 		}
 	}
 	s:STATE_OUTER_HAUSALAND={
-		region_state:DND{
+		region_state:DND={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -610,6 +610,14 @@
 		}
 	}
 	s:STATE_SOMALILAND={
+		region_state:ROM={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 		region_state:WSG={
 			create_building={
 				building="building_livestock_ranch"

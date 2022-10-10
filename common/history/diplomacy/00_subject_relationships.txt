@@ -306,6 +306,22 @@
 			country = c:DEI
 			type = dominion
 		}
+		create_diplomatic_pact = {
+			country = c:ZWA
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:AUR
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:WIL
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:VDL
+			type = dominion
+		}
 	}
 	
 	c:VRL = {
@@ -488,25 +504,6 @@
 		create_diplomatic_pact = {
 			country = c:ANA
 			type = vassal
-		}
-	}
-	
-	c:NET = {
-		create_diplomatic_pact = {
-			country = c:NWH
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:AUR
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:WIL
-			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:VDL
-			type = dominion
 		}
 	}
 }

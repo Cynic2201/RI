@@ -178,8 +178,20 @@
 				activate_production_methods={ "pm_traditional_art" }
 			}
 			create_building={
-				building="building_food_industry"
+				building="building_arms_industry"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_cannons" "pm_merchant_guilds_building_arms_industry" }
+			}
+			create_building={
+				building="building_paper_mills"
 				level=2
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+			}
+			create_building={
+				building="building_food_industry"
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
 			}
@@ -541,7 +553,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=1
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}

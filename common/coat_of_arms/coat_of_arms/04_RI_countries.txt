@@ -6776,20 +6776,20 @@ JAP_communist = {
 
 CHS = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "revolutionary_blue"
 
 	colored_emblem = {
 		texture = "ce_chosokabe.dds"
-		color1 = "black"
-		color2 = "black"
-		color3 = "black"
+		color1 = "white"
+		color2 = "white"
+		color3 = "white"
 		instance = {scale = { 1.2 1.2 } }
 	}
 }
 
 MRI = {
 	pattern = "pattern_solid.tga"
-	color1 = "red_light"
+	color1 = "revolutionary_blue"
 
 	colored_emblem = {
 		texture = "ce_mori.dds"
@@ -6799,18 +6799,18 @@ MRI = {
 
 OTO = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "revolutionary_blue"
 
 	colored_emblem = {
 		texture = "ce_otomo.dds"
-		color1 = "revolutionary_blue"
+		color1 = "white"
 		instance = {scale = { 1.2 1.2 } }
 	}
 }
 
 SHM = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"
+	color1 = "revolutionary_blue"
 
 	colored_emblem = {
 		texture = "ce_shimazu.dds"
@@ -6820,11 +6820,11 @@ SHM = {
 
 KTO = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "black"
 
 	colored_emblem = {
 		texture = "ce_kato.dds"
-		color1 = "black"
+		color1 = "white"
 		instance = {scale = { 1.1 1.1 } }
 	}
 }
@@ -6841,13 +6841,13 @@ KNS = {
 
 KRO = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "black"
 
 	colored_emblem = {
 		texture = "ce_kuroda.dds"
-		color1 = "black"
-		color2 = "black"
-		color3 = "black"
+		color1 = "white"
+		color2 = "white"
+		color3 = "white"
 		instance = {scale = { 1.15 1.15 } }
 	}
 }
@@ -8737,7 +8737,7 @@ PHO_fascist = {
 	}
 }
 
-PON = {
+PNT = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow_dark"
 
@@ -8749,7 +8749,7 @@ PON = {
 	}
 }
 
-PON_fascist = {
+PNT_fascist = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 
@@ -8761,7 +8761,7 @@ PON_fascist = {
 	}
 }
 
-PON_monarchy = {
+PNT_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "black"
 

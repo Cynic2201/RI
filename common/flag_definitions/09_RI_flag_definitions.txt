@@ -5212,16 +5212,16 @@ PHO = { #Phonecia
 	}
 }
 
-PON = { #Pontus
+PNT = { #Pontus
 	flag_definition = {
-		coa = PON
-		subject_canton = PON
+		coa = PNT
+		subject_canton = PNT
 		priority = 1
 	}
 	
 	flag_definition = {
-		coa = PON_monarchy
-		subject_canton = PON_monarchy
+		coa = PNT_monarchy
+		subject_canton = PNT_monarchy
 		priority = 10
 		trigger = { 
 			coa_def_monarchy_flag_trigger = yes
@@ -5229,8 +5229,8 @@ PON = { #Pontus
 	}
 	
 	flag_definition = {
-		coa = PON_fascist
-		subject_canton = PON_fascist
+		coa = PNT_fascist
+		subject_canton = PNT_fascist
 		priority = 1500
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes

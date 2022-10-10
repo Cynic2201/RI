@@ -88,7 +88,7 @@ STATE_NICARAGUA = {
         type = "bg_rubber"
         undiscovered_amount = 14
     }
-    naval_exit_id = 3155
+    naval_exit_id = 3026
 }
 
 STATE_COSTA_RICA = {
