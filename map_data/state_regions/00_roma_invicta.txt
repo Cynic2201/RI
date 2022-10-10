@@ -46,12 +46,12 @@ STATE_SENONIA = {
 #TODO    farm = 
     mine = x999D4B
     wood = xEF00DF
-#TODO    arable_land = 
+    arable_land = 31
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_iron_mining = 
-#TODO        bg_logging = 
-#TODO    }
+	capped_resources = {        
+        bg_iron_mining = 21
+        bg_logging = 8
+    }
 }
 
 STATE_TURONUM = {
@@ -63,13 +63,12 @@ STATE_TURONUM = {
 #TODO    farm = 
     mine = "x192CA5"
 #TODO    wood = 
-#TODO    arable_land =
+	arable_land = 42
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_iron_mining = 
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+		bg_iron_mining = 25
+        bg_logging = 3
+    }
 }
 
 STATE_HAEMIMONTUS = {
@@ -249,12 +248,12 @@ STATE_BRABANT = {
     farm = "x800060"
     mine = "x808061"
 #TODO    wood = 
-#TODO    arable_land = 
+	arable_land = 70
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+		bg_coal_mining = 50
+        bg_logging = 10
+    }
 }
 
 STATE_STATENLAND = {
@@ -266,12 +265,14 @@ STATE_STATENLAND = {
 #TODO    farm = 
 #TODO    mine = x0000DF
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 35
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 
-#TODO        bg_logging = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 2
+        bg_fishing = 4
+        bg_coal_mining = 10
+        bg_logging = 2
+    }
 }
 
 STATE_LONDON = {
@@ -284,13 +285,13 @@ STATE_LONDON = {
 #TODO    farm = 
 #TODO    mine = 
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 26
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_monuments" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+	capped_resources = {
+		bg_logging = 2
+		bg_fishing = 2
+		bg_monuments = 1
+    }
     naval_exit_id = 3028
 }
 
@@ -325,15 +326,15 @@ STATE_BERNICIA = {
     farm = x527116
 #TODO    mine = 
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 73
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 100
-#TODO        bg_iron_mining = 75
-#TODO        bg_lead_mining = 27
-#TODO        bg_logging = 6
-#TODO        bg_fishing = 7
-#TODO    }
+    capped_resources = {
+        bg_coal_mining = 60
+        bg_iron_mining = 25
+        bg_lead_mining = 10
+        bg_logging = 6
+        bg_fishing = 8
+    }
     naval_exit_id = 3027
 }
 
@@ -346,12 +347,12 @@ STATE_NORTHERN_ISLES = {
 #TODO    port = 
 #TODO    farm = 
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 1
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_whaling = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_whaling = 4
+        bg_fishing = 3
+    }
     naval_exit_id = 3022
 }
 
@@ -364,12 +365,12 @@ STATE_JAMTLAND = {
     farm = x3755D9
 #TODO    mine = 
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_iron_mining = 
-#TODO        bg_logging = 
-#TODO    }
+    capped_resources = {
+        bg_iron_mining = 5
+        bg_logging = 5
+    }
 }
 
 STATE_LAPPLAND = {
@@ -381,12 +382,12 @@ STATE_LAPPLAND = {
 #TODO    farm = 
     mine = xD5FBFC
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_iron_mining = 
-#TODO        bg_logging = 
-#TODO    }
+    capped_resources = {
+        bg_iron_mining = 35
+        bg_logging = 5
+    }
 }
 
 STATE_NORDLAND = {
@@ -400,15 +401,14 @@ STATE_NORDLAND = {
 #TODO    farm = 
     mine = "xB50EB0"
     wood = "x042C26"
-#TODO    arable_land = 
+    arable_land = 5
     arable_resources = { "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_iron_mining = 
-#TODO        bg_sulfur_mining = 
-#TODO        bg_logging = 
-#TODO        bg_whaling = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_iron_mining = 14
+        bg_sulfur_mining = 10
+        bg_logging = 2
+        bg_fishing = 3
+    }
     naval_exit_id = 3020
 }
 
@@ -476,12 +476,12 @@ STATE_BORNHOLM = {
     farm = x9000E0
     mine = x9000E0
     wood = x9000E0
-#TODO    arable_land = 
+    arable_land = 4
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 1
+        bg_fishing = 2
+    }
     naval_exit_id = 3019
 }
 
