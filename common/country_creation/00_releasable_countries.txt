@@ -951,6 +951,40 @@ NSV = {
 	ai_will_do = { always = no }
 }
 
+OHI = {
+	states = {
+		STATE_WASHINGTONOH
+		STATE_OHIO
+		STATE_INDIANA
+		STATE_KENTUCKY
+		STATE_MICHIGAN
+		STATE_ILLINOIS
+		STATE_INDIANA
+		STATE_POLYPOTAMIA
+		STATE_WISCONSIN
+		STATE_SUPERIOR
+		STATE_NIAGARA
+		STATE_IOWA
+		STATE_MINNESOTA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+MIC = {
+	states = {
+		STATE_MICHIGAN
+		STATE_ILLINOIS
+		STATE_IOWA
+		STATE_MINNESOTA
+		STATE_WISCONSIN
+		STATE_SUPERIOR
+		STATE_NIAGARA
+	}
+	
+	ai_will_do = { always = no }
+}
+
 MTC = {
 	use_culture_states = yes
 	
@@ -1825,14 +1859,6 @@ SIB = {
 	possible = {
 		has_technology_researched = pan-nationalism
 	}
-}
-
-UOM = {
-	states = {
-		STATE_MICHIGAN
-	}
-	
-	ai_will_do = { always = no }
 }
 
 CAL = {

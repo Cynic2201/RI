@@ -10389,3 +10389,52 @@ VIR = {
 		color2 = "white"
 	}
 }
+
+VIR_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_VIRF.dds"
+		color1 = "white"
+		color2 = "red_light"
+	}
+}
+
+VIR_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_VIRC.dds"
+		color1 = "white"
+	}colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red_light"
+		color2 = "white"
+		color3 = "white"
+		instance = {position = {1.25 .5} }
+		instance = {position = {-.25 .5} }
+	}
+}
+
+MIC = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_stripes_05.dds"
+		color1 = "blue"
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "green"
+		instance = { position = {-0.2 .5} }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		instance = { scale = { .4 .4 } position = {.15 .25} }
+		instance = { scale = { .4 .4 } position = {.15 .75} }
+	}
+}

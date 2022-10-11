@@ -8,12 +8,12 @@ STATE_MESSAPIA = {#Split off of STATE_APULIA
 #TODO    farm = 
 #TODO    mine = 
     wood = x4050DF
-#TODO    arable_land = 
+    arable_land = 20
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 4
+        bg_fishing = 8
+    }
     naval_exit_id = 3033
 }
 
@@ -26,13 +26,11 @@ STATE_LUCANIA = {#Split off of STATE_CALABRIA
 #TODO    farm = 
 #TODO    mine = 
     wood = xE78C7B
-#TODO    arable_land = 
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 
-#TODO        bg_iron_mining = 
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
+    arable_land = 40
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_sugar_plantations" }
+    capped_resources = { 
+        bg_logging = 18
+        bg_fishing = 8
     }
     naval_exit_id = 3032
 }
@@ -304,15 +302,12 @@ STATE_MANN = {
     port = x137263
     farm = x137263
     wood = x137263
-    arable_land = 
+    arable_land = 5
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 
-#TODO        bg_iron_mining = 
-#TODO        bg_lead_mining = 
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 1
+        bg_fishing = 4
+    }
     naval_exit_id = 3030
 }
 
@@ -421,12 +416,12 @@ STATE_SCHLESWIG = {
     farm = "x00C060"
     mine = "x00C060"
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 30
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 2
+        bg_fishing = 2
+    }
     naval_exit_id = 3019
 }
 
@@ -439,12 +434,12 @@ STATE_LUSATIA = {
     farm = x83B1A8
     mine = xDF4020
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 54
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 
-#TODO        bg_logging = 
-#TODO    }
+    capped_resources = {
+        bg_coal_mining = 44
+        bg_logging = 4
+    }
 }
 
 STATE_MEISSEN = {
@@ -457,14 +452,14 @@ STATE_MEISSEN = {
 #TODO    farm = 
     mine = "x917939"
     wood = "x31E0C0"
-#TODO    arable_land = 
+    arable_land = 52
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 
-#TODO        bg_iron_mining = 
-#TODO        bg_sulfur_mining = 
-#TODO        bg_logging = 
-#TODO    }
+	capped_resources = {
+        bg_coal_mining = 70
+        bg_iron_mining = 25
+        bg_sulfur_mining = 80
+		bg_logging = 4
+	}
 }
 
 STATE_BORNHOLM = {

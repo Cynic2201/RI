@@ -2354,7 +2354,7 @@ MIC = {
 
 #Ohio
 OHI = {
-	color = { 92 66 193 }
+	color = { 9 66 193 }
 	country_type = recognized 
 	
 	tier = kingdom

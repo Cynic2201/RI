@@ -6136,11 +6136,34 @@ NSV = { # New Sweden
 	}
 }
 
-
 VIN = { # Vinland
 	flag_definition = {
 		coa = VIN
 		subject_canton = VIN
 		priority = 1
+	}
+}
+
+VIR = { # Virginia
+	flag_definition = {
+		coa = VIR
+		subject_canton = VIR
+		priority = 1
+	}
+	flag_definition = {
+		coa = VIR_communist
+		subject_canton = VIR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VIR_dictatorship
+		subject_canton = VIR_dictatorship
+		priority = 1500
+		trigger = { 
+			coa_def_dictatorship_flag_trigger = yes
+		}
 	}
 }
