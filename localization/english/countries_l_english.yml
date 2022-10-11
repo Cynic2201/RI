@@ -1003,6 +1003,10 @@
  TRC_ADJ:0 "Turkmenistani"
  PAS:0 "Pashtunistan"
  PAS_ADJ:0 "Pashtunistani"
+ PEN:0 "Pennsylvania"
+ PEN_ADJ:0 "Pennsylvanian"
+ DES:0 "Deseret"
+ DES_ADJ:0 "Mormon"
  
 l_english:
  #ABS:0 "Absaroka"
@@ -1204,8 +1208,8 @@ l_english:
  DAK_ADJ:0 "Kutian"
  #DEN:0 "Denmark"
  #DEN_ADJ:0 "Danish"
- DES:0 "Deseret"
- DES_ADJ:0 "Mormon"
+ #DES:0 "Deseret"
+ #DES_ADJ:0 "Mormon"
  #DFR:0 "Darfur"
  #DFR_ADJ:0 "Darfuri"
  #DFT:0 "Dar Fertit"

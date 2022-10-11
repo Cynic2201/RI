@@ -934,7 +934,7 @@ SIS = {
 }
 
 IRO = {
-	states = { STATE_IROKESENLAND }
+	states = { STATE_IROQUOIS }
 
 	ai_will_do = { always = no }
 }
@@ -953,7 +953,6 @@ NSV = {
 
 OHI = {
 	states = {
-		STATE_WASHINGTONOH
 		STATE_OHIO
 		STATE_INDIANA
 		STATE_KENTUCKY
@@ -975,8 +974,6 @@ MIC = {
 	states = {
 		STATE_MICHIGAN
 		STATE_ILLINOIS
-		STATE_IOWA
-		STATE_MINNESOTA
 		STATE_WISCONSIN
 		STATE_SUPERIOR
 		STATE_NIAGARA
@@ -985,6 +982,26 @@ MIC = {
 	ai_will_do = { always = no }
 }
 
+DES = {
+	states = {
+		STATE_IOWA
+		STATE_MINNESOTA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+PEN = {
+	states = {
+		STATE_PENNSYLVANIA
+		STATE_WASHINGTONOH
+		STATE_WEST_VIRGINIA
+		STATE_IROQUOIS
+		STATE_NEW_YORK
+	}
+	
+	ai_will_do = { always = no }
+}
 MTC = {
 	use_culture_states = yes
 	

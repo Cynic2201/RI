@@ -2297,7 +2297,7 @@ IRO = {
 
 #Laurentia
 LAU = {
-	color = { 190 125 48 }
+	color = { 120 80 48 }
 	
 	country_type = colonial
 	
@@ -2309,7 +2309,7 @@ LAU = {
 
 #New Sweden
 NSV = {
-	color = { 124 153 199 }
+	color = { 87 153 199 }
 	country_type = recognized 
 	
 	tier = city_state
@@ -2341,26 +2341,49 @@ VIR = {
 	capital = STATE_VIRGINIA
 }
 
-#Michigan
-MIC = {
-	color = { 77 109 224 } #placeholder
-	country_type = recognized 
+#Deseret
+DES = {
+	color = { 125  92  110 }
+	country_type = colonial
 	
 	tier = kingdom
 	
-	cultures = { yankee }
+	cultures = { yankee ohian }
+	capital = STATE_IOWA
+}
+
+#Michigan
+MIC = {
+	color = { 77 109 224 } #placeholder
+	country_type = colonial 
+	
+	tier = kingdom
+	
+	cultures = { michigander }
 	capital = STATE_MICHIGAN
 }
 
 #Ohio
 OHI = {
 	color = { 9 66 193 }
-	country_type = recognized 
+	country_type = colonial 
 	
 	tier = kingdom
 	
 	cultures = { ohian yankee }
 	capital = STATE_OHIO
+}
+
+#Pennsylvania
+PEN = {
+	color = { 106 124 243 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { columbian yankee }
+	capital = STATE_PENNSYLVANIA
 }
 
 #Brasil
