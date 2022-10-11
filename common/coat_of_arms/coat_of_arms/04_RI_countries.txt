@@ -8091,7 +8091,7 @@ ABN = {
 		instance = { scale = { -.7 .7 } position = { 0.25 0.4 }}
 	}
 	colored_emblem = {
-		texture = "ce_goat2.dds"
+		texture = "ce_goat.dds"
 		color1 = "black_light"
 		color2 = "white"
 		instance = { position = { 0.475 0.75 }}
