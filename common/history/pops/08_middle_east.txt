@@ -772,11 +772,11 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = greek
-				size = 90000
+				size = 70000
 			}
 			create_pop = {
 				culture = anatolian
-				size = 800062
+				size = 600062
 			}
 			create_pop = {
 				culture = cypriot
@@ -784,7 +784,7 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 73596
+				size = 63596
 			}
 			create_pop = {
 				culture = turci
@@ -800,15 +800,15 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = anatolian
-				size = 15012
+				size = 215012
 			}
 			create_pop = {
 				culture = armenian
-				size = 2010
+				size = 12010
 			}
 			create_pop = {
 				culture = greek
-				size = 10000
+				size = 30000
 			}
 			create_pop = {
 				culture = cypriot
@@ -820,7 +820,7 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = pontic
-				size = 813822
+				size = 863822
 			}
 			create_pop = {
 				culture = armenian
@@ -836,7 +836,7 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = armenian
-				size = 279810
+				size = 329810
 			}
 			create_pop = {
 				culture = anatolian
@@ -856,7 +856,7 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = anatolian
-				size = 805215
+				size = 855215
 			}
 			create_pop = {
 				culture = helleniote
@@ -868,11 +868,11 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = anatolian
-				size = 402607
+				size = 352607
 			}
 			create_pop = {
 				culture = armenian
-				size = 357463
+				size = 257463
 			}
 			create_pop = {
 				culture = georgian

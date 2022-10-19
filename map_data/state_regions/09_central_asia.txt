@@ -45,12 +45,12 @@ STATE_ARMENIA = {
     farm = "x005000"
     mine = "x805000"
     wood = "x3161E0"
-    arable_land = 32
+    arable_land = 56
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" }
     capped_resources = {
-        bg_iron_mining = 27
-        bg_lead_mining = 21
-        bg_logging = 2
+        bg_iron_mining = 33
+        bg_lead_mining = 33
+        bg_logging = 11
     }
 }
 
@@ -85,13 +85,14 @@ STATE_GREATER_CAUCASUS = {
     farm = "x3537D5"
     mine = "x801000"
     wood = "xF0E0DF"
-    arable_land = 44
+    arable_land = 56
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_coal_mining = 40
         bg_iron_mining = 24
         bg_lead_mining = 24
-        bg_logging = 8
+        bg_logging = 11
+        bg_fishing = 5
     }
     naval_exit_id = 3036
 }

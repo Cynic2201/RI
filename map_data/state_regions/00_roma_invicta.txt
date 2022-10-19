@@ -119,12 +119,12 @@ STATE_LYCIA = {
 #TODO    farm = 
 #TODO    mine = 
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 24
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 1
+        bg_fishing = 2
+    }
     naval_exit_id = 3034
 }
 
@@ -137,12 +137,11 @@ STATE_PHRYGIA = {
     farm = x669397
     mine = xFA1AEF
     wood = x1D4A61
-#TODO    arable_land = 
+    arable_land = 33
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 2
+    }
 }
 
 STATE_CAPPADOCIA = {
@@ -153,11 +152,11 @@ STATE_CAPPADOCIA = {
     farm = x0BD6EC
     mine = x25499A
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 30
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
-#TODO    capped_resources = {
-#TODO        bg_logging = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 3
+    }
 }
 
 STATE_ISAURIA = {
@@ -170,13 +169,12 @@ STATE_ISAURIA = {
     farm = "xE8DCC5"
 #TODO    mine = 
 #TODO    wood = 
-#TODO    arable_land = 
+    arable_land = 12
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
-#TODO    capped_resources = {
-#TODO        bg_coal_mining = 
-#TODO        bg_logging = 
-#TODO        bg_fishing = 
-#TODO    }
+    capped_resources = {
+        bg_logging = 2
+        bg_fishing = 2
+    }
     naval_exit_id = 3034
 }
 
