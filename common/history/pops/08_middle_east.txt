@@ -704,7 +704,7 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = anatolian
-				size = 197813  
+				size = 356064
 			}
 			create_pop = {
 				culture = armenian
@@ -713,14 +713,6 @@
 			create_pop = {
 				culture = helleniote
 				size = 170
-			}
-		}
-	}
-	s:STATE_PAMPHYLIA = {
-		region_state:ROM = {
-			create_pop = {
-					culture = anatolian
-					size = 158251
 			}
 		}
 	}

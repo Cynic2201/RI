@@ -4809,15 +4809,7 @@
 	s:STATE_KONYA = { #Split
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x76099B xBB0729 x547B95 x0EABBE x4CEBB4 }
-		}
-		
-		add_homeland = greek
-	}
-	s:STATE_PAMPHYLIA = { #Split off of Konya
-		create_state = {
-			country = c:ROM
-			owned_provinces = { x472F2C xE01020 x8F7C3D xDE59BB x04C595 x6DB349 x47B8CA x65DE76 x02FE8B }
+			owned_provinces = { xBC2D46 x76099B xBB0729 x547B95 x0EABBE x4CEBB4 x472F2C xE01020 x8F7C3D xDE59BB x04C595 x6DB349 x47B8CA x65DE76 x02FE8B }
 		}
 		
 		add_homeland = greek
@@ -4841,7 +4833,7 @@
 	s:STATE_KASTAMONU = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x312F4B xC01000 xB82B24 x415C04 x1D8401 x895D6B xB556A0 x449057 x747BB5 xBEBB3F xC1C893 xE1E090 }
+			owned_provinces = { x312F4B xB82B24 x415C04 x1D8401 x449057 x747BB5 xBEBB3F xC1C893 xE1E090 }
 		}
 		
 		add_homeland = greek
@@ -4857,7 +4849,7 @@
 	s:STATE_TRABZON = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x001080 xAE07E3 xB526B3 x146DD9 x9655BD x009080 x7A7E06 x288BCD x6089D1 x809080 x8E9935 x7DD19B }
+			owned_provinces = { x1357F8 xA88EEC x59E513 180265 x1357F8 xA88EEC x59E513 x7A7E06 x001080 xAE07E3 xB526B3 x146DD9 x9655BD x009080 x288BCD x6089D1 x809080 }
 		}
 		
 		add_homeland = pontic
@@ -4866,7 +4858,7 @@
 	s:STATE_ERZURUM = { #Change
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x180265 x0D1D4E x401080 x740ED1 x8713CE xC01080 xC41BC3 x5E4B3A x1357F8 xEB1F97 x465D69 x795751 x895074 x964F97 x1A75C7 x669A31 xFB66D7 xF470A0 xCB8C83 xA88EEC x92A943 xC29DFD x59E513 x03F8EA x52EB9A x62FAA8 }
+			owned_provinces = { x740ED1 x8713CE xC01080 xC41BC3 x795751 x895074 x669A31 xFB66D7 x92A943 x52EB9A }
 		}
 		
 		add_homeland = pontic
@@ -4900,16 +4892,15 @@
 	s:STATE_ANKARA = { #Split
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x5F00C0 x098D9C x409000 x967F78 x30A0E0 xE17847 x39B060 xC1905F x66B13B x29D9AF x93F78F xCAF12B xCCE5E0 }
+			owned_provinces = { xC01000 x5F00C0 x098D9C x409000 x30A0E0 xE17847 x39B060 xC1905F x66B13B x29D9AF x93F78F xCAF12B xCCE5E0 }
 		}
 		
 		add_homeland = greek
-		add_homeland = galatian
 	}
 	s:STATE_CAPPADOCIA = { #Split from Ankara
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x431F60 x602629 x5D2F75 x802F12 x70373E x3041CC x25499A xBC2D46 x785849 xA8674E x3E9653 x15BC1F x17B19B xC09000 x0BD6EC x04F350 xBACCB8 x9FFCAB }
+			owned_provinces = { x180265 x0D1D4E xEB1F97 x465D69 x1A75C7 x895D6B xB556A0 x8E9935 xC29DFD x7DD19B x62FAA8 x401080 x5E4B3A x964F97 xF470A0 xCB8C83 x03F8EA x967F78 x431F60 x602629 x5D2F75 x802F12 x70373E x3041CC x25499A x785849 xA8674E x3E9653 x15BC1F x17B19B xC09000 x0BD6EC x04F350 xBACCB8 x9FFCAB }
 		}
 		
 		add_homeland = greek

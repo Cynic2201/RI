@@ -563,9 +563,8 @@ GLT = {
 }
 
 ISA = {
-	provinces = { 
-	xA09060
-	xE8DCC5
+	states = { 
+	STATE_ISAURIA
 	}
 	
 	ai_will_do = { always = no }

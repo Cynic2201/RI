@@ -165,7 +165,8 @@ STATE_ASTRAKHAN = {
     arable_land = 88
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 6
+        bg_coal_mining = 40
+        bg_logging = 9
     }
 }
 

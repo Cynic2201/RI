@@ -270,11 +270,11 @@ STATE_WEST_KARELIA = {
     farm = "xD093D4"
     mine = "x3CFB81"
     wood = "x825979"
-    arable_land = 34
+    arable_land = 36
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 18
-        bg_logging = 11
+        bg_iron_mining = 28
+        bg_logging = 13
         bg_fishing = 2
     }
     naval_exit_id = 3000
