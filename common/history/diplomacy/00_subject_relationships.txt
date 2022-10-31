@@ -428,6 +428,10 @@
 			country = c:SIN
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:KHW
+			type = puppet
+		}
 	}
 	
 	c:NAY = {

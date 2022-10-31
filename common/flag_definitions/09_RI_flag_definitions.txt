@@ -6167,3 +6167,19 @@ VIR = { # Virginia
 		}
 	}
 }
+
+HBR = { # Hy-Brasil
+	flag_definition = {
+		coa = HBR
+		subject_canton = HBR
+		priority = 1
+	}
+	flag_definition = {
+		coa = HBR_monarchy
+		subject_canton = HBR_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}

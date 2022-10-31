@@ -290,10 +290,10 @@ STATE_GALICH = {
     farm = "x221D59"
     mine = "x625F98"
     wood = "x0BBA97"
-    arable_land = 60
+    arable_land = 104
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 20
+        bg_logging = 35
     }
 }
 

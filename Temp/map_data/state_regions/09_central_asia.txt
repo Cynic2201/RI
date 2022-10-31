@@ -374,13 +374,13 @@ STATE_BALUCHISTAN = {
     farm = "xF9577D"
     mine = "x954C12"
     wood = "x675BCE"
-    arable_land = 106
+    arable_land = 116
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_iron_mining = 24
         bg_lead_mining = 18
         bg_logging = 2
-        bg_fishing = 5
+        bg_fishing = 9
     }
     naval_exit_id = 3048
 }

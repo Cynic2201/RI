@@ -9737,7 +9737,7 @@ ASH_fascist = {
 		texture = "ce_ashanti_por.dds"
 		color1 = "red_light"
 	}
-}
+}	
 
 BEN = {
 	pattern = "pattern_solid.tga"
@@ -10471,5 +10471,32 @@ MIC = {
 	colored_emblem = {
 		texture = "ce_letter_l_serif.dds"
 		color1 = "black"
+	}
+}
+
+HBR = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	
+	colored_emblem = {
+		texture = "ce_brasil.dds"
+		color1 = "yellow"
+	}
+}
+
+HBR_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "yellow"
+		instance = { position = {-0.2 .5} }
+	}
+	
+	colored_emblem = {
+		texture = "ce_brasil.dds"
+		color1 = "yellow"
+		instance = { position = {0.65 .5} }
 	}
 }
