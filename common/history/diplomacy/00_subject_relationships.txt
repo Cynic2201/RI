@@ -510,4 +510,23 @@
 			type = vassal
 		}
 	}
+	
+	c:KNS = {
+		create_diplomatic_pact = {
+			country = c:MRI
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:OTO
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:SHM
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:CHS
+			type = vassal
+		}
+	}
 }
